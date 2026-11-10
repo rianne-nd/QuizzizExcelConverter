@@ -1,0 +1,102 @@
+Question: ABC company discovers a product glitch that could cause harm to users, but disclosing this could lead to financial losses. What should the company prioritize according to deontological ethics
+Option: Ignoring the issue as long as it doesn't cause harm immediately
+Option: Correcting the flaw and disclosing it to users*
+Option: Financial stability
+Option: Continuing to sell the product without disclosure
+Explanation: Deontological ethics focuses on duties and rules regardless of consequences, so the company has a moral obligation to correct the flaw and disclose it to users.
+
+Question: Cultural Relativism asserts that there are universal, objective moral standards that apply to all human societies regardless of local traditions or norms.
+Option: True
+Option: False*
+Explanation: Cultural Relativism holds that moral standards are relative to culture and there are no universal objective moral standards, making the statement false.
+
+Question: Anna, an IT professional, discovers that her company is collecting more user data than disclosed in the privacy policy to sell to third parties. When she raises concerns, management insists it's standard practice. What is Anna's best ethical response
+Option: Stay silent to keep her job secure
+Option: Encourage users to accept the terms as-is
+Option: Report the issue to the company's ethics committee or an external regulator*
+Option: Modify the privacy policy quietly without informing users
+Explanation: Anna's ethical responsibility is to report the privacy violation through proper channels to protect users and uphold professional integrity.
+
+Question: Ronnie, an IT student, is leading a group project. One group member, who has contributed little, demands their name be listed first on the final submission. The rest of the group disagrees. What is Ronnie's ethical responsibility as the group leader
+Option: Ignore the situation to avoid confrontation
+Option: Facilitate a fair discussion and ensure credit reflects actual contributions*
+Option: Agree to the demand to maintain peace
+Option: Reassign tasks to justify the request retroactively
+Explanation: Ronnie should ensure fairness and honesty by facilitating discussion and ensuring credit reflects actual contributions.
+
+Question: Under Article 210 of the Revised Penal Code (Crimes Committed by Public Officers), what distinguishes Indirect Bribery from Direct Bribery
+Option: Indirect Bribery involves future promises or offers rather than an actual received gift.
+Option: Indirect Bribery applies only when the public officer rejects the gift immediately.
+Option: Indirect Bribery occurs when a public officer accepts a gift given by reason of their office without a prior promise or agreement to commit a crime.*
+Option: Indirect Bribery involves a third party stealing money from a government desk.
+Explanation: Indirect Bribery is distinguished by the acceptance of a gift by reason of office without a prior promise or agreement to commit a crime.
+
+Question: Manny, an IT intern, is working on a database system containing sensitive health information. His supervisor asks him to transfer some of this data to a personal USB drive for convenience during remote work. Which professional standard should guide Manny's response
+Option: Encrypt the data and do as instructed
+Option: Transfer only part of the data to minimize risk
+Option: Comply if the supervisor takes full responsibility
+Option: Refuse, citing data privacy and confidentiality concerns*
+Explanation: Manny should refuse because transferring sensitive health data to a personal USB drive violates data privacy and confidentiality standards.
+
+Question: Juan, an IT student, is working on a group project. One member, Zara, insists on using a third-party library with a restrictive license that prohibits commercial use. The group plans to release the project as open source. What should Juan do
+Option: Ignore the license since the project is for learning only
+Option: Ignore the flaw since the project is just for a grade
+Option: Agree to use the library because it simplifies development
+Option: Suggest the group research and use an alternative library with a permissive license*
+Explanation: Juan should ensure license compliance by suggesting an alternative library with a permissive license suitable for open source release.
+
+Question: A corporation is considering using AI to replace a large portion of its workforce. Which ethical perspective considers the overall social impact
+Option: Deontology
+Option: Contractarianism
+Option: Relativism
+Option: Utilitarianism*
+Explanation: Utilitarianism evaluates actions based on their overall consequences for society, making it the perspective that considers overall social impact.
+
+Question: Consequentialism
+Option: The consequence of an action, not the motivation behind the action, makes an action good or bad.*
+Option: Process of calculating which action will lead to the greatest happiness.
+Option: Anger we feel at someone's undeserved good or bad fortune.
+Option: The willingness to let people do what they wish, as long as there is no overriding justification.
+Explanation: Consequentialism holds that the consequences of an action determine its moral goodness or badness.
+
+Question: Utilitarian calculus
+Option: The consequence of an action, not the motivation behind the action, makes an action good or bad.
+Option: Process of calculating which action will lead to the greatest happiness.*
+Option: Anger we feel at someone's undeserved good or bad fortune.
+Option: The willingness to let people do what they wish, as long as there is no overriding justification.
+Explanation: Utilitarian calculus is the process of calculating which action will produce the greatest happiness.
+
+Question: Righteous Indignation
+Option: The consequence of an action, not the motivation behind the action, makes an action good or bad.
+Option: Process of calculating which action will lead to the greatest happiness.
+Option: Anger we feel at someone's undeserved good or bad fortune.*
+Option: The willingness to let people do what they wish, as long as there is no overriding justification.
+Explanation: Righteous indignation is the anger felt at someone's undeserved good or bad fortune.
+
+Question: Tolerance
+Option: The consequence of an action, not the motivation behind the action, makes an action good or bad.
+Option: Process of calculating which action will lead to the greatest happiness.
+Option: Anger we feel at someone's undeserved good or bad fortune.
+Option: The willingness to let people do what they wish, as long as there is no overriding justification.*
+Explanation: Tolerance is the willingness to let people do what they wish as long as there is no overriding justification.
+
+Question: Contractarianism
+Option: The consequence of an action, not the motivation behind the action, makes an action good or bad.
+Option: Process of calculating which action will lead to the greatest happiness.
+Option: Anger we feel at someone's undeserved good or bad fortune.
+Option: Some of its attributes can be merged with consequentialist theories or with deontological theories.*
+Explanation: Contractarianism has attributes that can be merged with both consequentialist and deontological theories.
+
+Question: Which of the following best represents a breach of professional ethics
+Option: Missing a project deadline
+Option: Working from home without approval
+Option: Taking a longer lunch break
+Option: Sharing a coworker's private information without consent*
+Explanation: Sharing a coworker's private information without consent is a breach of professional ethics and confidentiality.
+
+Question: In a case where a doctor must decide between saving one patient or many, which ethical theory would prioritize saving the many
+Option: Utilitarianism*
+Option: Virtue Ethics
+Option: Deontology
+Option: Consequentialism
+Explanation: Utilitarianism prioritizes the greatest good for the greatest number, which would favor saving many patients over one.

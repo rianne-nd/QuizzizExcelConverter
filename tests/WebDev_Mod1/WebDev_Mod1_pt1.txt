@@ -1,0 +1,69 @@
+Question: What is mobile application development?
+Option: The act or process by which a mobile app is developed for mobile devices*
+Option: The process of making a website fit a smaller screen
+Option: The act of installing applications on a smartphone
+Option: The process of repairing and servicing mobile phones
+Explanation: Mobile app development is the act or process by which a mobile app is developed for mobile devices.
+
+Question: According to the module, which devices are named as the targets of mobile application development?
+Option: Desktop computers and servers
+Option: Personal digital assistants, enterprise digital assistants, and mobile phones*
+Option: Televisions and digital media players only
+Option: Wearable devices only
+Explanation: The module defines mobile app development as developing apps for mobile devices such as personal digital assistants, enterprise digital assistants, or mobile phones.
+
+Question: Which statement correctly describes the Android operating system?
+Option: It is a closed-source, Windows-based operating system for desktop computers
+Option: It is an open-source, Linux-based operating system for mobile devices*
+Option: It is an open-source, macOS-based operating system for tablets only
+Option: It is a closed-source, Linux-based operating system for smartwatches only
+Explanation: Android is an open-source and Linux-based operating system for mobile devices such as smartphones and tablet computers.
+
+Question: Android is designed to run on which devices?
+Option: Smartphones and tablet computers*
+Option: Desktop computers and laptops only
+Option: Servers and mainframes
+Option: Televisions only
+Explanation: The module states that Android is an operating system for mobile devices such as smartphones and tablet computers.
+
+Question: How does the module describe Android in terms of sales?
+Option: The most expensive smartphone ever released
+Option: The world's best-selling smartphone*
+Option: The least popular mobile operating system
+Option: The first smartphone ever made
+Explanation: The module describes Android as the world's best-selling smartphone.
+
+Question: Android applications are primarily written in which programming languages?
+Option: Python, and mostly Ruby
+Option: C, and mostly C++
+Option: Java, and mostly Kotlin*
+Option: Swift, and mostly Objective-C
+Explanation: The module states that Android apps are primarily written in Java and mostly in Kotlin.
+
+Question: What is the Android Market?
+Option: A physical store that sells Android phones
+Option: The online app store run by Google*
+Option: A marketplace for buying Android hardware parts
+Option: A trade show for Android developers
+Explanation: The Android Market is the online app store run by Google, later known as the Google Play Store.
+
+Question: Approximately how many apps are available for Android?
+Option: Over 3.5 million*
+Option: About 350 thousand
+Option: About 35 thousand
+Option: Over 35 million
+Explanation: The module states there are currently over 3.5 million apps available for Android.
+
+Question: Of the 3.553 million apps in the Google Play Store, how many are free to download?
+Option: 3.442 million, or 96.9%*
+Option: 110 thousand, or 3.1%
+Option: 1.75 million, or 50%
+Option: 2.5 million, or 70%
+Explanation: 3.442 million apps, or 96.9% of the total, are free to download.
+
+Question: What percentage of Google Play apps are paid apps?
+Option: 3.1%*
+Option: 96.9%
+Option: 25%
+Option: 50%
+Explanation: Over 110 thousand apps, or 3.1%, are paid apps.

@@ -1,0 +1,200 @@
+Question: A file permission that can be displayed or copied.
+Option: Write
+Option: Read*
+Option: No Permission
+Option: Execute
+Explanation: Read permission allows a user to view or copy the contents of a file.
+
+Question: What will be the effect of chmod 701 when applied to file PASS.txt?
+Option: r---w-r-x
+Option: rw--wxr-x
+Option: rwx-w-r-x
+Option: rwx---x*
+Explanation: Octal 701 gives the owner rwx, the group no permissions, and others execute-only permission.
+
+Question: How do you get all files with on the 3rd place an r, g or i?
+Option: ls '[rgi]*'
+Option: ls '?3[rgi]*'
+Option: ls ??[rgi]**
+Option: ls [..i\*]
+Explanation: Two question marks match any first two characters, [rgi] matches the third character as r, g, or i, and the trailing wildcard matches the rest.
+
+Question: Which of the following file contains the encrypted password of the users?
+Option: /etc/ghshadow
+Option: /etc/passwd
+Option: /etc/user.conf
+Option: /etc/shadow*
+Explanation: User password hashes are stored in /etc/shadow, which is readable only by privileged users.
+
+Question: How can we find the process name from its process id?
+Option: ps -p ProcessId*
+Option: ps p- ProcessId
+Option: pidof ProcessId
+Option: ps p ProcessId
+Explanation: The ps -p option selects the process by PID and displays information about it, including the process name.
+
+Question: What will be displayed after executing ls ??c? Given the following list of files: ... .zz abc abcd abcdef abcz bbabby zzayy
+Option: abcz
+Option: abcd abcz*
+Option: abc
+Option: abcd
+Explanation: The pattern matches four-character names whose third character is c, so it matches abcd and abcz.
+
+Question: What will be displayed after executing ls abc? (the ? is part of the command) Given the following list of files: ...zz abc abcd abcdef abcz bbabby zzayy
+Option: abcz
+Option: abcd
+Option: abcd abcz*
+Option: abc
+Explanation: The pattern abc? matches names that start with abc and have one additional character, so it matches abcd and abcz.
+
+Question: What will be the effect of chmod 261 when applied to file FAILED.txt?
+Option: -w-r---x
+Option: r---wxr-x
+Option: -w-rw---x*
+Option: r---rwx---x
+Explanation: Octal 261 gives the owner write-only, the group read and write, and others execute-only permission.
+
+Question: What will be displayed after executing ls ??? Given the following list of files: ... .zz abc abcd abcdef abcz bbabby cyz zzayy
+Option: abc cyz*
+Option: cyz
+Option: abcd abcz
+Option: abc
+Explanation: The pattern ??? matches names that are exactly three characters long, so it matches abc and cyz.
+
+Question: Which of the following octal mode permission will satisfy the given permission r--rwx--x?
+Option: 274
+Option: 174
+Option: 471*
+Option: 472
+Explanation: Owner r-- is 4, group rwx is 7, and others --x is 1, giving 471.
+
+Question: A linux administrator created a file called SUM and he executed the command chmod a+r SUM. What will happen to the permission of the file?
+Option: users and others will have a read permission
+Option: it will remove read permission from others
+Option: all will have read permission*
+Option: read permission will be added only to user a
+Explanation: The a+r mode adds read permission for user, group, and others, so all will have read permission.
+
+Question: True or False: Unix identifies every process by a Process Identification Number (PID) which is assigned when the process is initiated. When we want to perform an operation on a process, we refer to it by its PID or ProcessId.
+Option: True*
+Option: False
+Explanation: Unix assigns each process a PID when it starts, and processes can be referred to by that PID.
+
+Question: Injae want to view all the assigned alias in her Ubuntu terminal. Which command she need to execute to do this?
+Option: alias more
+Option: alias*
+Option: alias all
+Option: view alias
+Explanation: Running alias without arguments lists all currently defined aliases in the shell.
+
+Question: It refers to an interactive program that serves as a command line interpreter?
+Option: shell*
+Option: vi
+Option: vim
+Option: qedit
+Explanation: A shell is an interactive command-line interpreter that accepts and executes commands.
+
+Question: It is used to replace a command with its output within the same command line.
+Option: Command Substitution*
+Option: Tilde Substitution
+Option: Variable Substitution
+Option: Alias Substitution
+Explanation: Command substitution replaces a command with its output inside the same command line.
+
+Question: Which command can be used to find a word from a text file?
+Option: cut
+Option: sort
+Option: grep*
+Option: find
+Explanation: grep searches text files for lines that match a specified word or pattern.
+
+Question: Which of the following command must be used in order to verify if you have the installed and updated version of vim editor?
+Option: $sudo apt update vim
+Option: $sudo apt install vim*
+Option: $sudo apt vim
+Option: $install vim
+Explanation: Among the choices, sudo apt install vim is the valid command for installing or updating Vim; version verification would normally use vim --version.
+
+Question: It is convenient when you want to access a file that has a long file name.
+Option: Alias
+Option: Filename Completion*
+Option: Command History
+Option: Recalling Command
+Explanation: Filename completion lets the shell complete long filenames automatically as you type.
+
+Question: Which of the following command that will list only the file "error.txt"?
+Option: ls error.??
+Option: ls error.txt*
+Option: ls *err*.txt
+Option: ls e*.txt
+Explanation: The exact filename pattern ls error.txt lists only that file.
+
+Question: A file permission that contents can be modified.
+Option: Execute
+Option: No Permission
+Option: Read
+Option: Write*
+Explanation: Write permission allows the contents of a file to be modified.
+
+Question: Which of the following command must be used to create a new user in Ubuntu named as Dalm!?
+Option: $ sudo adduser Dalm!*
+Option: $ sudo add Dalm!
+Option: $ sudo newuser Dalm!
+Option: $ sudo createuser Dalm!
+Explanation: The adduser command is used on Ubuntu to create a new user account.
+
+Question: JP type in vim STARTUP and it open the VIM editor, how can he change the mode to insert mode?
+Option: He can type mode insert
+Option: He can just press ESC key
+Option: He can just press ESC key twice
+Option: He can type or press :i or press shift i*
+Explanation: In Vim, pressing i enters Insert mode; Shift+i also enters Insert mode at the beginning of the line.
+
+Question: What will be the effect of chmod 421 when applied to file FAILED.txt?
+Option: r---w---x*
+Option: rwx-w-r-x
+Option: rw-wxr-x
+Option: r-rwx-x
+Explanation: Octal 421 gives the owner read, the group write, and others execute permission.
+
+Question: A file permission that contents can be executed.
+Option: Read
+Option: Execute*
+Option: No Permission
+Option: Write
+Explanation: Execute permission allows a file to be run as a program or script.
+
+Question: Dosan want to exit from VIM editor without saving the changes. What must be the correct way to do it?
+Option: Press ESC key, then :x then enter
+Option: Press ESC key, then :q! then enter*
+Option: Just close the editor by pressing x or close button
+Option: Just type :wq! then enter
+Explanation: In Vim, ESC followed by :q! and Enter quits without saving changes.
+
+Question: How can you set the default rwx permission to all users on every file which is created in the current shell?
+Option: umask 666
+Option: umask 777
+Option: umask 000*
+Option: umask 555
+Explanation: umask 000 removes no permissions from the default creation mode; directories become rwxrwxrwx, while regular files still typically get rw-rw-rw- unless execute bits are added.
+
+Question: Which of the following will display files or directory with at least 3 characters?
+Option: ls [a-z][1-9]?
+Option: ls *ab
+Option: ls [A-Z][a-z]??
+Option: ls ???**
+Explanation: The pattern ???* matches any name with at least three characters.
+
+Question: What will be displayed after executing ls *.dat Given the following list of files: ... .profile ab.dat abcd.dat abcde abcde.data
+Option: ab.dat abcd.dat*
+Option: ab abcd abcde
+Option: ab.dat abcd.dat abcde.data
+Option: ab abcd
+Explanation: The pattern matches filenames ending in .dat, so it displays ab.dat and abcd.dat.
+
+Question: A command language interpreter that incorporates a command history buffer?
+Option: C shell*
+Option: Posix shell
+Option: Bourne shell
+Option: Korn shell
+Explanation: The C shell is a command language interpreter that includes a command history buffer and other interactive features.

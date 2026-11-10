@@ -1,0 +1,114 @@
+Question: How is Windows structured?
+Option: Pure microkernel
+Option: Pure layered
+Option: Pure simple structure
+Option: Mostly monolithic, plus microkernels for different subsystem personalities*
+Explanation: Page 35 states Windows is mostly monolithic, plus microkernels for different subsystem personalities.
+
+Question: Which of the following are components of the Mac OS X kernel?
+Option: Windows registry
+Option: Mach microkernel*
+Option: BSD Unix parts*
+Option: I/O kit*
+Option: Dynamically loadable modules (kernel extensions)*
+Explanation: Page 35 states the Mac OS X kernel consists of Mach microkernel and BSD Unix parts, plus an I/O kit and dynamically loadable modules called kernel extensions.
+
+Question: Which of the following are steps to generate an operating system from scratch?
+Option: Write the operating system source code*
+Option: Configure the operating system for the system on which it will run*
+Option: Compile the operating system*
+Option: Install the operating system*
+Option: Boot the computer and its new operating system*
+Explanation: Page 36 lists these five steps: write, configure, compile, install, and boot.
+
+Question: Where is the bootstrap loader (BIOS) stored?
+Option: On the hard drive only
+Option: In RAM
+Option: In ROM or EEPROM*
+Option: On a USB drive
+Explanation: Page 37 states the bootstrap loader (BIOS) is stored in ROM or EEPROM.
+
+Question: What is the two-step boot process?
+Option: The OS loads, then the user logs in
+Option: ROM code loads the boot block at a fixed location, which then loads the bootstrap loader from disk*
+Option: The kernel loads, then the GUI starts
+Option: The BIOS loads, then the OS shuts down
+Explanation: Page 37 describes a two-step process where the boot block at a fixed location is loaded by ROM code, which loads the bootstrap loader from disk.
+
+Question: What replaces BIOS in modern systems?
+Option: GRUB
+Option: The kernel
+Option: UEFI (Unified Extensible Firmware Interface)*
+Option: The bootloader
+Explanation: Page 37 states modern systems replace BIOS with Unified Extensible Firmware Interface (UEFI).
+
+Question: What does the GRUB bootstrap loader allow?
+Option: Only booting from a single disk
+Option: Automatic OS installation
+Option: Selection of kernel from multiple disks, versions, and kernel options*
+Option: Bypassing the kernel
+Explanation: Page 37 states GRUB allows selection of kernel from multiple disks, versions, and kernel options.
+
+Question: What do boot loaders frequently allow?
+Option: Only one boot state
+Option: Automatic kernel compilation
+Option: Network access only
+Option: Various boot states, such as single-user mode*
+Explanation: Page 37 states boot loaders frequently allow various boot states, such as single-user mode.
+
+Question: What is the difference between a core dump and a crash dump?
+Option: Both are the same
+Option: A core dump captures the memory of the process; a crash dump contains kernel memory*
+Option: A crash dump captures the memory of the process; a core dump contains kernel memory
+Option: A core dump is for hardware; a crash dump is for software
+Explanation: Page 38 states application failure generates a core dump (process memory), while OS failure generates a crash dump (kernel memory).
+
+Question: What does the OS generate to contain error information?
+Option: Log files*
+Option: Crash dumps only
+Option: Core dumps only
+Option: Registry entries
+Explanation: Page 38 states the OS generates log files containing error information.
+
+Question: What is profiling in OS debugging?
+Option: A periodic sampling of instruction pointers to look for statistical trends*
+Option: A one-time memory dump
+Option: A network packet capture
+Option: A log of user logins
+Explanation: Page 38 states profiling is a periodic sampling of instruction pointers to look for statistical trends.
+
+Question: How does performance tuning improve performance?
+Option: By adding more memory
+Option: By removing bottlenecks*
+Option: By upgrading the CPU
+Option: By reinstalling the OS
+Explanation: Page 39 states performance tuning improves performance by removing bottlenecks.
+
+Question: What must the OS provide for performance tuning?
+Option: Means of computing and displaying measures of system behavior (e.g., "top" or Windows Task Manager)*
+Option: Only error logs
+Option: Only crash dumps
+Option: A new kernel
+Explanation: Page 39 states the OS must provide means of computing and displaying measures of system behavior, such as the "top" program or Windows Task Manager.
+
+Question: What does a tracing tool do?
+Option: Compiles source code
+Option: Manages network connections
+Option: Collects data for a specific event, such as steps in a system call invocation*
+Option: Allocates memory
+Explanation: Page 40 states a tracing tool collects data for a specific event, such as steps involved in a system call invocation.
+
+Question: Which of the following are tracing tools mentioned in the material?
+Option: javac
+Option: trace*
+Option: gdb*
+Option: perf*
+Option: tcpdump*
+Explanation: Page 40 lists trace, gdb, perf, and tcpdump as tracing tools.
+
+Question: What is BCC (BPF Compiler Collection)?
+Option: A Windows-only compiler
+Option: A rich toolkit providing tracing features for Linux*
+Option: A network protocol
+Option: A type of system call
+Explanation: Page 41 states BCC (BPF Compiler Collection) is a rich toolkit providing tracing features for Linux.

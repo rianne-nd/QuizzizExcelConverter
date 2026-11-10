@@ -1,0 +1,63 @@
+Question: The ® (REGISTERED) or TM (UNREGISTERED) mark protects the brand image - not the color or color combination.
+Option: True*
+Option: False
+Explanation: The registered or unregistered trademark mark protects the brand image, not the color or color combination.
+
+Question: A security analyst uncovers a system flaw and politely informs the company, but when they ignore the report, the analyst publicly leaks the flaw to force a fix. How is this analyst classified?
+Option: White hat hacker
+Option: Black hat hacker
+Option: Gray hat hacker*
+Option: Hacktivist
+Explanation: Gray hat hackers disclose vulnerabilities without authorization, often to force companies to fix flaws.
+
+Question: Which type of testing evaluates code without actually executing it, such as through document reviews or walkthroughs?
+Option: Dynamic testing
+Option: Static testing*
+Option: Unit testing
+Option: Integration testing
+Explanation: Static testing evaluates code without executing it, through document reviews or walkthroughs.
+
+Question: You are working at your desk and need to make a quick trip to the copier. Is there anything you need to do to your computer before you leave your desk?
+Option: Yes, secure or lock my computer*
+Option: No, it is fine to leave it unlocked
+Option: Yes, turn it off completely
+Option: Yes, log out of all applications
+Explanation: Always secure or lock your computer when leaving your desk to prevent unauthorized access.
+
+Question: Intellectual property (IP) refers to any creation or product of the human mind or intellect.
+Option: True*
+Option: False
+Explanation: IP refers to any creation or product of the human mind or intellect.
+
+Question: Trademark lasts ten years but can be renewed indefinitely.
+Option: True*
+Option: False
+Explanation: A trademark lasts ten years but can be renewed indefinitely.
+
+Question: The culprit is not claiming the work as his. But he is able to make money out of it by doing the acts which only the copyright holder can legally do.
+Option: Plagiarism
+Option: Copyright infringement*
+Option: Vicarious infringement
+Option: Contributory infringement
+Explanation: Copyright infringement occurs when someone does acts only the copyright holder can legally do, without claiming the work as their own.
+
+Question: The culprit claimed the work as his. If the culprit reproduced the copyrighted work which he plagiarized, he is now guilty of both plagiarism and copyright infringement.
+Option: Plagiarism*
+Option: Copyright infringement
+Option: Both plagiarism and copyright infringement
+Option: Neither
+Explanation: The act of claiming the work as one's own is plagiarism.
+
+Question: It involves an infringement that occurs in an area under your supervision, and when you should have been policing and preventing such acts.
+Option: Vicarious infringement*
+Option: Contributory infringement
+Option: Direct infringement
+Option: Indirect infringement
+Explanation: Vicarious infringement involves an infringement in an area under your supervision where you should have been policing and preventing such acts.
+
+Question: It occurs when an infringement committed by another person would not have happened without your help.
+Option: Vicarious infringement
+Option: Contributory infringement*
+Option: Direct infringement
+Option: Indirect infringement
+Explanation: Contributory infringement occurs when an infringement by another person would not have happened without your help.

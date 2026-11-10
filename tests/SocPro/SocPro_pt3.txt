@@ -1,0 +1,104 @@
+Question: You are a product manager tasked with developing a feature that may encourage addictive behavior in users. Which ethical principle should guide your decision
+Option: Utility
+Option: Justice
+Option: Autonomy
+Option: Corporate social responsibility*
+Explanation: Corporate social responsibility should guide the decision to avoid features that may harm users through addictive behavior.
+
+Question: Under the Code of Ethics of the Filipino IT Professionals, which statement represents one of the 10 explicit professional commitments
+Option: I will share user passwords with colleagues whenever urgent deadlines arise
+Option: I will maximize profits for my company regardless of software licensing laws
+Option: I will consider the general welfare and public good in the performance of my work*
+Option: I will prioritize company interests over user privacy
+Explanation: The Code of Ethics includes the commitment to consider the general welfare and public good in the performance of work.
+
+Question: Which of the following scenarios best exemplifies a conflict of interest in a professional setting
+Option: A business partner disagreeing on a strategy
+Option: A worker negotiating their salary
+Option: A manager awarding a contract to a company owned by a relative*
+Option: An employee choosing between two job offers
+Explanation: A conflict of interest occurs when a manager's personal interests influence professional decisions, such as awarding a contract to a relative's company.
+
+Question: The BSIT department head establishes a strict policy No student may install unverified browser extensions on lab computers under any circumstances. A student argues that even if an extension is completely harmless in a specific instance, allowing individual exceptions would lead to widespread malware infections and overall network chaos across the campus over time. Therefore, everyone must follow the rule consistently. Which theory supports the department head's policy logic
+Option: Act Utilitarianism
+Option: Virtue Ethics
+Option: Rule Utilitarianism*
+Option: Cultural Relativism
+Explanation: Rule Utilitarianism supports following rules that generally lead to the greatest good, even if individual exceptions seem harmless.
+
+Question: A software developer is asked to develop a surveillance tool that could potentially invade user privacy. According to utilitarian ethics, what is the best course of action
+Option: Develop the tool as instructed, considering the company's order
+Option: Refuse to develop the tool due to privacy concerns
+Option: Leave the decision to management and follow their directive
+Option: Analyze the potential benefits and harms, then decide based on overall well-being*
+Explanation: Utilitarian ethics requires analyzing the potential benefits and harms to determine the action that maximizes overall well-being.
+
+Question: Serves as a reminder that what hurts us hurts others, and that what heals us, heals others.
+Option: Religious Ethics*
+Option: Divine command
+Option: Ethics
+Option: Ideal Mean
+Explanation: Religious Ethics serves as a reminder that what hurts us hurts others and what heals us heals others.
+
+Question: Things are morally good or bad, or morally obligatory, permissible, or prohibited, solely because of God's will or commands.
+Option: Religious Ethics
+Option: Divine command*
+Option: Ethics
+Option: Ideal Mean
+Explanation: Divine command theory holds that moral goodness or badness is determined solely by God's will or commands.
+
+Question: Social system - External
+Option: Religious Ethics
+Option: Divine command
+Option: Ethics*
+Option: Ideal Mean
+Explanation: Ethics is a social system that is external in nature.
+
+Question: Means in between two extremes of human characteristics It also represents the half-way point between risk and generosity
+Option: Religious Ethics
+Option: Divine command
+Option: Ethics
+Option: Ideal Mean*
+Explanation: The Ideal Mean represents the halfway point between two extremes of human characteristics.
+
+Question: Individual - Internal
+Option: Religious Ethics
+Option: Divine command
+Option: Ethics
+Option: Morality*
+Explanation: Morality is individual and internal in nature.
+
+Question: Neil Noddings
+Option: The only inherent good is caring*
+Option: The concept of adopting a set of rules, and each act is evaluated as to whether it conforms to them.
+Option: The only inherent good is happiness
+Option: The only inherent good is good will
+Explanation: Neil Noddings is associated with the ethic of care, which holds that the only inherent good is caring.
+
+Question: Rule Utilitarianism
+Option: The only inherent good is caring
+Option: The concept of adopting a set of rules, and each act is evaluated as to whether it conforms to them.*
+Option: The only inherent good is happiness
+Option: The only inherent good is good will
+Explanation: Rule Utilitarianism adopts a set of rules and evaluates each act based on whether it conforms to them.
+
+Question: Utilitarians
+Option: The only inherent good is caring
+Option: The concept of adopting a set of rules, and each act is evaluated as to whether it conforms to them.
+Option: The only inherent good is happiness*
+Option: The only inherent good is good will
+Explanation: Utilitarians hold that the only inherent good is happiness.
+
+Question: Immanuel Kant
+Option: The only inherent good is caring
+Option: The concept of adopting a set of rules, and each act is evaluated as to whether it conforms to them.
+Option: The only inherent good is happiness
+Option: The only inherent good is good will*
+Explanation: Immanuel Kant held that the only inherent good is good will.
+
+Question: Game Theory
+Option: The only inherent good is caring
+Option: The concept of adopting a set of rules, and each act is evaluated as to whether it conforms to them.
+Option: The only inherent good is happiness
+Option: Branch of mathematics in which an individual makes choices that potentially create points for the player*
+Explanation: Game Theory is a branch of mathematics in which individuals make choices that potentially create points for the player.

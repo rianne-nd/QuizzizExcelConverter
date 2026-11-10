@@ -1,0 +1,65 @@
+Question: What Android version allowed the users to install the apps on an SD card, added 720p screen support, USB tethering, and Wi-Fi hotspot functionality?
+Option: Marshmallow
+Option: Jelly Bean
+Option: Ice Cream Sandwich
+Option: Froyo*
+Explanation: These features were introduced in Android 2.2 (Froyo), which also included speed, memory, and performance optimizations.
+
+Question: There are 3.553 million active monthly Android devices.
+Option: True
+Option: False*
+Explanation: False. 3.553 million is the number of apps in the Google Play Store. Android has more than 2 billion monthly active devices.
+
+Question: The main goal of the founders of Android was to develop a smarter mobile device that was more aware of its owner's location and preferences.
+Option: True*
+Option: False
+Explanation: True. This was the stated goal of Android Inc., founded in Palo Alto, California, in October 2003.
+
+Question: What component attribute sets a drawable (image/icon) to be displayed to the left of the text?
+Option: android:IconLeft
+Option: android:drawableLeft*
+Option: android:AssetLeft
+Option: android:VectorLeft
+Explanation: android:drawableLeft places a drawable to the left of the text in a TextView.
+
+Question: What Android version traded the Android's traditional Back, Home, and Overview keys for a large, multifunctional Home button and a small Back button that appeared alongside it as needed?
+Option: Oreo
+Option: Red Velvet Cake
+Option: Marshmallow
+Option: Pie*
+Explanation: Android 9.0 (Pie) introduced a hybrid gesture and button navigation system that replaced the traditional Back, Home, and Overview keys.
+
+Question: What component attribute controls the alignment of the text within the EditText?
+Option: android:textAlign
+Option: android:textPosition
+Option: android:hint
+Option: android:gravity*
+Explanation: android:gravity controls the alignment of the text inside the view. android:hint is the placeholder text shown while the field is empty.
+
+Question: What attribute defines the space inside the View boundaries?
+Option: view_space
+Option: padding*
+Option: inner_space
+Option: margin
+Explanation: Padding is the space inside a view's boundaries, between the view's edge and its content. Margin is the space outside the view.
+
+Question: What part of the layout editor shows the hierarchy of components in your layout?
+Option: Component Tree*
+Option: View Mode
+Option: Toolbar
+Option: Attributes
+Explanation: The Component Tree shows the hierarchy of the components in your layout.
+
+Question: It is a version of Google's Android operating system designed for smartwatches and other wearables.
+Option: Wear OS*
+Option: Android Watch
+Option: Android IOT
+Option: Android Auto
+Explanation: Wear OS, previously known as Android Wear, is designed for smartwatches and other wearables.
+
+Question: What part of the layout editor contains various views/components and view/components groups that you can drag into your layout?
+Option: Component Tree
+Option: Palette*
+Option: Toolbar
+Option: View Mode
+Explanation: The Palette contains the views and view groups that you can drag into your layout.

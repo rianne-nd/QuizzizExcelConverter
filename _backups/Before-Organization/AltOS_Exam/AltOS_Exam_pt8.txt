@@ -1,0 +1,57 @@
+Question: Which option should be used with the mkdir command if you want to create all the necessary directories for you.
+Option: -l
+Option: -al
+Option: -s
+Option: -p*
+Explanation: mkdir -p creates parent directories as needed along the path.
+
+Question: The command cd source uses relative path addressing.
+Option: True*
+Option: False
+Explanation: cd source uses a relative path because it specifies a path relative to the current directory.
+
+Question: What is the output of the command? $cp *.* ust/aos
+Option: Moves all files from the current working directory to ust/aos
+Option: Copies all files from the current working directory to ust/aos*
+Option: Copies all text files to ust/aos
+Option: Not permitted
+Explanation: The cp command copies files matching *.* to the ust/aos target directory.
+
+Question: “The less command scrolls only down, whereas more enables you to scroll down and up.”
+Option: True
+Option: False*
+Explanation: The statement is false because less allows scrolling both backward and forward, while more primarily scrolls downward.
+
+Question: “The head and tail commands allow you to view the first few or last lines of a file (15 lines by default).”
+Option: True
+Option: False*
+Explanation: Both head and tail display 10 lines by default, not 15.
+
+Question: Write the code that will get the number of characters of a file.
+Type: Fill-in-the-Blank
+Answer: wc -m filename
+Answer: wc -c filename
+Explanation: wc -m counts characters in a file (or wc -c for byte/character count).
+
+Question: A file can be reference according to:
+Option: location*
+Option: name*
+Option: permission
+Option: attributes
+Explanation: Files are referenced by their name and location (pathname) within the directory structure.
+
+Question: A tilde (~) is used to refer to the user’s home directory.
+Option: True*
+Option: False
+Explanation: In Unix/Linux, ~ represents the home directory of the current user.
+
+Question: Write the command that will retrieve the last 10 lines of a file.
+Type: Fill-in-the-Blank
+Answer: tail filename
+Explanation: The tail filename command displays the last 10 lines of a specified file by default.
+
+Question: “Assuming you are in g1 directory, copy file1.txt to upper directory and list the content of the upper directory using one line of code.”
+Type: Fill-in-the-Blank
+Answer: cp file1.txt ../; ls ..
+Answer: cp file1.txt ../ && ls ..
+Explanation: cp file1.txt ../ copies file1.txt to the parent directory, and ls .. lists the parent directory contents.

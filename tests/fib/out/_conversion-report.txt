@@ -1,0 +1,8 @@
+=== Quizizz conversion report ===
+Input      : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\tests\fib
+Output     : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\tests\fib\out
+Files found: 1
+
+[ OK ] FibTest.txt  ->  Quizizz_FibTest.xlsx   (7 questions)
+
+Total: 1 file(s) -> 1 workbook(s), 7 question(s), 0 with an image link.

@@ -1,0 +1,76 @@
+{
+  "title": "AltOS_FinalsLT1_pt2",
+  "description": "AltOS Finals LT1 Part 2",
+  "questions": [
+    {
+      "question": "A linux administrator created a file called SUM and he executed the command chmod a+r SUM. What will happen to the permission of the file?",
+      "type": "quiz",
+      "answers": ["users and others will have a read permission", "it will remove read permission from others", "all will have read permission", "read permission will be added only to user a"],
+      "correct": 2,
+      "time_limit": 60
+    },
+    {
+      "question": "True or False: Unix identifies every process by a Process Identification Number (PID) which is assigned when the process is initiated. When we want to perform an operation on a process, we refer to it by its PID or ProcessId.",
+      "type": "quiz",
+      "answers": ["True", "False"],
+      "correct": 0,
+      "time_limit": 60
+    },
+    {
+      "question": "Injae want to view all the assigned alias in her Ubuntu terminal. Which command she need to execute to do this?",
+      "type": "quiz",
+      "answers": ["alias more", "alias", "alias all", "view alias"],
+      "correct": 1,
+      "time_limit": 60
+    },
+    {
+      "question": "It refers to an interactive program that serves as a command line interpreter?",
+      "type": "quiz",
+      "answers": ["shell", "vi", "vim", "qedit"],
+      "correct": 0,
+      "time_limit": 60
+    },
+    {
+      "question": "It is used to replace a command with its output within the same command line.",
+      "type": "quiz",
+      "answers": ["Command Substitution", "Tilde Substitution", "Variable Substitution", "Alias Substitution"],
+      "correct": 0,
+      "time_limit": 60
+    },
+    {
+      "question": "Which command can be used to find a word from a text file?",
+      "type": "quiz",
+      "answers": ["cut", "sort", "grep", "find"],
+      "correct": 2,
+      "time_limit": 60
+    },
+    {
+      "question": "Which of the following command must be used in order to verify if you have the installed and updated version of vim editor?",
+      "type": "quiz",
+      "answers": ["$sudo apt update vim", "$sudo apt install vim", "$sudo apt vim", "$install vim"],
+      "correct": 1,
+      "time_limit": 60
+    },
+    {
+      "question": "It is convenient when you want to access a file that has a long file name.",
+      "type": "quiz",
+      "answers": ["Alias", "Filename Completion", "Command History", "Recalling Command"],
+      "correct": 1,
+      "time_limit": 60
+    },
+    {
+      "question": "Which of the following command that will list only the file \"error.txt\"?",
+      "type": "quiz",
+      "answers": ["ls error.??", "ls error.txt", "ls *err*.txt", "ls e*.txt"],
+      "correct": 1,
+      "time_limit": 60
+    },
+    {
+      "question": "A file permission that contents can be modified.",
+      "type": "quiz",
+      "answers": ["Execute", "No Permission", "Read", "Write"],
+      "correct": 3,
+      "time_limit": 60
+    }
+  ]
+}

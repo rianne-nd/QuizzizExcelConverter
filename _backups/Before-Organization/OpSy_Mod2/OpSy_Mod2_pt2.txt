@@ -1,0 +1,144 @@
+Question: How is each system call identified by the system-call interface?
+Option: By a name string
+Option: By a memory address
+Option: By a number associated with it; the interface maintains a table indexed by these numbers*
+Option: By a file descriptor
+Explanation: Page 11 states a number is associated with each system call and the interface maintains a table indexed by these numbers.
+
+Question: What does the system-call interface do when invoked?
+Option: It only logs the call
+Option: It invokes the intended system call in the OS kernel and returns status and return values
+Option: It compiles the calling program
+Option: It loads the program into memory
+Explanation: Page 11 says the interface invokes the intended system call in the OS kernel and returns the status and any return values.
+
+Question: What does the caller need to know about how a system call is implemented?
+Option: The full source code of the kernel
+Option: The memory addresses used
+Option: Nothing — only needs to obey the API and understand what the OS will do
+Option: The assembly instructions used
+Explanation: Page 11 says the caller needs to know nothing about implementation, only obeying the API and understanding what the OS will do.
+
+Question: What manages most details of the OS interface for the programmer?
+Option: The CPU scheduler
+Option: A run-time support library built into libraries included with the compiler*
+Option: The bootloader
+Option: The BIOS
+Explanation: Page 11 says most details of the OS interface are managed by a run-time support library, a set of functions built into libraries included with the compiler.
+
+Question: Which of the following are methods for passing parameters to the OS?
+Option: Pass parameters in registers*
+Option: Pass parameters as a table (block in memory)*
+Option: Push parameters onto a stack*
+Option: Pass parameters via network packets
+Option: Pass parameters through environment variables
+Explanation: Page 12 lists three methods: registers, table/block in memory, and stack.
+
+Question: Which operating systems use the table (block in memory) parameter-passing method?
+Option: Windows and macOS
+Option: Android and iOS
+Option: Linux and Solaris*
+Option: FreeBSD and OpenBSD
+Explanation: Page 12 states the table approach was taken by Linux and Solaris.
+
+Question: What advantage do the block and stack parameter-passing methods have?
+Option: They are faster than registers
+Option: They use less memory
+Option: They do not limit the number or length of parameters being passed*
+Option: They work without an OS
+Explanation: Page 12 says the block and stack methods do not limit the number or length of parameters being passed.
+
+Question: Which of the following are process control system calls?
+Option: Open and close a file
+Option: Create process, terminate process*
+Option: Load, execute*
+Option: Wait for event, signal event*
+Option: Allocate and free memory*
+Explanation: Page 14 lists create/terminate process, load/execute, wait/signal event, and allocate/free memory among process control calls.
+
+Question: Which of the following are file management system calls?
+Option: Request device, release device
+Option: Create a file, delete a file*
+Option: Open and close the file*
+Option: Read, write, reposition*
+Option: Get and set file attributes*
+Explanation: Page 15 lists these as file management calls; "request device, release device" is device management.
+
+Question: "Logically attach or detach devices" belongs to which category of system calls?
+Option: Process control
+Option: File management
+Option: Device management*
+Option: Information maintenance
+Explanation: Page 15 lists "logically attach or detach devices" under device management.
+
+Question: Which of the following is an information maintenance system call?
+Option: Create process
+Option: Get time or date*
+Option: Open file
+Option: Send message
+Explanation: Page 16 lists "get time or date, set time or date" under information maintenance.
+
+Question: In the message passing model, messages are sent to what?
+Option: The hostname or process name*
+Option: The IP address only
+Option: The kernel memory
+Option: The file system
+Explanation: Page 16 states messages are sent to the hostname or process name (from client to server) in the message passing model.
+
+Question: "Get and set permissions" is an example of which type of system call?
+Option: Process control
+Option: File management
+Option: Communications
+Option: Protection*
+Explanation: Page 17 lists "get and set permissions" under protection system calls.
+
+Question: Which of the following are categories of system programs?
+Option: Kernel compilation
+Option: File manipulation*
+Option: Status information*
+Option: Programming language support*
+Option: Program loading and execution*
+Explanation: Page 18 lists file manipulation, status information, programming language support, and program loading/execution as categories.
+
+Question: Most users' view of the operating system is defined by what?
+Option: System programs, not the actual system calls*
+Option: The kernel
+Option: The bootloader
+Option: The hardware
+Explanation: Page 18 states most users' view of the operating system is defined by system programs, not the actual system calls.
+
+Question: Which of the following does status information ask the system for?
+Option: Compiler version
+Option: Amount of available memory*
+Option: Process ID
+Option: Network password
+Explanation: Page 19 lists date, time, amount of available memory, disk space, and number of users as things status information asks for.
+
+Question: What is the purpose of a registry in some operating systems?
+Option: To compile programs
+Option: To allocate CPU cycles
+Option: To store and retrieve configuration information*
+Option: To manage network connections
+Explanation: Page 19 states some systems implement a registry to store and retrieve configuration information.
+
+Question: Which of the following is a file management operation provided by system programs?
+Option: Compile source code
+Option: Allocate memory
+Option: Send email
+Option: Copy and rename files*
+Explanation: Page 19 lists create, delete, copy, rename, print, dump, and list as file management operations.
+
+Question: What does file modification use to create and modify files?
+Option: Linkers
+Option: Compilers
+Option: Text editors and special commands*
+Option: Loaders
+Explanation: Page 20 states file modification uses text editors to create/modify files and special commands to search contents or transform text.
+
+Question: Which of the following are programming-language support tools?
+Option: Linkers
+Option: Compilers*
+Option: Assemblers*
+Option: Debuggers*
+Option: Interpreters*
+Explanation: Page 20 lists compilers, assemblers, debuggers, and interpreters as programming-language support. Linkers belong to program loading.

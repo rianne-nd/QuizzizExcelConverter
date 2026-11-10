@@ -1,0 +1,39 @@
+Question: ASTERISK SAFETY - a continuation ending in a star must not mark an option correct
+Option: first choice
+Option: second choice
+Option: third choice
+S* 0.0.0.0/0 [1/0] via 10.1.1.254 with a trailing star *
+
+Question: Which two protocols are link-state? (Choose two)
+Option: OSPF*
+Option: EIGRP
+Option: IS-IS
+Option: RIP
+Explanation: OSPF and IS-IS are link-state. This question says Choose two but stars only one, on purpose.
+
+Question: Which is a private IPv4 range?
+Option: 10.0.0.0/8*
+Option: 10.0.0.0/8
+Option: 192.168.0.0/16
+Option: 172.16.0.0/12
+Explanation: Deliberate repeated option to test the duplicate check.
+
+Question: Which of these are valid? (Choose three)
+Option: alpha*
+Option: beta*
+Option: gamma*
+Explanation: Every option is correct, which is almost always a mistake.
+
+Question: A fill in the blank with a wrapped answer
+Type: Fill-in-the-Blank
+Answer: 255.255.255.0
+255.255.255.0 (the default Class C mask)
+Answer: 24
+Explanation: First answer runs over two lines and must be joined.
+
+Question: A question whose stem continues
+across several lines
+and then ends here
+Option: one*
+Option: two
+Explanation: single line explanation

@@ -1,0 +1,17 @@
+=== Quizizz conversion report ===
+Input      : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\Quizzes\AltOS
+Output     : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\Quizzes\AltOS\_QuizizzOutput
+Files found: 6
+
+[WARN] AltOS_Exam.txt  ->  Quizizz_AltOS_Exam.xlsx   (80 questions)
+         - Q3: ALL 4 options are marked correct - Cat command is used to:
+         - Q50: ALL 4 options are marked correct - The find command can search for a file by:
+         - Q54: ALL 4 options are marked correct - Which of the following are file management operations?
+[ OK ] AltOS_FinalsLT1.txt  ->  Quizizz_AltOS_FinalsLT1.xlsx   (29 questions)
+[ OK ] AltOS_FinalsLT1_pt1.txt  ->  Quizizz_AltOS_FinalsLT1_pt1.xlsx   (10 questions)
+[ OK ] AltOS_FinalsLT1_pt2.txt  ->  Quizizz_AltOS_FinalsLT1_pt2.xlsx   (10 questions)
+[ OK ] AltOS_FinalsLT1_pt3.txt  ->  Quizizz_AltOS_FinalsLT1_pt3.xlsx   (9 questions)
+[ OK ] AltOS_Quiz2.txt  ->  Quizizz_AltOS_Quiz2.xlsx   (37 questions)
+
+Total: 6 file(s) -> 6 workbook(s), 175 question(s), 0 with an image link.
+1 file(s) have notes above - check them before importing to Quizizz.

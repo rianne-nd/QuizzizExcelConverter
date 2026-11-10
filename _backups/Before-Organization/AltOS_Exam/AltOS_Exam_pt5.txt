@@ -1,0 +1,65 @@
+Question: You cannot remove multiple directories at a time.
+Option: True
+Option: False*
+Explanation: You can delete multiple directories at once by passing their names as space-separated arguments to rmdir or rm -r.
+
+Question: You can use the date command to show the system calendar.
+Option: True
+Option: False*
+Explanation: The cal command displays the system calendar, whereas the date command displays the current time and date.
+
+Question: Which of the following statements are true?
+Option: Other characters, such as slashes, question marks, or asterisks can be part of a filename.
+Option: Filenames can be as long as 256 characters is allowed by the system.*
+Option: Filenames can also include spaces, though to reference such filenames from the command line, be sure to encase them in quotes.*
+Option: You can name a file using any letters, underscores, and numbers.*
+Explanation: Slashes cannot be part of a Linux filename because they act as directory separators. The other three statements are accurate features of Linux file naming.
+
+Question: It is also known as folders in Windows, are used to group files together in a hierarchical structure.
+Option: File
+Option: Data
+Option: Directories*
+Option: None of the above
+Explanation: Directories (called folders in Windows) group files and subdirectories into a hierarchical directory tree.
+
+Question: It is the command used to display the UID and GID.
+Option: ls
+Option: ls -n*
+Option: ls -al
+Option: ls -l
+Explanation: The ls -n command lists file details using numerical user IDs (UID) and group IDs (GID).
+
+Question: It accepts commands from the user and analyses and interprets them.
+Option: system call
+Option: trap
+Option: kernel
+Option: shell*
+Explanation: The shell acts as the command interpreter between the user and the operating system kernel.
+
+Question: Command used to set permissions to read and write for everyone.
+Option: chmod a+rw file*
+Option: chmod u+rw file
+Option: chmod a=rw file
+Option: none of the above
+Explanation: chmod a+rw file adds read and write permissions for all user classes (owner, group, others).
+
+Question: The command used to get a count of the total number of lines, words, and characters contained in a file.
+Option: wc*
+Option: cat
+Option: diff
+Option: count
+Explanation: The wc command counts lines, words, and bytes/characters in a file.
+
+Question: Which is NOT a Unix service?
+Option: I/O operation
+Option: Error detection
+Option: Program execution
+Option: User program*
+Explanation: User programs are applications that run on UNIX, not services supplied by the UNIX operating system kernel.
+
+Question: The find command can search for a file by:
+Option: Time of the last update*
+Option: Owner*
+Option: Type*
+Option: Name*
+Explanation: The find command supports criteria such as modification time (-mtime), owner (-user), type (-type), and name (-name).

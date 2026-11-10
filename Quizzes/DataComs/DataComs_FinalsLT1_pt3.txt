@@ -1,0 +1,65 @@
+Question: Using Internet Key Exchange (IKE) with pre-shared keys or digital certificates to verify peer identities before establishing tunnels
+Option: Diffie-Hellman (DH) Key Exchange
+Option: Origin Authentication*
+Option: Confidentiality
+Option: Data Integrity
+Explanation: Origin Authentication is used to verify peer identities before establishing tunnels.
+
+Question: Protecting data payloads with symmetric encryption algorithms so cybercriminals cannot read contents intercepted on public networks
+Option: Diffie-Hellman (DH) Key Exchange
+Option: Origin Authentication
+Option: Confidentiality*
+Option: Data Integrity
+Explanation: Confidentiality protects data payloads with symmetric encryption algorithms.
+
+Question: Utilizing Hashed Message Authentication Code (HMAC) algorithms to verify that incoming packets were not modified during transit
+Option: Diffie-Hellman (DH) Key Exchange
+Option: Origin Authentication
+Option: Confidentiality
+Option: Data Integrity*
+Explanation: Data Integrity utilizes HMAC algorithms to verify that incoming packets were not modified during transit.
+
+Question: An enterprise network engineer is establishing baseline QoS parameters for real-time video conferencing and Voice over IP (VoIP) deployments. Voice traffic requires at least 384 Kbps of bandwidth with latency under 400 ms, whereas video traffic can operate effectively with 30-128 Kbps of bandwidth and latency under 150 ms.
+Option: True
+Option: False*
+Explanation: The requirements are reversed and inaccurate. Voice traffic typically requires lower bandwidth and much lower latency (under 150 ms) than video traffic.
+
+Question: An SNMP Network Management System (NMS) needs to know what data to collect and how to reference it on a managed device (like CPU load or interface statistics). What component acts as the standardized, hierarchical structure that stores and defines this operational data on the managed device?
+Option: The database/structure that holds and defines the management information about the device*
+Option: The mechanism for sending and retrieving management information
+Option: The command used to alter configuration settings on the agent
+Option: The process that collects data from the agent.
+Explanation: The Management Information Base (MIB) is the database/structure that holds and defines the management information about the device.
+
+Question: A network analyst is calculating the fixed and variable delay components for a voice stream traveling across an enterprise WAN link. Serialization delay represents the variable time a frame waits in memory queues before being transmitted, while queuing delay represents the fixed time required to transmit a frame onto the physical wire.
+Option: True
+Option: False*
+Explanation: The definitions are swapped. Serialization delay is the fixed time required to transmit a frame onto the physical wire, while queuing delay is the variable time a frame waits in memory queues.
+
+Question: A media company is configuring QoS traffic policies for high-definition video conferencing and live video streaming applications across its network core. Which characteristics and SLA parameters describe Video traffic? (Select THREE)
+Option: It requires at least 384 Kbps of bandwidth*
+Option: It uses Real-Time Streaming Protocol (RTSP) on UDP port 554*
+Option: It is bursty, greedy, drop-sensitive, and delay-sensitive*
+Option: It tolerates high packet loss via TCP retransmissions without degradation
+Explanation: Video traffic requires high bandwidth, uses RTSP on UDP port 554, and is bursty, greedy, drop-sensitive, and delay-sensitive.
+
+Question: Expanding port density up to 384 switchports in a central rack by inserting field-replaceable line cards into a chassis.
+Option: Modular Switches (e.g., Catalyst 9400)*
+Option: Fixed Configuration Switches
+Option: Stackable Switches
+Option: Cisco Meraki Cloud-Managed Access Switches
+Explanation: Modular switches allow expanding port density by inserting field-replaceable line cards into a chassis.
+
+Question: Deploying 1U standalone switches whose features and port counts are strictly limited to their factory build.
+Option: Modular Switches (e.g., Catalyst 9400)
+Option: Fixed Configuration Switches*
+Option: Stackable Switches
+Option: Cisco Meraki Cloud-Managed Access Switches
+Explanation: Fixed configuration switches have features and port counts strictly limited to their factory build.
+
+Question: Interconnecting switches with special cables so they operate effectively as a single large switch.
+Option: Modular Switches (e.g., Catalyst 9400)
+Option: Fixed Configuration Switches
+Option: Stackable Switches*
+Option: Cisco Meraki Cloud-Managed Access Switches
+Explanation: Stackable switches are interconnected with special cables to operate effectively as a single large switch.

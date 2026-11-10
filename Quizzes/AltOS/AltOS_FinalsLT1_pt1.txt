@@ -1,0 +1,69 @@
+Question: A file permission that can be displayed or copied.
+Option: Write
+Option: Read*
+Option: No Permission
+Option: Execute
+Explanation: Read permission allows a user to view or copy the contents of a file.
+
+Question: What will be the effect of chmod 701 when applied to file PASS.txt?
+Option: r---w-r-x
+Option: rw--wxr-x
+Option: rwx-w-r-x
+Option: rwx---x*
+Explanation: Octal 701 gives the owner rwx, the group no permissions, and others execute-only permission.
+
+Question: How do you get all files with on the 3rd place an r, g or i?
+Option: ls '[rgi]*'
+Option: ls '?3[rgi]*'
+Option: ls ??[rgi]**
+Option: ls [..i\*]
+Explanation: Two question marks match any first two characters, [rgi] matches the third character as r, g, or i, and the trailing wildcard matches the rest.
+
+Question: Which of the following file contains the encrypted password of the users?
+Option: /etc/ghshadow
+Option: /etc/passwd
+Option: /etc/user.conf
+Option: /etc/shadow*
+Explanation: User password hashes are stored in /etc/shadow, which is readable only by privileged users.
+
+Question: How can we find the process name from its process id?
+Option: ps -p ProcessId*
+Option: ps p- ProcessId
+Option: pidof ProcessId
+Option: ps p ProcessId
+Explanation: The ps -p option selects the process by PID and displays information about it, including the process name.
+
+Question: What will be displayed after executing ls ??c? Given the following list of files: ... .zz abc abcd abcdef abcz bbabby zzayy
+Option: abcz
+Option: abcd abcz*
+Option: abc
+Option: abcd
+Explanation: The pattern matches four-character names whose third character is c, so it matches abcd and abcz.
+
+Question: What will be displayed after executing ls abc? (the ? is part of the command) Given the following list of files: ...zz abc abcd abcdef abcz bbabby zzayy
+Option: abcz
+Option: abcd
+Option: abcd abcz*
+Option: abc
+Explanation: The pattern abc? matches names that start with abc and have one additional character, so it matches abcd and abcz.
+
+Question: What will be the effect of chmod 261 when applied to file FAILED.txt?
+Option: -w-r---x
+Option: r---wxr-x
+Option: -w-rw---x*
+Option: r---rwx---x
+Explanation: Octal 261 gives the owner write-only, the group read and write, and others execute-only permission.
+
+Question: What will be displayed after executing ls ??? Given the following list of files: ... .zz abc abcd abcdef abcz bbabby cyz zzayy
+Option: abc cyz*
+Option: cyz
+Option: abcd abcz
+Option: abc
+Explanation: The pattern ??? matches names that are exactly three characters long, so it matches abc and cyz.
+
+Question: Which of the following octal mode permission will satisfy the given permission r--rwx--x?
+Option: 274
+Option: 174
+Option: 471*
+Option: 472
+Explanation: Owner r-- is 4, group rwx is 7, and others --x is 1, giving 471.

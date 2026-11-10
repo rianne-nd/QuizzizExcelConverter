@@ -1,0 +1,291 @@
+Question: Unsolicited alert sent by an agent to the NMS when a interface fails
+Option: SNMP Trap*
+Option: set-request
+Option: Object ID (OID)
+Option: get-bulk-request
+Explanation: An SNMP Trap is an unsolicited alert sent by an agent to the NMS.
+
+Question: Request sent by the NMS to change a device variable or initiate a reboot.
+Option: SNMP Trap
+Option: set-request*
+Option: Object ID (OID)
+Option: get-bulk-request
+Explanation: A set-request is used by the NMS to change a device variable or initiate a reboot.
+
+Question: Unique numerical identifier used to locate a specific variable within the MIB tree.
+Option: SNMP Trap
+Option: set-request
+Option: Object ID (OID)*
+Option: get-bulk-request
+Explanation: An Object ID (OID) uniquely identifies a specific variable within the MIB tree.
+
+Question: Request used in SNMPv2c/v3 to retrieve large data blocks like routing tables efficiently.
+Option: SNMP Trap
+Option: set-request
+Option: Object ID (OID)
+Option: get-bulk-request*
+Explanation: A get-bulk-request is used to retrieve large data blocks like routing tables efficiently.
+
+Question: An IT firm is opening a new branch office located within a single building. Because the facility is small, having separate physical core and distribution layers is unnecessary and cost-prohibitive. Which topology combines the core and distribution functions into a single tier?
+Option: Collapsed Core Design*
+Option: Multi-Area OSPF Design
+Option: Virtual Stacking Design
+Option: Extended-Star Access Design
+Explanation: A collapsed core design combines the core and distribution functions into a single tier.
+
+Question: A network team decides to use an IPsec Virtual Tunnel Interface (VTI) VPN solution to simplify the routing and forwarding of encrypted traffic between sites, especially to allow for dynamic routing protocols to run over the secure link. Which two descriptions correctly identify an IPsec VTI VPN? (Choose two.)
+Option: allows multicast and broadcast traffic over a secure site-to-site VPN*
+Option: involves a nonsecure tunneling protocol being encapsulated by IPsec
+Option: routes packets through virtual tunnel interfaces for encryption and forwarding*
+Option: uses the public key infrastructure and digital certificates
+Option: has both Layer 2 and Layer 3 implementations
+Explanation: An IPsec VTI VPN allows multicast and broadcast traffic over a secure site-to-site VPN and routes packets through virtual tunnel interfaces for encryption and forwarding.
+
+Question: A student is reviewing different VPN technologies and comes across MPLS VPNs. They need to identify the correct distinguishing characteristic of this service provider technology. Which description correctly identifies an MPLS VPN?
+Option: allows multicast and broadcast traffic over a secure site-to-site VPN
+Option: involves a nonsecure tunneling protocol being encapsulated by IPsec
+Option: has both Layer 2 and Layer 3 implementations*
+Option: uses the public key infrastructure and digital certificates
+Option: routes packets through virtual tunnel interfaces for encryption and forwarding
+Explanation: A distinguishing characteristic of MPLS VPNs is that it has both Layer 2 and Layer 3 implementations.
+
+Question: Highly scalable model classifying traffic into aggregates and enforcing policies on a hop-by-hop basis
+Option: Differentiated Services (DiffServ)*
+Option: Differentiated Services Code Point (DSCP)
+Option: Best-Effort Model
+Option: Integrated Services (IntServ)
+Option: Resource Reservation Protocol (RSVP)
+Explanation: DiffServ is a highly scalable model classifying traffic into aggregates and enforcing policies on a hop-by-hop basis.
+
+Question: 6-bit field in IPv4 ToS or IPv6 Traffic Class headers providing up to 64 service classes
+Option: Differentiated Services (DiffServ)
+Option: Differentiated Services Code Point (DSCP)*
+Option: Best-Effort Model
+Option: Integrated Services (IntServ)
+Option: Resource Reservation Protocol (RSVP)
+Explanation: DSCP is a 6-bit field in IPv4 ToS or IPv6 Traffic Class headers providing up to 64 service classes.
+
+Question: Standard model providing no explicit QoS configuration or packet delivery guarantees
+Option: Differentiated Services (DiffServ)
+Option: Differentiated Services Code Point (DSCP)
+Option: Best-Effort Model*
+Option: Integrated Services (IntServ)
+Option: Resource Reservation Protocol (RSVP)
+Explanation: The Best-Effort model provides no explicit QoS configuration or packet delivery guarantees.
+
+Question: Stateful, connection-oriented model using explicit end-to-end bandwidth reservations for microflows
+Option: Differentiated Services (DiffServ)
+Option: Differentiated Services Code Point (DSCP)
+Option: Best-Effort Model
+Option: Integrated Services (IntServ)*
+Option: Resource Reservation Protocol (RSVP)
+Explanation: Integrated Services (IntServ) is a stateful, connection-oriented model using explicit end-to-end bandwidth reservations for microflows.
+
+Question: Signaling protocol used by IntServ applications to request network resource reservations
+Option: Differentiated Services (DiffServ)
+Option: Differentiated Services Code Point (DSCP)
+Option: Best-Effort Model
+Option: Integrated Services (IntServ)
+Option: Resource Reservation Protocol (RSVP)*
+Explanation: RSVP is the signaling protocol used by IntServ applications to request network resource reservations.
+
+Question: A network administrator runs show ntp status on an edge router following a power restoration event. The terminal output reports: Clock is unsynchronized, stratum 16, reference is 0.0.0.0. In NTP operations, a stratum level of 16 indicates that a device is synchronized to a local hardware master clock.
+Option: True
+Option: False*
+Explanation: A stratum level of 16 indicates that the device is unsynchronized, not synchronized to a local hardware master clock.
+
+Question: A security policy requires all site-to-site traffic transmitted over the public internet to be fully encrypted to guarantee data confidentiality, as well as data integrity and origin authentication. The network team should select Authentication Header (AH) as the primary IPsec protocol header because AH provides packet payload encryption in addition to integrity protection.
+Option: True
+Option: False*
+Explanation: AH provides data integrity and origin authentication but does not provide packet payload encryption. Encapsulating Security Payload (ESP) is required for encryption.
+
+Question: A network engineer is configuring congestion management on a router interface connecting branch office users to the corporate data center. To ensure voice packets receive priority transmission over general data queues without delay, the engineer combines Class-Based Weighted Fair Queuing (CBWFQ) with [blank] to provide strict priority queuing. If a queue exceeds its maximum capacity without active drop policies, the router defaults to tail drop, discarding all newly arriving packets regardless of priority.
+Type: Fill-in-the-Blank
+Answer: Low Latency Queuing
+Answer: LLQ
+Explanation: The engineer combines CBWFQ with Low Latency Queuing (LLQ) to provide strict priority queuing for voice packets.
+
+Question: A network engineer needs to configure a site-to-site VPN to connect two regional offices. The connection must transport dynamic IPv6 dynamic routing updates (such as OSPFv3) over an IPv4 internet path. The engineer decides to deploy GRE over IPsec. In this encapsulation hierarchy, GRE functions as the [blank] protocol that encapsulates the original routing update packet before it is wrapped in IPsec.
+Type: Fill-in-the-Blank
+Answer: passenger
+Explanation: In a GRE over IPsec configuration, GRE functions as the passenger protocol.
+
+Question: An administrator is configuring Hashed Message Authentication Code (HMAC) parameters for an IPsec tunnel and must decide between MD5 and SHA to ensure packet integrity. Message-Digest 5 (MD5) utilizes a 160-bit secret key for message authentication, making it cryptographically stronger than Secure Hash Algorithm (SHA).
+Option: True
+Option: False*
+Explanation: MD5 is generally considered cryptographically weaker than SHA. Additionally, MD5 uses a 128-bit hash, not a 160-bit secret key.
+
+Question: A network manager wants to ensure that a hardware or broadcast failure on an access switch in Building A does not bring down the entire campus network. In a standard hierarchical enterprise network design, failure domains are terminated at the access layer.
+Option: True
+Option: False*
+Explanation: In a standard hierarchical enterprise network design, Layer 2 failure domains are typically terminated at the distribution layer, not the access layer.
+
+Question: An enterprise network design specifies connecting remote branch offices, a central network edge aggregation point, and an outdoor industrial site. Which Cisco router platforms are correctly matched with their intended deployment roles? (Select 3)
+Option: Cisco ASR 9000 Series - Network edge routers delivering high-performance, secure, and reliable service aggregation*
+Option: Cisco 900 Series - Multi-chassis data center core switches requiring external liquid cooling
+Option: Cisco NCS 6000 Series - Compact fanless home office routers
+Option: Cisco 1100 / 800 Series Industrial ISR - Ruggedized routers built for enterprise-class features in harsh environments*
+Option: Cisco ISR 4000 Series - Branch routers optimizing branch services and application delivery on a single platform*
+Explanation: These three platform descriptions correctly match their intended deployment roles.
+
+Question: Allowing two peer gateways to establish a shared secret key over an insecure public channel without transmitting the secret key itself
+Option: Diffie-Hellman (DH) Key Exchange*
+Option: Origin Authentication
+Option: Confidentiality
+Option: Data Integrity
+Explanation: Diffie-Hellman (DH) Key Exchange allows two peer gateways to establish a shared secret key over an insecure public channel.
+
+Question: Using Internet Key Exchange (IKE) with pre-shared keys or digital certificates to verify peer identities before establishing tunnels
+Option: Diffie-Hellman (DH) Key Exchange
+Option: Origin Authentication*
+Option: Confidentiality
+Option: Data Integrity
+Explanation: Origin Authentication is used to verify peer identities before establishing tunnels.
+
+Question: Protecting data payloads with symmetric encryption algorithms so cybercriminals cannot read contents intercepted on public networks
+Option: Diffie-Hellman (DH) Key Exchange
+Option: Origin Authentication
+Option: Confidentiality*
+Option: Data Integrity
+Explanation: Confidentiality protects data payloads with symmetric encryption algorithms.
+
+Question: Utilizing Hashed Message Authentication Code (HMAC) algorithms to verify that incoming packets were not modified during transit
+Option: Diffie-Hellman (DH) Key Exchange
+Option: Origin Authentication
+Option: Confidentiality
+Option: Data Integrity*
+Explanation: Data Integrity utilizes HMAC algorithms to verify that incoming packets were not modified during transit.
+
+Question: An enterprise network engineer is establishing baseline QoS parameters for real-time video conferencing and Voice over IP (VoIP) deployments. Voice traffic requires at least 384 Kbps of bandwidth with latency under 400 ms, whereas video traffic can operate effectively with 30-128 Kbps of bandwidth and latency under 150 ms.
+Option: True
+Option: False*
+Explanation: The requirements are reversed and inaccurate. Voice traffic typically requires lower bandwidth and much lower latency (under 150 ms) than video traffic.
+
+Question: An SNMP Network Management System (NMS) needs to know what data to collect and how to reference it on a managed device (like CPU load or interface statistics). What component acts as the standardized, hierarchical structure that stores and defines this operational data on the managed device?
+Option: The database/structure that holds and defines the management information about the device*
+Option: The mechanism for sending and retrieving management information
+Option: The command used to alter configuration settings on the agent
+Option: The process that collects data from the agent.
+Explanation: The Management Information Base (MIB) is the database/structure that holds and defines the management information about the device.
+
+Question: A network analyst is calculating the fixed and variable delay components for a voice stream traveling across an enterprise WAN link. Serialization delay represents the variable time a frame waits in memory queues before being transmitted, while queuing delay represents the fixed time required to transmit a frame onto the physical wire.
+Option: True
+Option: False*
+Explanation: The definitions are swapped. Serialization delay is the fixed time required to transmit a frame onto the physical wire, while queuing delay is the variable time a frame waits in memory queues.
+
+Question: A media company is configuring QoS traffic policies for high-definition video conferencing and live video streaming applications across its network core. Which characteristics and SLA parameters describe Video traffic? (Select THREE)
+Option: It requires at least 384 Kbps of bandwidth*
+Option: It uses Real-Time Streaming Protocol (RTSP) on UDP port 554*
+Option: It is bursty, greedy, drop-sensitive, and delay-sensitive*
+Option: It tolerates high packet loss via TCP retransmissions without degradation
+Explanation: Video traffic requires high bandwidth, uses RTSP on UDP port 554, and is bursty, greedy, drop-sensitive, and delay-sensitive.
+
+Question: Expanding port density up to 384 switchports in a central rack by inserting field-replaceable line cards into a chassis.
+Option: Modular Switches (e.g., Catalyst 9400)*
+Option: Fixed Configuration Switches
+Option: Stackable Switches
+Option: Cisco Meraki Cloud-Managed Access Switches
+Explanation: Modular switches allow expanding port density by inserting field-replaceable line cards into a chassis.
+
+Question: Deploying 1U standalone switches whose features and port counts are strictly limited to their factory build.
+Option: Modular Switches (e.g., Catalyst 9400)
+Option: Fixed Configuration Switches*
+Option: Stackable Switches
+Option: Cisco Meraki Cloud-Managed Access Switches
+Explanation: Fixed configuration switches have features and port counts strictly limited to their factory build.
+
+Question: Interconnecting switches with special cables so they operate effectively as a single large switch.
+Option: Modular Switches (e.g., Catalyst 9400)
+Option: Fixed Configuration Switches
+Option: Stackable Switches*
+Option: Cisco Meraki Cloud-Managed Access Switches
+Explanation: Stackable switches are interconnected with special cables to operate effectively as a single large switch.
+
+Question: Managing and configuring thousands of switch ports across remote offices over the web using virtual stacking.
+Option: Modular Switches (e.g., Catalyst 9400)
+Option: Fixed Configuration Switches
+Option: Stackable Switches
+Option: Cisco Meraki Cloud-Managed Access Switches*
+Explanation: Cisco Meraki Cloud-Managed Access Switches are managed over the web and support virtual stacking.
+
+Question: A network engineer is configuring a new Cisco router connected to a Cisco Catalyst switch on interface GigabitEthernet0/0/1 and an external ISP modem on GigabitEthernet0/0/0. The engineer needs to stop sending neighbor discovery advertisements out toward the ISP while keeping CDP active globally across all internal switch links. Executing the interface configuration command no cdp enable on GigabitEthernet0/0/0 stops CDP advertisements from being sent out that specific interface while leaving CDP active globally on the device.
+Option: True*
+Option: False
+Explanation: Executing the no cdp enable command on a specific interface disables CDP for that interface while leaving CDP active globally on the device.
+
+Question: An administrator forgets the enable secret password on a Cisco ISR router and reboots the device into ROMMON mode. To bypass the startup configuration file during bootup, the administrator issues confreg [blank] and reboots. After booting into Privileged EXEC mode, the administrator must issue the command copy startup-config running-config to load existing settings into RAM before configuring a new password.
+Type: Fill-in-the-Blank
+Answer: 0x2142
+Explanation: The configuration register value 0x2142 tells the router to bypass the startup configuration file during bootup.
+
+Question: During an incident response audit, security analysts find that router log messages sent to a remote collector lack dates and times, preventing accurate correlation. Which commands and operational features apply to enterprise Syslog logging? (Select TWO)
+Option: Syslog messages automatically embed NTP authentication keys into header fields.
+Option: Executing service timestamps log datetime forces logged events to append date and time stamps.*
+Option: Syslog messages can be directed to internal RAM buffers, console lines, terminal lines, or external Syslog servers over UDP 514.*
+Option: Entering logging server enable enables log timestamps by default.
+Explanation: The service timestamps log datetime command adds date and time stamps, and syslog messages can be directed to various destinations including external servers over UDP 514.
+
+Question: A network professional is troubleshooting a complex VPN configuration where the original private data is the passenger protocol, which is encapsulated by a carrier protocol (like GRE), and then the whole package is finally encrypted and encapsulated by a transport protocol (like IPsec) for secure transit. Which type of VPN involves passenger, carrier, and transport protocols?
+Option: IPsec virtual tunnel interface
+Option: MPLS VPN
+Option: GRE over IPsec*
+Option: DMVPN
+Explanation: GRE over IPsec uses a passenger protocol (the original data), a carrier protocol (GRE), and a transport protocol (IPsec).
+
+Question: An administrator is reviewing system logs on a Cisco device and needs to know the exact date and time (not just the uptime) that each message was generated. Which command enables this timestamp feature for log messages?
+Option: service timestamps log datetime*
+Option: ntp server 10.10.14.9
+Option: clock timezone PST -7
+Option: show cdp interface
+Explanation: The service timestamps log datetime command forces log messages to include the exact date and time.
+
+Question: A growing IT firm is setting up a new branch office located within a single building. To keep infrastructure costs down while maintaining performance, the network engineering team decides not to deploy separate physical core and distribution layers. For single-building campus sites where separate distribution and core layers are not required, engineers implement a two-tier campus network design, which is also commonly known as a [blank] design.
+Type: Fill-in-the-Blank
+Answer: collapsed core
+Explanation: A two-tier campus network design where the distribution and core layers are combined is known as a collapsed core design.
+
+Question: In a medium-sized office, the network architect wants to simplify the traditional three-tier hierarchy to save costs while still maintaining some segmentation. They choose a two-tier (collapsed core) model. Which layers are combined in this design?
+Option: All three layers (access, distribution, and core) are merged into one.
+Option: The distribution and core layers are merged into one tier, with the access layer remaining separate.*
+Option: The access and core layers are merged, with the distribution layer separate.
+Option: The access and distribution layers are merged, with the core layer separate.
+Explanation: In a two-tier (collapsed core) model, the distribution and core layers are merged into one tier, while the access layer remains separate.
+
+Question: A tech enterprise is planning a major network expansion. The lead architect must implement key strategies to ensure the network grows smoothly without sacrificing availability or reliability. Which design strategies directly support enterprise network scalability according to Cisco network design principles? (Select 3)
+Option: Planning for redundancy by installing duplicate equipment and alternate physical paths*
+Option: Disabling Spanning Tree Protocol (STP) across redundant physical links to avoid path blocking
+Option: Implementing link aggregation using EtherChannel to increase bandwidth between devices*
+Option: Deploying single points of failure at the core layer to simplify physical cabling
+Option: Utilizing scalable link-state routing protocols such as OSPF with hierarchical areas*
+Explanation: Planning for redundancy, implementing link aggregation, and utilizing scalable routing protocols are key design strategies that directly support enterprise network scalability.
+
+Question: To eliminate single points of failure, an engineer installs duplicate physical fiber connections between all wiring closet switches and backbone switches. Adding redundant physical paths in an Ethernet switched network inherently prevents switching loops without requiring extra software protocols.
+Option: True
+Option: False*
+Explanation: Adding redundant physical paths in an Ethernet switched network inherently creates switching loops; protocols like Spanning Tree Protocol (STP) are required to prevent them.
+
+Question: Which type of real-time application has an extremely strict requirement for low delay, ideally under 150 milliseconds (one-way), because a longer delay would cause users talk over each other?
+Option: File transfers and email
+Option: Real-time spoken communication*
+Option: Streaming visual content
+Explanation: Real-time spoken communication has an extremely strict requirement for low delay (under 150 ms one-way) to prevent users from talking over each other.
+
+Question: A network is configured such that two geographically separated offices are connected via a secure, persistent tunnel over the internet. The users within each office are completely unaware of the VPN's existence, as the connection is handled entirely by the network devices at the edge of each office. What is a type of VPN that is generally transparent to the end user?
+Option: private
+Option: remote access
+Option: site-to-site*
+Option: public
+Explanation: A site-to-site VPN connects two geographically separated offices transparently to the end users.
+
+Question: To transmit high-resolution images and rapid movement efficiently, which communication type typically requires the largest individual packet size to contain the high volume of content data?
+Option: Real-time spoken communication
+Option: File transfers and email
+Option: Streaming visual content*
+Explanation: Streaming visual content typically requires the largest individual packet sizes to transmit high volumes of high-resolution image data efficiently.
+
+Question: An administrator needs to archive a router's active configuration to a TFTP server prior to upgrading the Cisco IOS software image stored in flash memory. Which commands and operational procedures correctly execute configuration backups and IOS image upgrades? (Select TWO)
+Option: copy tftp: flash: downloads a new Cisco IOS image file from a TFTP server into router flash storage.*
+Option: boot system commands are used to erase corrupted IOS images from flash memory.
+Option: copy startup-config running-config is used to upload configuration files directly to remote TFTP servers.
+Option: copy running-config tftp prompts for the destination host IP address and filename to write the running configuration to TFTP.*
+Explanation: copy tftp: flash: is used to download an IOS image to flash memory, and copy running-config tftp is used to back up the active configuration to a TFTP server.

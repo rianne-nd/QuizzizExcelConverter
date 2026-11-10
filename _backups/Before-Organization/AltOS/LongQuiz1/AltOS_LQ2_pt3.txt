@@ -1,0 +1,68 @@
+Question: Assuming you have newfile1.txt in your home directory home/leo/, how would you copy newfile1.txt to a directory called backup?
+Option: cp newfile1.txt backup*
+Option: mv newfile1.txt backup
+Option: copy newfile1.txt backup
+Option: cp backup newfile1.txt
+Explanation: The cp command copies newfile1.txt into the destination directory named backup.
+
+Question: Command that will allow you to create another name for a file.
+Option: lp
+Option: ln*
+Option: cc
+Option: mv
+Explanation: The ln command creates links, allowing an existing file to be accessed by another name.
+
+Question: Write the UNIX command that will create a directory called LONGTEST.
+Option: mkdir LONGTEST*
+Option: make dir LONGTEST
+Option: create LONGTEST
+Option: rmdir LONGTEST
+Explanation: The mkdir command creates a new directory named LONGTEST in UNIX.
+
+Question: How would you redirect the output of a command and append it to the file in UNIX?
+Option: >>*
+Option: cat
+Option: touch
+Option: >
+Explanation: The >> redirection operator appends command output to a file without overwriting existing contents.
+
+Question: The usrs directory contains configuration files that the system uses when the computer starts.
+Option: True
+Option: False*
+Explanation: System configuration files used during startup are stored in /etc, not /usr.
+
+Question: Create an empty file and modify the last modified timestamp.
+Option: <
+Option: touch*
+Option: create
+Option: cat
+Explanation: The touch command creates an empty file if it does not exist or updates its modification timestamp if it does exist.
+
+Question: Assuming "aos" directory is not empty, write the UNIX command that will delete the given directory.
+Option: rm -r aos*
+Option: rmdir aos
+Option: del -r aos
+Option: remove aos
+Explanation: The rmdir command only removes empty directories; to delete a non-empty directory, rm -r (recursive delete) must be used.
+
+Question: Stop screen output
+Option: CTRL+U
+Option: CTRL+C
+Option: CTRL+S*
+Option: CTRL+D
+Explanation: CTRL+S sends XOFF to pause terminal screen output.
+
+Question: It represents the current directory position.
+Option: .*
+Option: ..
+Option: ~
+Option: /
+Option: cd
+Explanation: A single dot (.) represents the current working directory position in UNIX/Linux.
+
+Question: Command that will allow you to compare text files in UNIX.
+Option: wc
+Option: diff*
+Option: comp
+Option: cpr
+Explanation: The diff command compares two text files line by line and highlights differences between them.

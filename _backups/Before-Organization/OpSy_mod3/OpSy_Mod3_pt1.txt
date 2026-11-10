@@ -1,0 +1,144 @@
+Question What is a process in operating system terms
+Option A program in execution
+Option A program stored on disk
+Option A type of memory section
+Option A scheduling algorithm
+Explanation A process is defined as a program in execution, with its instructions progressing in a sequential fashion (Page 3 — Process Concept).
+
+Question Which of the following are parts of a process
+Option Text section
+Option File allocation table
+Option Stack
+Option Data section
+Option Heap
+Explanation A process consists of the text section, program counter, processor registers, stack, data section, and heap (Page 3 — Process Concept).
+
+Question Which statement correctly distinguishes a program from a process
+Option A program is active; a process is passive
+Option A program is a passive entity stored on disk; a process is active
+Option Both are passive entities stored on disk
+Option Both are active entities in memory
+Explanation A program is a passive entity stored on disk as an executable file, while a process is the active entity that runs when the program is loaded into memory (Page 4 — Program vs Process).
+
+Question How can a single program correspond to several processes
+Option By storing the program on multiple disks
+Option By renaming the executable file
+Option When multiple users execute the same program
+Option By using a faster CPU
+Explanation One program can become several processes, such as when multiple users execute the same program (Page 4 — Program vs Process).
+
+Question In a process's memory layout, which section is at the highest memory address
+Option Text
+Option Data
+Option Heap
+Option Stack
+Explanation In the process memory layout, the stack is at the top just below max, while text is at the lowest address (Page 5 — Process in Memory).
+
+Question Which of the following are process states
+Option New
+Option Running
+Option Sleeping
+Option Ready
+Option Terminated
+Explanation The five process states are New, Running, Waiting, Ready, and Terminated (Page 6 — Process States).
+
+Question What does the Ready process state mean
+Option The process is waiting to be assigned to a processor
+Option The process is being created
+Option The process is being executed
+Option The process is waiting for some event to occur
+Explanation The Ready state means the process is waiting to be assigned to a processor (Page 6 — Process States).
+
+Question In the process state diagram, what triggers a transition from Running to WaitBlock
+Option Time-quantum expiry
+Option An IO request
+Option Process completion
+Option Admission to the ready queue
+Explanation A transition from Running to WaitBlock is caused by an IO request from the running process (Page 7 — Process State Diagram).
+
+Question What causes a process to transition from Running back to Ready
+Option An IO request
+Option An IO completion
+Option Priority change or time-quantum expiry
+Option Process termination
+Explanation A transition from Run to Ready occurs due to priority changes or when the time quantum expires (Page 7 — Process State Diagram).
+
+Question Which two suspended process states are introduced in the state diagram
+Option Suspend New and Suspend Wait
+Option Suspend Run and Suspend Ready
+Option Suspend Block and Suspend Ready
+Option Suspend Ready and Suspend Wait
+Explanation The state diagram introduces Suspend Ready and Suspend Wait as additional states when processes are suspended (Page 7 — Process State Diagram).
+
+Question What is the Process Control Block (PCB) also called
+Option Task control block
+Option Process status block
+Option Program control block
+Option Thread control block
+Explanation The PCB is also called the task control block (Page 8 — Process Control Block).
+
+Question Which of the following are components of the PCB
+Option Disk partition table
+Option Process state
+Option Program counter
+Option CPU scheduling information
+Option IO status information
+Explanation The PCB contains process state, program counter, CPU registers, CPU scheduling information, memory-management information, accounting information, and IO status information (Page 8 — Process Control Block).
+
+Question What must the system have to support multiple threads of control within a process
+Option Multiple CPUs
+Option Multiple program counters in the PCB
+Option Multiple memory sections
+Option Multiple ready queues
+Explanation Multiple threads of control require multiple program counters per process, with storage for thread details in the PCB (Page 9 — Threads).
+
+Question How do processes and threads compare in terms of weight
+Option Both are lightweight
+Option Both are heavyweight
+Option A process is heavyweight; a thread is lightweight
+Option A thread is heavyweight; a process is lightweight
+Explanation A process is heavy weight or resource intensive, whereas a thread is light weight and takes lesser resources (Page 10 — Process vs Thread).
+
+Question Which of the following are characteristics of threads compared to processes
+Option Lightweight
+Option Each operates independently with its own memory
+Option Switching does not need to interact with the OS
+Option Can share the same open files and child processes
+Option Another thread in the same task can run while one is blocked
+Explanation Threads are lightweight, switching does not require OS interaction, threads share files and child processes, and another thread in the same task can run while one is blocked (Page 10 — Process vs Thread).
+
+Question What is the goal of process scheduling
+Option Minimize CPU use
+Option Minimize memory usage
+Option Maximize the number of running processes
+Option Maximize CPU use and quickly switch processes onto the CPU core
+Explanation The goal of the process scheduler is to maximize CPU use and quickly switch processes onto a CPU core (Page 11 — Process Scheduling).
+
+Question What is the ready queue
+Option The set of all processes residing in main memory, ready and waiting to execute
+Option The set of all processes in the system
+Option The set of processes waiting for an IO device
+Option The set of terminated processes
+Explanation The ready queue is the set of all processes residing in main memory, ready and waiting to execute (Page 11 — Process Scheduling).
+
+Question How are scheduling queues maintained
+Option With a single pointer to the first PCB
+Option With head and tail pointers linking PCBs
+Option With priority queues only
+Option With circular buffers only
+Explanation Scheduling queues are maintained with head and tail pointers, linking PCBs containing registers and other information (Page 12 — Ready and Wait Queues).
+
+Question Which of the following are types of queues in process scheduling
+Option Job queue
+Option Network queue
+Option Ready queue
+Option Device queue
+Option Memory queue
+Explanation The three types of queues in process scheduling are the job queue, ready queue, and device queue (Page 13 — Types of Queues).
+
+Question Which scheduler regulates the degree of multi-programming
+Option Short-term scheduler
+Option Medium-term scheduler
+Option Long-term scheduler
+Option IO scheduler
+Explanation The long-term scheduler (job scheduler) selects processes from the queue, loads them into memory, and regulates the degree of multi-programming (Page 15 — Schedulers).

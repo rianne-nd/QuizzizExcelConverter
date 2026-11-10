@@ -1,0 +1,144 @@
+Question: Which of the following are types of user interfaces in an operating system?
+Option: Command-Line (CLI)*
+Option: Graphical User Interface (GUI)*
+Option: Touch-screen*
+Option: Batch*
+Option: Voice assistant
+Explanation: Page 3 lists CLI, GUI, touch-screen, and Batch as the four user interface types.
+
+Question: What does the operating system's program execution service do?
+Option: Loads a program into memory and runs it, ending normally or abnormally*
+Option: Compiles source code into object files
+Option: Manages network connections between computers
+Option: Allocates CPU cycles to running jobs
+Explanation: Page 3 states program execution loads a program into memory and runs it, ending normally or abnormally (indicating error).
+
+Question: According to the OS services list, what may a running program's I/O operations involve?
+Option: Only files on disk
+Option: A file or an I/O device*
+Option: Only hardware devices
+Option: Network packets only
+Explanation: Page 3 says a running program may require I/O, which may involve a file or an I/O device.
+
+Question: Which of the following is a file-system manipulation capability that programs need?
+Option: Compiling source code into executables
+Option: Allocating CPU cycles to processes
+Option: Searching files and directories*
+Option: Sending messages over a network
+Explanation: Page 3 lists searching files and directories as one of the file-system manipulation capabilities.
+
+Question: Processes may exchange information via two communication methods. Which?
+Option: Pipes and sockets
+Option: Shared memory or message passing
+Option: TCP and UDP
+Option: RPC and IPC only
+Explanation: Page 4 states communications may be via shared memory or message passing (packets moved by the OS).
+
+Question: According to Page 4, errors may occur in which of the following?
+Option: Power supply only
+Option: CPU and memory hardware*
+Option: I/O devices*
+Option: User program*
+Explanation: Page 4 lists CPU and memory hardware, I/O devices, and the user program as places where errors may occur.
+
+Question: Which of the following are types of resources allocated by the OS?
+Option: Network bandwidth only
+Option: CPU cycles*
+Option: Main memory*
+Option: File storage*
+Option: I/O devices*
+Explanation: Page 5 lists CPU cycles, main memory, file storage, and I/O devices as resource types the OS allocates.
+
+Question: What is the purpose of logging in an operating system?
+Option: To detect hardware failures
+Option: To control access to system resources
+Option: To keep track of which users use how much and what kinds of resources*
+Option: To defend external I/O devices from invalid access
+Explanation: Page 5 states logging keeps track of which users use how much and what kinds of computer resources.
+
+Question: What is the difference between protection and security in an OS?
+Option: Protection defends from outsiders; security ensures controlled access
+Option: Protection ensures all access to system resources is controlled; security defends the system from outsiders*
+Option: Both terms refer to the same concept
+Option: Protection handles files; security handles memory
+Explanation: Page 5 defines protection as ensuring controlled access to system resources, and security as defending the system from outsiders via user authentication.
+
+Question: In the layered view of OS services, what sits between the user interfaces layer and the services layer?
+Option: The kernel
+Option: The hardware
+Option: System calls*
+Option: System programs
+Explanation: Page 6 lists the layers in order: user interfaces, then system calls, then services.
+
+Question: How is the command-line interpreter (CLI) implemented in an operating system?
+Option: Always in the kernel
+Option: Always by a system program
+Option: Sometimes in the kernel, sometimes by a system program
+Option: Always by the bootloader
+Explanation: Page 7 says the CLI is sometimes implemented in the kernel and sometimes by a system program.
+
+Question: What are multiple flavors of the CLI called?
+Option: Terminals
+Option: Shells*
+Option: Consoles
+Option: Daemons
+Explanation: Page 7 states that when multiple CLI flavors are implemented, they are called shells.
+
+Question: When CLI commands are just names of programs, what is the advantage?
+Option: The shell runs faster
+Option: The kernel does not need modification
+Option: Adding new features doesn't require shell modification*
+Option: Commands become built-in
+Explanation: Page 7 says that when commands are just names of programs, adding new features doesn't require shell modification.
+
+Question: Where was the graphical user interface (GUI) invented?
+Option: Apple
+Option: Microsoft
+Option: Xerox PARC*
+Option: IBM
+Explanation: Page 8 states the GUI was invented at Xerox PARC.
+
+Question: What is true about Apple Mac OS X's interface?
+Option: It is a CLI-only system
+Option: It uses an "Aqua" GUI with a UNIX kernel underneath
+Option: It runs only on Linux
+Option: It uses the Windows API
+Explanation: Page 8 describes Mac OS X as an "Aqua" GUI interface with a UNIX kernel underneath and shells available.
+
+Question: Which of the following are optional GUI interfaces for Unix and Linux?
+Option: CDE*
+Option: KDE*
+Option: GNOME*
+Option: Aqua
+Option: Win32
+Explanation: Page 8 lists CDE, KDE, and GNOME as optional GUI interfaces for Unix and Linux.
+
+Question: Which of the following are components of the UNIX kernel?
+Option: File compression
+Option: I/O Services*
+Option: Process Management*
+Option: Network Services*
+Option: Memory Management*
+Explanation: Page 9 lists I/O Services, Process Management, Network Services, and Memory Management as UNIX kernel components.
+
+Question: In what language are system calls typically written?
+Option: Java
+Option: Python
+Option: C or C++*
+Option: Assembly language only
+Explanation: Page 10 states system calls are typically written in a high-level language such as C or C++.
+
+Question: Which of the following are the three most common APIs?
+Option: Cocoa API
+Option: Win32 API*
+Option: POSIX API*
+Option: Java API*
+Option: .NET API
+Explanation: Page 10 lists Win32 (Windows), POSIX (POSIX-based systems), and Java API (JVM) as the three most common APIs.
+
+Question: How do programs mostly access system calls?
+Option: By direct system call use
+Option: Via a high-level Application Programming Interface (API)*
+Option: Through the BIOS
+Option: Through assembly interrupts only
+Explanation: Page 10 says programs mostly access system calls via a high-level API rather than direct system call use.

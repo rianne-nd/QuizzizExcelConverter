@@ -1,0 +1,88 @@
+Question: Managing and configuring thousands of switch ports across remote offices over the web using virtual stacking.
+Option: Modular Switches (e.g., Catalyst 9400)
+Option: Fixed Configuration Switches
+Option: Stackable Switches
+Option: Cisco Meraki Cloud-Managed Access Switches*
+Explanation: Cisco Meraki Cloud-Managed Access Switches are managed over the web and support virtual stacking.
+
+Question: A network engineer is configuring a new Cisco router connected to a Cisco Catalyst switch on interface GigabitEthernet0/0/1 and an external ISP modem on GigabitEthernet0/0/0. The engineer needs to stop sending neighbor discovery advertisements out toward the ISP while keeping CDP active globally across all internal switch links. Executing the interface configuration command no cdp enable on GigabitEthernet0/0/0 stops CDP advertisements from being sent out that specific interface while leaving CDP active globally on the device.
+Option: True*
+Option: False
+Explanation: Executing the no cdp enable command on a specific interface disables CDP for that interface while leaving CDP active globally on the device.
+
+Question: An administrator forgets the enable secret password on a Cisco ISR router and reboots the device into ROMMON mode. To bypass the startup configuration file during bootup, the administrator issues confreg [blank] and reboots. After booting into Privileged EXEC mode, the administrator must issue the command copy startup-config running-config to load existing settings into RAM before configuring a new password.
+Type: Fill-in-the-Blank
+Answer: 0x2142
+Explanation: The configuration register value 0x2142 tells the router to bypass the startup configuration file during bootup.
+
+Question: During an incident response audit, security analysts find that router log messages sent to a remote collector lack dates and times, preventing accurate correlation. Which commands and operational features apply to enterprise Syslog logging? (Select TWO)
+Option: Syslog messages automatically embed NTP authentication keys into header fields.
+Option: Executing service timestamps log datetime forces logged events to append date and time stamps.*
+Option: Syslog messages can be directed to internal RAM buffers, console lines, terminal lines, or external Syslog servers over UDP 514.*
+Option: Entering logging server enable enables log timestamps by default.
+Explanation: The service timestamps log datetime command adds date and time stamps, and syslog messages can be directed to various destinations including external servers over UDP 514.
+
+Question: A network professional is troubleshooting a complex VPN configuration where the original private data is the passenger protocol, which is encapsulated by a carrier protocol (like GRE), and then the whole package is finally encrypted and encapsulated by a transport protocol (like IPsec) for secure transit. Which type of VPN involves passenger, carrier, and transport protocols?
+Option: IPsec virtual tunnel interface
+Option: MPLS VPN
+Option: GRE over IPsec*
+Option: DMVPN
+Explanation: GRE over IPsec uses a passenger protocol (the original data), a carrier protocol (GRE), and a transport protocol (IPsec).
+
+Question: An administrator is reviewing system logs on a Cisco device and needs to know the exact date and time (not just the uptime) that each message was generated. Which command enables this timestamp feature for log messages?
+Option: service timestamps log datetime*
+Option: ntp server 10.10.14.9
+Option: clock timezone PST -7
+Option: show cdp interface
+Explanation: The service timestamps log datetime command forces log messages to include the exact date and time.
+
+Question: A growing IT firm is setting up a new branch office located within a single building. To keep infrastructure costs down while maintaining performance, the network engineering team decides not to deploy separate physical core and distribution layers. For single-building campus sites where separate distribution and core layers are not required, engineers implement a two-tier campus network design, which is also commonly known as a [blank] design.
+Type: Fill-in-the-Blank
+Answer: collapsed core
+Explanation: A two-tier campus network design where the distribution and core layers are combined is known as a collapsed core design.
+
+Question: In a medium-sized office, the network architect wants to simplify the traditional three-tier hierarchy to save costs while still maintaining some segmentation. They choose a two-tier (collapsed core) model. Which layers are combined in this design?
+Option: All three layers (access, distribution, and core) are merged into one.
+Option: The distribution and core layers are merged into one tier, with the access layer remaining separate.*
+Option: The access and core layers are merged, with the distribution layer separate.
+Option: The access and distribution layers are merged, with the core layer separate.
+Explanation: In a two-tier (collapsed core) model, the distribution and core layers are merged into one tier, while the access layer remains separate.
+
+Question: A tech enterprise is planning a major network expansion. The lead architect must implement key strategies to ensure the network grows smoothly without sacrificing availability or reliability. Which design strategies directly support enterprise network scalability according to Cisco network design principles? (Select 3)
+Option: Planning for redundancy by installing duplicate equipment and alternate physical paths*
+Option: Disabling Spanning Tree Protocol (STP) across redundant physical links to avoid path blocking
+Option: Implementing link aggregation using EtherChannel to increase bandwidth between devices*
+Option: Deploying single points of failure at the core layer to simplify physical cabling
+Option: Utilizing scalable link-state routing protocols such as OSPF with hierarchical areas*
+Explanation: Planning for redundancy, implementing link aggregation, and utilizing scalable routing protocols are key design strategies that directly support enterprise network scalability.
+
+Question: To eliminate single points of failure, an engineer installs duplicate physical fiber connections between all wiring closet switches and backbone switches. Adding redundant physical paths in an Ethernet switched network inherently prevents switching loops without requiring extra software protocols.
+Option: True
+Option: False*
+Explanation: Adding redundant physical paths in an Ethernet switched network inherently creates switching loops; protocols like Spanning Tree Protocol (STP) are required to prevent them.
+
+Question: Which type of real-time application has an extremely strict requirement for low delay, ideally under 150 milliseconds (one-way), because a longer delay would cause users talk over each other?
+Option: File transfers and email
+Option: Real-time spoken communication*
+Option: Streaming visual content
+Explanation: Real-time spoken communication has an extremely strict requirement for low delay (under 150 ms one-way) to prevent users from talking over each other.
+
+Question: A network is configured such that two geographically separated offices are connected via a secure, persistent tunnel over the internet. The users within each office are completely unaware of the VPN's existence, as the connection is handled entirely by the network devices at the edge of each office. What is a type of VPN that is generally transparent to the end user?
+Option: private
+Option: remote access
+Option: site-to-site*
+Option: public
+Explanation: A site-to-site VPN connects two geographically separated offices transparently to the end users.
+
+Question: To transmit high-resolution images and rapid movement efficiently, which communication type typically requires the largest individual packet size to contain the high volume of content data?
+Option: Real-time spoken communication
+Option: File transfers and email
+Option: Streaming visual content*
+Explanation: Streaming visual content typically requires the largest individual packet sizes to transmit high volumes of high-resolution image data efficiently.
+
+Question: An administrator needs to archive a router's active configuration to a TFTP server prior to upgrading the Cisco IOS software image stored in flash memory. Which commands and operational procedures correctly execute configuration backups and IOS image upgrades? (Select TWO)
+Option: copy tftp: flash: downloads a new Cisco IOS image file from a TFTP server into router flash storage.*
+Option: boot system commands are used to erase corrupted IOS images from flash memory.
+Option: copy startup-config running-config is used to upload configuration files directly to remote TFTP servers.
+Option: copy running-config tftp prompts for the destination host IP address and filename to write the running configuration to TFTP.*
+Explanation: copy tftp: flash: is used to download an IOS image to flash memory, and copy running-config tftp is used to back up the active configuration to a TFTP server.

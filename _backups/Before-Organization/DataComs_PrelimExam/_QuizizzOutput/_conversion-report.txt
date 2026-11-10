@@ -1,0 +1,48 @@
+=== Quizizz conversion report ===
+Input      : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\DataComs_PrelimExam
+Output     : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\DataComs_PrelimExam\_QuizizzOutput
+Files found: 32
+
+[ OK ] Checkpoint Exam 1-2.txt  ->  Quizizz_Checkpoint Exam 1-2.xlsx   (57 questions, 9 with image)
+[ OK ] Checkpoint Exam 1-2_pt1.txt  ->  Quizizz_Checkpoint Exam 1-2_pt1.xlsx   (10 questions, 1 with image)
+[ OK ] Checkpoint Exam 1-2_pt2.txt  ->  Quizizz_Checkpoint Exam 1-2_pt2.xlsx   (10 questions, 2 with image)
+[ OK ] Checkpoint Exam 1-2_pt3.txt  ->  Quizizz_Checkpoint Exam 1-2_pt3.xlsx   (10 questions, 5 with image)
+[ OK ] Checkpoint Exam 1-2_pt4.txt  ->  Quizizz_Checkpoint Exam 1-2_pt4.xlsx   (10 questions)
+[ OK ] Checkpoint Exam 1-2_pt5.txt  ->  Quizizz_Checkpoint Exam 1-2_pt5.xlsx   (10 questions, 1 with image)
+[ OK ] Checkpoint Exam 1-2_pt6.txt  ->  Quizizz_Checkpoint Exam 1-2_pt6.xlsx   (7 questions)
+[ OK ] Checkpoint Exam 3-5.txt  ->  Quizizz_Checkpoint Exam 3-5.xlsx   (74 questions, 23 with image, 87 line(s) joined)
+[ OK ] Checkpoint Exam 3-5_pt1.txt  ->  Quizizz_Checkpoint Exam 3-5_pt1.xlsx   (10 questions, 7 line(s) joined)
+[ OK ] Checkpoint Exam 3-5_pt2.txt  ->  Quizizz_Checkpoint Exam 3-5_pt2.xlsx   (10 questions, 5 with image, 10 line(s) joined)
+[ OK ] Checkpoint Exam 3-5_pt3.txt  ->  Quizizz_Checkpoint Exam 3-5_pt3.xlsx   (10 questions, 7 with image, 22 line(s) joined)
+[ OK ] Checkpoint Exam 3-5_pt4.txt  ->  Quizizz_Checkpoint Exam 3-5_pt4.xlsx   (10 questions, 2 with image, 26 line(s) joined)
+[ OK ] Checkpoint Exam 3-5_pt5.txt  ->  Quizizz_Checkpoint Exam 3-5_pt5.xlsx   (10 questions, 3 with image, 7 line(s) joined)
+[ OK ] Checkpoint Exam 3-5_pt6.txt  ->  Quizizz_Checkpoint Exam 3-5_pt6.xlsx   (10 questions, 2 with image, 8 line(s) joined)
+[ OK ] Checkpoint Exam 3-5_pt7.txt  ->  Quizizz_Checkpoint Exam 3-5_pt7.xlsx   (14 questions, 4 with image, 7 line(s) joined)
+[WARN] Checkpoint Exam 6-7.txt  ->  Quizizz_Checkpoint Exam 6-7.xlsx   (65 questions, 6 recall repeats, 18 with image, 10 line(s) joined)
+         - Q8: had 6 options; kept the first 5 - Refer to the exhibit. NAT is configured on RT1 and RT2. The PC is sending a ...
+         - Q14: question text is 616 characters (long) - Refer to the exhibit. The NAT configuration applied to the r...
+[WARN] Checkpoint Exam 6-7_pt1.txt  ->  Quizizz_Checkpoint Exam 6-7_pt1.xlsx   (10 questions, 6 with image)
+         - Q8: had 6 options; kept the first 5 - Refer to the exhibit. NAT is configured on RT1 and RT2. The PC is sending a ...
+[WARN] Checkpoint Exam 6-7_pt2.txt  ->  Quizizz_Checkpoint Exam 6-7_pt2.xlsx   (10 questions, 4 with image, 9 line(s) joined)
+         - Q4: question text is 616 characters (long) - Refer to the exhibit. The NAT configuration applied to the r...
+[ OK ] Checkpoint Exam 6-7_pt3.txt  ->  Quizizz_Checkpoint Exam 6-7_pt3.xlsx   (10 questions, 1 with image, 1 line(s) joined)
+[ OK ] Checkpoint Exam 6-7_pt4.txt  ->  Quizizz_Checkpoint Exam 6-7_pt4.xlsx   (10 questions, 5 with image)
+[ OK ] Checkpoint Exam 6-7_pt5.txt  ->  Quizizz_Checkpoint Exam 6-7_pt5.xlsx   (10 questions, 1 with image)
+[ OK ] Checkpoint Exam 6-7_pt6.txt  ->  Quizizz_Checkpoint Exam 6-7_pt6.xlsx   (15 questions, 2 recall repeats, 1 with image)
+[WARN] Checkpoint Exam 6-8.txt  ->  Quizizz_Checkpoint Exam 6-8.xlsx   (89 questions, 6 recall repeats, 18 with image, 10 line(s) joined)
+         - Q8: had 6 options; kept the first 5 - Refer to the exhibit. NAT is configured on RT1 and RT2. The PC is sending a ...
+         - Q14: question text is 616 characters (long) - Refer to the exhibit. The NAT configuration applied to the r...
+[WARN] Checkpoint Exam 6-8_pt1.txt  ->  Quizizz_Checkpoint Exam 6-8_pt1.xlsx   (10 questions, 6 with image)
+         - Q8: had 6 options; kept the first 5 - Refer to the exhibit. NAT is configured on RT1 and RT2. The PC is sending a ...
+[WARN] Checkpoint Exam 6-8_pt2.txt  ->  Quizizz_Checkpoint Exam 6-8_pt2.xlsx   (10 questions, 3 with image, 9 line(s) joined)
+         - Q4: question text is 616 characters (long) - Refer to the exhibit. The NAT configuration applied to the r...
+[ OK ] Checkpoint Exam 6-8_pt3.txt  ->  Quizizz_Checkpoint Exam 6-8_pt3.xlsx   (10 questions, 1 with image)
+[ OK ] Checkpoint Exam 6-8_pt4.txt  ->  Quizizz_Checkpoint Exam 6-8_pt4.xlsx   (10 questions, 1 line(s) joined)
+[ OK ] Checkpoint Exam 6-8_pt5.txt  ->  Quizizz_Checkpoint Exam 6-8_pt5.xlsx   (10 questions, 5 with image)
+[ OK ] Checkpoint Exam 6-8_pt6.txt  ->  Quizizz_Checkpoint Exam 6-8_pt6.xlsx   (10 questions, 1 with image)
+[ OK ] Checkpoint Exam 6-8_pt7.txt  ->  Quizizz_Checkpoint Exam 6-8_pt7.xlsx   (10 questions, 1 with image)
+[ OK ] Checkpoint Exam 6-8_pt8.txt  ->  Quizizz_Checkpoint Exam 6-8_pt8.xlsx   (10 questions, 3 recall repeats, 1 with image)
+[ OK ] Checkpoint Exam 6-8_pt9.txt  ->  Quizizz_Checkpoint Exam 6-8_pt9.xlsx   (9 questions)
+
+Total: 32 file(s) -> 32 workbook(s), 570 question(s), 136 with an image link.
+6 file(s) have notes above - check them before importing to Quizizz.

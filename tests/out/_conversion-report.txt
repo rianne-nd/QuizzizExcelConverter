@@ -1,0 +1,13 @@
+=== Quizizz conversion report ===
+Input      : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\tests\raw
+Output     : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\tests\out
+Files found: 2
+
+[ OK ] Mod14Raw.txt  ->  Quizizz_Mod14.xlsx   (87 questions, 20 recall repeats)
+[WARN] SampleWithImages.txt  ->  Quizizz_SampleWithImages.xlsx   (7 questions, 1 recall repeat, 3 with image)
+         - Q3: NO CORRECT ANSWER marked - Which of these is a valid IPv6 address type? (six options, correct one is last)
+         - Q3: had 6 options; kept the first 5 - Which of these is a valid IPv6 address type? (six options, correct one is la...
+         - Q4: missing explanation - What does ARP resolve?
+
+Total: 2 file(s) -> 2 workbook(s), 94 question(s), 3 with an image link.
+1 file(s) have notes above - check them before importing to Quizizz.

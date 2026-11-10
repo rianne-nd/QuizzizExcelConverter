@@ -1,0 +1,67 @@
+Question: A linux administrator created a file called SUM and he executed the command chmod a+r SUM. What will happen to the permission of the file?
+Option: users and others will have a read permission
+Option: it will remove read permission from others
+Option: all will have read permission*
+Option: read permission will be added only to user a
+Explanation: The a+r mode adds read permission for user, group, and others, so all will have read permission.
+
+Question: True or False: Unix identifies every process by a Process Identification Number (PID) which is assigned when the process is initiated. When we want to perform an operation on a process, we refer to it by its PID or ProcessId.
+Option: True*
+Option: False
+Explanation: Unix assigns each process a PID when it starts, and processes can be referred to by that PID.
+
+Question: Injae want to view all the assigned alias in her Ubuntu terminal. Which command she need to execute to do this?
+Option: alias more
+Option: alias*
+Option: alias all
+Option: view alias
+Explanation: Running alias without arguments lists all currently defined aliases in the shell.
+
+Question: It refers to an interactive program that serves as a command line interpreter?
+Option: shell*
+Option: vi
+Option: vim
+Option: qedit
+Explanation: A shell is an interactive command-line interpreter that accepts and executes commands.
+
+Question: It is used to replace a command with its output within the same command line.
+Option: Command Substitution*
+Option: Tilde Substitution
+Option: Variable Substitution
+Option: Alias Substitution
+Explanation: Command substitution replaces a command with its output inside the same command line.
+
+Question: Which command can be used to find a word from a text file?
+Option: cut
+Option: sort
+Option: grep*
+Option: find
+Explanation: grep searches text files for lines that match a specified word or pattern.
+
+Question: Which of the following command must be used in order to verify if you have the installed and updated version of vim editor?
+Option: $sudo apt update vim
+Option: $sudo apt install vim*
+Option: $sudo apt vim
+Option: $install vim
+Explanation: Among the choices, sudo apt install vim is the valid command for installing or updating Vim; version verification would normally use vim --version.
+
+Question: It is convenient when you want to access a file that has a long file name.
+Option: Alias
+Option: Filename Completion*
+Option: Command History
+Option: Recalling Command
+Explanation: Filename completion lets the shell complete long filenames automatically as you type.
+
+Question: Which of the following command that will list only the file "error.txt"?
+Option: ls error.??
+Option: ls error.txt*
+Option: ls *err*.txt
+Option: ls e*.txt
+Explanation: The exact filename pattern ls error.txt lists only that file.
+
+Question: A file permission that contents can be modified.
+Option: Execute
+Option: No Permission
+Option: Read
+Option: Write*
+Explanation: Write permission allows the contents of a file to be modified.

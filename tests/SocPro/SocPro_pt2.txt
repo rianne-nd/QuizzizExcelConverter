@@ -1,0 +1,102 @@
+Question: Anna, an IT student working part-time as a junior developer, notices that the senior developer has hardcoded user passwords in plain text in a company's new application. The product is nearing release, and no one else seems concerned. What is the most appropriate action for Anna to take
+Option: Raise the concern internally with her supervisor or a security officer*
+Option: Publicly expose the issue on social media
+Option: Assume it's temporary and ignore it
+Option: Stay silent to avoid conflict with her superior
+Explanation: Anna should raise the security concern internally through proper channels to address the vulnerability responsibly.
+
+Question: A program manager must choose between promoting an employee who has worked hard but lacks certain qualifications and another who is more qualified but less experienced. What should be the guiding ethical principle
+Option: Follow company policy and promote the most qualified candidate
+Option: Favor the experienced candidate regardless of qualifications
+Option: Conduct a fair assessment considering both qualifications and experience*
+Option: Promote based on effort and loyalty
+Explanation: The guiding ethical principle is fairness, which requires conducting a fair assessment considering both qualifications and experience.
+
+Question: A company's board of directors must decide whether to lay off employees to remain financially stable. How would utilitarian ethics evaluate this decision
+Option: Consider the financial benefit only
+Option: Prioritize the welfare of the majority, even if it means layoffs*
+Option: Follow company policy regardless of the outcome
+Option: Avoid layoffs to protect all employees
+Explanation: Utilitarian ethics evaluates decisions based on the greatest good for the greatest number, which may justify layoffs if it benefits the majority.
+
+Question: In a scenario where a company prioritizes profits over employee safety, which ethical principle is most compromised
+Option: Relativism
+Option: Integrity*
+Option: Autonomy
+Option: Utilitarianism
+Explanation: Prioritizing profits over employee safety compromises integrity, as it violates the commitment to ethical conduct and stakeholder welfare.
+
+Question: An IT professional discovers that a new system implementation could lead to job losses for some employees. What should the professional prioritize according to the principle of justice
+Option: Implement the system without considering the job losses
+Option: Discuss the potential impact with stakeholders and seek a fair solution*
+Option: Delay the implementation to find a way to minimize job losses
+Option: Refuse to implement the system
+Explanation: The principle of justice requires discussing the potential impact with stakeholders and seeking a fair solution.
+
+Question: A medical doctor faces a dilemma where they can save one patient by allocating all resources but at the cost of another patient's life. What ethical principle is most challenged in this situation
+Option: Autonomy
+Option: Justice*
+Option: Loyalty
+Option: Fidelity
+Explanation: Justice is most challenged because it involves fair distribution of limited resources among patients.
+
+Question: A researcher is tempted to falsify data to achieve the desired results. Which ethical principle should guide the researcher's decision
+Option: Fairness
+Option: Loyalty
+Option: Consequentialism
+Option: Honesty*
+Explanation: Honesty should guide the researcher to refrain from falsifying data and maintain research integrity.
+
+Question: According to Act Utilitarianism, an action is morally right if it conforms to a rule that generally leads to the greatest good, even if that specific action causes a net negative outcome in the moment.
+Option: True
+Option: False*
+Explanation: Act Utilitarianism evaluates each individual action based on its own consequences, not based on conformity to a rule, making the statement false.
+
+Question: Transparency in corporate governance is essential because
+Option: It ensures competitive advantage
+Option: It ensures public trust and accountability*
+Option: It reduces the need for communication
+Option: It builds trust and protects sensitive information
+Explanation: Transparency is essential because it ensures public trust and accountability in corporate governance.
+
+Question: Ben, an IT professional, is assigned to develop a feature that tracks users' locations without clearly informing them. He suspects this violates user privacy rights. What should Ben do
+Option: Raise concerns with his supervisor and advocate for transparency*
+Option: Implement the feature as instructed to avoid conflict
+Option: Remove the feature entirely without informing anyone
+Option: Hide the feature deep in the settings so users won't notice
+Explanation: Ben should raise concerns with his supervisor and advocate for transparency to uphold user privacy rights.
+
+Question: In a healthcare setting, a nurse must decide whether to follow a doctor's orders that they believe will harm the patient. Which ethical principle should guide the nurse's actions
+Option: Professional responsibility*
+Option: Fairness
+Option: Integrity
+Option: Autonomy
+Explanation: Professional responsibility should guide the nurse to act in the patient's best interest and question orders that may cause harm.
+
+Question: Rochelle, an IT student working on a group project, discovers that one teammate has copied a large section of code from GitHub without checking its license. The project is almost due. What is the best ethical response in this situation
+Option: Submit the project and hope no one notices
+Option: Keep the code but add the author's name
+Option: Inform the professor anonymously after submission
+Option: Remove the code and discuss alternatives with the group*
+Explanation: The best ethical response is to remove the code and discuss alternatives with the group to avoid license violations.
+
+Question: Juan, an IT auditor, finds evidence that a colleague has been accessing confidential client data for personal reasons. Reporting this could damage the company's reputation. What should Juan do
+Option: Confront the colleague quietly and ask them to stop
+Option: Use the data himself since he knows about it
+Option: Ignore it to protect the company's reputation
+Option: Report the breach to the proper authorities in the organization*
+Explanation: Juan should report the breach to the proper authorities in the organization to uphold professional ethics and protect client data.
+
+Question: In a group project in a Systems Integration class, Carlo does all the coding while the others contribute little. During defense, the professor asks if they all equally participated. What is Carlo's ethical responsibility
+Option: Let the group speak first and adjust his answer accordingly
+Option: Stay silent and let the professor assume
+Option: Say they worked equally to avoid tension
+Option: Be honest about the uneven contribution*
+Explanation: Carlo's ethical responsibility is to be honest about the uneven contribution to maintain academic integrity.
+
+Question: Gian discovers that his colleague has been accessing confidential data without authorization. What is your ethical obligation according to professional standards
+Option: Report the behavior to the appropriate authorities*
+Option: Ignore the issue to avoid conflict
+Option: Confront the colleague directly
+Option: Use the information for personal gain
+Explanation: Professional standards require reporting unauthorized access to confidential data to the appropriate authorities.

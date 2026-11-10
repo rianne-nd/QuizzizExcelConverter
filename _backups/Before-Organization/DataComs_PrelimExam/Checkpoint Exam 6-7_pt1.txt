@@ -1,0 +1,80 @@
+Question: Which two statements accurately describe an advantage or a disadvantage when deploying NAT for IPv4 in a network? (Choose two.)
+Option: NAT improves packet handling.
+Option: NAT will impact negatively on switch performance.
+Option: NAT causes routing tables to include more information.
+Option: NAT provides a solution to slow down the IPv4 address depletion.*
+Option: NAT introduces problems for some applications that require end-to-end connectivity.*
+Explanation: NAT conserves public IPv4 addresses by allowing many private hosts to share a few public addresses, but it hides end-to-end addressing and can cause problems for applications that require end-to-end connectivity.
+
+Question: A network administrator wants to examine the active NAT translations on a border router. Which command would perform the task?
+Option: Router# show ip nat translations*
+Option: Router# show ip nat statistics
+Option: Router# clear ip nat translations
+Option: Router# debug ip nat translations
+Explanation: The show ip nat translations command displays the active NAT translation entries on the router.
+
+Question: What are two tasks to perform when configuring static NAT? (Choose two.)
+Option: Configure a NAT pool.
+Option: Create a mapping between the inside local and outside local addresses.*
+Option: Identify the participating interfaces as inside or outside interfaces.*
+Option: Define the inside global address on the server
+Option: Define the outside global address.
+Explanation: Static NAT requires a one-to-one mapping and the interfaces that participate in NAT must be identified as inside or outside.
+
+Question: What is a disadvantage of NAT?
+Option: There is no end-to-end addressing.*
+Option: The router does not need to alter the checksum of the IPv4 packets.
+Option: The internal hosts have to use a single public IPv4 address for external communication.
+Option: The costs of readdressing hosts can be significant for a publicly addressed network.
+Explanation: NAT hides the original source and destination addresses, so end-to-end addressing and traceability are lost.
+
+Question: Refer to the exhibit. From the perspective of R1, the NAT router, which address is the inside global address?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i215652v4n1_215652.gif
+Option: 192.168.0.10
+Option: 192.168.0.1
+Option: 209.165.200.225*
+Option: 209.165.200.254
+Explanation: The inside global address is the translated address that external networks see as the source address for internal hosts.
+
+Question: Refer to the exhibit. Given the commands as shown, how many hosts on the internal LAN off R1 can have simultaneous NAT translations on R1?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i215654v5n1_215654.gif
+Option: 244
+Option: 10
+Option: 1*
+Option: 255
+Explanation: The configuration uses static NAT, which creates a one-to-one mapping, so only one host can use the translation at a time.
+
+Question: Refer to the exhibit. A network administrator has just configured address translation and is verifying the configuration. What three things can the administrator verify? (Choose three.)
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i215839v1n1_NAT.png
+Option: A standard access list numbered 1 was used as part of the configuration process.*
+Option: Three addresses from the NAT pool are being used by hosts.
+Option: Address translation is working.*
+Option: The name of the NAT pool is refCount.
+Option: Two types of NAT are enabled.*
+Explanation: The output shows that ACL 1 is used, NAT translation is working, and both static and dynamic NAT are enabled.
+
+Question: Refer to the exhibit. NAT is configured on RT1 and RT2. The PC is sending a request to the web server. What IPv4 address is the source IP address in the packet between RT2 and the web server?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i246206v1n1_215826.png
+Option: 192.168.1.5
+Option: 203.0.113.10
+Option: 172.16.1.254
+Option: 172.16.1.10
+Option: 209.165.200.245*
+Option: 192.0.2.2
+Explanation: The packet between RT2 and the web server uses the inside global address of the PC, which is 209.165.200.245.
+
+Question: Refer to the exhibit. Based on the output that is shown, what type of NAT has been implemented?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i278362v1n2_212297v2.png
+Option: dynamic NAT with a pool of two public IP addresses
+Option: PAT using an external interface*
+Option: static NAT with a NAT pool
+Option: static NAT with one entry
+Explanation: The output shows the same inside global address used with different port numbers, which indicates PAT.
+
+Question: Refer to the exhibit. From the perspective of users behind the NAT router, what type of NAT address is 209.165.201.1?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i282189v1n2_282189.gif
+Option: inside global
+Option: outside global*
+Option: outside local
+Option: inside local
+Explanation: From the perspective of internal users, the globally routable address of an external destination is the outside global address.

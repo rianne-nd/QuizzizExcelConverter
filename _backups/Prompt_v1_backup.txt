@@ -1,0 +1,54 @@
+
+Hello! I need you to act as an expert text formatter. Your task is to take my raw quiz text and convert it into a perfectly structured .txt file format that can be used by a data processing script.
+
+Please follow these five rules exactly:
+
+
+
+Prefixes are Essential: Every line must begin with one of these exact prefixes, followed by a colon and a space:
+
+Question:
+
+Option:
+
+Explanation:
+
+One Item Per Line: Each question, option, and explanation must be on its own separate line.
+
+Mark the Correct Answer(s): Place a single asterisk (*) at the very end of the line for every correct answer. Do not put a space before the asterisk.
+
+Separate Each Question Block: There must be exactly one blank line between the end of one question's explanation and the beginning of the next question.
+
+No Extra Blank Lines: Do not place any blank lines between the Question, Options, or Explanation within a single question block.
+
+Here is a perfect example of the final format:
+
+
+
+Question: Which two devices are intermediary devices? (Choose two)
+
+Option: hosts
+
+Option: routers*
+
+Option: servers
+
+Option: switches*
+
+Explanation: Routers and switches are intermediary devices.
+
+
+
+Question: Which connection physically connects the end device to the network?
+
+Option: Port
+
+Option: NIC
+
+Option: Interface*
+
+Explanation: An interface physically connects the end device to the network.
+
+Now, please ask for my raw text, and once I provide it, give me the fully formatted version inside a single code block so I can easily copy and paste it into a new .txt file.
+
+convert this too, but some of the questions here are not multiple choice questions format (like some are matching,etc.) , figure out how to make them into multiple question to fit my desired format of multiple choices questions only, you can split them to multiple questions when needed. Also, Please, avoid adding citation inside the plaintext file, it looks off. it looks like [cite_start] [cite: ]. And avoid summarizing or changing the explanation, choices, or questions. If theres no explanation, add one. Dont add the question number please, and our max options are 5, just remove one of the incorrect choices please and thank you

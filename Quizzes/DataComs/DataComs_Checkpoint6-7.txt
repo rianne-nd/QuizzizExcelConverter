@@ -1,0 +1,484 @@
+Question: Which two statements accurately describe an advantage or a disadvantage when deploying NAT for IPv4 in a network? (Choose two.)
+Option: NAT improves packet handling.
+Option: NAT will impact negatively on switch performance.
+Option: NAT causes routing tables to include more information.
+Option: NAT provides a solution to slow down the IPv4 address depletion.*
+Option: NAT introduces problems for some applications that require end-to-end connectivity.*
+Explanation: NAT conserves public IPv4 addresses by allowing many private hosts to share a few public addresses, but it hides end-to-end addressing and can cause problems for applications that require end-to-end connectivity.
+
+Question: A network administrator wants to examine the active NAT translations on a border router. Which command would perform the task?
+Option: Router# show ip nat translations*
+Option: Router# show ip nat statistics
+Option: Router# clear ip nat translations
+Option: Router# debug ip nat translations
+Explanation: The show ip nat translations command displays the active NAT translation entries on the router.
+
+Question: What are two tasks to perform when configuring static NAT? (Choose two.)
+Option: Configure a NAT pool.
+Option: Create a mapping between the inside local and outside local addresses.*
+Option: Identify the participating interfaces as inside or outside interfaces.*
+Option: Define the inside global address on the server
+Option: Define the outside global address.
+Explanation: Static NAT requires a one-to-one mapping and the interfaces that participate in NAT must be identified as inside or outside.
+
+Question: What is a disadvantage of NAT?
+Option: There is no end-to-end addressing.*
+Option: The router does not need to alter the checksum of the IPv4 packets.
+Option: The internal hosts have to use a single public IPv4 address for external communication.
+Option: The costs of readdressing hosts can be significant for a publicly addressed network.
+Explanation: NAT hides the original source and destination addresses, so end-to-end addressing and traceability are lost.
+
+Question: Refer to the exhibit. From the perspective of R1, the NAT router, which address is the inside global address?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i215652v4n1_215652.gif
+Option: 192.168.0.10
+Option: 192.168.0.1
+Option: 209.165.200.225*
+Option: 209.165.200.254
+Explanation: The inside global address is the translated address that external networks see as the source address for internal hosts.
+
+Question: Refer to the exhibit. Given the commands as shown, how many hosts on the internal LAN off R1 can have simultaneous NAT translations on R1?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i215654v5n1_215654.gif
+Option: 244
+Option: 10
+Option: 1*
+Option: 255
+Explanation: The configuration uses static NAT, which creates a one-to-one mapping, so only one host can use the translation at a time.
+
+Question: Refer to the exhibit. A network administrator has just configured address translation and is verifying the configuration. What three things can the administrator verify? (Choose three.)
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i215839v1n1_NAT.png
+Option: A standard access list numbered 1 was used as part of the configuration process.*
+Option: Three addresses from the NAT pool are being used by hosts.
+Option: Address translation is working.*
+Option: The name of the NAT pool is refCount.
+Option: Two types of NAT are enabled.*
+Explanation: The output shows that ACL 1 is used, NAT translation is working, and both static and dynamic NAT are enabled.
+
+Question: Refer to the exhibit. NAT is configured on RT1 and RT2. The PC is sending a request to the web server. What IPv4 address is the source IP address in the packet between RT2 and the web server?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i246206v1n1_215826.png
+Option: 192.168.1.5
+Option: 203.0.113.10
+Option: 172.16.1.254
+Option: 172.16.1.10
+Option: 209.165.200.245*
+Option: 192.0.2.2
+Explanation: The packet between RT2 and the web server uses the inside global address of the PC, which is 209.165.200.245.
+
+Question: Refer to the exhibit. Based on the output that is shown, what type of NAT has been implemented?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i278362v1n2_212297v2.png
+Option: dynamic NAT with a pool of two public IP addresses
+Option: PAT using an external interface*
+Option: static NAT with a NAT pool
+Option: static NAT with one entry
+Explanation: The output shows the same inside global address used with different port numbers, which indicates PAT.
+
+Question: Refer to the exhibit. From the perspective of users behind the NAT router, what type of NAT address is 209.165.201.1?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i282189v1n2_282189.gif
+Option: inside global
+Option: outside global*
+Option: outside local
+Option: inside local
+Explanation: From the perspective of internal users, the globally routable address of an external destination is the outside global address.
+
+Question: Refer to the exhibit. Static NAT is being configured to allow PC 1 access to the web server on the internal network. What two addresses are needed in place of A and B to complete the static NAT configuration? (Choose two.)
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i282898v1n2_282898.gif
+Option: A = 209.165.201.2
+Option: A = 10.1.0.13*
+Option: B = 209.165.201.7
+Option: B = 10.0.254.5
+Option: B = 209.165.201.1*
+Explanation: Static NAT maps an inside local address to an inside global address, so A is the inside local address and B is the inside global address.
+
+Question: What is the purpose of the overload keyword in the ip nat inside source list 1 pool NAT_POOL overload command?
+Option: It allows many inside hosts to share one or a few inside global addresses.*
+Option: It allows a list of internal hosts to communicate with a specific group of external hosts.
+Option: It allows external hosts to initiate sessions with internal hosts.
+Option: It allows a pool of inside global addresses to be used by internal hosts.
+Explanation: The overload keyword enables PAT, which lets many internal hosts share one or a few inside global addresses by tracking sessions with port numbers.
+
+Question: Refer to the exhibit. Which source address is being used by router R1 for packets being forwarded to the Internet?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i282910v1n1_282910.gif
+Option: 10.6.15.2
+Option: 209.165.202.141
+Option: 198.51.100.3
+Option: 209.165.200.225*
+Explanation: Packets forwarded to the Internet use the inside global address 209.165.200.225 as the translated source address.
+
+Question: Refer to the exhibit. The NAT configuration applied to the router is as follows:
+ERtr(config)# access-list 1 permit 10.0.0.0 0.255.255.255
+ERtr(config)# ip nat pool corp 209.165.201.6 209.165.201.30 netmask 255.255.255.224
+ERtr(config)# ip nat inside source list 1 pool corp overload
+ERtr(config)# ip nat inside source static 10.10.10.55 209.165.201.4
+ERtr(config)# interface gigabitethernet 0/0
+ERtr(config-if)# ip nat inside
+ERtr(config-if)# interface serial 0/0/0
+ERtr(config-if)# ip nat outside
+Based on the configuration and the output shown, what can be determined about the NAT status within the organization?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i212298v1n2_212298.png
+Option: Static NAT is working, but dynamic NAT is not.
+Option: Dynamic NAT is working, but static NAT is not.
+Option: Not enough information is given to determine if both static and dynamic NAT are working.*
+Option: NAT is working.
+Explanation: The output matches the configuration, but there is not enough information to confirm that both static and dynamic NAT are actively translating traffic.
+
+Question: Which situation describes data transmissions over a WAN connection?
+Option: A network administrator in the office remotely accesses a web server that is located in the data center at the edge of the campus.
+Option: A manager sends an email to all employees in the department with offices that are located in several buildings.
+Option: An employee prints a file through a networked printer that is located in another building.
+Option: An employee shares a database file with a co-worker who is located in a branch office on the other side of the city.*
+Explanation: A WAN connects devices or networks that are geographically separated, such as offices on opposite sides of a city.
+
+Question: Which two technologies are categorized as private WAN infrastructures? (Choose two.)
+Option: Frame Relay*
+Option: VPN
+Option: MetroE*
+Option: DSL
+Option: cable
+Explanation: Private WAN technologies include Frame Relay and Metro Ethernet, among others such as leased lines and MPLS.
+
+Question: Which network scenario will require the use of a WAN?
+Option: Employees need to connect to the corporate email server through a VPN while traveling.*
+Option: Employees need to access web pages that are hosted on the corporate web servers in the DMZ within their building.
+Option: Employee workstations need to obtain dynamically assigned IP addresses.
+Option: Employees in the branch office need to share files with the headquarters office that is located in a separate building on the same campus network.
+Explanation: A traveling employee connecting to the corporate network through a VPN requires WAN connectivity.
+
+Question: What does NAT overloading use to track multiple internal hosts that use one inside global address?
+Option: port numbers*
+Option: IP addresses
+Option: autonomous system numbers
+Option: MAC addresses
+Explanation: NAT overloading, or PAT, uses port numbers to distinguish between multiple internal host sessions sharing one inside global address.
+
+Question: What type of address is 192.168.7.98?
+Option: public
+Option: private*
+Explanation: 192.168.7.98 is in the private IPv4 address range 192.168.0.0/16.
+
+Question: Refer to the exhibit. R1 is configured for static NAT. What IP address will Internet hosts use to reach PC1?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i216440v5n1_216440.png
+Option: 192.168.0.1
+Option: 192.168.0.10
+Option: 209.165.201.1
+Option: 209.165.200.225*
+Explanation: Internet hosts use the inside global address 209.165.200.225 to reach PC1 through static NAT.
+
+Question: Which two WAN infrastructure services are examples of private connections? (Choose two.)
+Option: cable
+Option: DSL
+Option: Frame Relay*
+Option: T1/E1*
+Option: wireless
+Explanation: Private WAN services include Frame Relay and T1/E1 leased lines.
+
+Question: Which two statements about the relationship between LANs and WANs are true? (Choose two.)
+Option: Both LANs and WANs connect end devices.
+Option: WANs are typically operated through multiple ISPs, but LANs are typically operated by single organizations or individuals.*
+Option: WANs must be publicly-owned, but LANs can be owned by either public or private entities.
+Option: WANs connect LANs at slower speed bandwidth than LANs connect their internal end devices.*
+Option: LANs connect multiple WANs together.
+Explanation: WANs usually span multiple service providers and are slower than LAN connections because of their greater geographic scope and complexity.
+
+Question: Open the PT Activity. Perform the tasks in the activity instructions and then answer the question.
+What problem is causing PC-A to be unable to communicate with the Internet?
+Option: The ip nat inside source command refers to the wrong interface.
+Option: The NAT interfaces are not correctly assigned.*
+Option: The static route should not reference the interface, but the outside address instead.
+Option: The access list used in the NAT process is referencing the wrong subnet.
+Option: This router should be configured to use static NAT instead of PAT.
+Explanation: The output of show ip nat statistics shows that the inside interface is FastEthernet0/0 but no interface has been designated as the outside interface, so ip nat outside must be configured on Serial0/0/0.
+
+Question: What type of address is 64.100.190.189?
+Option: public*
+Option: private
+Explanation: 64.100.190.189 is not within the private IPv4 address ranges, so it is a public address.
+
+Question: Match the scenario to the WAN solution: A company has a headquarters and four remote locations. The headquarters site will require more bandwidth than the four remote sites.
+Option: T1*
+Option: DSL
+Option: Frame Relay
+Option: Cable
+Option: MetroE
+Explanation: A T1 leased line provides dedicated bandwidth and is suitable for a headquarters with higher traffic requirements.
+
+Question: Match the scenario to the WAN solution: A company requires higher download speeds than upload speeds and wants to use existing phone lines.
+Option: DSL*
+Option: T1
+Option: Frame Relay
+Option: Cable
+Option: MetroE
+Explanation: DSL uses existing telephone lines and typically provides higher downstream than upstream speeds.
+
+Question: Match the scenario to the WAN solution: A company would like guaranteed bandwidth using a point-to-point link that requires minimal expertise to install and maintain.
+Option: Frame Relay*
+Option: T1
+Option: DSL
+Option: Cable
+Option: MetroE
+Explanation: Frame Relay provides a private WAN service with committed bandwidth and is relatively simple for a provider to install and maintain.
+
+Question: Match the scenario to the WAN solution: A teleworker would like to bundle the Internet connection with other phone and TV services.
+Option: Cable*
+Option: DSL
+Option: T1
+Option: Frame Relay
+Option: MetroE
+Explanation: Cable providers commonly bundle Internet, telephone, and television services for teleworkers.
+
+Question: Match the scenario to the WAN solution: A multisite college wants to connect using Ethernet technology between the sites.
+Option: MetroE*
+Option: T1
+Option: DSL
+Option: Frame Relay
+Option: Cable
+Explanation: Metro Ethernet uses Ethernet technology to connect sites across a metropolitan area.
+
+Question: Refer to the exhibit. The PC is sending a packet to the Server on the remote network. Router R1 is performing NAT overload. From the perspective of the PC, what is the inside global address?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i249830v1n1_212288-1.png
+Option: 192.0.2.1*
+Option: 10.130.5.76
+Option: 203.0.113.5
+Explanation: The inside global address is the translated source address as seen by the outside network, which is 192.0.2.1.
+
+Question: Refer to the exhibit. The PC is sending a packet to the Server on the remote network. Router R1 is performing NAT overload. From the perspective of the PC, what is the inside local address?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i249830v1n1_212288-1.png
+Option: 192.0.2.1
+Option: 10.130.5.76*
+Option: 203.0.113.5
+Explanation: The inside local address is the private address of the source host on the internal network, which is 10.130.5.76.
+
+Question: Refer to the exhibit. The PC is sending a packet to the Server on the remote network. Router R1 is performing NAT overload. From the perspective of the PC, what is the outside global address?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i249830v1n1_212288-1.png
+Option: 192.0.2.1
+Option: 10.130.5.76
+Option: 203.0.113.5*
+Explanation: The outside global address is the globally routable address of the destination server, which is 203.0.113.5.
+
+Question: Refer to the exhibit. What has to be done in order to complete the static NAT configuration on R1?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/2020-01-25_222653.png
+Option: Interface Fa0/0 should be configured with the command no ip nat inside.
+Option: Interface S0/0/0 should be configured with the command ip nat outside.*
+Option: R1 should be configured with the command ip nat inside source static 209.165.200.200 192.168.11.11.
+Option: R1 should be configured with the command ip nat inside source static 209.165.200.1 192.168.11.11.
+Explanation: Both an inside and an outside interface must be configured for NAT translations to work properly.
+
+Question: In NAT terms, what address type refers to the globally routable IPv4 address of a destination host on the Internet?
+Option: outside global*
+Option: inside global
+Option: outside local
+Option: inside local
+Explanation: The outside global address is the globally routable address of a destination host on the external network.
+
+Question: Refer to the exhibit. Which two statements are correct based on the output as shown in the exhibit? (Choose two.)
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i215692v1n3_Q2.png
+Option: The output is the result of the show ip nat translations command.*
+Option: The host with the address 209.165.200.235 will respond to requests by using a source address of 192.168.10.10.
+Option: The output is the result of the show ip nat statistics command.
+Option: Traffic with the destination address of a public web server will be sourced from the IP of 192.168.1.10.
+Option: The host with the address 209.165.200.235 will respond to requests by using a source address of 209.165.200.235.*
+Explanation: The output is from show ip nat translations, and the inside global address 209.165.200.235 is used as the source address for external replies.
+
+Question: Which circumstance would result in an enterprise deciding to implement a corporate WAN?
+Option: when the enterprise decides to secure its corporate LAN
+Option: when its employees become distributed across many branch locations*
+Option: when the number of employees exceeds the capacity of the LAN
+Option: when the network will span multiple buildings
+Explanation: A WAN is needed when an enterprise must connect employees or sites across geographically separate locations.
+
+Question: Refer to the exhibit. A network administrator is viewing the output from the command show ip nat translations. Which statement correctly describes the NAT translation that is occurring on router RT2?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i215827v4n1_215827-1.png
+Option: The traffic from a source IPv4 address of 192.168.254.253 is being translated to 192.0.2.88 by means of static NAT.*
+Option: The traffic from a source IPv4 address of 192.0.2.88 is being translated by router RT2 to reach a destination IPv4 address of 192.168.254.253.
+Option: The traffic from a source IPv4 public address that originates traffic on the internet would be able to reach private internal IPv4 addresses.
+Option: The traffic from a source IPv4 address of 192.168.2.20 is being translated by router RT2 to reach a destination IPv4 address of 192.0.2.254.
+Explanation: Because no outside local or outside global address is referenced, the traffic from 192.168.254.253 is being translated to 192.0.2.88 by static NAT.
+
+Question: What type of address is 10.100.126.126?
+Option: private*
+Option: public
+Explanation: 10.100.126.126 is in the private IPv4 address range 10.0.0.0/8.
+
+Question: What is a disadvantage when both sides of a communication use PAT?
+Option: End-to-end IPv4 traceability is lost.*
+Option: The flexibility of connections to the Internet is reduced.
+Option: The security of the communication is negatively impacted.
+Option: Host IPv4 addressing is complicated.
+Explanation: With PAT, end-to-end IPv4 traceability is lost because addresses and port numbers are translated.
+
+Question: What two addresses are specified in a static NAT configuration?
+Option: the outside global and the outside local
+Option: the inside local and the outside global
+Option: the inside global and the outside local
+Option: the inside local and the inside global*
+Explanation: Static NAT specifies a one-to-one mapping between an inside local address and an inside global address.
+
+Question: A company is considering updating the campus WAN connection. Which two WAN options are examples of the private WAN architecture? (Choose two.)
+Option: municipal Wi-Fi
+Option: digital subscriber line
+Option: leased line*
+Option: Ethernet WAN*
+Option: cable
+Explanation: Private WAN architectures include leased lines and Ethernet WAN, while DSL, cable, municipal Wi-Fi, and cellular are public WAN options.
+
+Question: What type of address is 128.107.240.239?
+Option: Public*
+Option: Private
+Explanation: 128.107.240.239 is not in a private IPv4 range, so it is a public address.
+
+Question: Refer to the exhibit. A network administrator has configured R2 for PAT. Why is the configuration incorrect?
+Image: https://itexamanswers.net/wp-content/uploads/2016/02/2017-06-04_082118.png
+Option: NAT-POOL2 is bound to the wrong ACL*
+Option: The ACL does not define the list of addresses to be translated.
+Option: The overload keyword should not have been applied.
+Option: The static NAT entry is missing
+Explanation: NAT-POOL2 is bound to ACL 100, but it should be bound to the configured ACL 1, so PAT will fail.
+
+Question: Match each component of a WAN connection to its description: devices that put data on the local loop.
+Option: data communications equipment*
+Option: customer premises equipment
+Option: demarcation point
+Option: data terminal equipment
+Explanation: Data communications equipment places data on the local loop.
+
+Question: Match each component of a WAN connection to its description: customer devices that pass the data from a customer network or host computer for transmission over the WAN.
+Option: data communications equipment
+Option: customer premises equipment*
+Option: demarcation point
+Option: data terminal equipment
+Explanation: Customer premises equipment is the customer-owned equipment located at the customer site.
+
+Question: Match each component of a WAN connection to its description: point that is established in a building or complex to separate customer equipment from service provider equipment.
+Option: data communications equipment
+Option: customer premises equipment
+Option: demarcation point*
+Option: data terminal equipment
+Explanation: The demarcation point separates customer equipment from service provider equipment.
+
+Question: Match each component of a WAN connection to its description: devices and inside wiring located on the enterprise edge and which connect to a carrier link.
+Option: data communications equipment
+Option: customer premises equipment
+Option: demarcation point
+Option: data terminal equipment*
+Explanation: Data terminal equipment includes customer devices and inside wiring that connect to a carrier link.
+
+Question: When an internal host with IP address 192.168.10.10 attempts to send a packet to an external server at the IP address 209.165.200.254 across a router R1 that is running dynamic NAT, what is step 1?
+Option: The host sends packets that request a connection to the server at the address 209.165.200.254*
+Option: R1 checks the NAT configuration to determine if this packet should be translated.
+Option: If there is no translation entry for this IP address, R1 determines that the source address 192.168.10.10 must be translated.
+Option: R1 selects an available global address from the dynamic address pool.
+Option: R1 replaces the address 192.168.10.10 with a translated inside global address.
+Explanation: In dynamic NAT, the internal host first sends packets requesting a connection to the external server.
+
+Question: When an internal host with IP address 192.168.10.10 attempts to send a packet to an external server at the IP address 209.165.200.254 across a router R1 that is running dynamic NAT, what is step 2?
+Option: The host sends packets that request a connection to the server at the address 209.165.200.254
+Option: R1 checks the NAT configuration to determine if this packet should be translated.*
+Option: If there is no translation entry for this IP address, R1 determines that the source address 192.168.10.10 must be translated.
+Option: R1 selects an available global address from the dynamic address pool.
+Option: R1 replaces the address 192.168.10.10 with a translated inside global address.
+Explanation: After the packet is sent, R1 checks the NAT configuration to determine if the packet should be translated.
+
+Question: When an internal host with IP address 192.168.10.10 attempts to send a packet to an external server at the IP address 209.165.200.254 across a router R1 that is running dynamic NAT, what is step 3?
+Option: The host sends packets that request a connection to the server at the address 209.165.200.254
+Option: R1 checks the NAT configuration to determine if this packet should be translated.
+Option: If there is no translation entry for this IP address, R1 determines that the source address 192.168.10.10 must be translated.*
+Option: R1 selects an available global address from the dynamic address pool.
+Option: R1 replaces the address 192.168.10.10 with a translated inside global address.
+Explanation: If no translation entry exists, R1 determines that the source address must be translated.
+
+Question: When an internal host with IP address 192.168.10.10 attempts to send a packet to an external server at the IP address 209.165.200.254 across a router R1 that is running dynamic NAT, what is step 4?
+Option: The host sends packets that request a connection to the server at the address 209.165.200.254
+Option: R1 checks the NAT configuration to determine if this packet should be translated.
+Option: If there is no translation entry for this IP address, R1 determines that the source address 192.168.10.10 must be translated.
+Option: R1 selects an available global address from the dynamic address pool.*
+Option: R1 replaces the address 192.168.10.10 with a translated inside global address.
+Explanation: R1 then selects an available global address from the dynamic address pool.
+
+Question: When an internal host with IP address 192.168.10.10 attempts to send a packet to an external server at the IP address 209.165.200.254 across a router R1 that is running dynamic NAT, what is step 5?
+Option: The host sends packets that request a connection to the server at the address 209.165.200.254
+Option: R1 checks the NAT configuration to determine if this packet should be translated.
+Option: If there is no translation entry for this IP address, R1 determines that the source address 192.168.10.10 must be translated.
+Option: R1 selects an available global address from the dynamic address pool.
+Option: R1 replaces the address 192.168.10.10 with a translated inside global address.*
+Explanation: Finally, R1 replaces the inside local address with the translated inside global address.
+
+Question: When an internal host with IP address 192.168.10.10 attempts to send a packet to an external server at the IP address 209.165.200.254 across a router R1 that is running dynamic NAT, what is step 1?
+Option: The host sends packets that request a connection to the server at the address 209.165.200.254.*
+Option: If there is no translation entry for this IP address, R1 determines that the source address 192.168.10.10 must be translated.
+Option: R1 selects an available global address from the dynamic address pool.
+Option: R1 checks the NAT configuration to determine if this packet should be translated.
+Option: R1 replaces the address 192.168.10.10 with a translated inside global address.
+Explanation: The internal host first sends packets requesting a connection to the external server.
+
+Question: When an internal host with IP address 192.168.10.10 attempts to send a packet to an external server at the IP address 209.165.200.254 across a router R1 that is running dynamic NAT, what is step 2?
+Option: The host sends packets that request a connection to the server at the address 209.165.200.254.
+Option: If there is no translation entry for this IP address, R1 determines that the source address 192.168.10.10 must be translated.*
+Option: R1 selects an available global address from the dynamic address pool.
+Option: R1 checks the NAT configuration to determine if this packet should be translated.
+Option: R1 replaces the address 192.168.10.10 with a translated inside global address.
+Explanation: If no translation entry exists, R1 determines that the source address must be translated.
+
+Question: When an internal host with IP address 192.168.10.10 attempts to send a packet to an external server at the IP address 209.165.200.254 across a router R1 that is running dynamic NAT, what is step 3?
+Option: The host sends packets that request a connection to the server at the address 209.165.200.254.
+Option: If there is no translation entry for this IP address, R1 determines that the source address 192.168.10.10 must be translated.
+Option: R1 selects an available global address from the dynamic address pool.*
+Option: R1 checks the NAT configuration to determine if this packet should be translated.
+Option: R1 replaces the address 192.168.10.10 with a translated inside global address.
+Explanation: R1 selects an available global address from the dynamic address pool.
+
+Question: When an internal host with IP address 192.168.10.10 attempts to send a packet to an external server at the IP address 209.165.200.254 across a router R1 that is running dynamic NAT, what is step 4?
+Option: The host sends packets that request a connection to the server at the address 209.165.200.254.
+Option: If there is no translation entry for this IP address, R1 determines that the source address 192.168.10.10 must be translated.
+Option: R1 selects an available global address from the dynamic address pool.
+Option: R1 checks the NAT configuration to determine if the packet should be translated.*
+Option: R1 replaces the address 192.168.10.10 with a translated inside global address.
+Explanation: R1 checks the NAT configuration to determine if the packet should be translated.
+
+Question: When an internal host with IP address 192.168.10.10 attempts to send a packet to an external server at the IP address 209.165.200.254 across a router R1 that is running dynamic NAT, what is step 5?
+Option: The host sends packets that request a connection to the server at the address 209.165.200.254.
+Option: If there is no translation entry for this IP address, R1 determines that the source address 192.168.10.10 must be translated.
+Option: R1 selects an available global address from the dynamic address pool.
+Option: R1 checks the NAT configuration to determine if this packet should be translated.
+Option: R1 replaces the address 192.168.10.10 with a translated inside global address.*
+Explanation: R1 replaces the inside local address with the translated inside global address.
+
+Question: Refer to the exhibit. A network administrator is viewing the output from the command show ip nat translations. Which statement correctly describes the NAT translation that is occurring on router RT2?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i215827v4n1_215827-2.png
+Option: The traffic from a source IPv4 public address that originates traffic on the internet would be able to reach private internal IPv4 addresses.
+Option: The traffic from a source IPv4 address of 192.168.2.20 is being translated by router RT2 to reach a destination IPv4 address of 192.0.2.254.
+Option: The traffic from a source IPv4 address of 192.168.254.253 is being translated to 192.0.2.88 by means of static NAT.*
+Option: The traffic from a source IPv4 address of 192.0.2.88 is being translated by router RT2 to reach a destination IPv4 address of 192.168.254.253.
+Explanation: Because no outside local or outside global address is referenced, the traffic from 192.168.254.253 is being translated to 192.0.2.88 by static NAT.
+
+Question: What type of address is 10.131.48.7?
+Option: Private*
+Option: Public
+Explanation: 10.131.48.7 is in the private IPv4 address range 10.0.0.0/8.
+
+Question: What type of address is 10.19.6.7?
+Option: private*
+Option: public
+Explanation: 10.19.6.7 is in the private IPv4 address range 10.0.0.0/8.
+
+Question: What type of address is 64.101.198.197?
+Option: public*
+Option: private
+Explanation: 64.101.198.107 is not in a private IPv4 range, so it is a public address.
+
+Question: What type of address is 64.101.198.107?
+Option: public*
+Option: private
+Explanation: 64.101.198.107 is not in a private IPv4 range, so it is a public address.
+
+Question: What type of address is 10.100.34.34?
+Option: private*
+Option: public
+Explanation: 10.100.34.34 is in the private IPv4 address range 10.0.0.0/8.
+
+Question: What type of address is 192.168.7.126?
+Option: Private*
+Option: Public
+Explanation: 192.168.7.126 is in the private IPv4 address range 192.168.0.0/16.
+
+Question: What type of address is 198.133.219.148?
+Option: Private
+Option: Public*
+Explanation: 198.133.219.148 is not in a private IPv4 range, so it is a public address.

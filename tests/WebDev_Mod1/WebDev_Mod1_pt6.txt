@@ -1,0 +1,69 @@
+Question: Which security feature was introduced in Android 4.0 (Ice Cream Sandwich)?
+Option: Face Unlock*
+Option: Fingerprint scanning
+Option: Pattern lock
+Option: Two-factor authentication
+Explanation: Ice Cream Sandwich introduced Face Unlock, along with multicore CPU support, virtual buttons, and improved copy and paste functionality.
+
+Question: Which feature was introduced in Android 4.1/4.2/4.3 (Jelly Bean)?
+Option: Native emoji support*
+Option: Picture-in-Picture mode
+Option: Notification channels
+Option: Autofill Framework
+Explanation: Jelly Bean added native emoji support, a smoother UI, enhanced accessibility, a new clock application with world clock, stopwatch and timer, and group messaging.
+
+Question: Which voice feature was introduced in Android 4.4 (KitKat)?
+Option: "Ok, Google" support*
+Option: "Hey Siri" support
+Option: Voice-guided turn-by-turn navigation
+Option: Voice search
+Explanation: KitKat introduced "Ok, Google" support, along with low power consumption sensors, improved NFC communications, a printing framework, and translucent UI styling.
+
+Question: Android 5.0/5.1 (Lollipop) mainly focused on what, and introduced which concept?
+Option: Performance, and a card-based concept*
+Option: Battery life, and a dark theme
+Option: Security, and one-time permissions
+Option: Tablets, and multiple browser tabs
+Explanation: Lollipop mainly focused on performance, with high-performance graphics, powerful audio, screen capturing and sharing, document-centric apps, and a card-based concept.
+
+Question: Which hardware support was added in Android 6.0 (Marshmallow)?
+Option: Fingerprint readers and USB-C*
+Option: Face Unlock and NFC
+Option: Dual SIM and infrared
+Option: Wireless charging and HDMI
+Explanation: Marshmallow added support for fingerprint readers and USB-C, along with Audio Manager changes, text selection, and Android KeyStore changes.
+
+Question: Which multitasking feature was introduced in Android 7.0 (Nougat)?
+Option: Multi-Window*
+Option: Split-screen Picture-in-Picture
+Option: Desktop mode
+Option: Virtual desktops
+Explanation: Nougat introduced Multi-Window Playground, along with Scoped Directory Access, Direct Boot, Data Saver, and Google Assistant.
+
+Question: Which display feature was introduced in Android 8.0 (Oreo)?
+Option: Picture-in-Picture mode*
+Option: Always-on display
+Option: Split-screen mode
+Option: Foldable support
+Explanation: Oreo introduced Picture-in-Picture Mode, Autofill Framework, downloadable fonts, notification channels, and background execution limits.
+
+Question: What was Android 9.0 (Pie)'s most transformative change?
+Option: A hybrid gesture and button navigation system*
+Option: A new notification shade
+Option: A redesigned keyboard
+Option: A new app store
+Explanation: Pie's most transformative change was its hybrid gesture and button navigation system, which traded Android's traditional Back, Home, and Overview keys for a large multifunctional Home button and a small Back button.
+
+Question: What made Android 10 different from every previous version's naming?
+Option: It was the first version to shed its letter and dessert name, known simply by its number*
+Option: It was the first version to use a code name
+Option: It was the first version designed for tablets
+Option: It was the first version released by a manufacturer other than Google
+Explanation: Android 10 was the first Android version to shed its letter and be known simply by a number, with no dessert-themed moniker attached.
+
+Question: What was the most significant change in Android 11?
+Option: Privacy, including single-use permissions for location, camera, and microphone*
+Option: A new interface design called Material You
+Option: Picture-in-Picture mode
+Option: Support for foldable phones
+Explanation: Android 11's most significant changes revolve around privacy, adding the option to grant apps location, camera, and microphone permissions only on a limited, single-use basis.

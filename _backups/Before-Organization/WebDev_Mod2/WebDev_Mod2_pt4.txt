@@ -1,0 +1,13 @@
+Question: _____ is an open-source and Linux-based Operating System for mobile devices such as smartphones and tablet computers.
+Option: Android*
+Option: Symbian
+Option: Windows Phone
+Option: BlackBerry OS
+Explanation: Android is an open-source and Linux-based operating system for mobile devices such as smartphones and tablet computers.
+
+Question: Arrange the steps to run an application to the emulator. Which of the following shows the correct order?
+Option: Go to the device manager → Select create device → Choose a virtual phone → Choose a System image/Android OS and download it → Run the created virtual phone → Select the running virtual phone and run the application on it*
+Option: Select create device → Go to the device manager → Choose a virtual phone → Choose a System image/Android OS and download it → Select the running virtual phone and run the application on it → Run the created virtual phone
+Option: Go to the device manager → Choose a System image/Android OS and download it → Select create device → Choose a virtual phone → Select the running virtual phone and run the application on it → Run the created virtual phone
+Option: Choose a virtual phone → Select create device → Go to the device manager → Choose a System image/Android OS and download it → Run the created virtual phone → Select the running virtual phone and run the application on it
+Explanation: The correct sequence is to open the Device Manager first, create a new device, choose a virtual phone, choose and download a system image, start the created virtual phone, and finally select that running virtual phone and run the application on it.

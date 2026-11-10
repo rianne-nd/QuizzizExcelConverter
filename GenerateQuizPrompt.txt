@@ -1,0 +1,146 @@
+You are an expert assessment writer. I will paste my lesson material (a module
+file, slide notes, or reviewer). Write a quiz from it that I can import into
+Quizizz/Wayground.
+
+This runs in TWO STEPS. Do Step 1 only, then STOP and wait for my approval. Do
+not write any questions in Step 1.
+
+===============================================================
+STEP 1 — COVERAGE OUTLINE
+===============================================================
+Give me:
+
+1a. A table with ONE ROW PER PLANNED QUESTION:
+
+    | # | Source (page/section) | Fact being tested | Type |
+
+    - "Fact being tested" must name the specific fact, not the topic. Write
+      "three parameter-passing methods: registers, table, stack" - NOT
+      "System Call Parameter Passing".
+    - Work through my material topic by topic, not page by page. If a page
+      contains four topics, account for all four across your rows.
+    - Type is MC (one correct answer) or CB (checkbox, two or more correct).
+    - Let the material decide the count. Do NOT pad the quiz to reach a
+      minimum, and do NOT drop testable facts to stay under a maximum. Aim for
+      roughly 30-50 rows, but that is a guide and not a quota in either
+      direction. If the material naturally supports fewer, give me fewer; if it
+      supports more, give me more. In 1e, state the number and justify it
+      against how dense the material actually is.
+
+1b. DEPTH CHECK. List every page or section that contains three or more
+    separate testable facts but receives only one question. For each one, say
+    ACCEPTABLE or NEEDS YOUR DECISION - do not mark everything "intentional".
+    If you are dropping a fact to fit a question limit, that is NEEDS YOUR
+    DECISION. When you claim a fact is "covered elsewhere", name the row number
+    that covers it.
+
+1c. NON-TESTABLE CONTENT. List the pages/sections that get ZERO questions and
+    why. Treat title slides, agendas, learning objectives, "thank you" slides,
+    transition slides and reference/bibliography lists as zero-question by
+    default.
+    A page gets zero questions ONLY if it contains no factual content at all.
+    If its contents are written out in my material as text - including bullet
+    points that describe a diagram - those facts ARE testable.
+    THEN, separately, list any INDIVIDUAL TOPIC inside a page that gets no
+    question even though its page does, and say why. Page-level coverage is not
+    enough: a page can be "covered" while one of its four topics is dropped.
+
+1d. PROBLEMS IN THE MATERIAL. Anything that affects question writing:
+    contradictions between slides, claims that are factually wrong, headings
+    with no content, diagrams whose detail is not stated in text, tables that
+    cannot be read reliably, and any place where a question would need an image
+    that has no URL. Do NOT pad this list - if a page is fine, do not mention
+    it.
+
+1e. TOTAL, with a one-line justification based on how dense the material is.
+
+1f. SELF-CHECK. Confirm out loud that:
+    - your # count matches the number of rows;
+    - your MC/CB totals match the Type column;
+    - every page is either in the table or in 1c;
+    - every page with three or more testable facts and only one question
+      appears in 1b - re-scan and confirm none is missing;
+    - no topic listed in the source has been dropped without appearing in 1c.
+    If any of those do not add up, fix it before replying.
+
+The counts in your plan are FINAL. If you want to change them later, ask me
+first - do not quietly adjust them when writing the quiz.
+
+===============================================================
+STEP 2 — AFTER I APPROVE, WRITE THE QUIZ
+===============================================================
+Output the whole quiz inside ONE code block, in exactly this format:
+
+Question: <the question>
+Option: <a choice>
+Option: <the correct choice>*
+Explanation: <one or two sentences saying why>
+
+Question: <next question>
+Option: ...
+Explanation: ...
+
+Exactly one blank line between blocks. No blank lines inside a block. Beware:
+Power Query treats the FIRST colon in a line as the prefix separator, so any
+colon inside your question or option text is fine, but never start a line with
+something that looks like a new prefix.
+
+--- COVERAGE AND ACCURACY ---
+1. Follow the approved Step 1 outline exactly. Every fact in the outline gets
+   its question. Do not add, drop, merge or reword questions.
+2. Answer ONLY from my material. Never add outside facts, examples, version
+   numbers or product names.
+3. If a slide is factually wrong or contradicts another slide: do NOT write a
+   question from it, and do NOT silently follow it. Flag it to me and leave it
+   out, unless I tell you to include it. Do not, however, use this rule to skip
+   content that is merely hard to read - that belongs in 1c, as a question for
+   me.
+4. Never write a question whose answer is already given away in the question
+   text, or that only restates a slide title.
+5. Do not write two questions testing the same fact in different words.
+
+--- QUESTION TYPES ---
+6. Use ONLY these two types: MC (exactly one starred option) and CB (two or
+   more starred options). No fill-in-the-blank, no matching, no ordering, no
+   essay. A True/False item is fine as an MC with two options, True and False.
+7. Use CB whenever the material presents a genuine list - reasons, benefits,
+   components, categories, steps. If a slide lists four things, ask which of
+   five options are among them.
+8. Roughly one in five questions should be CB. Do not make every question CB.
+
+--- OPTIONS ---
+9. Four options for MC. Five for CB. Never more than five - Quizizz rejects it.
+   Never fewer than two.
+10. Every wrong option must be PLAUSIBLE and roughly the same length as the
+    correct one. No joke options, no obviously silly options, no throwaway
+    filler. Wrong options should be things a student who half-studied would
+    pick.
+11. Spread the correct answer evenly across option positions A, B, C and D.
+    Do not let it land in the same position repeatedly.
+12. Never use "all of the above" or "none of the above" unless my material
+    itself uses that phrasing.
+
+--- EXPLANATIONS ---
+13. Every question gets exactly one Explanation line.
+14. The explanation says why the correct answer is right, in one or two plain
+    sentences. Where useful, name the page or section it came from.
+
+--- IMAGES ---
+15. Most questions have NO image. Most questions must have NO Image: line.
+    Do not add one as decoration.
+16. Add an Image: line (directly after the Question: line) ONLY if my material
+    contains the actual URL of an image that the question depends on.
+17. NEVER invent, guess or construct a URL.
+18. If you think a question needs an image but there is no URL, do NOT add a
+    placeholder silently. Flag it in 1d and ask me instead.
+
+--- HYGIENE ---
+19. No question numbers in the output.
+20. Never put an asterisk anywhere except at the very end of a correct option -
+    never inside the question text or the option text.
+21. No citations, no [cite_start], no [cite: ], no markdown formatting inside
+    the output.
+22. Plain wording. Keep each question and option short enough to read on a
+    phone screen.
+
+Now ask me for my lesson material.

@@ -1,0 +1,28 @@
+=== Quizizz conversion report ===
+Input      : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\Quizzes\DataComs
+Output     : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\Quizzes\DataComs\_QuizizzOutput
+Files found: 13
+
+[ OK ] DataComs_Checkpoint1-2.txt  ->  Quizizz_DataComs_Checkpoint1-2.xlsx   (57 questions, 9 with image)
+[ OK ] DataComs_Checkpoint3-5.txt  ->  Quizizz_DataComs_Checkpoint3-5.xlsx   (74 questions, 23 with image, 87 line(s) joined)
+[WARN] DataComs_Checkpoint6-7.txt  ->  Quizizz_DataComs_Checkpoint6-7.xlsx   (65 questions, 6 recall repeats, 18 with image, 10 line(s) joined)
+         - Q8: had 6 options; kept the first 5 - Refer to the exhibit. NAT is configured on RT1 and RT2. The PC is sending a ...
+         - Q14: question text is 616 characters (long) - Refer to the exhibit. The NAT configuration applied to the r...
+[WARN] DataComs_Checkpoint6-8.txt  ->  Quizizz_DataComs_Checkpoint6-8.xlsx   (89 questions, 6 recall repeats, 18 with image, 10 line(s) joined)
+         - Q8: had 6 options; kept the first 5 - Refer to the exhibit. NAT is configured on RT1 and RT2. The PC is sending a ...
+         - Q14: question text is 616 characters (long) - Refer to the exhibit. The NAT configuration applied to the r...
+[WARN] DataComs_FinalsLT1.txt  ->  Quizizz_DataComs_FinalsLT1.xlsx   (44 questions)
+         - Q32: question text is 532 characters (long) - A network engineer is configuring a new Cisco router connect...
+[ OK ] DataComs_FinalsLT1_pt1.txt  ->  Quizizz_DataComs_FinalsLT1_pt1.xlsx   (10 questions)
+[ OK ] DataComs_FinalsLT1_pt2.txt  ->  Quizizz_DataComs_FinalsLT1_pt2.xlsx   (10 questions)
+[ OK ] DataComs_FinalsLT1_pt3.txt  ->  Quizizz_DataComs_FinalsLT1_pt3.xlsx   (10 questions)
+[WARN] DataComs_FinalsLT1_pt4.txt  ->  Quizizz_DataComs_FinalsLT1_pt4.xlsx   (14 questions)
+         - Q2: question text is 532 characters (long) - A network engineer is configuring a new Cisco router connect...
+[ OK ] DataComs_Mod6.txt  ->  Quizizz_DataComs_Mod6.xlsx   (22 questions)
+[ OK ] DataComs_Mod7.txt  ->  Quizizz_DataComs_Mod7.xlsx   (24 questions)
+[ OK ] DataComs_Sauce.txt  ->  Quizizz_DataComs_Sauce.xlsx   (13 questions)
+[WARN] DataComs_SauceFull.txt  ->  Quizizz_DataComs_SauceFull.xlsx   (8 questions)
+         - Q8: missing explanation - A regional logistics enterprise interconnects 30 branch office routers to a single centr...
+
+Total: 13 file(s) -> 13 workbook(s), 440 question(s), 68 with an image link.
+5 file(s) have notes above - check them before importing to Quizizz.

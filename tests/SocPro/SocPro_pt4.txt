@@ -1,0 +1,104 @@
+Question: You are a manager facing a decision on whether to use cheaper materials that are potentially hazardous to save costs. Which ethical perspective prioritizes safety over cost
+Option: Relativism
+Option: Deontology
+Option: Utilitarianism*
+Option: Egoism
+Explanation: Utilitarianism prioritizes the greatest good for the greatest number, which would prioritize safety over cost savings.
+
+Question: A marketing team is considering a campaign that may mislead consumers about the environmental benefits of a product. Which ethical principle is at stake
+Option: Justice
+Option: Utility
+Option: Honesty*
+Option: Fairness
+Explanation: Honesty is at stake because misleading consumers about environmental benefits violates truthfulness in marketing.
+
+Question: An executive must choose between two suppliers one offers cheaper products with questionable labor practices, and the other is more expensive but ethically sound. Which principle should guide the decision
+Option: Autonomy
+Option: Honesty
+Option: Fairness*
+Option: Utility
+Explanation: Fairness should guide the decision to ensure ethical treatment of workers and avoid supporting questionable labor practices.
+
+Question: ABC company is under pressure to release a software update quickly but hasn't fully tested it for potential security vulnerabilities. What ethical principle should guide their decision
+Option: Ignore potential vulnerabilities
+Option: Delay the release to ensure thorough testing*
+Option: Expedite the release to meet market demand
+Option: Release it and fix any issues later
+Explanation: The ethical principle of safety and responsibility should guide the company to delay the release until thorough testing ensures no security vulnerabilities.
+
+Question: A team leader consistently takes credit for the work of their team members. Which ethical principle is being violated
+Option: Autonomy
+Option: Fairness*
+Option: Integrity
+Option: Utilitarianism
+Explanation: Fairness is violated because the team leader is not giving proper credit to team members for their work.
+
+Question: In the Therac-25 case, the lack of what specific safeguard contributed to the tragic outcomes
+Option: Testing*
+Option: Financial incentives
+Option: Planning
+Option: Marketing efforts
+Explanation: The lack of adequate testing contributed to the tragic outcomes in the Therac-25 case.
+
+Question: Janine, a CICS student, accidentally sees another student's grades open on a shared lab computer. She considers checking other information out of curiosity. What should she do
+Option: Close the window and inform the professor*
+Option: Log out the other student's account and walk away
+Option: Look quickly but don't tell anyone
+Option: Take a screenshot just in case it's useful later
+Explanation: Janine should close the window and inform the professor to respect the other student's privacy.
+
+Question: Lanie, a senior IT student, discovers that her group project's code contains a subtle security flaw that could expose user data, but fixing it would delay the submission past the deadline. The professor stated late submissions will be penalized heavily. What is the most ethically responsible course of action for Lanie
+Option: Submit the project on time without fixing the flaw to avoid penalties
+Option: Ignore the flaw since the project is just for a grade
+Option: Inform the professor about the flaw and request an extension to fix it*
+Option: Fix the flaw silently but submit late, hoping the professor is lenient
+Explanation: The most ethically responsible course is to inform the professor about the flaw and request an extension to fix it, prioritizing user data security.
+
+Question: Marco, an IT student intern, is offered a chance to copy code from a proprietary platform for his capstone project by a friend who works at a tech company. This would save him weeks of work. What should Marco consider the most in making his decision
+Option: How likely he is to get caught
+Option: The legal and ethical implications of using unauthorized code*
+Option: Whether his friend gave him permission
+Option: The time he would save on development
+Explanation: Marco should consider the legal and ethical implications of using unauthorized code, as it violates intellectual property rights.
+
+Question: During an online class in CICS, Rico is tempted to use ChatGPT to answer a take-home quiz labeled individual work - no AI tools allowed. What should guide Rico's decision
+Option: Ask permission after submitting the quiz
+Option: Avoid using AI tools to respect academic honesty rules*
+Option: Use it but rewrite the answer to make it look original
+Option: Use ChatGPT because others are likely doing the same
+Explanation: Rico should avoid using AI tools to respect academic honesty rules and the professor's instructions.
+
+Question: In a certain project, an IT developer faces a decision where the most efficient solution may violate privacy laws. What should guide the professional's decision
+Option: Personal convenience
+Option: Legal compliance and ethical standard*
+Option: Company profit maximization
+Option: Short-term project goals
+Explanation: Legal compliance and ethical standards should guide the professional's decision, even if it means less efficiency.
+
+Question: Pia, an IT student working on a freelance project, is asked by the client to track user behavior without disclosing it in the app's privacy policy. The client insists it's just analytics. What should Pia prioritize in this situation
+Option: How likely he is to get caught
+Option: Refusing the request and explaining the ethical and legal concerns*
+Option: Limiting the data collection to reduce risk
+Option: Fulfilling the client's request to maintain the relationship
+Explanation: Pia should refuse the request and explain the ethical and legal concerns regarding undisclosed user tracking.
+
+Question: A software developer is tasked with implementing a new function that could collect user data without their explicit permission. Which ethical responsibility should the engineer prioritize
+Option: Follow the instructions of the manager without question
+Option: Ensure the project is completed on time
+Option: Consider the general welfare and public good*
+Option: Maximize the company's profits
+Explanation: The engineer should prioritize considering the general welfare and public good, which includes protecting user privacy.
+
+Question: While working on a work-study project to upgrade the IT department's network infrastructure, a BSIT senior gains elevated admin permissions. Out of curiosity, they run a query that exposes private faculty salary records. Instead of reporting the vulnerability, they keep quiet to avoid losing their job. Which concept best describes the external professional standards the student failed to follow
+Option: Divine Command Theory
+Option: Professional Ethics*
+Option: Cultural Relativism
+Option: Personal Morality
+Explanation: Professional Ethics refers to the external standards of conduct expected in a professional role, which the student failed to follow.
+
+Question: In which ethical theory are moral rules absolute and not dependent on consequences
+Option: Relativism
+Option: Utilitarianism
+Option: Deontology*
+Option: Virtue Ethics
+Explanation: Deontology holds that moral rules are absolute and not dependent on consequences.

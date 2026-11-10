@@ -1,0 +1,69 @@
+Question: What is the correct explicit Intent creation format in Kotlin?
+Option: val intent = Intent(this, SecondActivity)
+Option: val intent = Intent(this, SecondActivity::class.java)*
+Option: val intent = Intent(SecondActivity.class)
+Option: val intent = Intent(this, SecondActivity.class)
+Explanation: In Kotlin, SecondActivity::class.java is used to reference the Java Class object required by the Intent constructor.
+
+Question: Which property determines whether a CheckBox is ticked in Android?
+Option: isChecked*
+Option: isSelected
+Option: isTicked
+Option: isCheckedState
+Explanation: isChecked is the boolean property indicating whether a CheckBox is currently checked.
+
+Question: What is the core purpose of findViewById() in Android?
+Option: It creates a new layout file in XML.
+Option: It retrieves a View from the current layout by using its assigned resource ID.*
+Option: It registers an activity in the AndroidManifest.xml file.
+Option: It converts an XML file into a Kotlin class.
+Explanation: It retrieves a View from the current layout by using its assigned resource ID.
+
+Question: Which is the correct findViewById syntax for casting an EditText in Kotlin?
+Option: val edtName = findViewById(EditText, R.id.edtName)
+Option: val edtName = findViewById<EditText>(R.id.edtName)*
+Option: val edtName: EditText = findViewById(edtName)
+Option: val edtName = findViewById(R.id.edtName) as String
+Explanation: Generic type syntax findViewById<EditText>(R.id.edtName) is used in Kotlin to locate and cast the View.
+
+Question: Which utility window shows real-time debugging output in Android Studio?
+Option: Terminal
+Option: Logcat*
+Option: Build Output
+Option: Device File Explorer
+Explanation: Logcat displays real-time system messages and debugging output in Android Studio.
+
+Question: Which import path statement brings in all standard Android widget layout elements?
+Option: import android.widget.all
+Option: import android.widget (wildcard import)*
+Option: import android.view.widget
+Option: import android.app.widget
+Explanation: Importing android.widget with a wildcard imports all standard widget layout elements into the file.
+
+Question: Which callback is best to release resources or save data when an Activity is no longer visible?
+Option: onPause()
+Option: onStop()*
+Option: onDestroy()
+Option: onStart()
+Explanation: onStop() is called when the activity is no longer visible, making it the appropriate place to release resources and save data.
+
+Question: Which Activity lifecycle callback is triggered right before user interaction begins?
+Option: onStart()
+Option: onResume()*
+Option: onCreate()
+Option: onRestart()
+Explanation: onResume() is triggered right before the activity enters the foreground and user interaction begins.
+
+Question: In which lifecycle state is an Activity visible to the user but not interactive?
+Option: onCreate()
+Option: onStart()*
+Option: onResume()
+Option: onPause()
+Explanation: In onStart(), the activity becomes visible to the user, but it is not yet interactive until onResume() is called.
+
+Question: What is the correct startup sequence executed when an Activity opens?
+Option: onStart(), onCreate(), onResume()
+Option: onCreate(), onResume(), onStart()
+Option: onCreate(), onStart(), onResume()*
+Option: onResume(), onStart(), onCreate()
+Explanation: The standard activity launch sequence begins with onCreate(), followed by onStart(), and finally onResume().

@@ -1,0 +1,16 @@
+=== Quizizz conversion report ===
+Input      : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\tests\fib2
+Output     : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\tests\fib2\out
+Files found: 3
+
+[WARN] BothMarkers.txt  ->  Quizizz_BothMarkers.xlsx   (1 questions)
+         - Q1: Fill-in-the-Blank has BOTH Answer: and Option: lines; the Answer: lines were used - Name a moon of Mars
+[WARN] NoAnswers.txt  ->  Quizizz_NoAnswers.xlsx   (1 questions)
+         - Q1: Fill-in-the-Blank with NO accepted answers - What is the minimum UDP header size?
+[WARN] NoType.txt  ->  Quizizz_NoType.xlsx   (1 questions)
+         - Q1: has Answer: lines but no 'Type: Fill-in-the-Blank'; they were ignored - What does ARP resolve?
+         - Q1: NO CORRECT ANSWER marked - What does ARP resolve?
+         - Q1: only 0 option(s) - What does ARP resolve?
+
+Total: 3 file(s) -> 3 workbook(s), 3 question(s), 0 with an image link.
+3 file(s) have notes above - check them before importing to Quizizz.

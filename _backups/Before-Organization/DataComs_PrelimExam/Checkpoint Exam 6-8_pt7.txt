@@ -1,0 +1,70 @@
+Question: What type of address is 128.107.240.239?
+Option: Public*
+Option: Private
+Explanation: 128.107.240.239 is not in a private IPv4 range, so it is a public address.
+
+Question: Which type of VPN has both Layer 2 and Layer 3 implementations?
+Option: IPsec virtual tunnel interface
+Option: dynamic multipoint VPN
+Option: GRE over IPsec
+Option: MPLS VPN*
+Explanation: MPLS VPNs can be implemented at both Layer 2 and Layer 3.
+
+Question: Refer to the exhibit. A network administrator has configured R2 for PAT. Why is the configuration incorrect?
+Image: https://itexamanswers.net/wp-content/uploads/2016/02/2017-06-04_082118.png
+Option: NAT-POOL2 is bound to the wrong ACL*
+Option: The ACL does not define the list of addresses to be translated.
+Option: The overload keyword should not have been applied.
+Option: The static NAT entry is missing
+Explanation: NAT-POOL2 is bound to ACL 100, but it should be bound to the configured ACL 1, so PAT will fail.
+
+Question: Match each component of a WAN connection to its description: devices that put data on the local loop.
+Option: data communications equipment*
+Option: customer premises equipment
+Option: demarcation point
+Option: data terminal equipment
+Explanation: Data communications equipment places data on the local loop.
+
+Question: Match each component of a WAN connection to its description: customer devices that pass the data from a customer network or host computer for transmission over the WAN.
+Option: data communications equipment
+Option: customer premises equipment*
+Option: demarcation point
+Option: data terminal equipment
+Explanation: Customer premises equipment is the customer-owned equipment located at the customer site.
+
+Question: Match each component of a WAN connection to its description: point that is established in a building or complex to separate customer equipment from service provider equipment.
+Option: data communications equipment
+Option: customer premises equipment
+Option: demarcation point*
+Option: data terminal equipment
+Explanation: The demarcation point separates customer equipment from service provider equipment.
+
+Question: Match each component of a WAN connection to its description: devices and inside wiring located on the enterprise edge and which connect to a carrier link.
+Option: data communications equipment
+Option: customer premises equipment
+Option: demarcation point
+Option: data terminal equipment*
+Explanation: Data terminal equipment includes customer devices and inside wiring that connect to a carrier link.
+
+Question: Which type of VPN allows multicast and broadcast traffic over a secure site-to-site VPN?
+Option: dynamic multipoint VPN
+Option: SSL VPN
+Option: IPsec virtual tunnel interface
+Option: GRE over IPsec*
+Explanation: GRE supports multicast and broadcast traffic, and GRE over IPsec securely encapsulates that traffic over a VPN.
+
+Question: When an internal host with IP address 192.168.10.10 attempts to send a packet to an external server at the IP address 209.165.200.254 across a router R1 that is running dynamic NAT, what is step 1?
+Option: The host sends packets that request a connection to the server at the address 209.165.200.254*
+Option: R1 checks the NAT configuration to determine if this packet should be translated.
+Option: If there is no translation entry for this IP address, R1 determines that the source address 192.168.10.10 must be translated.
+Option: R1 selects an available global address from the dynamic address pool.
+Option: R1 replaces the address 192.168.10.10 with a translated inside global address.
+Explanation: In dynamic NAT, the internal host first sends packets requesting a connection to the external server.
+
+Question: When an internal host with IP address 192.168.10.10 attempts to send a packet to an external server at the IP address 209.165.200.254 across a router R1 that is running dynamic NAT, what is step 2?
+Option: The host sends packets that request a connection to the server at the address 209.165.200.254
+Option: R1 checks the NAT configuration to determine if this packet should be translated.*
+Option: If there is no translation entry for this IP address, R1 determines that the source address 192.168.10.10 must be translated.
+Option: R1 selects an available global address from the dynamic address pool.
+Option: R1 replaces the address 192.168.10.10 with a translated inside global address.
+Explanation: After the packet is sent, R1 checks the NAT configuration to determine if the packet should be translated.

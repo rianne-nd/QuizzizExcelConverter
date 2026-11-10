@@ -1,0 +1,78 @@
+Question: When an internal host with IP address 192.168.10.10 attempts to send a packet to an external server at the IP address 209.165.200.254 across a router R1 that is running dynamic NAT, what is step 3?
+Option: The host sends packets that request a connection to the server at the address 209.165.200.254
+Option: R1 checks the NAT configuration to determine if this packet should be translated.
+Option: If there is no translation entry for this IP address, R1 determines that the source address 192.168.10.10 must be translated.*
+Option: R1 selects an available global address from the dynamic address pool.
+Option: R1 replaces the address 192.168.10.10 with a translated inside global address.
+Explanation: If no translation entry exists, R1 determines that the source address must be translated.
+
+Question: When an internal host with IP address 192.168.10.10 attempts to send a packet to an external server at the IP address 209.165.200.254 across a router R1 that is running dynamic NAT, what is step 4?
+Option: The host sends packets that request a connection to the server at the address 209.165.200.254
+Option: R1 checks the NAT configuration to determine if this packet should be translated.
+Option: If there is no translation entry for this IP address, R1 determines that the source address 192.168.10.10 must be translated.
+Option: R1 selects an available global address from the dynamic address pool.*
+Option: R1 replaces the address 192.168.10.10 with a translated inside global address.
+Explanation: R1 then selects an available global address from the dynamic address pool.
+
+Question: When an internal host with IP address 192.168.10.10 attempts to send a packet to an external server at the IP address 209.165.200.254 across a router R1 that is running dynamic NAT, what is step 5?
+Option: The host sends packets that request a connection to the server at the address 209.165.200.254
+Option: R1 checks the NAT configuration to determine if this packet should be translated.
+Option: If there is no translation entry for this IP address, R1 determines that the source address 192.168.10.10 must be translated.
+Option: R1 selects an available global address from the dynamic address pool.
+Option: R1 replaces the address 192.168.10.10 with a translated inside global address.*
+Explanation: Finally, R1 replaces the inside local address with the translated inside global address.
+
+Question: Which type of VPN involves passenger, carrier, and transport protocols?
+Option: GRE over IPsec*
+Option: dynamic multipoint VPN
+Option: MPLS VPN
+Option: IPsec virtual tunnel interface
+Explanation: In GRE over IPsec, the passenger protocol is the original packet, GRE is the carrier protocol, and IPsec or another protocol provides transport.
+
+Question: When an internal host with IP address 192.168.10.10 attempts to send a packet to an external server at the IP address 209.165.200.254 across a router R1 that is running dynamic NAT, what is step 1?
+Option: The host sends packets that request a connection to the server at the address 209.165.200.254.*
+Option: If there is no translation entry for this IP address, R1 determines that the source address 192.168.10.10 must be translated.
+Option: R1 selects an available global address from the dynamic address pool.
+Option: R1 checks the NAT configuration to determine if this packet should be translated.
+Option: R1 replaces the address 192.168.10.10 with a translated inside global address.
+Explanation: The internal host first sends packets requesting a connection to the external server.
+
+Question: When an internal host with IP address 192.168.10.10 attempts to send a packet to an external server at the IP address 209.165.200.254 across a router R1 that is running dynamic NAT, what is step 2?
+Option: The host sends packets that request a connection to the server at the address 209.165.200.254.
+Option: If there is no translation entry for this IP address, R1 determines that the source address 192.168.10.10 must be translated.*
+Option: R1 selects an available global address from the dynamic address pool.
+Option: R1 checks the NAT configuration to determine if this packet should be translated.
+Option: R1 replaces the address 192.168.10.10 with a translated inside global address.
+Explanation: If no translation entry exists, R1 determines that the source address must be translated.
+
+Question: When an internal host with IP address 192.168.10.10 attempts to send a packet to an external server at the IP address 209.165.200.254 across a router R1 that is running dynamic NAT, what is step 3?
+Option: The host sends packets that request a connection to the server at the address 209.165.200.254.
+Option: If there is no translation entry for this IP address, R1 determines that the source address 192.168.10.10 must be translated.
+Option: R1 selects an available global address from the dynamic address pool.*
+Option: R1 checks the NAT configuration to determine if this packet should be translated.
+Option: R1 replaces the address 192.168.10.10 with a translated inside global address.
+Explanation: R1 selects an available global address from the dynamic address pool.
+
+Question: When an internal host with IP address 192.168.10.10 attempts to send a packet to an external server at the IP address 209.165.200.254 across a router R1 that is running dynamic NAT, what is step 4?
+Option: The host sends packets that request a connection to the server at the address 209.165.200.254.
+Option: If there is no translation entry for this IP address, R1 determines that the source address 192.168.10.10 must be translated.
+Option: R1 selects an available global address from the dynamic address pool.
+Option: R1 checks the NAT configuration to determine if this packet should be translated.*
+Option: R1 replaces the address 192.168.10.10 with a translated inside global address.
+Explanation: R1 checks the NAT configuration to determine if the packet should be translated.
+
+Question: When an internal host with IP address 192.168.10.10 attempts to send a packet to an external server at the IP address 209.165.200.254 across a router R1 that is running dynamic NAT, what is step 5?
+Option: The host sends packets that request a connection to the server at the address 209.165.200.254.
+Option: If there is no translation entry for this IP address, R1 determines that the source address 192.168.10.10 must be translated.
+Option: R1 selects an available global address from the dynamic address pool.
+Option: R1 checks the NAT configuration to determine if this packet should be translated.
+Option: R1 replaces the address 192.168.10.10 with a translated inside global address.*
+Explanation: R1 replaces the inside local address with the translated inside global address.
+
+Question: Refer to the exhibit. A network administrator is viewing the output from the command show ip nat translations. Which statement correctly describes the NAT translation that is occurring on router RT2?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i215827v4n1_215827-2.png
+Option: The traffic from a source IPv4 public address that originates traffic on the internet would be able to reach private internal IPv4 addresses.
+Option: The traffic from a source IPv4 address of 192.168.2.20 is being translated by router RT2 to reach a destination IPv4 address of 192.0.2.254.
+Option: The traffic from a source IPv4 address of 192.168.254.253 is being translated to 192.0.2.88 by means of static NAT.*
+Option: The traffic from a source IPv4 address of 192.0.2.88 is being translated by router RT2 to reach a destination IPv4 address of 192.168.254.253.
+Explanation: Because no outside local or outside global address is referenced, the traffic from 192.168.254.253 is being translated to 192.0.2.88 by static NAT.

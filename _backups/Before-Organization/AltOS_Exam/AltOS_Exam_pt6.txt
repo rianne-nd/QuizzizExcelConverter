@@ -1,0 +1,64 @@
+Question: Are commands in Unix/Linux that is used to create a file.
+Option: pico*
+Option: edit
+Option: vi*
+Option: cat*
+Explanation: pico and vi create files during editing, and cat > filename creates new files using redirection.
+
+Question: “MS-DOS is a single-user, single tasking, single process operating system.”
+Option: True*
+Option: False
+Explanation: MS-DOS is a classic single-user, single-tasking operating system capable of executing only one process at a time.
+
+Question: Which of the following is an example of a relative pathname?
+Option: it2625/aos*
+Option: ~/aos/it2625
+Option: /home/erzhuo/aos
+Option: All of the above
+Explanation: it2625/aos is a relative pathname because it does not begin at root (/) or home (~).
+
+Question: Which of the following are file management operations?
+Option: Printing files*
+Option: Displaying of files*
+Option: Copying of files*
+Option: Listing of files*
+Explanation: Printing, displaying, copying, and listing are all core file management operations in UNIX/Linux.
+
+Question: "Assuming you just opened your terminal, create three directory namely g1, game2, gg3 (do it in order) in one line of code and display the current working directory.”
+Type: Fill-in-the-Blank
+Answer: mkdir g1 game2 gg3; pwd
+Answer: mkdir g1 game2 gg3 && pwd
+Explanation: mkdir g1 game2 gg3; pwd creates all three directories and displays the working directory path via pwd.
+
+Question: Which command adds execute permission for owner and read permission for group and others.
+Option: chmod u=x,go=r file.txt
+Option: chmod u+x,go+r file.txt*
+Option: chmod u-x,go-r file.txt
+Option: None of the above
+Explanation: u+x adds execute permission to user/owner, and go+r adds read permission to group and others.
+
+Question: Write the code that will get the number of lines of a file.txt.
+Type: Fill-in-the-Blank
+Answer: wc -l file.txt
+Explanation: wc -l file.txt counts and reports the total line count in file.txt.
+
+Question: It is a metacharacter that is equivalent to a single character.
+Option: *
+Option: ?*
+Option: \
+Option: ~
+Explanation: In shell wildcards, ? represents exactly one character.
+
+Question: The command use to go back to the home directory (in Ubuntu):
+Option: cd /
+Option: cd \
+Option: cd ~*
+Option: cd .
+Explanation: cd ~ changes directory to the logged-in user's home directory.
+
+Question: In 'ls -l' output, what does the 1st column represent?
+Option: Represents the file type and permission given on the file*
+Option: Represents the owner of the file
+Option: Represents the group owner of the file
+Option: Represents the file size or block count
+Explanation: The 1st column of ls -l output shows the file type and file permissions.

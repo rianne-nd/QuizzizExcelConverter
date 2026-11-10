@@ -1,0 +1,54 @@
+Question: Which type of Internet-Based Connectivity provides high-speed, asymmetrical access, often used for home and small office WAN access?
+Option: ISDN
+Option: T3/E3 Leased Line
+Option: Frame Relay
+Option: Digital Subscriber Line (DSL) or Cable Broadband*
+Explanation: DSL and Cable Broadband offer high-speed, asymmetrical throughput where download speeds are faster than upload speeds, making them ideal for home and small office WAN connections.
+
+Question: You are tasked with setting up NAT in a network where internal clients access the internet and receive responses that must be routed back to the original requester. Which NAT configuration should you use?
+Option: Dynamic NAT
+Option: Static NAT
+Option: PAT (Port Address Translation)*
+Option: NAT64
+Explanation: Port Address Translation (PAT) allows multiple internal clients to share a single public IP address by assigning unique source port numbers to track sessions and route returning traffic back to the original requester.
+
+Question: A remote employee sets up a home office DSL connection connected via existing copper telephone lines to a provider Central Office. The ISP requires a mechanism to authenticate the subscriber session and automatically assign a public IPv4 address. Which protocol is commonly implemented over Ethernet for this purpose?
+Option: Virtual Private LAN Service (VPLS)
+Option: Point-to-Point Protocol over Ethernet (PPPoE)*
+Option: High-Level Data Link Control (HDLC)
+Option: Synchronous Optical Networking (SONET)
+Explanation: PPPoE encapsulates Point-to-Point Protocol frames within Ethernet frames, allowing ISPs to authenticate subscribers and assign IP addresses over DSL networks.
+
+Question: An administrator configures a firewall rule to allow specific inbound traffic (e.g., SSH on port 22) to an internal host. This action is most often paired with which NAT feature to map the public IP:Port combination to the private IP:Port?
+Option: Disabling the NAT firewall.
+Option: Using NAT64 translation.
+Option: Port Forwarding (a use of Static NAT/PAT).*
+Option: Dynamic NAT pool exhaustion.
+Explanation: Port forwarding maps external public IP address and port combinations to internal private IP addresses and ports, enabling external users to access specific internal services.
+
+Question: A network engineer, Sarah, is designing an IPv4 network for a new branch office that will connect to the internet. She is considering implementing Network Address Translation (NAT) on the edge router primarily to conserve the limited number of public IP addresses assigned to the office. Considering the trade-offs of using NAT, which two of the following statements accurately describe a resulting benefit or drawback that Sarah must account for in her design? (Choose two.)
+Option: NAT will significantly improve the overall speed of packet forwarding and general network performance.
+Option: NAT provides a temporary but effective solution to slow down the depletion of the IPv4 address space by allowing private addressing internally.*
+Option: NAT ensures that routing tables on internal routers must include all public destination routes, increasing routing table size.
+Option: NAT introduces complexity for applications like certain video conferencing or gaming services that require true end-to-end connectivity without port modification.*
+Option: NAT offers a built-in cryptographic authentication mechanism for all outbound traffic.
+Explanation: NAT helps conserve public IPv4 addresses by permitting private IP addresses inside the network, but it disrupts end-to-end IP traceability and complicates applications like video conferencing that require unmanaged peer-to-peer connections.
+
+Question: A network security team is implementing a new firewall policy on an edge router. The policy requires blocking specific users from accessing certain web applications (like FTP on port 21) while allowing them to access the company's internal servers on other ports. Which type of Access Control List (ACL) offers the greatest flexibility and granular control necessary to implement this fine-grained, port-specific filtering requirement?
+Option: Flexible ACL
+Option: Numbered Standard ACL
+Option: Extended ACL*
+Option: Named Standard ACL
+Explanation: Extended ACLs provide granular filtering by examining source and destination IP addresses as well as specific IP protocols and port numbers (such as FTP port 21).
+
+Question: A network with 500 users needs to send an email to an external server. The router performs PAT. When the external email server receives the packet, what unique combination does it use to reply to the correct internal user?
+Option: The internal user's private IP address.
+Option: The external server's IP address.
+Option: Only the router's public IP address.
+Option: The router's Public IP address AND the translated Source Port number.*
+Explanation: PAT distinguishes between different internal hosts sharing a single public IP address by assigning unique source port numbers to each session.
+
+Question: A regional logistics enterprise interconnects 30 branch office routers to a single central headquarters router using virtual circuits. During a scheduled hardware upgrade at headquarters, the central router experiences a power failure, causing all inter-spoke branch communication across the organization to halt instantly. What problem does this scenario illustrate?
+Option: Full-mesh topology virtual circuit drop
+Option: A hub router representing a single point of failure in a Hub-and-Spoke topology*
+Option: Single

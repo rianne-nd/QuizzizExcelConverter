@@ -1,0 +1,142 @@
+Question: Which of the following are program loading and execution tools?
+Option: Text editors
+Option: Absolute loaders*
+Option: Relocatable loaders*
+Option: Linkage editors*
+Option: Overlay-loaders*
+Explanation: Page 20 lists absolute loaders, relocatable loaders, linkage editors, and overlay-loaders as program loading/execution tools.
+
+Question: Which of the following is a capability of communications system programs?
+Option: Compiling source files
+Option: Browsing web pages*
+Option: Allocating memory
+Option: Loading device drivers
+Explanation: Page 20 lists browsing web pages among communications capabilities, along with sending messages, email, remote login, and file transfer.
+
+Question: Background services are also known as which of the following?
+Option: Services*
+Option: Subsystems*
+Option: Daemons*
+Option: Shells
+Option: Compilers
+Explanation: Page 21 states background services are also known as services, subsystems, or daemons.
+
+Question: In what context do background services run?
+Option: Kernel context
+Option: Interrupt context
+Option: User context, not kernel context*
+Option: Bootloader context
+Explanation: Page 21 says background services run in user context, not kernel context.
+
+Question: Are application programs considered part of the operating system?
+Option: Yes, always
+Option: Only if launched at boot
+Option: Only if written in C
+Option: No, they are not typically considered part of the OS*
+Explanation: Page 21 states application programs do not pertain to the system and are not typically considered part of the OS.
+
+Question: What is a relocatable object file?
+Option: A file that cannot be moved
+Option: An object file designed to be loaded into any physical memory location*
+Option: A binary executable file
+Option: A configuration file
+Explanation: Page 22 says source code is compiled into object files designed to be loaded into any physical memory location — a relocatable object file.
+
+Question: What does the linker do?
+Option: Loads programs into memory
+Option: Combines object files into a single binary executable file (and brings in libraries)*
+Option: Compiles source code
+Option: Manages CPU scheduling
+Explanation: Page 22 states the linker combines object files into a single binary executable file and also brings in libraries.
+
+Question: What is the role of the loader?
+Option: To bring the program into memory so it can be executed*
+Option: To combine object files
+Option: To compile source code
+Option: To load device drivers only
+Explanation: Page 22 says the program must be brought into memory by the loader to be executed.
+
+Question: What does relocation do?
+Option: Moves programs to a new disk
+Option: Compiles source code
+Option: Links libraries
+Option: Assigns final addresses to program parts and adjusts code and data to match those addresses*
+Explanation: Page 22 states relocation assigns final addresses to program parts and adjusts code and data in the program to match those addresses.
+
+Question: How are dynamically linked libraries (DLLs in Windows) loaded?
+Option: At compile time, embedded in the executable
+Option: Loaded as needed, shared by all that use the same version, and loaded once*
+Option: Loaded once at boot, never shared
+Option: Loaded by the BIOS only
+Explanation: Page 22 says DLLs are loaded as needed, shared by all that use the same version of that library, and loaded once.
+
+Question: Why do object and executable files have standard formats?
+Option: To compress them
+Option: So the operating system knows how to load and start them*
+Option: To make them compatible with all OSes
+Option: To prevent copying
+Explanation: Page 22 states object and executable files have standard formats so the operating system knows how to load and start them.
+
+Question: Why are apps compiled on one system usually not executable on other operating systems?
+Option: Different CPU speeds
+Option: Different monitor sizes
+Option: Each operating system provides its own unique system calls and file formats*
+Option: Different network protocols
+Explanation: Page 23 states each operating system provides its own unique system calls and file formats.
+
+Question: Which of the following are ways an app can be multi-operating system?
+Option: Compiled once and run anywhere
+Option: Written in an interpreted language like Python or Ruby*
+Option: Written in a language that includes a VM, like Java*
+Option: Written in a standard language like C, compiled separately on each OS*
+Option: Stored in a cloud service
+Explanation: Page 23 lists three approaches: interpreted language, VM-based language, or standard language compiled separately for each OS.
+
+Question: What is an Application Binary Interface (ABI)?
+Option: The architecture equivalent of an API, defining how binary code components interface for a given OS on a given architecture*
+Option: A type of system call
+Option: A kind of GUI
+Option: A network protocol
+Explanation: Page 23 states ABI is the architecture equivalent of API, defining how different components of binary code can interface for a given OS on a given architecture.
+
+Question: Which of the following is a user goal for an operating system?
+Option: Convenient to use, easy to learn, reliable, safe, and fast*
+Option: Easy to design
+Option: Flexible and error-free
+Option: Easy to maintain
+Explanation: Page 24 lists convenient, easy to learn, reliable, safe, and fast as user goals.
+
+Question: Which of the following is a system goal for an operating system?
+Option: Convenient to use
+Option: Easy to design, implement, and maintain, as well as flexible, reliable, error-free, and efficient*
+Option: Safe and fast
+Option: Easy to learn
+Explanation: Page 24 lists easy to design, implement, and maintain, as well as flexible, reliable, error-free, and efficient as system goals.
+
+Question: What is the difference between policy and mechanism?
+Option: Policy is how; mechanism is what
+Option: Policy is what needs to be done; mechanism is how to do something*
+Option: Both are the same
+Option: Policy is hardware; mechanism is software
+Explanation: Page 25 defines policy as "what needs to be done?" and mechanism as "how to do something?"
+
+Question: Why is separating policy from mechanism important?
+Option: It improves performance
+Option: It reduces memory usage
+Option: It allows maximum flexibility if policy decisions are to be changed later*
+Option: It simplifies the kernel
+Explanation: Page 25 says the separation allows maximum flexibility if policy decisions are to be changed later.
+
+Question: How has the implementation language of operating systems progressed over time?
+Option: C, then assembly, then Python
+Option: Assembly, then Algol/PL/1, then C/C++*
+Option: Java, then C, then assembly
+Option: Python, then shell, then C
+Explanation: Page 26 states early OSes were in assembly, then system programming languages like Algol/PL/1, and now C/C++.
+
+Question: Modern operating systems are typically implemented using what mix of languages?
+Option: Pure C
+Option: Pure assembly
+Option: Lowest levels in assembly, main body in C, system programs in C/C++ and scripting languages*
+Option: Pure Python
+Explanation: Page 26 says OSes are usually a mix: lowest levels in assembly, main body in C, system programs in C/C++ and scripting (PERL, Python, shell).

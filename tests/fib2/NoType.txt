@@ -1,0 +1,4 @@
+﻿Question: What does ARP resolve?
+Answer: IP address to MAC address
+Answer: MAC address to IP address
+Explanation: ARP resolves an IP to a MAC.

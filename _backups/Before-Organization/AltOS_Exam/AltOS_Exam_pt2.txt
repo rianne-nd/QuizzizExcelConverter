@@ -1,0 +1,66 @@
+Question: A directory can be deleted or removed even if it is not empty.
+Option: True*
+Option: False
+Explanation: A non-empty directory can be deleted using the rm command with the recursive flag (rm -r or rm -rf).
+
+Question: Commands used to create a file in Linux?
+Option: pico*
+Option: edit
+Option: vi*
+Option: cat*
+Explanation: pico and vi are text editors used to create files, and cat can create files using redirection (cat > filename).
+
+Question: commands is used to create a hidden file?
+Option: pico hide
+Option: cat > hide.txt
+Option: cat >> hide.txt
+Option: cat > .hide.txt*
+Explanation: In Linux/Unix, files whose names begin with a period (.) are hidden files.
+
+Question: Which of the following commands lets you display the line numbers of a file.
+Option: cat > filename
+Option: cat -a filename
+Option: cat filename
+Option: cat -b filename*
+Explanation: The cat -b command displays line numbers for non-blank lines in a file.
+
+Question: Which commands can be used to search for all the files created by user leo?
+Option: find ~ - name “,” user-leo ls
+Option: find - name. “,” leo
+Option: search leo
+Option: find -uster leo -ls*
+Explanation: The find command with the -user parameter searches for files owned by a specific user.
+
+Question: The command used to go in any user’s directory.
+Option: cd ~username*
+Option: su username
+Option: cd ~
+Option: cd -
+Explanation: The command cd ~username changes the current directory to the home directory of the specified user.
+
+Question: Assuming you are in home/user directory, access g1 directory and create a file1.txt using touch command in the line of code.
+Type: Fill-in-the-Blank
+Answer: cd g1 && touch file1.txt
+Answer: cd g1; touch file1.txt
+Explanation: The command cd g1 && touch file1.txt enters the g1 directory and creates file1.txt using touch.
+
+Question: When invoking 'wc file5.txt', what does the 1st column represent?
+Option: Represents the total number of lines in the file.*
+Option: Represents the total number of words in the file.
+Option: Represents the total number of bytes in the file.
+Option: Represents the file name.
+Explanation: The first column of wc output displays the total number of lines in the file.
+
+Question: When invoking 'wc file5.txt', what does the 2nd column represent?
+Option: Represents the total number of lines in the file.
+Option: Represents the total number of words in the file.*
+Option: Represents the total number of bytes in the file.
+Option: Represents the file name.
+Explanation: The second column of wc output displays the total number of words in the file.
+
+Question: When invoking 'wc file5.txt', what does the 3rd column represent?
+Option: Represents the total number of lines in the file.
+Option: Represents the total number of words in the file.
+Option: Represents the total number of bytes in the file.*
+Option: Represents the file name.
+Explanation: The third column of wc output displays the total number of bytes/characters in the file.

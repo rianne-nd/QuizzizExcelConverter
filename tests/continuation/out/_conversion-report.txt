@@ -1,0 +1,14 @@
+=== Quizizz conversion report ===
+Input      : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\tests\continuation
+Output     : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\tests\continuation\out
+Files found: 1
+
+[WARN] ContinuationTest.txt  ->  Quizizz_ContinuationTest.xlsx   (6 questions, 4 line(s) joined)
+         - Q1: NO CORRECT ANSWER marked - ASTERISK SAFETY - a continuation ending in a star must not mark an option correct
+         - Q1: missing explanation - ASTERISK SAFETY - a continuation ending in a star must not mark an option correct
+         - Q2: says 'Choose two' but 1 answer(s) are starred - Which two protocols are link-state? (Choose two)
+         - Q3: repeated option text (10.0.0.0/8) - Which is a private IPv4 range?
+         - Q4: ALL 3 options are marked correct - Which of these are valid? (Choose three)
+
+Total: 1 file(s) -> 1 workbook(s), 6 question(s), 0 with an image link.
+1 file(s) have notes above - check them before importing to Quizizz.

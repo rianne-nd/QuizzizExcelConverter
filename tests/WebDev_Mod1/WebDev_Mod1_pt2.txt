@@ -1,0 +1,71 @@
+Question: In the module's November 2023 chart, which two apps tied for the highest combined total downloads?
+Option: TikTok*
+Option: Instagram*
+Option: Facebook
+Option: WhatsApp
+Option: Telegram
+Explanation: TikTok and Instagram each recorded 49 million combined downloads, the highest in the chart.
+
+Question: Which of the following are listed in the module as reasons to choose Android?
+Option: Open Source*
+Option: Reduced Cost of Development*
+Option: Rich Development Environment*
+Option: Guaranteed higher profit than other platforms
+Option: Mandatory pre-approval of every app by Google
+Explanation: The module lists Open Source, Larger Developer and Community Reach, Increased Marketing, Inter App Integration, Reduced Cost of Development, Higher Success Ratio, and Rich Development Environment.
+
+Question: Which reason for choosing Android refers to the operating system being freely available and modifiable?
+Option: Open Source*
+Option: Increased Marketing
+Option: Higher Success Ratio
+Option: Inter App Integration
+Explanation: Open Source is the listed reason that refers to Android's source code being openly available.
+
+Question: Which reason for choosing Android refers to reaching a larger pool of developers and users?
+Option: Reduced Cost of Development
+Option: Larger Developer and Community Reach*
+Option: Rich Development Environment
+Option: Increased Marketing
+Explanation: Larger Developer and Community Reach refers to the bigger developer community and audience that Android offers.
+
+Question: Which reason for choosing Android refers to spending less to build an application?
+Option: Higher Success Ratio
+Option: Inter App Integration
+Option: Reduced Cost of Development*
+Option: Open Source
+Explanation: Reduced Cost of Development refers to the lower expense of building Android applications.
+
+Question: Which reason for choosing Android refers to applications being able to work together?
+Option: Inter App Integration*
+Option: Rich Development Environment
+Option: Larger Developer and Community Reach
+Option: Higher Success Ratio
+Explanation: Inter App Integration refers to Android apps being able to integrate with one another.
+
+Question: Which reason for choosing Android refers to a greater likelihood that an app will succeed?
+Option: Higher Success Ratio*
+Option: Increased Marketing
+Option: Open Source
+Option: Inter App Integration
+Explanation: Higher Success Ratio is listed as one of the reasons to choose Android.
+
+Question: Which reason for choosing Android refers to the tools and resources available for building apps?
+Option: Rich Development Environment*
+Option: Reduced Cost of Development
+Option: Larger Developer and Community Reach
+Option: Higher Success Ratio
+Explanation: Rich Development Environment refers to the extensive set of tools and resources available for Android development.
+
+Question: Who founded Android Inc.?
+Option: Andy Rubin*
+Option: Rich Miner
+Option: Sundar Pichai
+Option: Steve Jobs
+Explanation: Andy Rubin founded Android Inc.
+
+Question: Where was Android Inc. founded?
+Option: Palo Alto, California*
+Option: Mountain View, California
+Option: Seattle, Washington
+Option: Cupertino, California
+Explanation: Android Inc. was founded in Palo Alto, California.

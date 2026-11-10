@@ -1,0 +1,70 @@
+Question: An administrator is configuring single-area OSPF on a router. One of the networks that must be advertised is 192.168.223.0 255.255.254.0. What wildcard mask would the administrator use in the OSPF network statement?
+Option: 0.0.1.255*
+Option: 0.0.7.255
+Option: 0.0.15.255
+Option: 0.0.31.255
+Explanation: The wildcard mask is calculated by subtracting the subnet mask 255.255.254.0 from 255.255.255.255, resulting in 0.0.1.255.
+
+Question: What is the format of the router ID on an OSPF-enabled router?
+Option: a unique router host name that is configured on the router
+Option: a unique phrase with no more than 16 characters
+Option: a 32-bit number formatted like an IPv4 address*
+Option: an 8-bit number with a decimal value between 0 and 255
+Option: a character string with no space
+Explanation: A router ID is a 32-bit number formatted like an IPv4 address and assigned in order to uniquely identify a router among OSPF peers.
+
+Question: Which statement regarding routing protocol algorithms and multiarea OSPF is true?
+Option: DUAL is used by OSPF and SPF is used by EIGRP.
+Option: In multiarea OSPF, all areas must be connected to the backbone area.*
+Option: Multiarea OSPF eliminates the need for area 0.
+Option: EIGRP routers use the SPF algorithm to determine the best path.
+Explanation: DUAL is the algorithm used by EIGRP. In multiarea OSPF, OSPF is implemented using multiple areas, and all of them must be connected to the backbone area.
+
+Question: After modifying the router ID on an OSPF router, what is the preferred method to make the new router ID effective?
+Option: HQ# copy running-config startup-config
+Option: HQ# resume
+Option: HQ# clear ip route *
+Option: HQ# clear ip ospf process*
+Explanation: To modify a router-id on an OSPF-enabled router, it is necessary to reset the OSPF routing process by entering either the clear ip ospf process command or the reload command.
+
+Question: In an OSPFv2 configuration, what is the effect of entering the command network 192.168.1.1 0.0.0.0 area 0 ?
+Option: It allows all 192.168.1.0 networks to be advertised.
+Option: It tells the router which interface to turn on for the OSPF routing process.*
+Option: It changes the router ID of the router to 192.168.1.1.
+Option: It enables OSPF on all interfaces on the router.
+Explanation: Entering the command network 192.168.1.1 0.0.0.0 area 0 will turn on only the interface with that IP address for OSPF routing. It does not change the router ID. Instead, OSPF will use the network that is configured on that interface.
+
+Question: What is the reason for a network engineer to alter the default reference bandwidth parameter when configuring OSPF?
+Option: to force that specific link to be used in the destination route
+Option: to more accurately reflect the cost of links greater than 100 Mb/s*
+Option: to enable the link for OSPF routing
+Option: to increase the speed of the link
+Explanation: By default, Fast Ethernet, Gigabit, and 10 Gigabit Ethernet interfaces all have a cost of 1. Altering the default reference bandwidth alters the cost calculation, allowing each speed to be more accurately reflected in the cost.
+
+Question: Which task has to be performed on Router 1 for it to establish an OSPF adjacency with Router 2?
+Option: Issue the clear ip ospf process command.
+Option: Change the subnet mask of interface FastEthernet 0/0 to 255.255.255.0.*
+Option: Remove the passive interface command from interface FastEthernet 0/0.
+Option: Add the network 10.0.1.0 0.0.0.255 area 0 command to the OSPF process.
+Explanation: Each interface on the link connecting the OSPF routers must be in the same subnet for an adjacency to be established. The IP address subnet mask on FastEthernet interface 0/0 must be changed to 255.255.255.0.
+
+Question: Match the OSPF description to its correct term. Which pair is correctly matched?
+Option: Algorithm used by OSPF - Shortest Path First*
+Option: Where details of neighboring routers can be found - Link-state database
+Option: All routers in backbone area - Multiarea OSPF
+Option: Where topology table is found - Adjacency database
+Explanation: DUAL is the algorithm used by EIGRP, while OSPF uses Shortest Path First (SPF). Details of neighboring routers are stored in the adjacency database. Single-area OSPF has all routers in the backbone area. The topology table is stored in the link-state database (LSDB).
+
+Question: What is a benefit of multiarea OSPF routing?
+Option: Topology changes in one area do not cause SPF recalculations in other areas.*
+Option: Routers in all areas share the same link-state database and have a complete picture of the entire network.
+Option: A backbone area is not required.
+Option: Automatic route summarization occurs by default between areas.
+Explanation: With multiarea OSPF, only routers within an area share the same link-state database. Changes to the network topology in one area do not impact other areas, which reduces the number of SPF algorithm calculations and the size of link-state databases.
+
+Question: What is the correct sequence of OSPF states when forming an adjacency?
+Option: Down, Init, Two-way, Exstart, Exchange, Loading, Full*
+Option: Down, Two-way, Init, Exchange, Exstart, Loading, Full
+Option: Init, Down, Two-way, Exstart, Loading, Exchange, Full
+Option: Down, Init, Two-way, Exchange, Exstart, Full, Loading
+Explanation: The seven OSPF states in order of occurrence are: Down state, Init state, Two-way state, Exstart state, Exchange state, Loading state, and Full state. The active and passive states are used by EIGRP.

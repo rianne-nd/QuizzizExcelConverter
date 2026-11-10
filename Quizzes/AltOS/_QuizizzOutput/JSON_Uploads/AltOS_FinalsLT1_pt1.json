@@ -1,0 +1,76 @@
+{
+  "title": "AltOS_FinalsLT1_pt1",
+  "description": "AltOS Finals LT1 Part 1",
+  "questions": [
+    {
+      "question": "A file permission that can be displayed or copied.",
+      "type": "quiz",
+      "answers": ["Write", "Read", "No Permission", "Execute"],
+      "correct": 1,
+      "time_limit": 60
+    },
+    {
+      "question": "What will be the effect of chmod 701 when applied to file PASS.txt?",
+      "type": "quiz",
+      "answers": ["r---w-r-x", "rw--wxr-x", "rwx-w-r-x", "rwx---x"],
+      "correct": 3,
+      "time_limit": 60
+    },
+    {
+      "question": "How do you get all files with on the 3rd place an r, g or i?",
+      "type": "quiz",
+      "answers": ["ls '[rgi]*'", "ls '?3[rgi]*'", "ls ??[rgi]*", "ls [..i\\*]"],
+      "correct": 2,
+      "time_limit": 60
+    },
+    {
+      "question": "Which of the following file contains the encrypted password of the users?",
+      "type": "quiz",
+      "answers": ["/etc/ghshadow", "/etc/passwd", "/etc/user.conf", "/etc/shadow"],
+      "correct": 3,
+      "time_limit": 60
+    },
+    {
+      "question": "How can we find the process name from its process id?",
+      "type": "quiz",
+      "answers": ["ps -p ProcessId", "ps p- ProcessId", "pidof ProcessId", "ps p ProcessId"],
+      "correct": 0,
+      "time_limit": 60
+    },
+    {
+      "question": "What will be displayed after executing ls ??c? Given the following list of files: ... .zz abc abcd abcdef abcz bbabby zzayy",
+      "type": "quiz",
+      "answers": ["abcz", "abcd abcz", "abc", "abcd"],
+      "correct": 1,
+      "time_limit": 60
+    },
+    {
+      "question": "What will be displayed after executing ls abc? (the ? is part of the command) Given the following list of files: ...zz abc abcd abcdef abcz bbabby zzayy",
+      "type": "quiz",
+      "answers": ["abcz", "abcd", "abcd abcz", "abc"],
+      "correct": 2,
+      "time_limit": 60
+    },
+    {
+      "question": "What will be the effect of chmod 261 when applied to file FAILED.txt?",
+      "type": "quiz",
+      "answers": ["-w-r---x", "r---wxr-x", "-w-rw---x", "r---rwx---x"],
+      "correct": 2,
+      "time_limit": 60
+    },
+    {
+      "question": "What will be displayed after executing ls ??? Given the following list of files: ... .zz abc abcd abcdef abcz bbabby cyz zzayy",
+      "type": "quiz",
+      "answers": ["abc cyz", "cyz", "abcd abcz", "abc"],
+      "correct": 0,
+      "time_limit": 60
+    },
+    {
+      "question": "Which of the following octal mode permission will satisfy the given permission r--rwx--x?",
+      "type": "quiz",
+      "answers": ["274", "174", "471", "472"],
+      "correct": 2,
+      "time_limit": 60
+    }
+  ]
+}

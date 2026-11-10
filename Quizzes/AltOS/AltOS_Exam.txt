@@ -1,0 +1,506 @@
+Question: The three basic types of files:
+Option: Directories*
+Option: Special files*
+Option: Ordinary files*
+Option: Confidential files
+Explanation: Unix/Linux classifies files into three basic types: Ordinary (or regular) files, Directories, and Special files.
+
+Question: Write the command that will retrieve the system date and time in Ubuntu.
+Type: Fill-in-the-Blank
+Answer: date
+Explanation: The date command in Ubuntu displays or sets the system date and time.
+
+Question: Cat command is used to:
+Option: View file content*
+Option: Append the content of the file*
+Option: Overwrite file content*
+Option: Create a file*
+Explanation: The cat (concatenate) command can view file contents, create files, overwrite files, and append content using redirection operators.
+
+Question: The filename . (dot) represents the current working directory, and the filename .. (dot dot) represents the directory one level above the current directory, often referred to as the parent directory.
+Option: True*
+Option: False
+Explanation: In Unix/Linux file systems, . represents the current working directory and .. represents the parent directory.
+
+Question: What is the command to create the following directories: LQ2, AOS, and IT2625 respectively.
+Option: mkdir LQ2/AOS/IT2625
+Option: cp LQ2/AOS/IT2625
+Option: md LQ2, AOS, IT2625
+Option: mkdir LO2 AOS IT2625*
+Explanation: In Linux, the mkdir command creates multiple directories at once when supplied with space-separated directory names.
+
+Question: A directory is a special kind of file that can contain other files and directories.
+Option: True*
+Option: False
+Explanation: In Unix/Linux, a directory is a special file that contains a list of filenames and their associated inode pointers to other files and directories.
+
+Question: It is a shell type that supports command history, line editing, file name completion, aliasing, and job control.
+Option: POSIX shell
+Option: C shell
+Option: Korn shell*
+Option: Bourne shell
+Explanation: The Korn shell (ksh) introduced integrated line editing, command history, aliasing, and job control while maintaining compatibility with the Bourne shell.
+
+Question: Command used to concatenate a file (source files: file1.txt and file2.txt; target filename: file3.txt).
+Type: Fill-in-the-Blank
+Answer: cat file1.txt file2.txt > file3.txt
+Explanation: The cat command concatenates file1.txt and file2.txt and redirects output to file3.txt using the > operator.
+
+Question: “Feodora, Red Hat Enterprise Linux, SUSE, and Knoppix, recognize up to 64 characters in your user name.”
+Option: True
+Option: False*
+Explanation: Linux distributions typically limit user names to 32 characters, not 64 characters.
+
+Question: It is a command used to add text to an existing file.
+Option: rm filename
+Option: cat > filename
+Option: echo “this message” > filename
+Option: cat >> filename*
+Explanation: The >> redirection operator appends output to the end of an existing file without overwriting its contents.
+
+Question: A directory can be deleted or removed even if it is not empty.
+Option: True*
+Option: False
+Explanation: A non-empty directory can be deleted using the rm command with the recursive flag (rm -r or rm -rf).
+
+Question: Commands used to create a file in Linux?
+Option: pico*
+Option: edit
+Option: vi*
+Option: cat*
+Explanation: pico and vi are text editors used to create files, and cat can create files using redirection (cat > filename).
+
+Question: commands is used to create a hidden file?
+Option: pico hide
+Option: cat > hide.txt
+Option: cat >> hide.txt
+Option: cat > .hide.txt*
+Explanation: In Linux/Unix, files whose names begin with a period (.) are hidden files.
+
+Question: Which of the following commands lets you display the line numbers of a file.
+Option: cat > filename
+Option: cat -a filename
+Option: cat filename
+Option: cat -b filename*
+Explanation: The cat -b command displays line numbers for non-blank lines in a file.
+
+Question: Which commands can be used to search for all the files created by user leo?
+Option: find ~ - name “,” user-leo ls
+Option: find - name. “,” leo
+Option: search leo
+Option: find -uster leo -ls*
+Explanation: The find command with the -user parameter searches for files owned by a specific user.
+
+Question: The command used to go in any user’s directory.
+Option: cd ~username*
+Option: su username
+Option: cd ~
+Option: cd -
+Explanation: The command cd ~username changes the current directory to the home directory of the specified user.
+
+Question: Assuming you are in home/user directory, access g1 directory and create a file1.txt using touch command in the line of code.
+Type: Fill-in-the-Blank
+Answer: cd g1 && touch file1.txt
+Answer: cd g1; touch file1.txt
+Explanation: The command cd g1 && touch file1.txt enters the g1 directory and creates file1.txt using touch.
+
+Question: When invoking 'wc file5.txt', what does the 1st column represent?
+Option: Represents the total number of lines in the file.*
+Option: Represents the total number of words in the file.
+Option: Represents the total number of bytes in the file.
+Option: Represents the file name.
+Explanation: The first column of wc output displays the total number of lines in the file.
+
+Question: When invoking 'wc file5.txt', what does the 2nd column represent?
+Option: Represents the total number of lines in the file.
+Option: Represents the total number of words in the file.*
+Option: Represents the total number of bytes in the file.
+Option: Represents the file name.
+Explanation: The second column of wc output displays the total number of words in the file.
+
+Question: When invoking 'wc file5.txt', what does the 3rd column represent?
+Option: Represents the total number of lines in the file.
+Option: Represents the total number of words in the file.
+Option: Represents the total number of bytes in the file.*
+Option: Represents the file name.
+Explanation: The third column of wc output displays the total number of bytes/characters in the file.
+
+Question: When invoking 'wc file5.txt', what does the 4th column represent?
+Option: Represents the total number of lines in the file.
+Option: Represents the total number of words in the file.
+Option: Represents the total number of bytes in the file.
+Option: Represents the file name.*
+Explanation: The fourth column of wc output displays the file name.
+
+Question: Assuming you are in g1 directory, delete game2 and gg3 in the upper directory using one line of code
+Type: Fill-in-the-Blank
+Answer: rm ../game2 ../gg3
+Explanation: The ../ prefix references the parent directory, allowing you to delete game2 and gg3 from within g1.
+
+Question: Most shells keep a list of your recently used commands and allow you to recall a command without retyping it.
+Option: True*
+Option: False
+Explanation: Most Unix/Linux shells maintain a command history file that enables users to recall and re-execute previous commands.
+
+Question: What is the command in MS DOS to change the file attribute (attribute: read only and hidden; filename: file.txt)
+Type: Fill-in-the-Blank
+Answer: attrib +r +h file.txt
+Explanation: In MS-DOS, attrib +r +h file.txt sets both Read-Only (+r) and Hidden (+h) attributes on file.txt.
+
+Question: It is used to display all the groups you are a member of.
+Option: groups*
+Option: chrgp
+Option: chown
+Option: users
+Explanation: The groups command displays the names of all groups the current user belongs to.
+
+Question: Directories can be deleted using:
+Option: mv
+Option: rmdir*
+Option: rm
+Option: mkdir
+Explanation: rmdir is the standard command used to delete empty directories.
+
+Question: What command is used to rename a directory?
+Option: mkdir
+Option: rmdir
+Option: ren
+Option: mv*
+Explanation: In Unix/Linux, the mv command is used to move or rename directories and files.
+
+Question: “UNIX and Linux are multitasking systems, which allow one user to execute more than one at a time.”
+Option: True*
+Option: False
+Explanation: UNIX and Linux are multitasking operating systems, allowing users to run multiple processes concurrently.
+
+Question: It refers to the file on the system that contains data, text, or program instructions.
+Option: special files
+Option: ordinary*
+Option: directories
+Option: none of the above
+Explanation: Ordinary (or regular) files contain data, plain text, image data, or executable program instructions.
+
+Question: If my present working directory is /home/erzhuo/aos/3itd (erzhuo@eugenezhuo:-/aos/BSIT$). What are the commands to return to /home/erzhuo (erzhuo@eugenezhuo)?
+Option: cd.
+Option: none of the above
+Option: cd /home/erzhuo*
+Option: cd ~*
+Explanation: Both cd /home/erzhuo and cd ~ navigate back to the /home/erzhuo directory.
+
+Question: Write the command that will rename a file “oldfile” to “newfile”
+Type: Fill-in-the-Blank
+Answer: mv oldfile newfile
+Explanation: The mv command renames oldfile to newfile using the syntax: mv oldfile newfile.
+
+Question: It is a multi-user operating system.
+Option: Unix*
+Option: MAC OS-Big Sur
+Option: Android
+Option: Windows
+Explanation: Unix was designed as a multi-user and multitasking operating system.
+
+Question: Write the code that will show all details of files in UNIX
+Type: Fill-in-the-Blank
+Answer: ls -l
+Explanation: The ls -l command lists files in long format, showing detailed information such as permissions, owner, size, and date.
+
+Question: The command used to display all information of all the files and directories including the hidden files.
+Option: ls -al*
+Option: dir
+Option: ls -l
+Option: ls
+Explanation: The ls -al command displays detailed file information including hidden files starting with a dot.
+
+Question: The root directory also contains a directory called /home that contains the home directories of all the users in the system.
+Option: True*
+Option: False
+Explanation: In standard Unix/Linux directory structures, /home contains individual home directories for user accounts.
+
+Question: What is the command used to determine where you are within the file system hierarchy at any time?
+Option: whoami
+Option: mkdir
+Option: pwd*
+Option: cd
+Explanation: pwd stands for print working directory and displays your current directory path.
+
+Question: It enables you to perform a search from the command line.
+Option: diff
+Option: mc
+Option: cp
+Option: find*
+Explanation: The find command searches for files and directories within a directory hierarchy.
+
+Question: The syntax for file creation using the cat command.
+Option: cat >> filename
+Option: cat << filename
+Option: cat filename
+Option: cat > filename*
+Explanation: The cat > filename command creates a new file or overwrites an existing file with input from the console.
+
+Question: Command used to edit files:
+Option: pico*
+Option: Cat
+Option: All of the above
+Option: vi*
+Explanation: pico and vi are interactive terminal-based text editors.
+
+Question: A pathname is absolute, if it is described in relation to root, thus pathnames always begin with a /.
+Option: True*
+Option: False
+Explanation: Absolute pathnames start at the root directory (/) and provide the complete file path.
+
+Question: You cannot remove multiple directories at a time.
+Option: True
+Option: False*
+Explanation: You can delete multiple directories at once by passing their names as space-separated arguments to rmdir or rm -r.
+
+Question: You can use the date command to show the system calendar.
+Option: True
+Option: False*
+Explanation: The cal command displays the system calendar, whereas the date command displays the current time and date.
+
+Question: Which of the following statements are true?
+Option: Other characters, such as slashes, question marks, or asterisks can be part of a filename.
+Option: Filenames can be as long as 256 characters is allowed by the system.*
+Option: Filenames can also include spaces, though to reference such filenames from the command line, be sure to encase them in quotes.*
+Option: You can name a file using any letters, underscores, and numbers.*
+Explanation: Slashes cannot be part of a Linux filename because they act as directory separators. The other three statements are accurate features of Linux file naming.
+
+Question: It is also known as folders in Windows, are used to group files together in a hierarchical structure.
+Option: File
+Option: Data
+Option: Directories*
+Option: None of the above
+Explanation: Directories (called folders in Windows) group files and subdirectories into a hierarchical directory tree.
+
+Question: It is the command used to display the UID and GID.
+Option: ls
+Option: ls -n*
+Option: ls -al
+Option: ls -l
+Explanation: The ls -n command lists file details using numerical user IDs (UID) and group IDs (GID).
+
+Question: It accepts commands from the user and analyses and interprets them.
+Option: system call
+Option: trap
+Option: kernel
+Option: shell*
+Explanation: The shell acts as the command interpreter between the user and the operating system kernel.
+
+Question: Command used to set permissions to read and write for everyone.
+Option: chmod a+rw file*
+Option: chmod u+rw file
+Option: chmod a=rw file
+Option: none of the above
+Explanation: chmod a+rw file adds read and write permissions for all user classes (owner, group, others).
+
+Question: The command used to get a count of the total number of lines, words, and characters contained in a file.
+Option: wc*
+Option: cat
+Option: diff
+Option: count
+Explanation: The wc command counts lines, words, and bytes/characters in a file.
+
+Question: Which is NOT a Unix service?
+Option: I/O operation
+Option: Error detection
+Option: Program execution
+Option: User program*
+Explanation: User programs are applications that run on UNIX, not services supplied by the UNIX operating system kernel.
+
+Question: The find command can search for a file by:
+Option: Time of the last update*
+Option: Owner*
+Option: Type*
+Option: Name*
+Explanation: The find command supports criteria such as modification time (-mtime), owner (-user), type (-type), and name (-name).
+
+Question: Are commands in Unix/Linux that is used to create a file.
+Option: pico*
+Option: edit
+Option: vi*
+Option: cat*
+Explanation: pico and vi create files during editing, and cat > filename creates new files using redirection.
+
+Question: “MS-DOS is a single-user, single tasking, single process operating system.”
+Option: True*
+Option: False
+Explanation: MS-DOS is a classic single-user, single-tasking operating system capable of executing only one process at a time.
+
+Question: Which of the following is an example of a relative pathname?
+Option: it2625/aos*
+Option: ~/aos/it2625
+Option: /home/erzhuo/aos
+Option: All of the above
+Explanation: it2625/aos is a relative pathname because it does not begin at root (/) or home (~).
+
+Question: Which of the following are file management operations?
+Option: Printing files*
+Option: Displaying of files*
+Option: Copying of files*
+Option: Listing of files*
+Explanation: Printing, displaying, copying, and listing are all core file management operations in UNIX/Linux.
+
+Question: "Assuming you just opened your terminal, create three directory namely g1, game2, gg3 (do it in order) in one line of code and display the current working directory.”
+Type: Fill-in-the-Blank
+Answer: mkdir g1 game2 gg3; pwd
+Answer: mkdir g1 game2 gg3 && pwd
+Explanation: mkdir g1 game2 gg3; pwd creates all three directories and displays the working directory path via pwd.
+
+Question: Which command adds execute permission for owner and read permission for group and others.
+Option: chmod u=x,go=r file.txt
+Option: chmod u+x,go+r file.txt*
+Option: chmod u-x,go-r file.txt
+Option: None of the above
+Explanation: u+x adds execute permission to user/owner, and go+r adds read permission to group and others.
+
+Question: Write the code that will get the number of lines of a file.txt.
+Type: Fill-in-the-Blank
+Answer: wc -l file.txt
+Explanation: wc -l file.txt counts and reports the total line count in file.txt.
+
+Question: It is a metacharacter that is equivalent to a single character.
+Option: *
+Option: ?*
+Option: \
+Option: ~
+Explanation: In shell wildcards, ? represents exactly one character.
+
+Question: The command use to go back to the home directory (in Ubuntu):
+Option: cd /
+Option: cd \
+Option: cd ~*
+Option: cd .
+Explanation: cd ~ changes directory to the logged-in user's home directory.
+
+Question: In 'ls -l' output, what does the 1st column represent?
+Option: Represents the file type and permission given on the file*
+Option: Represents the owner of the file
+Option: Represents the group owner of the file
+Option: Represents the file size or block count
+Explanation: The 1st column of ls -l output shows the file type and file permissions.
+
+Question: In 'ls -l' output, what does the 3rd column represent?
+Option: Represents the owner of the file*
+Option: Represents the file type and permissions
+Option: Represents the group owner of the file
+Option: Represents the file size
+Explanation: The 3rd column of ls -l displays the username of the file owner.
+
+Question: In 'ls -l' output, which prefix character indicates a block special file?
+Option: b*
+Option: c
+Option: d
+Option: l
+Explanation: The prefix b in ls -l represents a block special device file.
+
+Question: In 'ls -l' output, which prefix character indicates a regular file?
+Option: -*
+Option: d
+Option: l
+Option: p
+Explanation: A hyphen prefix (-) in ls -l denotes a regular file.
+
+Question: In 'ls -l' output, which prefix character indicates a named pipe?
+Option: p*
+Option: s
+Option: b
+Option: c
+Explanation: The prefix p in ls -l denotes a named pipe (FIFO).
+
+Question: In 'ls -l' output, which prefix character indicates a directory?
+Option: d*
+Option: -
+Option: l
+Option: b
+Explanation: The prefix d in ls -l indicates a directory.
+
+Question: In 'ls -l' output, which prefix character indicates a socket used for interprocess communication?
+Option: s*
+Option: p
+Option: c
+Option: b
+Explanation: The prefix s in ls -l represents a socket file.
+
+Question: In 'ls -l' output, which prefix character indicates a character special file?
+Option: c*
+Option: b
+Option: p
+Option: s
+Explanation: The prefix c in ls -l represents a character special device file.
+
+Question: In 'ls -l' output, which prefix character indicates a symbolic link file?
+Option: l*
+Option: d
+Option: s
+Option: -
+Explanation: The prefix l in ls -l indicates a symbolic link file.
+
+Question: Write the code that will show who is logged on with the current date and time in Ubuntu.
+Type: Fill-in-the-Blank
+Answer: who -u
+Answer: who
+Explanation: The who command displays logged-in user sessions along with date and time information.
+
+Question: Write the code that will show the user currently logged on the session in Ubuntu
+Type: Fill-in-the-Blank
+Answer: whoami
+Explanation: whoami outputs the effective user name of the current session.
+
+Question: Which option should be used with the mkdir command if you want to create all the necessary directories for you.
+Option: -l
+Option: -al
+Option: -s
+Option: -p*
+Explanation: mkdir -p creates parent directories as needed along the path.
+
+Question: The command cd source uses relative path addressing.
+Option: True*
+Option: False
+Explanation: cd source uses a relative path because it specifies a path relative to the current directory.
+
+Question: What is the output of the command? $cp *.* ust/aos
+Option: Moves all files from the current working directory to ust/aos
+Option: Copies all files from the current working directory to ust/aos*
+Option: Copies all text files to ust/aos
+Option: Not permitted
+Explanation: The cp command copies files matching *.* to the ust/aos target directory.
+
+Question: “The less command scrolls only down, whereas more enables you to scroll down and up.”
+Option: True
+Option: False*
+Explanation: The statement is false because less allows scrolling both backward and forward, while more primarily scrolls downward.
+
+Question: “The head and tail commands allow you to view the first few or last lines of a file (15 lines by default).”
+Option: True
+Option: False*
+Explanation: Both head and tail display 10 lines by default, not 15.
+
+Question: Write the code that will get the number of characters of a file.
+Type: Fill-in-the-Blank
+Answer: wc -m filename
+Answer: wc -c filename
+Explanation: wc -m counts characters in a file (or wc -c for byte/character count).
+
+Question: A file can be reference according to:
+Option: location*
+Option: name*
+Option: permission
+Option: attributes
+Explanation: Files are referenced by their name and location (pathname) within the directory structure.
+
+Question: A tilde (~) is used to refer to the user’s home directory.
+Option: True*
+Option: False
+Explanation: In Unix/Linux, ~ represents the home directory of the current user.
+
+Question: Write the command that will retrieve the last 10 lines of a file.
+Type: Fill-in-the-Blank
+Answer: tail filename
+Explanation: The tail filename command displays the last 10 lines of a specified file by default.
+
+Question: “Assuming you are in g1 directory, copy file1.txt to upper directory and list the content of the upper directory using one line of code.”
+Type: Fill-in-the-Blank
+Answer: cp file1.txt ../; ls ..
+Answer: cp file1.txt ../ && ls ..
+Explanation: cp file1.txt ../ copies file1.txt to the parent directory, and ls .. lists the parent directory contents.

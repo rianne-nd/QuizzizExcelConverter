@@ -1,0 +1,74 @@
+Question: What is the default router priority value for all Cisco OSPF routers?
+Option: 0
+Option: 1*
+Option: 10
+Option: 255
+Explanation: The router priority value is used in a DR/BDR election. The default priority for all OSPF routers is 1 but it can be manually altered to any value 0 to 255.
+
+Question: Which type of OSPFv2 packet contains an abbreviated list of the LSDB of a sending router and is used by receiving routers to check against the local LSDB?
+Option: database description*
+Option: link-state update
+Option: link-state request
+Option: link-state acknowledgment
+Explanation: The database description (DBD) packet contains an abbreviated list of the LSDB sent by a neighboring router and is used by receiving routers to check against the local LSDB.
+
+Question: In an OSPF network when are DR and BDR elections required?
+Option: when the two adjacent neighbors are interconnected over a point-to-point link
+Option: when all the routers in an OSPF area cannot form adjacencies
+Option: when the routers are interconnected over a common Ethernet network*
+Option: when the two adjacent neighbors are in two different networks
+Explanation: When the routers are interconnected over a common Ethernet network, then a designated router (DR) and a backup DR (BDR) must be elected.
+
+Question: When an OSPF network is converged and no network topology change has been detected by a router, how often will LSU packets be sent to neighboring routers?
+Option: every 5 minutes
+Option: every 10 minutes
+Option: every 30 minutes*
+Option: every 60 minutes
+Explanation: After all LSRs have been satisfied for a given router, the adjacent routers are considered synchronized and in a full state. Updates (LSUs) are sent to neighbors only under the following conditions: when a network topology change is detected (incremental updates) or every 30 minutes.
+
+Question: What will an OSPF router prefer to use first as a router ID?
+Option: a loopback interface that is configured with the highest IP address on the router
+Option: any IP address that is configured using the router-id command*
+Option: the highest active interface IP that is configured on the router
+Option: the highest active interface that participates in the routing process because of a specifically configured network statement
+Explanation: The first preference for an OSPF router ID is an explicitly configured 32-bit address. This address is not included in the routing table and is not defined by the network command. If a router ID that is configured through the router-id command is not available, OSPF routers next use the highest IP address available on a loopback interface, as loopbacks used as router IDs are also not routable addresses. Lacking either of these alternatives, an OSPF router will use the highest IP address from its active physical interfaces.
+
+Question: What are the two purposes of an OSPF router ID? (Choose two.)
+Option: to uniquely identify the router within the OSPF domain*
+Option: to facilitate router participation in the election of the designated router*
+Option: to enable the SPF algorithm to determine the lowest cost path to remote networks
+Option: to facilitate the establishment of network convergence
+Option: to facilitate the transition of the OSPF neighbor state to Full
+Explanation: OSPF router ID does not contribute to SPF algorithm calculations, nor does it facilitate the transition of the OSPF neighbor state to Full. Although the router ID is contained within OSPF messages when router adjacencies are being established, it has no bearing on the actual convergence process.
+
+Question: Refer to the exhibit. If no router ID was manually configured, what would router Branch1 use as its OSPF router ID?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i254793v1n2_254793.gif
+Option: 10.0.0.1
+Option: 10.1.0.1
+Option: 192.168.1.100
+Option: 209.165.201.1*
+Explanation: In OSPFv2, a Cisco router uses a three-tier method to derive its router ID. The first choice is the manually configured router ID with the router-id command. If the router ID is not manually configured, the router will choose the highest IPv4 address of the configured loopback interfaces. Finally if no loopback interfaces are configured, the router chooses the highest active IPv4 address of its physical interfaces.
+
+Question: A network technician issues the following commands when configuring a router: R1(config)# router ospf 11 R1(config-router)# network 10.10.10.0 0.0.0.255 area 0 What does the number 11 represent?
+Option: the OSPF process ID on R1*
+Option: the cost of the link to R1
+Option: the autonomous system number to which R1 belongs
+Option: the administrative distance that is manually assigned to R1
+Option: the area number where R1 is located
+Explanation: There is no autonomous system number to configure on OSPF. The area number is located at the end of the network statement. The cost of a link can be modified in the interface configuration mode. The process ID is local to the router.
+
+Question: An OSPF router has three directly connected networks; 172.16.0.0/16, 172.16.1.0/16, and 172.16.2.0/16. Which OSPF network command would advertise only the 172.16.1.0 network to neighbors?
+Option: router(config-router)# network 172.16.1.0 0.0.255.255 area 0
+Option: router(config-router)# network 172.16.0.0 0.0.15.255 area 0
+Option: router(config-router)# network 172.16.1.0 255.255.255.0 area 0
+Option: router(config-router)# network 172.16.1.0 0.0.0.0 area 0*
+Explanation: To advertise only the 172.16.1.0/16 network the wildcard mask used in the network command must match the first 16-bits exactly. To match bits exactly, a wildcard mask uses a binary zero. This means that the first 16-bits of the wildcard mask must be zero. The low order 16-bits can all be set to 1.
+
+Question: Refer to the exhibit. Which three statements describe the results of the OSPF election process of the topology that is shown in the exhibit? (Choose three.)
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i212853v1n1_212853.png
+Option: R3 will be elected BDR.*
+Option: The R4 FastEthernet 0/0 priority is 128.
+Option: The R4 router ID is 172.16.1.1.*
+Option: R1 will be elected BDR.
+Option: R2 will be elected DR.*
+Explanation: R2 will be elected DR because it has the highest priority of 255, all of the others have a priority of 1. R3 will be elected BDR because it has the numerically highest router-ID of 192.168.1.4. The R4 router-ID is 172.16.1.1 because it is the IPv4 address attached to the loopback 0 interface.

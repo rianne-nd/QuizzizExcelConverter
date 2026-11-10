@@ -1,0 +1,71 @@
+Question: Refer to the exhibit. The PC is sending a packet to the Server on the remote network. Router R1 is performing NAT overload. From the perspective of the PC, what is the inside local address?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i249830v1n1_212288-1.png
+Option: 192.0.2.1
+Option: 10.130.5.76*
+Option: 203.0.113.5
+Explanation: The inside local address is the private address of the source host on the internal network, which is 10.130.5.76.
+
+Question: Refer to the exhibit. The PC is sending a packet to the Server on the remote network. Router R1 is performing NAT overload. From the perspective of the PC, what is the outside global address?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i249830v1n1_212288-1.png
+Option: 192.0.2.1
+Option: 10.130.5.76
+Option: 203.0.113.5*
+Explanation: The outside global address is the globally routable address of the destination server, which is 203.0.113.5.
+
+Question: Refer to the exhibit. What has to be done in order to complete the static NAT configuration on R1?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/2020-01-25_222653.png
+Option: Interface Fa0/0 should be configured with the command no ip nat inside.
+Option: Interface S0/0/0 should be configured with the command ip nat outside.*
+Option: R1 should be configured with the command ip nat inside source static 209.165.200.200 192.168.11.11.
+Option: R1 should be configured with the command ip nat inside source static 209.165.200.1 192.168.11.11.
+Explanation: Both an inside and an outside interface must be configured for NAT translations to work properly.
+
+Question: In NAT terms, what address type refers to the globally routable IPv4 address of a destination host on the Internet?
+Option: outside global*
+Option: inside global
+Option: outside local
+Option: inside local
+Explanation: The outside global address is the globally routable address of a destination host on the external network.
+
+Question: Refer to the exhibit. Which two statements are correct based on the output as shown in the exhibit? (Choose two.)
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i215692v1n3_Q2.png
+Option: The output is the result of the show ip nat translations command.*
+Option: The host with the address 209.165.200.235 will respond to requests by using a source address of 192.168.10.10.
+Option: The output is the result of the show ip nat statistics command.
+Option: Traffic with the destination address of a public web server will be sourced from the IP of 192.168.1.10.
+Option: The host with the address 209.165.200.235 will respond to requests by using a source address of 209.165.200.235.*
+Explanation: The output is from show ip nat translations, and the inside global address 209.165.200.235 is used as the source address for external replies.
+
+Question: Which circumstance would result in an enterprise deciding to implement a corporate WAN?
+Option: when the enterprise decides to secure its corporate LAN
+Option: when its employees become distributed across many branch locations*
+Option: when the number of employees exceeds the capacity of the LAN
+Option: when the network will span multiple buildings
+Explanation: A WAN is needed when an enterprise must connect employees or sites across geographically separate locations.
+
+Question: Refer to the exhibit. A network administrator is viewing the output from the command show ip nat translations. Which statement correctly describes the NAT translation that is occurring on router RT2?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i215827v4n1_215827-1.png
+Option: The traffic from a source IPv4 address of 192.168.254.253 is being translated to 192.0.2.88 by means of static NAT.*
+Option: The traffic from a source IPv4 address of 192.0.2.88 is being translated by router RT2 to reach a destination IPv4 address of 192.168.254.253.
+Option: The traffic from a source IPv4 public address that originates traffic on the internet would be able to reach private internal IPv4 addresses.
+Option: The traffic from a source IPv4 address of 192.168.2.20 is being translated by router RT2 to reach a destination IPv4 address of 192.0.2.254.
+Explanation: Because no outside local or outside global address is referenced, the traffic from 192.168.254.253 is being translated to 192.0.2.88 by static NAT.
+
+Question: What type of address is 10.100.126.126?
+Option: private*
+Option: public
+Explanation: 10.100.126.126 is in the private IPv4 address range 10.0.0.0/8.
+
+Question: What is a disadvantage when both sides of a communication use PAT?
+Option: End-to-end IPv4 traceability is lost.*
+Option: The flexibility of connections to the Internet is reduced.
+Option: The security of the communication is negatively impacted.
+Option: Host IPv4 addressing is complicated.
+Explanation: With PAT, end-to-end IPv4 traceability is lost because addresses and port numbers are translated.
+
+Question: What two addresses are specified in a static NAT configuration?
+Option: the outside global and the outside local
+Option: the inside local and the outside global
+Option: the inside global and the outside local
+Option: the inside local and the inside global*
+Explanation: Static NAT specifies a one-to-one mapping between an inside local address and an inside global address.

@@ -1,0 +1,59 @@
+Question: The three basic types of files:
+Option: Directories*
+Option: Special files*
+Option: Ordinary files*
+Option: Confidential files
+Explanation: Unix/Linux classifies files into three basic types: Ordinary (or regular) files, Directories, and Special files.
+
+Question: Write the command that will retrieve the system date and time in Ubuntu.
+Type: Fill-in-the-Blank
+Answer: date
+Explanation: The date command in Ubuntu displays or sets the system date and time.
+
+Question: Cat command is used to:
+Option: View file content*
+Option: Append the content of the file*
+Option: Overwrite file content*
+Option: Create a file*
+Explanation: The cat (concatenate) command can view file contents, create files, overwrite files, and append content using redirection operators.
+
+Question: The filename . (dot) represents the current working directory, and the filename .. (dot dot) represents the directory one level above the current directory, often referred to as the parent directory.
+Option: True*
+Option: False
+Explanation: In Unix/Linux file systems, . represents the current working directory and .. represents the parent directory.
+
+Question: What is the command to create the following directories: LQ2, AOS, and IT2625 respectively.
+Option: mkdir LQ2/AOS/IT2625
+Option: cp LQ2/AOS/IT2625
+Option: md LQ2, AOS, IT2625
+Option: mkdir LO2 AOS IT2625*
+Explanation: In Linux, the mkdir command creates multiple directories at once when supplied with space-separated directory names.
+
+Question: A directory is a special kind of file that can contain other files and directories.
+Option: True*
+Option: False
+Explanation: In Unix/Linux, a directory is a special file that contains a list of filenames and their associated inode pointers to other files and directories.
+
+Question: It is a shell type that supports command history, line editing, file name completion, aliasing, and job control.
+Option: POSIX shell
+Option: C shell
+Option: Korn shell*
+Option: Bourne shell
+Explanation: The Korn shell (ksh) introduced integrated line editing, command history, aliasing, and job control while maintaining compatibility with the Bourne shell.
+
+Question: Command used to concatenate a file (source files: file1.txt and file2.txt; target filename: file3.txt).
+Type: Fill-in-the-Blank
+Answer: cat file1.txt file2.txt > file3.txt
+Explanation: The cat command concatenates file1.txt and file2.txt and redirects output to file3.txt using the > operator.
+
+Question: “Feodora, Red Hat Enterprise Linux, SUSE, and Knoppix, recognize up to 64 characters in your user name.”
+Option: True
+Option: False*
+Explanation: Linux distributions typically limit user names to 32 characters, not 64 characters.
+
+Question: It is a command used to add text to an existing file.
+Option: rm filename
+Option: cat > filename
+Option: echo “this message” > filename
+Option: cat >> filename*
+Explanation: The >> redirection operator appends output to the end of an existing file without overwriting its contents.

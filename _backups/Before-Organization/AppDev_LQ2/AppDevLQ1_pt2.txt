@@ -1,0 +1,66 @@
+Question: What Android version had only 35 apps?
+Option: Jelly Bean
+Option: Snow Cone
+Option: Cupcake*
+Option: None of the Choices
+Explanation: Android 1.5 Cupcake launched with only about 35 apps available in the Android Market.
+
+Question: Who developed the high-level programming language Kotlin?
+Option: Microsoft
+Option: Google
+Option: Oracle
+Option: Jetbrains*
+Explanation: Kotlin was developed by JetBrains and first released in 2011.
+
+Question: What component attribute specifies the type of data to be entered?
+Option: android:fontType
+Option: android:inputType*
+Option: android:textType
+Option: android:dataType
+Explanation: android:inputType defines the type of data expected in an EditText, such as text, number, or password.
+
+Question: There are 3.553 million active monthly active Android devices.
+Option: True
+Option: False*
+Explanation: The number of active Android devices is in the billions, not millions.
+
+Question: What component attribute sets a drawable (image/icon) to be displayed to the left of the text?
+Option: android:AssetLeft
+Option: android:VectorLeft
+Option: android:drawableLeft*
+Option: android:IconLeft
+Explanation: android:drawableLeft places a drawable resource to the left of the text.
+
+Question: ________ is an open-source and Linux-based Operating System for mobile devices such as smartphones and tablet computers.
+Type: Fill-in-the-Blank
+Answer: Android
+Answer: Android OS
+Explanation: Android is an open-source, Linux-based operating system for mobile devices.
+
+Question: What part of the layout editor has controls for the selected component's attributes?
+Option: Component Tree
+Option: Palette
+Option: Toolbar
+Option: Attributes*
+Explanation: The Attributes panel lets you edit properties of the selected component.
+
+Question: What attribute specifies the width of a View or View Group?
+Option: width
+Option: layout_width*
+Option: view_length
+Option: view_width
+Explanation: android:layout_width defines the width of a view or view group.
+
+Question: What Android version revolves around the idea of you customizing the appearance of your device with dynamically generated themes based on your current wallpaper colors?
+Option: Marshmallow
+Option: Jelly Bean
+Option: Cupcake
+Option: Snow Cone*
+Explanation: Android 12 (Snow Cone) introduced Material You dynamic theming based on wallpaper colors.
+
+Question: What type of view group can provide you the ability to completely design your UI with the drag-and-drop feature provided by the Android Studio design editor?
+Option: Table Layout
+Option: Constraint Layout*
+Option: Frame Layout
+Option: Drag Design Layout
+Explanation: ConstraintLayout is designed to work seamlessly with the drag-and-drop editor in Android Studio.

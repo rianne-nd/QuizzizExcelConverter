@@ -1,0 +1,72 @@
+Question: What indicates to a link-state router that a neighbor is unreachable?
+Option: if the router no longer receives hello packets*
+Option: if the router receives an update with a hop count of 16
+Option: if the router receives an LSP with previously learned information
+Option: if the router no longer receives routing updates
+Explanation: OSPF routers send hello packets to monitor the state of a neighbor. When a router stops receiving hello packets from a neighbor, that neighbor is considered unreachable and the adjacency is broken.
+
+Question: Which three OSPF states are involved when two routers are forming an adjacency? (Choose three.)
+Option: Exchange
+Option: Init*
+Option: Two-way*
+Option: Loading
+Option: Down*
+Explanation: OSPF operation progresses through 7 states for establishing neighboring router adjacency, exchanging routing information, calculating the best routes, and reaching convergence. The Down, Init, and Two-way states are involved in the phase of neighboring router adjacency establishment.
+
+Question: Refer to the exhibit. Suppose that routers B, C, and D have a default priority, and router A has a priority 0. Which conclusion can be drawn from the DR/BDR election process?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i247460v1n3_Item-247460.png
+Option: If the priority of router C is changed to 255, then it will become the DR.
+Option: Router A will become the DR and router D will become the BDR.
+Option: If the DR fails, the new DR will be router B.*
+Option: If a new router with a higher priority is added to this network, it will become the DR.
+Explanation: If the priority is set to 0, the router is not capable of becoming the DR, so router A cannot be the DR. OSPF DR and BDR elections are not preemptive. If a new router with a higher priority or higher router ID is added to the network after the DR and BDR election, the newly added router does not take over the DR or the BDR role. If the current DR fails, the BDR (router B) becomes the new DR.
+
+Question: An administrator is configuring single-area OSPF on a router. One of the networks that must be advertised is 64.102.0.0 255.255.255.128. What wildcard mask would the administrator use in the OSPF network statement?
+Option: 0.0.31.255
+Option: 0.0.0.63
+Option: 0.0.63.255
+Option: 0.0.0.127*
+Explanation: The wildcard mask is calculated by subtracting 255.255.255.128 from 255.255.255.255, which equals 0.0.0.127.
+
+Question: Which command will a network engineer issue to verify the configured hello and dead timer intervals on a point-to-point WAN link between two routers that are running OSPFv2?
+Option: show ipv6 ospf interface serial 0/0/0
+Option: show ip ospf neighbor
+Option: show ip ospf interface fastethernet 0/1
+Option: show ip ospf interface serial 0/0/0*
+Explanation: The show ip ospf interface serial 0/0/0 command will display the configured hello and dead timer intervals on a point-to-point serial WAN link between two OSPFv2 routers. The show ipv6 ospf interface serial 0/0/0 command will display the configured hello and dead timer intervals on a point-to-point serial link between two OSPFv3 routers. The show ip ospf interface fastethernet 0/1 command will display the configured hello and dead timer intervals on a multiaccess link between two (or more) OSPFv2 routers. The show ip ospf neighbor command will display the dead interval elapsed time since the last hello message was received, but does not show the configured value of the timer.
+
+Question: An administrator is configuring single-area OSPF on a router. One of the networks that must be advertised is 128.107.0.0 255.255.255.192. What wildcard mask would the administrator use in the OSPF network statement?
+Option: 0.0.63.255
+Option: 0.0.0.63*
+Option: 0.0.0.3
+Option: 0.0.0.7
+Explanation: The wildcard mask is calculated by subtracting 255.255.255.192 from 255.255.255.255, which equals 0.0.0.63.
+
+Question: Match each OSPF packet type to how it is used by a router. Which pairs correctly match an OSPF packet type to its function? (Choose four.)
+Option: link-state request packet - query another router for additional information*
+Option: hello packet - establish and maintain adjacencies*
+Option: database description packet - compare local topology to that sent by another router*
+Option: link-state update packet - advertise new information*
+Option: link-state acknowledgment packet - initiate neighbor discovery
+Explanation: Link-state request (LSR) packets query another router for additional information. Hello packets establish and maintain adjacencies. Database description (DBD) packets compare local topology against that sent by another router. Link-state update (LSU) packets advertise new information.
+
+Question: An administrator is configuring single-area OSPF on a router. One of the networks that must be advertised is 192.168.181.0 255.255.254.0. What wildcard mask would the administrator use in the OSPF network statement?
+Option: 0.0.63.255
+Option: 0.0.15.255
+Option: 0.0.1.255*
+Option: 0.0.31.255
+Explanation: The wildcard mask is calculated by subtracting 255.255.254.0 from 255.255.255.255, resulting in 0.0.1.255.
+
+Question: An administrator is configuring single-area OSPF on a router. One of the networks that must be advertised is 198.19.0.0 255.255.252.0. What wildcard mask would the administrator use in the OSPF network statement?
+Option: 0.0.63.255
+Option: 0.0.3.255*
+Option: 0.0.31.255
+Option: 0.0.0.255
+Explanation: The wildcard mask is calculated by subtracting 255.255.252.0 from 255.255.255.255, resulting in 0.0.3.255.
+
+Question: An administrator is configuring single-area OSPF on a router. One of the networks that must be advertised is 128.107.0.0 255.255.252.0. What wildcard mask would the administrator use in the OSPF network statement?
+Option: 0.0.3.255*
+Option: 0.0.0.7
+Option: 0.0.0.3
+Option: 0.0.63.255
+Explanation: The wildcard mask is calculated by subtracting 255.255.252.0 from 255.255.255.255, resulting in 0.0.3.255.

@@ -1,0 +1,76 @@
+Question: Which two WAN infrastructure services are examples of private connections? (Choose two.)
+Option: cable
+Option: DSL
+Option: Frame Relay*
+Option: T1/E1*
+Option: wireless
+Explanation: Private WAN services include Frame Relay and T1/E1 leased lines.
+
+Question: Which two statements about the relationship between LANs and WANs are true? (Choose two.)
+Option: Both LANs and WANs connect end devices.
+Option: WANs are typically operated through multiple ISPs, but LANs are typically operated by single organizations or individuals.*
+Option: WANs must be publicly-owned, but LANs can be owned by either public or private entities.
+Option: WANs connect LANs at slower speed bandwidth than LANs connect their internal end devices.*
+Option: LANs connect multiple WANs together.
+Explanation: WANs usually span multiple service providers and are slower than LAN connections because of their greater geographic scope and complexity.
+
+Question: Open the PT Activity. Perform the tasks in the activity instructions and then answer the question.
+What problem is causing PC-A to be unable to communicate with the Internet?
+Option: The ip nat inside source command refers to the wrong interface.
+Option: The NAT interfaces are not correctly assigned.*
+Option: The static route should not reference the interface, but the outside address instead.
+Option: The access list used in the NAT process is referencing the wrong subnet.
+Option: This router should be configured to use static NAT instead of PAT.
+Explanation: The output of show ip nat statistics shows that the inside interface is FastEthernet0/0 but no interface has been designated as the outside interface, so ip nat outside must be configured on Serial0/0/0.
+
+Question: What type of address is 64.100.190.189?
+Option: public*
+Option: private
+Explanation: 64.100.190.189 is not within the private IPv4 address ranges, so it is a public address.
+
+Question: Match the scenario to the WAN solution: A company has a headquarters and four remote locations. The headquarters site will require more bandwidth than the four remote sites.
+Option: T1*
+Option: DSL
+Option: Frame Relay
+Option: Cable
+Option: MetroE
+Explanation: A T1 leased line provides dedicated bandwidth and is suitable for a headquarters with higher traffic requirements.
+
+Question: Match the scenario to the WAN solution: A company requires higher download speeds than upload speeds and wants to use existing phone lines.
+Option: DSL*
+Option: T1
+Option: Frame Relay
+Option: Cable
+Option: MetroE
+Explanation: DSL uses existing telephone lines and typically provides higher downstream than upstream speeds.
+
+Question: Match the scenario to the WAN solution: A company would like guaranteed bandwidth using a point-to-point link that requires minimal expertise to install and maintain.
+Option: Frame Relay*
+Option: T1
+Option: DSL
+Option: Cable
+Option: MetroE
+Explanation: Frame Relay provides a private WAN service with committed bandwidth and is relatively simple for a provider to install and maintain.
+
+Question: Match the scenario to the WAN solution: A teleworker would like to bundle the Internet connection with other phone and TV services.
+Option: Cable*
+Option: DSL
+Option: T1
+Option: Frame Relay
+Option: MetroE
+Explanation: Cable providers commonly bundle Internet, telephone, and television services for teleworkers.
+
+Question: Match the scenario to the WAN solution: A multisite college wants to connect using Ethernet technology between the sites.
+Option: MetroE*
+Option: T1
+Option: DSL
+Option: Frame Relay
+Option: Cable
+Explanation: Metro Ethernet uses Ethernet technology to connect sites across a metropolitan area.
+
+Question: Refer to the exhibit. The PC is sending a packet to the Server on the remote network. Router R1 is performing NAT overload. From the perspective of the PC, what is the inside global address?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i249830v1n1_212288-1.png
+Option: 192.0.2.1*
+Option: 10.130.5.76
+Option: 203.0.113.5
+Explanation: The inside global address is the translated source address as seen by the outside network, which is 192.0.2.1.

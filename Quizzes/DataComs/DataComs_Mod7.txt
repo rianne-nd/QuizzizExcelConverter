@@ -1,0 +1,173 @@
+Question: A company is expanding its business to other countries. All branch offices must remain connected to corporate headquarters at all times. Which network technology is required to support this scenario?
+Option: LAN
+Option: WLAN
+Option: MAN
+Option: WAN*
+Explanation: A WAN connects multiple LANs that are in geographically separated locations. A MAN connects multiple LANs in a large campus or in a city. WLAN is a wireless LAN that covers a rather small geographic area.
+
+Question: What is the recommended technology to use over a public WAN infrastructure when a branch office is connected to the corporate site?
+Option: VPN*
+Option: ATM
+Option: municipal Wi-Fi
+Option: ISDN
+Explanation: ISDN and ATM are Layer 1 and 2 technologies that are typically used on private WANs. Municipal WiFi is a wireless public WAN technology. Corporate communications over public WANs should use VPNs for security.
+
+Question: Which medium do service providers use to transmit data over WAN connections with SONET, SDH, and DWDM?
+Option: satellite
+Option: copper
+Option: fiber optic*
+Option: Wi-Fi
+Explanation: Technologies such as SONET, SDH, and DWDM are designed to run over fiber optic cables.
+
+Question: Which statement describes a characteristic of a WAN?
+Option: WAN networks are owned by service providers.*
+Option: All serial links are considered WAN connections.
+Option: A WAN operates within the same geographic scope of a LAN, but has serial links.
+Option: A WAN provides end-user network connectivity to the campus backbone.
+Explanation: WANs are used to interconnect the enterprise LAN to remote branch site LANs and telecommuter sites. A WAN is owned by a service provider. Although WAN connections are typically made through serial interfaces, not all serial links are connected to a WAN. LANs, not WANs, provide end-user network connectivity in an organization.
+
+Question: Which type of network would be used by a company to connect locations across the country?
+Option: LAN
+Option: WAN*
+Option: WLAN
+Option: SAN
+Explanation: A wide-area network (WAN) provides network connectivity over a wide geographical area compared to a local-area network (LAN) that is usually limited to connecting devices in a room or building. A storage-area network (SAN) contains storage media such as hard drive disk arrays that provide storage for applications and servers. A wireless LAN (WLAN) provides connectivity for wireless devices in a limited space.
+
+Question: A small company with 10 employees uses a single LAN to share information between computers. Which type of connection to the Internet would be appropriate for this company?
+Option: a broadband service, such as DSL, through their local service provider*
+Option: Virtual Private Networks that would enable the company to connect easily and securely with employees
+Option: private dedicated lines through their local service provider
+Option: a dialup connection that is supplied by their local telephone service provider
+Explanation: For this small office, an appropriate connection to the Internet would be through a common broadband service called Digital Subscriber Line (DSL), available from their local telephone service provider. With so few employees, bandwidth is not a significant problem. If the company were bigger, with branch offices in remote sites, private lines would be more appropriate. Virtual Private Networks would be used if the company had employees who needed to connect to the company via Internet.
+
+Question: To which two layers of the OSI model do WAN technologies provide services? (Choose two.)
+Option: data link layer*
+Option: network layer
+Option: physical layer*
+Option: transport layer
+Option: session layer
+Explanation: WAN operations focus primarily on the physical layer and the data link layer of the OSI model.
+
+Question: A customer needs a metropolitan area WAN connection that provides high-speed, dedicated bandwidth between two sites. Which type of WAN connection would best fulfill this need?
+Option: circuit-switched network
+Option: MPLS
+Option: packet-switched network
+Option: Ethernet WAN*
+Explanation: MPLS can use a variety of underlying technologies such as T- and E-Carriers, Carrier Ethernet, ATM, Frame Relay, and DSL, all of which support lower speeds than an Ethernet WAN. Neither a circuit-switched network, such as the public switched telephone network (PSTN) or Integrated Service Digital Network (ISDN), nor a packet-switched network, is considered high speed.
+
+Question: An intercity bus company wants to offer constant Internet connectivity to the users traveling on the buses. Which two types of WAN infrastructure would meet the requirements? (Choose two.)
+Option: cellular*
+Option: dedicated
+Option: private infrastructure
+Option: circuit-switched
+Option: public infrastructure*
+Explanation: Public cellular networks provide a highly mobile Internet connection at high data rates.
+
+Question: An enterprise has four branches. The headquarters needs full connectivity to all branches. The branches do not need to be connected directly to each other. Which WAN topology is most suitable?
+Option: full mesh
+Option: bus
+Option: mesh
+Option: point-to-point
+Option: hub and spoke*
+Explanation: A point-to-point topology only connects two nodes. A bus is a legacy topology for LANs. Mesh and full mesh topologies have more connectivity than needed (all or most of the branches will be connected to each other). A hub and spoke design will connect the headquarters to all its branches, as desired.
+
+Question: What is a characteristic of a WAN?
+Option: WAN service providers include carriers such as a telephone network or satellite service.*
+Option: A WAN is typically owned by an enterprise which wants to interconnect its LANs.
+Option: A WAN operates inside the geographic scope of a LAN.
+Option: WANs always use physical cables to connect LANs.
+Explanation: A WAN operates beyond the geographic scope of a LAN and it is owned by a service provider. WANs are used to interconnect the enterprise LAN to remote LANs in branch sites and telecommuter sites. WAN service providers include carriers such as a telephone network, cable company, or satellite service. It is not feasible to connect LANs across a country, or around the world, with physical cables.
+
+Question: What are two common types of circuit-switched WAN technologies? (Choose two.)
+Option: DSL
+Option: Frame Relay
+Option: ISDN*
+Option: ATM
+Option: PSTN*
+Explanation: The two most common types of circuit-switched WAN technologies are the public switched telephone network (PSTN) and the integrated services digital network (ISDN). Frame Relay and ATM are packet-switched WAN technologies. DSL is a WAN technology that offers broadband Internet access.
+
+Question: A new corporation needs a data network that must meet certain requirements. The network must provide a low cost connection to sales people dispersed over a large geographical area. Which two types of WAN infrastructure would meet the requirements? (Choose two.)
+Option: public infrastructure*
+Option: dedicated
+Option: satellite
+Option: private infrastructure
+Option: Internet*
+Explanation: VPNs over the Internet provide low cost, secure connections to remote users. VPNs are deployed over the Internet public infrastructure.
+
+Question: Which type of internet connection would be suitable for a small 10-employee company with one local LAN?
+Option: A broadband DSL or cable connection to a service provider*
+Option: A dialup connection to the local telephone service provider
+Option: A private dedicated line to the local service provider
+Option: A VSAT connection to a service provider
+Explanation: For this small office, an appropriate connection to the internet would be through a common broadband service such as digital subscriber line (DSL), available from the company’s local telephone service provider, or a cable connection from the cable company. Because the company has so few employees, bandwidth is not a significant issue. If the company were bigger, with branch offices in remote sites, private lines would be more appropriate. VSATs are used to provide connectivity to remote locations and are typically used only when no other connectivity options are available.
+
+Question: Which network scenario requires the use of a WAN?
+Option: Employee workstations need to obtain dynamically assigned IP addresses.
+Option: Employees in the branch office need to share files with the headquarters office that is located in a separate building on the same campus network.
+Option: Employees need to access web pages that are hosted on the corporate web servers in the DMZ within their building.
+Option: Traveling employees must connect to the corporate email server using a VPN.*
+Explanation: When traveling employees need to connect to a corporate email server through a WAN connection, the VPN creates a secure tunnel between an employee laptop and the corporate network over the WAN connection. Obtaining dynamic IP addresses through DHCP is a function of LAN communication. Sharing files among separate buildings on a corporate campus is accomplished through the LAN infrastructure. A DMZ is a protected network inside the corporate LAN infrastructure.
+
+Question: Which device is needed when a digital leased line is used to provide a connection between a customer and a service provider?
+Option: Access server
+Option: CSU/DSU*
+Option: Dialup modem
+Option: Layer 2 switch
+Explanation: Digital leased lines require a channel service unit (CSU) and a data service unit (DSU). An access server concentrates dialup modem dial-in and dial-out user communications. Dialup modems are used to temporarily enable the use of analog telephone lines for digital data communications. A Layer 2 switch is used to connect a LAN.
+
+Question: What is a requirement of a connectionless packetswitched network?
+Option: A virtual circuit is created for the duration of the packet delivery.
+Option: Each packet has to carry only an identifier.
+Option: Full addressing information must be carried in each data packet.*
+Option: The network predetermines the route for a packet.
+Explanation: A connection-oriented system predetermines the network path, creates a virtual circuit for the duration of the packet delivery, and requires that each packet carry an identifier. A connectionless packet-switched network, such as the internet, requires each data packet to carry addressing information.
+
+Question: What is an advantage of packet-switching technology over circuit-switching technology?
+Option: Packet-switched networks are less susceptible to jitter than circuitswitched networks.
+Option: Packet-switched networks can efficiently use multiple routes inside a service provider network.*
+Option: Packet-switched networks require an expensive permanent connection to each endpoint.
+Option: Packet-switched networks usually experience lower latency than circuit-switched networks experience.
+Explanation: Unlike circuit-switched networks, which typically require expensive permanent connections, packet-switched networks can take alternate paths, if available, to reach the destination.
+
+Question: What is a long-distance fiber-optic media technology that supports both SONET and SDH and assigns incoming optical signals to specific wavelengths of light?
+Option: ATM
+Option: DWDM*
+Option: ISDN
+Option: MPLS
+Explanation: Dense wavelength-division multiplexing (DWDM) is a newer technology that increases the data-carrying capacity of SDH and SONET by simultaneously multiplexing data using different wavelengths of light. ISDN (Integrated Services Digital Network), ATM (Asynchronous Transfer Mode), and MPLS (Multiprotocol Label Switching) are not fiber-optic technologies.
+
+Question: What are two common high-bandwidth fiber-optic media standards? (Choose two.)
+Option: ANSI
+Option: ATM
+Option: ITU
+Option: SDH*
+Option: SONET*
+Explanation: SDH and SONET are high-bandwidth fiber-optic standards that define how to transfer data, voice, and video communications using lasers or light-emitting diodes (LEDs). ATM (Asynchronous Transfer Mode) is a Layer 2 technology. ANSI (American National Standards Institute) and ITU (International Telecommunication Union) are standards organizations.
+
+Question: Which WAN technology establishes a dedicated constant point-to-point connection between two sites?
+Option: ATM
+Option: Frame Relay
+Option: ISDN
+Option: Leased lines*
+Explanation: A leased line establishes a dedicated constant point-to-point connection between two sites. ATM is cell switched. ISDN is circuit switched. Frame Relay is packet switched.
+
+Question: A hospital is looking for a solution to connect multiple newly established remote branch medical offices. Which of the following is most important when selecting a private WAN connection rather than a public WAN connection?
+Option: Data security and confidentiality during transmission*
+Option: Higher data transmission rate
+Option: Lower cost
+Option: Website and file exchange service support
+Explanation: A private WAN solution that involves dedicated links between sites offers the best security and confidentiality. Private and public WAN solutions offer comparable connection bandwidth, depending on the technology chosen. Connecting multiple sites with private WAN connections could be very expensive. The website and file exchange service support is not relevant.
+
+Question: Which wireless technology provides internet access through cellular networks?
+Option: Bluetooth
+Option: LTE*
+Option: Municipal Wi-Fi
+Option: Satellite
+Explanation: LTE, or Long-Term Evolution, is a fourthgeneration cellular access technology that supports internet access.
+
+Question: Which equipment is needed for an ISP to provide internet connections through cable service?
+Option: Access server
+Option: CMTS*
+Option: CSU/DSU
+Option: DSLAM
+Explanation: The equipment located at a cable service provider office, the cable modem termination system (CMTS), sends and receives digital cable modem signals on a cable network to provide internet services to cable subscribers. A DSLAM performs a similar function for DSL service providers. A CSU/DSU is used in leased-line connections. Access servers are needed to process multiple simultaneous dialup connections to a central office (CO).

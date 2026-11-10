@@ -1,0 +1,415 @@
+Question: ABC company discovers a product glitch that could cause harm to users, but disclosing this could lead to financial losses. What should the company prioritize according to deontological ethics
+Option: Ignoring the issue as long as it doesn't cause harm immediately
+Option: Correcting the flaw and disclosing it to users*
+Option: Financial stability
+Option: Continuing to sell the product without disclosure
+Explanation: Deontological ethics focuses on duties and rules regardless of consequences, so the company has a moral obligation to correct the flaw and disclose it to users.
+
+Question: Cultural Relativism asserts that there are universal, objective moral standards that apply to all human societies regardless of local traditions or norms.
+Option: True
+Option: False*
+Explanation: Cultural Relativism holds that moral standards are relative to culture and there are no universal objective moral standards, making the statement false.
+
+Question: Anna, an IT professional, discovers that her company is collecting more user data than disclosed in the privacy policy to sell to third parties. When she raises concerns, management insists it's standard practice. What is Anna's best ethical response
+Option: Stay silent to keep her job secure
+Option: Encourage users to accept the terms as-is
+Option: Report the issue to the company's ethics committee or an external regulator*
+Option: Modify the privacy policy quietly without informing users
+Explanation: Anna's ethical responsibility is to report the privacy violation through proper channels to protect users and uphold professional integrity.
+
+Question: Ronnie, an IT student, is leading a group project. One group member, who has contributed little, demands their name be listed first on the final submission. The rest of the group disagrees. What is Ronnie's ethical responsibility as the group leader
+Option: Ignore the situation to avoid confrontation
+Option: Facilitate a fair discussion and ensure credit reflects actual contributions*
+Option: Agree to the demand to maintain peace
+Option: Reassign tasks to justify the request retroactively
+Explanation: Ronnie should ensure fairness and honesty by facilitating discussion and ensuring credit reflects actual contributions.
+
+Question: Under Article 210 of the Revised Penal Code (Crimes Committed by Public Officers), what distinguishes Indirect Bribery from Direct Bribery
+Option: Indirect Bribery involves future promises or offers rather than an actual received gift.
+Option: Indirect Bribery applies only when the public officer rejects the gift immediately.
+Option: Indirect Bribery occurs when a public officer accepts a gift given by reason of their office without a prior promise or agreement to commit a crime.*
+Option: Indirect Bribery involves a third party stealing money from a government desk.
+Explanation: Indirect Bribery is distinguished by the acceptance of a gift by reason of office without a prior promise or agreement to commit a crime.
+
+Question: Manny, an IT intern, is working on a database system containing sensitive health information. His supervisor asks him to transfer some of this data to a personal USB drive for convenience during remote work. Which professional standard should guide Manny's response
+Option: Encrypt the data and do as instructed
+Option: Transfer only part of the data to minimize risk
+Option: Comply if the supervisor takes full responsibility
+Option: Refuse, citing data privacy and confidentiality concerns*
+Explanation: Manny should refuse because transferring sensitive health data to a personal USB drive violates data privacy and confidentiality standards.
+
+Question: Juan, an IT student, is working on a group project. One member, Zara, insists on using a third-party library with a restrictive license that prohibits commercial use. The group plans to release the project as open source. What should Juan do
+Option: Ignore the license since the project is for learning only
+Option: Ignore the flaw since the project is just for a grade
+Option: Agree to use the library because it simplifies development
+Option: Suggest the group research and use an alternative library with a permissive license*
+Explanation: Juan should ensure license compliance by suggesting an alternative library with a permissive license suitable for open source release.
+
+Question: A corporation is considering using AI to replace a large portion of its workforce. Which ethical perspective considers the overall social impact
+Option: Deontology
+Option: Contractarianism
+Option: Relativism
+Option: Utilitarianism*
+Explanation: Utilitarianism evaluates actions based on their overall consequences for society, making it the perspective that considers overall social impact.
+
+Question: Consequentialism
+Option: The consequence of an action, not the motivation behind the action, makes an action good or bad.*
+Option: Process of calculating which action will lead to the greatest happiness.
+Option: Anger we feel at someone's undeserved good or bad fortune.
+Option: The willingness to let people do what they wish, as long as there is no overriding justification.
+Explanation: Consequentialism holds that the consequences of an action determine its moral goodness or badness.
+
+Question: Utilitarian calculus
+Option: The consequence of an action, not the motivation behind the action, makes an action good or bad.
+Option: Process of calculating which action will lead to the greatest happiness.*
+Option: Anger we feel at someone's undeserved good or bad fortune.
+Option: The willingness to let people do what they wish, as long as there is no overriding justification.
+Explanation: Utilitarian calculus is the process of calculating which action will produce the greatest happiness.
+
+Question: Righteous Indignation
+Option: The consequence of an action, not the motivation behind the action, makes an action good or bad.
+Option: Process of calculating which action will lead to the greatest happiness.
+Option: Anger we feel at someone's undeserved good or bad fortune.*
+Option: The willingness to let people do what they wish, as long as there is no overriding justification.
+Explanation: Righteous indignation is the anger felt at someone's undeserved good or bad fortune.
+
+Question: Tolerance
+Option: The consequence of an action, not the motivation behind the action, makes an action good or bad.
+Option: Process of calculating which action will lead to the greatest happiness.
+Option: Anger we feel at someone's undeserved good or bad fortune.
+Option: The willingness to let people do what they wish, as long as there is no overriding justification.*
+Explanation: Tolerance is the willingness to let people do what they wish as long as there is no overriding justification.
+
+Question: Contractarianism
+Option: The consequence of an action, not the motivation behind the action, makes an action good or bad.
+Option: Process of calculating which action will lead to the greatest happiness.
+Option: Anger we feel at someone's undeserved good or bad fortune.
+Option: Some of its attributes can be merged with consequentialist theories or with deontological theories.*
+Explanation: Contractarianism has attributes that can be merged with both consequentialist and deontological theories.
+
+Question: Which of the following best represents a breach of professional ethics
+Option: Missing a project deadline
+Option: Working from home without approval
+Option: Taking a longer lunch break
+Option: Sharing a coworker's private information without consent*
+Explanation: Sharing a coworker's private information without consent is a breach of professional ethics and confidentiality.
+
+Question: In a case where a doctor must decide between saving one patient or many, which ethical theory would prioritize saving the many
+Option: Utilitarianism*
+Option: Virtue Ethics
+Option: Deontology
+Option: Consequentialism
+Explanation: Utilitarianism prioritizes the greatest good for the greatest number, which would favor saving many patients over one.
+
+Question: Anna, an IT student working part-time as a junior developer, notices that the senior developer has hardcoded user passwords in plain text in a company's new application. The product is nearing release, and no one else seems concerned. What is the most appropriate action for Anna to take
+Option: Raise the concern internally with her supervisor or a security officer*
+Option: Publicly expose the issue on social media
+Option: Assume it's temporary and ignore it
+Option: Stay silent to avoid conflict with her superior
+Explanation: Anna should raise the security concern internally through proper channels to address the vulnerability responsibly.
+
+Question: A program manager must choose between promoting an employee who has worked hard but lacks certain qualifications and another who is more qualified but less experienced. What should be the guiding ethical principle
+Option: Follow company policy and promote the most qualified candidate
+Option: Favor the experienced candidate regardless of qualifications
+Option: Conduct a fair assessment considering both qualifications and experience*
+Option: Promote based on effort and loyalty
+Explanation: The guiding ethical principle is fairness, which requires conducting a fair assessment considering both qualifications and experience.
+
+Question: A company's board of directors must decide whether to lay off employees to remain financially stable. How would utilitarian ethics evaluate this decision
+Option: Consider the financial benefit only
+Option: Prioritize the welfare of the majority, even if it means layoffs*
+Option: Follow company policy regardless of the outcome
+Option: Avoid layoffs to protect all employees
+Explanation: Utilitarian ethics evaluates decisions based on the greatest good for the greatest number, which may justify layoffs if it benefits the majority.
+
+Question: In a scenario where a company prioritizes profits over employee safety, which ethical principle is most compromised
+Option: Relativism
+Option: Integrity*
+Option: Autonomy
+Option: Utilitarianism
+Explanation: Prioritizing profits over employee safety compromises integrity, as it violates the commitment to ethical conduct and stakeholder welfare.
+
+Question: An IT professional discovers that a new system implementation could lead to job losses for some employees. What should the professional prioritize according to the principle of justice
+Option: Implement the system without considering the job losses
+Option: Discuss the potential impact with stakeholders and seek a fair solution*
+Option: Delay the implementation to find a way to minimize job losses
+Option: Refuse to implement the system
+Explanation: The principle of justice requires discussing the potential impact with stakeholders and seeking a fair solution.
+
+Question: A medical doctor faces a dilemma where they can save one patient by allocating all resources but at the cost of another patient's life. What ethical principle is most challenged in this situation
+Option: Autonomy
+Option: Justice*
+Option: Loyalty
+Option: Fidelity
+Explanation: Justice is most challenged because it involves fair distribution of limited resources among patients.
+
+Question: A researcher is tempted to falsify data to achieve the desired results. Which ethical principle should guide the researcher's decision
+Option: Fairness
+Option: Loyalty
+Option: Consequentialism
+Option: Honesty*
+Explanation: Honesty should guide the researcher to refrain from falsifying data and maintain research integrity.
+
+Question: According to Act Utilitarianism, an action is morally right if it conforms to a rule that generally leads to the greatest good, even if that specific action causes a net negative outcome in the moment.
+Option: True
+Option: False*
+Explanation: Act Utilitarianism evaluates each individual action based on its own consequences, not based on conformity to a rule, making the statement false.
+
+Question: Transparency in corporate governance is essential because
+Option: It ensures competitive advantage
+Option: It ensures public trust and accountability*
+Option: It reduces the need for communication
+Option: It builds trust and protects sensitive information
+Explanation: Transparency is essential because it ensures public trust and accountability in corporate governance.
+
+Question: Ben, an IT professional, is assigned to develop a feature that tracks users' locations without clearly informing them. He suspects this violates user privacy rights. What should Ben do
+Option: Raise concerns with his supervisor and advocate for transparency*
+Option: Implement the feature as instructed to avoid conflict
+Option: Remove the feature entirely without informing anyone
+Option: Hide the feature deep in the settings so users won't notice
+Explanation: Ben should raise concerns with his supervisor and advocate for transparency to uphold user privacy rights.
+
+Question: In a healthcare setting, a nurse must decide whether to follow a doctor's orders that they believe will harm the patient. Which ethical principle should guide the nurse's actions
+Option: Professional responsibility*
+Option: Fairness
+Option: Integrity
+Option: Autonomy
+Explanation: Professional responsibility should guide the nurse to act in the patient's best interest and question orders that may cause harm.
+
+Question: Rochelle, an IT student working on a group project, discovers that one teammate has copied a large section of code from GitHub without checking its license. The project is almost due. What is the best ethical response in this situation
+Option: Submit the project and hope no one notices
+Option: Keep the code but add the author's name
+Option: Inform the professor anonymously after submission
+Option: Remove the code and discuss alternatives with the group*
+Explanation: The best ethical response is to remove the code and discuss alternatives with the group to avoid license violations.
+
+Question: Juan, an IT auditor, finds evidence that a colleague has been accessing confidential client data for personal reasons. Reporting this could damage the company's reputation. What should Juan do
+Option: Confront the colleague quietly and ask them to stop
+Option: Use the data himself since he knows about it
+Option: Ignore it to protect the company's reputation
+Option: Report the breach to the proper authorities in the organization*
+Explanation: Juan should report the breach to the proper authorities in the organization to uphold professional ethics and protect client data.
+
+Question: In a group project in a Systems Integration class, Carlo does all the coding while the others contribute little. During defense, the professor asks if they all equally participated. What is Carlo's ethical responsibility
+Option: Let the group speak first and adjust his answer accordingly
+Option: Stay silent and let the professor assume
+Option: Say they worked equally to avoid tension
+Option: Be honest about the uneven contribution*
+Explanation: Carlo's ethical responsibility is to be honest about the uneven contribution to maintain academic integrity.
+
+Question: Gian discovers that his colleague has been accessing confidential data without authorization. What is your ethical obligation according to professional standards
+Option: Report the behavior to the appropriate authorities*
+Option: Ignore the issue to avoid conflict
+Option: Confront the colleague directly
+Option: Use the information for personal gain
+Explanation: Professional standards require reporting unauthorized access to confidential data to the appropriate authorities.
+
+Question: You are a product manager tasked with developing a feature that may encourage addictive behavior in users. Which ethical principle should guide your decision
+Option: Utility
+Option: Justice
+Option: Autonomy
+Option: Corporate social responsibility*
+Explanation: Corporate social responsibility should guide the decision to avoid features that may harm users through addictive behavior.
+
+Question: Under the Code of Ethics of the Filipino IT Professionals, which statement represents one of the 10 explicit professional commitments
+Option: I will share user passwords with colleagues whenever urgent deadlines arise
+Option: I will maximize profits for my company regardless of software licensing laws
+Option: I will consider the general welfare and public good in the performance of my work*
+Option: I will prioritize company interests over user privacy
+Explanation: The Code of Ethics includes the commitment to consider the general welfare and public good in the performance of work.
+
+Question: Which of the following scenarios best exemplifies a conflict of interest in a professional setting
+Option: A business partner disagreeing on a strategy
+Option: A worker negotiating their salary
+Option: A manager awarding a contract to a company owned by a relative*
+Option: An employee choosing between two job offers
+Explanation: A conflict of interest occurs when a manager's personal interests influence professional decisions, such as awarding a contract to a relative's company.
+
+Question: The BSIT department head establishes a strict policy No student may install unverified browser extensions on lab computers under any circumstances. A student argues that even if an extension is completely harmless in a specific instance, allowing individual exceptions would lead to widespread malware infections and overall network chaos across the campus over time. Therefore, everyone must follow the rule consistently. Which theory supports the department head's policy logic
+Option: Act Utilitarianism
+Option: Virtue Ethics
+Option: Rule Utilitarianism*
+Option: Cultural Relativism
+Explanation: Rule Utilitarianism supports following rules that generally lead to the greatest good, even if individual exceptions seem harmless.
+
+Question: A software developer is asked to develop a surveillance tool that could potentially invade user privacy. According to utilitarian ethics, what is the best course of action
+Option: Develop the tool as instructed, considering the company's order
+Option: Refuse to develop the tool due to privacy concerns
+Option: Leave the decision to management and follow their directive
+Option: Analyze the potential benefits and harms, then decide based on overall well-being*
+Explanation: Utilitarian ethics requires analyzing the potential benefits and harms to determine the action that maximizes overall well-being.
+
+Question: Serves as a reminder that what hurts us hurts others, and that what heals us, heals others.
+Option: Religious Ethics*
+Option: Divine command
+Option: Ethics
+Option: Ideal Mean
+Explanation: Religious Ethics serves as a reminder that what hurts us hurts others and what heals us heals others.
+
+Question: Things are morally good or bad, or morally obligatory, permissible, or prohibited, solely because of God's will or commands.
+Option: Religious Ethics
+Option: Divine command*
+Option: Ethics
+Option: Ideal Mean
+Explanation: Divine command theory holds that moral goodness or badness is determined solely by God's will or commands.
+
+Question: Social system - External
+Option: Religious Ethics
+Option: Divine command
+Option: Ethics*
+Option: Ideal Mean
+Explanation: Ethics is a social system that is external in nature.
+
+Question: Means in between two extremes of human characteristics It also represents the half-way point between risk and generosity
+Option: Religious Ethics
+Option: Divine command
+Option: Ethics
+Option: Ideal Mean*
+Explanation: The Ideal Mean represents the halfway point between two extremes of human characteristics.
+
+Question: Individual - Internal
+Option: Religious Ethics
+Option: Divine command
+Option: Ethics
+Option: Morality*
+Explanation: Morality is individual and internal in nature.
+
+Question: Neil Noddings
+Option: The only inherent good is caring*
+Option: The concept of adopting a set of rules, and each act is evaluated as to whether it conforms to them.
+Option: The only inherent good is happiness
+Option: The only inherent good is good will
+Explanation: Neil Noddings is associated with the ethic of care, which holds that the only inherent good is caring.
+
+Question: Rule Utilitarianism
+Option: The only inherent good is caring
+Option: The concept of adopting a set of rules, and each act is evaluated as to whether it conforms to them.*
+Option: The only inherent good is happiness
+Option: The only inherent good is good will
+Explanation: Rule Utilitarianism adopts a set of rules and evaluates each act based on whether it conforms to them.
+
+Question: Utilitarians
+Option: The only inherent good is caring
+Option: The concept of adopting a set of rules, and each act is evaluated as to whether it conforms to them.
+Option: The only inherent good is happiness*
+Option: The only inherent good is good will
+Explanation: Utilitarians hold that the only inherent good is happiness.
+
+Question: Immanuel Kant
+Option: The only inherent good is caring
+Option: The concept of adopting a set of rules, and each act is evaluated as to whether it conforms to them.
+Option: The only inherent good is happiness
+Option: The only inherent good is good will*
+Explanation: Immanuel Kant held that the only inherent good is good will.
+
+Question: Game Theory
+Option: The only inherent good is caring
+Option: The concept of adopting a set of rules, and each act is evaluated as to whether it conforms to them.
+Option: The only inherent good is happiness
+Option: Branch of mathematics in which an individual makes choices that potentially create points for the player*
+Explanation: Game Theory is a branch of mathematics in which individuals make choices that potentially create points for the player.
+
+Question: You are a manager facing a decision on whether to use cheaper materials that are potentially hazardous to save costs. Which ethical perspective prioritizes safety over cost
+Option: Relativism
+Option: Deontology
+Option: Utilitarianism*
+Option: Egoism
+Explanation: Utilitarianism prioritizes the greatest good for the greatest number, which would prioritize safety over cost savings.
+
+Question: A marketing team is considering a campaign that may mislead consumers about the environmental benefits of a product. Which ethical principle is at stake
+Option: Justice
+Option: Utility
+Option: Honesty*
+Option: Fairness
+Explanation: Honesty is at stake because misleading consumers about environmental benefits violates truthfulness in marketing.
+
+Question: An executive must choose between two suppliers one offers cheaper products with questionable labor practices, and the other is more expensive but ethically sound. Which principle should guide the decision
+Option: Autonomy
+Option: Honesty
+Option: Fairness*
+Option: Utility
+Explanation: Fairness should guide the decision to ensure ethical treatment of workers and avoid supporting questionable labor practices.
+
+Question: ABC company is under pressure to release a software update quickly but hasn't fully tested it for potential security vulnerabilities. What ethical principle should guide their decision
+Option: Ignore potential vulnerabilities
+Option: Delay the release to ensure thorough testing*
+Option: Expedite the release to meet market demand
+Option: Release it and fix any issues later
+Explanation: The ethical principle of safety and responsibility should guide the company to delay the release until thorough testing ensures no security vulnerabilities.
+
+Question: A team leader consistently takes credit for the work of their team members. Which ethical principle is being violated
+Option: Autonomy
+Option: Fairness*
+Option: Integrity
+Option: Utilitarianism
+Explanation: Fairness is violated because the team leader is not giving proper credit to team members for their work.
+
+Question: In the Therac-25 case, the lack of what specific safeguard contributed to the tragic outcomes
+Option: Testing*
+Option: Financial incentives
+Option: Planning
+Option: Marketing efforts
+Explanation: The lack of adequate testing contributed to the tragic outcomes in the Therac-25 case.
+
+Question: Janine, a CICS student, accidentally sees another student's grades open on a shared lab computer. She considers checking other information out of curiosity. What should she do
+Option: Close the window and inform the professor*
+Option: Log out the other student's account and walk away
+Option: Look quickly but don't tell anyone
+Option: Take a screenshot just in case it's useful later
+Explanation: Janine should close the window and inform the professor to respect the other student's privacy.
+
+Question: Lanie, a senior IT student, discovers that her group project's code contains a subtle security flaw that could expose user data, but fixing it would delay the submission past the deadline. The professor stated late submissions will be penalized heavily. What is the most ethically responsible course of action for Lanie
+Option: Submit the project on time without fixing the flaw to avoid penalties
+Option: Ignore the flaw since the project is just for a grade
+Option: Inform the professor about the flaw and request an extension to fix it*
+Option: Fix the flaw silently but submit late, hoping the professor is lenient
+Explanation: The most ethically responsible course is to inform the professor about the flaw and request an extension to fix it, prioritizing user data security.
+
+Question: Marco, an IT student intern, is offered a chance to copy code from a proprietary platform for his capstone project by a friend who works at a tech company. This would save him weeks of work. What should Marco consider the most in making his decision
+Option: How likely he is to get caught
+Option: The legal and ethical implications of using unauthorized code*
+Option: Whether his friend gave him permission
+Option: The time he would save on development
+Explanation: Marco should consider the legal and ethical implications of using unauthorized code, as it violates intellectual property rights.
+
+Question: During an online class in CICS, Rico is tempted to use ChatGPT to answer a take-home quiz labeled individual work - no AI tools allowed. What should guide Rico's decision
+Option: Ask permission after submitting the quiz
+Option: Avoid using AI tools to respect academic honesty rules*
+Option: Use it but rewrite the answer to make it look original
+Option: Use ChatGPT because others are likely doing the same
+Explanation: Rico should avoid using AI tools to respect academic honesty rules and the professor's instructions.
+
+Question: In a certain project, an IT developer faces a decision where the most efficient solution may violate privacy laws. What should guide the professional's decision
+Option: Personal convenience
+Option: Legal compliance and ethical standard*
+Option: Company profit maximization
+Option: Short-term project goals
+Explanation: Legal compliance and ethical standards should guide the professional's decision, even if it means less efficiency.
+
+Question: Pia, an IT student working on a freelance project, is asked by the client to track user behavior without disclosing it in the app's privacy policy. The client insists it's just analytics. What should Pia prioritize in this situation
+Option: How likely he is to get caught
+Option: Refusing the request and explaining the ethical and legal concerns*
+Option: Limiting the data collection to reduce risk
+Option: Fulfilling the client's request to maintain the relationship
+Explanation: Pia should refuse the request and explain the ethical and legal concerns regarding undisclosed user tracking.
+
+Question: A software developer is tasked with implementing a new function that could collect user data without their explicit permission. Which ethical responsibility should the engineer prioritize
+Option: Follow the instructions of the manager without question
+Option: Ensure the project is completed on time
+Option: Consider the general welfare and public good*
+Option: Maximize the company's profits
+Explanation: The engineer should prioritize considering the general welfare and public good, which includes protecting user privacy.
+
+Question: While working on a work-study project to upgrade the IT department's network infrastructure, a BSIT senior gains elevated admin permissions. Out of curiosity, they run a query that exposes private faculty salary records. Instead of reporting the vulnerability, they keep quiet to avoid losing their job. Which concept best describes the external professional standards the student failed to follow
+Option: Divine Command Theory
+Option: Professional Ethics*
+Option: Cultural Relativism
+Option: Personal Morality
+Explanation: Professional Ethics refers to the external standards of conduct expected in a professional role, which the student failed to follow.
+
+Question: In which ethical theory are moral rules absolute and not dependent on consequences
+Option: Relativism
+Option: Utilitarianism
+Option: Deontology*
+Option: Virtue Ethics
+Explanation: Deontology holds that moral rules are absolute and not dependent on consequences.

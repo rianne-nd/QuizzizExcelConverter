@@ -1,0 +1,37 @@
+Quiz organization manifest
+Created: 2026-11-07 19:42:48
+
+ORIGINAL  ->  NEW
+
+DataComs_PrelimExam\Checkpoint Exam 1-2.txt  ->  Quizzes\DataComs\DataComs_Checkpoint1-2.txt
+DataComs_PrelimExam\Checkpoint Exam 3-5.txt  ->  Quizzes\DataComs\DataComs_Checkpoint3-5.txt
+DataComs_PrelimExam\Checkpoint Exam 6-7.txt  ->  Quizzes\DataComs\DataComs_Checkpoint6-7.txt
+DataComs_PrelimExam\Checkpoint Exam 6-8.txt  ->  Quizzes\DataComs\DataComs_Checkpoint6-8.txt
+07102026\Mod6.txt  ->  Quizzes\DataComs\DataComs_Mod6.txt
+07102026\Mod7.txt  ->  Quizzes\DataComs\DataComs_Mod7.txt
+07102026\Sauce.txt  ->  Quizzes\DataComs\DataComs_Sauce.txt
+07102026\SauceFull.txt  ->  Quizzes\DataComs\DataComs_SauceFull.txt
+AltOS\LongQuiz1\AltOS_LQ2Raw.txt  ->  Quizzes\AltOS\AltOS_Quiz2.txt
+AltOS_Exam\AltOS_Exam.txt  ->  Quizzes\AltOS\AltOS_Exam.txt
+AppDev_LQ2\AppDevLQ1.txt  ->  Quizzes\AppDev\AppDev_Quiz1.txt
+AppDev_LQ2\AppDev_LQ2.txt  ->  Quizzes\AppDev\AppDev_Quiz2.txt
+OpSy_Mod2\OpSy_Mod2.txt  ->  Quizzes\OpSy\OpSy_Mod2.txt
+SocProQuiz2\SocPro_Quiz2.txt  ->  Quizzes\SocPro\SocPro_Quiz2.txt
+SocProQuiz2\SocPro_Quiz2Real.txt  ->  Quizzes\SocPro\SocPro_Quiz2Real.txt
+WebDev_Mod2\WebDev_Mod2Raw.txt  ->  Quizzes\WebDev\WebDev_Mod2.txt
+OpSy_mod3\OpSy_Mod3.txt  ->  Needs-Fixing\OpSy_Mod3.txt
+Test\gemini-code-1790895445828.txt  ->  _backups\duplicates\SocPro_Quiz2Real_duplicate.txt
+Quizizz_Mod14.xlsx  ->  _backups\Before-Organization\Quizizz_Mod14.xlsx
+
+OLD FOLDERS MOVED TO BACKUP
+
+07102026\  ->  _backups\Before-Organization\07102026\
+AltOS\  ->  _backups\Before-Organization\AltOS\
+AltOS_Exam\  ->  _backups\Before-Organization\AltOS_Exam\
+AppDev_LQ2\  ->  _backups\Before-Organization\AppDev_LQ2\
+DataComs_PrelimExam\  ->  _backups\Before-Organization\DataComs_PrelimExam\
+OpSy_Mod2\  ->  _backups\Before-Organization\OpSy_Mod2\
+OpSy_mod3\  ->  _backups\Before-Organization\OpSy_mod3\
+SocProQuiz2\  ->  _backups\Before-Organization\SocProQuiz2\
+WebDev_Mod2\  ->  _backups\Before-Organization\WebDev_Mod2\
+Test\  ->  _backups\Before-Organization\Test\

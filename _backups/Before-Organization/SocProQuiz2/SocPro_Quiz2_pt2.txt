@@ -1,0 +1,59 @@
+Question: A collection of technologies that work together to ensure that copyrighted content can be only viewed by the person who purchased it.
+Option: Digital Rights Management (DRM)*
+Option: Copyright
+Option: Patent
+Option: Trademark
+Explanation: DRM is a collection of technologies that ensure copyrighted content can only be viewed by the purchaser.
+
+Question: Each of the following is a form of intellectual property EXCEPT:
+Option: A novel
+Option: A logo
+Option: A recipe for apple pie passed down through generations*
+Option: A new invention
+Explanation: A family recipe passed down through generations is not a form of intellectual property.
+
+Question: If you want to protect your trademark but don't want to register, you may use the unregistered trademark symbol. Using the unregistered trademark symbol indicates you haven't registered the mark but are giving notice of your rights.
+Option: True*
+Option: False
+Explanation: The unregistered trademark symbol gives notice of rights without registration.
+
+Question: Copyright differs from patents in that patents protect product ideas, processes, or systems, whereas copyright only covers ways of expressing ideas, not the idea itself.
+Option: True*
+Option: False
+Explanation: Copyright covers expressions of ideas, not the ideas themselves, while patents protect ideas, processes, or systems.
+
+Question: Which malware type is specifically defined as a piece of software that masquerades as an innocent or useful program?
+Option: Virus
+Option: Worm
+Option: Trojan horse*
+Option: Ransomware
+Explanation: A Trojan horse masquerades as an innocent or useful program.
+
+Question: Ethical Hacking is a computer and networking expert who systematically attempts to penetrate a computer system or network on behalf of its owners for the purpose of finding security vulnerabilities that a malicious hacker could potentially exploit.
+Option: True*
+Option: False
+Explanation: Ethical hacking involves testing systems on behalf of owners to find vulnerabilities.
+
+Question: According to IEEE standards referenced in the presentation, what is the key distinction between a software "error" and a software "defect"?
+Option: An error is a mistake in code, while a defect is a flaw in design.
+Option: An error is identified during development, whereas a defect is found after release to end-users.*
+Option: An error is caused by the programmer, while a defect is caused by the user.
+Option: An error is minor, while a defect is major.
+Explanation: An error is found during development, while a defect is found after release.
+
+Question: The Patent Act entitles a person to get a patent for an invention if that invention is novel, nonobvious, and a proper subject for protection.
+Option: True*
+Option: False
+Explanation: The Patent Act requires an invention to be novel, nonobvious, and a proper subject for protection.
+
+Question: It is important for businesses to recognize what intellectual property is, and how to protect it, for all the following reasons EXCEPT:
+Option: To maintain competitive advantage
+Option: To prevent unauthorized use
+Option: Because of its tangible nature, intellectual property is an attractive target for theft and resale*
+Option: To comply with legal regulations
+Explanation: Intellectual property is intangible, not tangible.
+
+Question: "Eto ako basang basa sa ulan, walang masisilungan, walang malalapitan", is an example of lyrical trademark.
+Option: True*
+Option: False
+Explanation: Lyrical trademark can include song lyrics or phrases.

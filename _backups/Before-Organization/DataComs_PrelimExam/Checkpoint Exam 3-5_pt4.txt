@@ -1,0 +1,100 @@
+Question: Which statement describes a characteristic of standard IPv4 ACLs?
+Option: They are configured in the interface configuration mode.
+Option: They can be configured to filter traffic based on both source IP addresses and source ports.
+Option: They can be created with a number but not with a name.
+Option: They filter traffic based on source IP addresses only.*
+Explanation: Topic 4.4.1
+A standard IPv4 ACL can filter traffic based on source IP addresses only. Unlike an extended ACL, it cannot filter traffic based on Layer 4 ports. However, both standard and extended ACLs can be identified with either a number or a name, and both are configured in global configuration mode.
+
+Question: What is considered a best practice when configuring ACLs on vty lines?
+Option: Place identical restrictions on all vty lines.*
+Option: Remove the vty password since the ACL restricts access to trusted users.
+Option: Apply the ip access-group command inbound.
+Option: Use only extended access lists.
+Explanation: Topic 5.3.1
+
+Question: Refer to the exhibit. An administrator first configured an extended ACL as shown by the output of the show access-lists command. The administrator then edited this access-list by issuing the commands below.
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i241882v4n1_241882.png
+Router(config)# ip access-list extended 101 
+Router(config-ext-nacl)# no 20
+Router(config-ext-nacl)# 5 permit tcp any any eq 22
+Router(config-ext-nacl)# 20 deny udp any any
+Which two conclusions can be drawn from this new configuration? (Choose two.)
+Option: TFTP packets will be permitted.
+Option: Ping packets will be permitted.*
+Option: Telnet packets will be permitted.
+Option: SSH packets will be permitted.*
+Option: All TCP and UDP packets will be denied.
+Explanation: Topic 5.2.3
+After the editing, the final configuration is as follows:
+Router# show access-lists
+Extended IP access list 101
+5 permit tcp any any eq ssh
+10 deny tcp any any
+20 deny udp any any
+30 permit icmp any any
+So, only SSH packets and ICMP packets will be permitted.
+
+Question: Which set of access control entries would allow all users on the 192.168.10.0/24 network to access a web server that is located at 172.17.80.1, but would not allow them to use Telnet?
+Option: access-list 103 deny tcp host 192.168.10.0 any eq 23 / access-list 103 permit tcp host 192.168.10.1 eq 80
+Option: access-list 103 permit tcp 192.168.10.0 0.0.0.255 any eq 80 / access-list 103 deny tcp 192.168.10.0 0.0.0.255 any eq 23
+Option: access-list 103 permit 192.168.10.0 0.0.0.255 host 172.17.80.1 / access-list 103 deny tcp 192.168.10.0 0.0.0.255 any eq telnet
+Option: access-list 103 permit tcp 192.168.10.0 0.0.0.255 host 172.17.80.1 eq 80 / access-list 103 deny tcp 192.168.10.0 0.0.0.255 any eq 23*
+Explanation: Topic 5.4.2
+For an extended ACL to meet these requirements the following need to be included in the access control entries:
+
+identification number in the range 100-199 or 2000-2699
+permit or deny parameter
+protocol
+source address and wildcard
+destination address and wildcard
+port number or name
+
+Question: What is the term used to describe a mechanism that takes advantage of a vulnerability?
+Option: mitigation
+Option: exploit*
+Option: vulnerability
+Option: threat
+Explanation: Topic 3.1.1
+
+Question: Refer to the exhibit. The network administrator has an IP address of 192.168.11.10 and needs access to manage R1. What is the best ACL type and placement to use in this situation?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i350680v1n1_C3M4-Diagram.jpg
+Option: extended ACL outbound on R2 WAN interface towards the internet
+Option: standard ACL inbound on R1 vty lines*
+Option: extended ACLs inbound on R1 G0/0 and G0/1
+Option: extended ACL outbound on R2 S0/0/1
+Explanation: Topic 5.3.1
+Standard ACLs permit or deny packets based only on the source IPv4 address. Because all traffic types are permitted or denied, standard ACLs should be located as close to the destination as possible.
+
+Extended ACLs permit or deny packets based on the source IPv4 address and destination IPv4 address, protocol type, source and destination TCP or UDP ports and more. Because the filtering of extended ACLs is so specific, extended ACLs should be located as close as possible to the source of the traffic to be filtered. Undesirable traffic is denied close to the source network without crossing the network infrastructure.
+
+Question: A technician is tasked with using ACLs to secure a router. When would the technician use the any configuration option or command?
+Option: to add a text entry for documentation purposes
+Option: to generate and send an informational message whenever the ACE is matched
+Option: to identify any IP address*
+Option: to identify one specific IP address
+Explanation: Topic 4.2.4
+
+Question: Which statement accurately characterizes the evolution of threats to network security?
+Option: Internet architects planned for network security from the beginning.
+Option: Early Internet users often engaged in activities that would harm other users.
+Option: Internal threats can cause even greater damage than external threats.*
+Option: Threats have become less sophisticated while the technical knowledge needed by an attacker has grown.
+Explanation: Topic 3.1.2
+Internal threats can be intentional or accidental and cause greater damage than external threats because the internal user has direct access to the internal corporate network and corporate data.
+
+Question: A user receives a phone call from a person who claims to represent IT services and then asks that user for confirmation of username and password for auditing purposes. Which security threat does this phone call represent?
+Option: spam
+Option: social engineering*
+Option: DDoS
+Option: anonymous keylogging
+Explanation: Topic 3.5.6
+Social engineering attempts to gain the confidence of an employee and convince that person to divulge confidential and sensitive information, such as usernames and passwords. DDoS attacks, spam, and keylogging are all examples of software based security threats, not social engineering.
+
+Question: In what way are zombies used in security attacks?
+Option: They target specific individuals to gain corporate or personal information.
+Option: They probe a group of machines for open ports to learn which services are running.
+Option: They are maliciously formed code segments used to replace legitimate applications.
+Option: They are infected machines that carry out a DDoS attack.*
+Explanation: Topic 3.5.9
+Zombies are infected computers that make up a botnet. The zombies are used to deploy a distributed denial of service (DDoS) attack.

@@ -1,0 +1,13 @@
+=== Quizizz conversion report ===
+Input      : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\07102026
+Output     : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\07102026\_QuizizzOutput
+Files found: 4
+
+[ OK ] Mod6.txt  ->  Quizizz_Mod6.xlsx   (22 questions)
+[ OK ] Mod7.txt  ->  Quizizz_Mod7.xlsx   (24 questions)
+[ OK ] Sauce.txt  ->  Quizizz_Sauce.xlsx   (13 questions)
+[WARN] SauceFull.txt  ->  Quizizz_SauceFull.xlsx   (8 questions)
+         - Q8: missing explanation - A regional logistics enterprise interconnects 30 branch office routers to a single centr...
+
+Total: 4 file(s) -> 4 workbook(s), 67 question(s), 0 with an image link.
+1 file(s) have notes above - check them before importing to Quizizz.

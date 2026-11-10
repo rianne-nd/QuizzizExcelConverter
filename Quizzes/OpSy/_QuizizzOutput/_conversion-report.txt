@@ -1,0 +1,16 @@
+=== Quizizz conversion report ===
+Input      : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\Quizzes\OpSy
+Output     : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\Quizzes\OpSy\_QuizizzOutput
+Files found: 1
+
+[WARN] OpSy_Mod2.txt  ->  Quizizz_OpSy_Mod2.xlsx   (96 questions)
+         - Q5: NO CORRECT ANSWER marked - Processes may exchange information via two communication methods. Which?
+         - Q11: NO CORRECT ANSWER marked - How is the command-line interpreter (CLI) implemented in an operating system?
+         - Q15: NO CORRECT ANSWER marked - What is true about Apple Mac OS X's interface?
+         - Q22: NO CORRECT ANSWER marked - What does the system-call interface do when invoked?
+         - Q23: NO CORRECT ANSWER marked - What does the caller need to know about how a system call is implemented?
+         - Q72: NO CORRECT ANSWER marked - Which system is an example of a microkernel?
+         - Q83: ALL 5 options are marked correct - Which of the following are steps to generate an operating system from scrat...
+
+Total: 1 file(s) -> 1 workbook(s), 96 question(s), 0 with an image link.
+1 file(s) have notes above - check them before importing to Quizizz.

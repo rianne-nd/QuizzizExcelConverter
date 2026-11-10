@@ -1,0 +1,69 @@
+Question: What Android version revolves around the idea of you customizing the appearance of your device with dynamically generated themes based on your current wallpaper colors?
+Option: Snow Cone*
+Option: Cupcake
+Option: Marshmallow
+Option: Jelly Bean
+Explanation: Android 12 (Snow Cone) introduced Material You, which generates themes dynamically from your current wallpaper colors.
+
+Question: What component attribute specifies the type of data to be entered?
+Option: android:textType
+Option: android:dataType
+Option: android:inputType*
+Option: android:fontType
+Explanation: android:inputType specifies the type of data an EditText accepts, such as text, number, or password.
+
+Question: Who developed the high-level programming language Kotlin?
+Option: JetBrains*
+Option: Microsoft
+Option: Google
+Option: Oracle
+Explanation: Kotlin was developed by JetBrains. Google later made it a preferred language for Android development.
+
+Question: Which of the following layout parameters would you use for a layout that should fill the entire width of the available space but only take up enough height for its views inside?
+Option: Both wrap_content
+Option: wrap_content for width and match_parent for height
+Option: Both match_parent
+Option: match_parent for width and wrap_content for height*
+Explanation: match_parent for width fills all the available horizontal space, while wrap_content for height lets the layout take only as much height as its contents need.
+
+Question: In the Android folder structure, what folder contains all the design resources?
+Option: design
+Option: kotlin+java
+Option: manifest
+Option: res*
+Explanation: The res folder holds the app's design resources, such as layouts, drawables, strings, and styles.
+
+Question: What Android version had only 35 apps?
+Option: Cupcake
+Option: None of the Choices*
+Option: Jelly Bean
+Option: Snow Cone
+Explanation: Android 1.0 had only 35 apps, and it had no code name, so none of the listed versions is correct.
+
+Question: What component attribute that displays a text when the text is empty?
+Option: android:hint*
+Option: android:text
+Option: android:placeholder
+Option: android:textEmpty
+Explanation: android:hint shows placeholder text in an empty EditText, and it disappears once the user starts typing.
+
+Question: What type of view group is used to provide the child View element horizontal scrolling property?
+Option: Horizontal ScrollView*
+Option: LinearView
+Option: Linear ScrollView
+Option: ScrollView
+Explanation: HorizontalScrollView lets its child views scroll horizontally. A plain ScrollView scrolls vertically.
+
+Question: What does the match_parent value do in an Android layout?
+Option: The view will take up only space required by its content.
+Option: The view will take up half the size of its parent.
+Option: The view will expand to fill the entire available space of its parent.*
+Option: The view will copy the space of its parent component.
+Explanation: match_parent makes the view expand to fill the entire available space of its parent.
+
+Question: What type of view group helps to give a rich feel and look to the UI design? It also provides a rounded corner layout along with a specific elevation.
+Option: Division Layout
+Option: Constraint Layout
+Option: Frame Layout
+Option: CardView*
+Explanation: CardView provides a rounded corner layout together with elevation, giving a rich card-like appearance.

@@ -1,0 +1,82 @@
+Question: Refer to the exhibit. Static NAT is being configured to allow PC 1 access to the web server on the internal network. What two addresses are needed in place of A and B to complete the static NAT configuration? (Choose two.)
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i282898v1n2_282898.gif
+Option: A = 209.165.201.2
+Option: A = 10.1.0.13*
+Option: B = 209.165.201.7
+Option: B = 10.0.254.5
+Option: B = 209.165.201.1*
+Explanation: Static NAT maps an inside local address to an inside global address, so A is the inside local address and B is the inside global address.
+
+Question: What is the purpose of the overload keyword in the ip nat inside source list 1 pool NAT_POOL overload command?
+Option: It allows many inside hosts to share one or a few inside global addresses.*
+Option: It allows a list of internal hosts to communicate with a specific group of external hosts.
+Option: It allows external hosts to initiate sessions with internal hosts.
+Option: It allows a pool of inside global addresses to be used by internal hosts.
+Explanation: The overload keyword enables PAT, which lets many internal hosts share one or a few inside global addresses by tracking sessions with port numbers.
+
+Question: Refer to the exhibit. Which source address is being used by router R1 for packets being forwarded to the Internet?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i282910v1n1_282910.gif
+Option: 10.6.15.2
+Option: 209.165.202.141
+Option: 198.51.100.3
+Option: 209.165.200.225*
+Explanation: Packets forwarded to the Internet use the inside global address 209.165.200.225 as the translated source address.
+
+Question: Refer to the exhibit. The NAT configuration applied to the router is as follows:
+ERtr(config)# access-list 1 permit 10.0.0.0 0.255.255.255
+ERtr(config)# ip nat pool corp 209.165.201.6 209.165.201.30 netmask 255.255.255.224
+ERtr(config)# ip nat inside source list 1 pool corp overload
+ERtr(config)# ip nat inside source static 10.10.10.55 209.165.201.4
+ERtr(config)# interface gigabitethernet 0/0
+ERtr(config-if)# ip nat inside
+ERtr(config-if)# interface serial 0/0/0
+ERtr(config-if)# ip nat outside
+Based on the configuration and the output shown, what can be determined about the NAT status within the organization?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i212298v1n2_212298.png
+Option: Static NAT is working, but dynamic NAT is not.
+Option: Dynamic NAT is working, but static NAT is not.
+Option: Not enough information is given to determine if both static and dynamic NAT are working.*
+Option: NAT is working.
+Explanation: The output matches the configuration, but there is not enough information to confirm that both static and dynamic NAT are actively translating traffic.
+
+Question: Which situation describes data transmissions over a WAN connection?
+Option: A network administrator in the office remotely accesses a web server that is located in the data center at the edge of the campus.
+Option: A manager sends an email to all employees in the department with offices that are located in several buildings.
+Option: An employee prints a file through a networked printer that is located in another building.
+Option: An employee shares a database file with a co-worker who is located in a branch office on the other side of the city.*
+Explanation: A WAN connects devices or networks that are geographically separated, such as offices on opposite sides of a city.
+
+Question: Which two technologies are categorized as private WAN infrastructures? (Choose two.)
+Option: Frame Relay*
+Option: VPN
+Option: MetroE*
+Option: DSL
+Option: cable
+Explanation: Private WAN technologies include Frame Relay and Metro Ethernet, among others such as leased lines and MPLS.
+
+Question: Which network scenario will require the use of a WAN?
+Option: Employees need to connect to the corporate email server through a VPN while traveling.*
+Option: Employees need to access web pages that are hosted on the corporate web servers in the DMZ within their building.
+Option: Employee workstations need to obtain dynamically assigned IP addresses.
+Option: Employees in the branch office need to share files with the headquarters office that is located in a separate building on the same campus network.
+Explanation: A traveling employee connecting to the corporate network through a VPN requires WAN connectivity.
+
+Question: What does NAT overloading use to track multiple internal hosts that use one inside global address?
+Option: port numbers*
+Option: IP addresses
+Option: autonomous system numbers
+Option: MAC addresses
+Explanation: NAT overloading, or PAT, uses port numbers to distinguish between multiple internal host sessions sharing one inside global address.
+
+Question: What type of address is 192.168.7.98?
+Option: public
+Option: private*
+Explanation: 192.168.7.98 is in the private IPv4 address range 192.168.0.0/16.
+
+Question: Refer to the exhibit. R1 is configured for static NAT. What IP address will Internet hosts use to reach PC1?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i216440v5n1_216440.png
+Option: 192.168.0.1
+Option: 192.168.0.10
+Option: 209.165.201.1
+Option: 209.165.200.225*
+Explanation: Internet hosts use the inside global address 209.165.200.225 to reach PC1 through static NAT.

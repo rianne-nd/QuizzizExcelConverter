@@ -1,0 +1,46 @@
+Question: Which step in the link-state routing process is described by a router flooding link-state and cost information about each directly connected link?
+Option: building the topology table
+Option: selecting the router ID
+Option: exchanging link-state advertisements*
+Option: injecting the default route
+Explanation: According to the link-state routing process, once neighbor adjacencies are established, routers begin exchanging link-state advertisements (LSAs). During this step, each router floods information regarding the state and cost of its directly connected links to its neighbors. These neighbors then immediately forward the information to their own neighbors until all routers in the OSPF area possess identical link-state information.
+
+Question: Which step in the link-state routing process is described by a router sending Hello packets out all of the OSPF-enabled interfaces?
+Option: electing the designated router
+Option: establishing neighbor adjacencies*
+Option: injecting the default route
+Option: exchanging link-state advertisements
+Explanation: Routers send Hello packets out all OSPF-enabled interfaces to discover neighbors and establish neighbor adjacencies.
+
+Question: An administrator is configuring single-area OSPF on a router. One of the networks that must be advertised is 64.100.0.0 255.255.255.0. What wildcard mask would the administrator use in the OSPF network statement?
+Option: 0.0.0.31
+Option: 0.0.0.255*
+Option: 0.0.0.63
+Option: 0.0.0.127
+Explanation: The wildcard mask is calculated by subtracting 255.255.255.0 from 255.255.255.255, resulting in 0.0.0.255.
+
+Question: Which step in the link-state routing process is described by a router inserting best paths into the routing table?
+Option: declaring a neighbor to be inaccessible
+Option: executing the SPF algorithm
+Option: load balancing equal-cost paths
+Option: choosing the best route*
+Explanation: This is the final step in the generic link-state routing process. After the SPF algorithm creates the SPF tree, the router identifies the shortest paths to each destination and offers them to the IP routing table. These best paths are then inserted into the routing table unless a route to the same network with a lower administrative distance exists.
+
+Question: What type of address is 64.101.198.197?
+Option: public*
+Option: private
+Explanation: IPv4 private address ranges are 10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16. The address 64.101.198.197 does not fall into these ranges, so it is a public IPv4 address.
+
+Question: An OSPF router has three directly connected networks; 172.16.0.0/24, 172.16.1.0/24, and 172.16.2.0/24. Which OSPF network command would advertise only the 172.16.1.0 network to neighbors?
+Option: router(config-router)# network 172.16.1.0 0.0.255.255 area 0
+Option: router(config-router)# network 172.16.0.0 0.0.15.255 area 0
+Option: router(config-router)# network 172.16.1.0 0.0.0.255 area 0*
+Option: router(config-router)# network 172.16.1.0 0.0.0.0 area 0
+Explanation: To advertise only the 172.16.1.0/24 network the wildcard mask used in the network command must match the first 24-bits exactly. To match bits exactly, a wildcard mask uses a binary zero. This means that the first 24-bits of the wildcard mask must be zero. The low order 8-bits can all be set to 1.
+
+Question: Which step in the link-state routing process is described by a router building a link-state database based on received LSAs?
+Option: selecting the router ID
+Option: declaring a neighbor to be inaccessible
+Option: executing the SPF algorithm
+Option: building the topology table*
+Explanation: In the generic link-state routing process, the third step is to build the Link-State Database (LSDB). After Link-State Advertisements (LSAs) are received from adjacent neighbors, OSPF-enabled routers use that information to build the topology table (LSDB), which contains information about all other routers in the network area and represents the overall network topology. Once this database is synchronized, the router can then execute the SPF algorithm to find the best paths.

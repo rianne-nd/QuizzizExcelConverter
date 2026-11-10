@@ -1,0 +1,43 @@
+Question: Name any one of the two moons of Mars
+Type: Fill-in-the-Blank
+Answer: Phobos
+Answer: Deimos
+Explanation: Mars has two moons, Phobos and Deimos.
+
+Question: Which of these is the largest planet in the Solar System?
+Option: Earth
+Option: Mars
+Option: Jupiter*
+Option: Pluto
+Explanation: Jupiter is a gas giant.
+
+Question: Which of these celestial bodies are planets? (Choose three)
+Option: Venus*
+Option: Neptune*
+Option: Uranus*
+Option: Pluto
+Explanation: Pluto is classified as a dwarf planet.
+
+Question: What command shows the routing table on Linux?
+Type: Fill-in-the-Blank
+Answer: ip route
+Explanation: The ip route command prints the kernel routing table.
+
+Question: What does ARP resolve?
+Type: fill in the blank
+Option: IP address to MAC address
+Option: MAC address to IP address
+Explanation: ARP resolves an IP address to a MAC address. Option lines were used because there were no Answer lines.
+
+Question: Which of these is NOT a valid IPv6 address type?
+Option: Unicast
+Option: Anycast
+Option: Broadcast*
+Option: Multicast
+Explanation: IPv6 has no broadcast address type.
+
+Question: What is the minimum size of a UDP header, in bytes?
+Type: Fill-in-the-Blank
+Answer: 8
+Answer: 8 bytes
+Explanation: A UDP header is always 8 bytes.

@@ -1,0 +1,75 @@
+Question: Refer to the exhibit. If the switch reboots and all routers have to re-establish OSPF adjacencies, which routers will become the new DR and BDR?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i255836v1n1_255836.gif
+Option: Router R4 will become the DR and router R1 will become the BDR.*
+Option: Router R2 will become the DR and router R3 will become the BDR.
+Option: Router R1 will become the DR and router R2 will become the BDR.
+Option: Router R4 will become the DR and router R3 will become the BDR.
+Explanation: OSPF elections of a DR are based on the following in order of precedence: highest priority from 1-255 (0 = never a DR), highest router ID, highest IP address of a loopback or active interface in the absence of a manually configured router ID. In this case routers R4 and R1 have the highest router priority. Between the two, R4 has the higher router ID. Therefore, R4 will become the DR and R1 will become the BDR.
+
+Question: By default, what is the OSPF cost for any link with a bandwidth of 100 Mb/s or greater?
+Option: 100000000
+Option: 10000
+Option: 1*
+Option: 100
+Explanation: OSPF uses the formula: Cost = 100,000,000 / bandwidth. Because OSPF will only use integers as cost, any bandwidth of 100 Mb/s or greater will all equal a cost of 1.
+
+Question: Refer to the exhibit. What is the OSPF cost to reach the router A LAN 172.16.1.0/24 from B?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i258065v1n1_Item-isomorph-258065.png
+Option: 782
+Option: 74
+Option: 128
+Option: 65*
+Explanation: The formula used to calculate the OSPF cost is Cost = 100,000,000 bps / interface bandwidth in bps. Thus the cost to reach the A LAN 172.16.1.0/24 from B is: Serial link (1544 Kbps) from B to A cost => 100,000,000 / 1,544,000 = 64. Gigabit Ethernet link on A cost => 100,000,000 / 1,000,000,000 = 1. Total cost = 64 + 1 = 65.
+
+Question: Refer to the exhibit. On which router or routers would a default route be statically configured in a corporate environment that uses single area OSPF as the routing protocol?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i269030v1n1_ScalNch5.png
+Option: R0-A*
+Option: ISP, R0-A, R0-B, and R0-C
+Option: ISP
+Option: R0-B and R0-C
+Option: ISP and R0-A
+Explanation: The default route is applied to the router that connects to the Internet, or R0-A. R0-A then distributes that default route using the OSPF routing protocol.
+
+Question: What command would be used to determine if a routing protocol-initiated relationship had been made with an adjacent router?
+Option: ping
+Option: show ip ospf neighbor*
+Option: show ip interface brief
+Option: show ip protocols
+Explanation: While the show ip interface brief and ping commands can be used to determine if Layer 1, 2, and 3 connectivity exists, neither command can be used to determine if a particular OSPF or EIGRP-initiated relationship has been made. The show ip protocols command is useful in determining the routing parameters such as timers, router ID, and metric information associated with a specific routing protocol. The show ip ospf neighbor command shows if two adjacent routers have exchanged OSPF messages in order to form a neighbor relationship.
+
+Question: Refer to the exhibit. Which command did an administrator issue to produce this output?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i278236v1n1_212843.jpg
+Option: R1# show ip ospf interface serial0/0/1*
+Option: R1# show ip route ospf
+Option: R1# show ip ospf
+Option: R1# show ip ospf neighbor
+Explanation: The command show ip ospf interface serial0/0/1 displays specific interface configuration and operational details for OSPF on serial interface 0/0/1.
+
+Question: Which command is used to verify that OSPF is enabled and also provides a list of the networks that are being advertised by the network?
+Option: show ip interface brief
+Option: show ip ospf interface
+Option: show ip protocols*
+Option: show ip route ospf
+Explanation: The command show ip ospf interface verifies the active OSPF interfaces. The command show ip interface brief is used to check that the interfaces are operational. The command show ip route ospf displays the entries that are learned via OSPF in the routing table. The command show ip protocols checks that OSPF is enabled and lists the networks that are advertised.
+
+Question: Refer to the exhibit. A network administrator has configured OSPFv2 on the two Cisco routers but PC1 is unable to connect to PC2. What is the most likely problem?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i285134v1n1_285134.png
+Option: Interface Fa0/0 has not been activated for OSPFv2 on router R2.*
+Option: Interface Fa0/0 is configured as a passive-interface on router R2.
+Option: Interface S0/0 is configured as a passive-interface on router R2.
+Option: Interface s0/0 has not been activated for OSPFv2 on router R2.
+Explanation: If a LAN network is not advertised using OSPFv2, a remote network will not be reachable. The output displays a successful neighbor adjacency between router R1 and R2 on the interface S0/0 of both routers.
+
+Question: What is the recommended Cisco best practice for configuring an OSPF-enabled router so that each router can be easily identified when troubleshooting routing issues?
+Option: Configure a value using the router-id command.*
+Option: Use the highest active interface IP address that is configured on the router.
+Option: Use a loopback interface configured with the highest IP address on the router.
+Option: Use the highest IP address assigned to an active interface participating in the routing process.
+Explanation: A Cisco router is assigned a router ID to uniquely identify it. It can be automatically assigned and take the value of the highest configured IP address on any interface, the value of a specifically-configured loopback address, or the value assigned using the router-id command. Cisco recommends using the router-id command.
+
+Question: Which step in the link-state routing process is described by a router running an algorithm to determine the best path to each destination?
+Option: load balancing equal-cost paths
+Option: declaring a neighbor to be inaccessible
+Option: choosing the best route
+Option: executing the SPF algorithm*
+Explanation: In the link-state routing process, executing the SPF algorithm is the step where a router runs the Dijkstra Shortest Path First (SPF) algorithm against its Link-State Database (topology table). This calculation creates an SPF tree, which determines the best (shortest) path to every destination network based on cumulative link costs. Once this algorithm finishes, the best routes are then offered to the routing table.

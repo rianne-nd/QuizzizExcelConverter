@@ -1,0 +1,11 @@
+=== Quizizz conversion report ===
+Input      : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\Quizzes\SocPro
+Output     : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\Quizzes\SocPro\_QuizizzOutput
+Files found: 2
+
+[WARN] SocPro_Quiz2.txt  ->  Quizizz_SocPro_Quiz2.xlsx   (47 questions)
+         - Q38: ALL 5 options are marked correct - What are the modalities for acquiring ownership? Select 5 (five).
+[ OK ] SocPro_Quiz2Real.txt  ->  Quizizz_SocPro_Quiz2Real.xlsx   (40 questions)
+
+Total: 2 file(s) -> 2 workbook(s), 87 question(s), 0 with an image link.
+1 file(s) have notes above - check them before importing to Quizizz.

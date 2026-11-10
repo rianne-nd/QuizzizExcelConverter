@@ -1,0 +1,141 @@
+Question: What is the trade-off of using more high-level language in an OS?
+Option: Easier to port but slower*
+Option: Faster but harder to port
+Option: Smaller but less secure
+Option: More secure but larger
+Explanation: Page 26 states more high-level language makes the OS easier to port to other hardware, but slower.
+
+Question: What can emulation allow?
+Option: An OS to run on non-native hardware*
+Option: An OS to compile faster
+Option: An OS to use less memory
+Option: An OS to skip the bootloader
+Explanation: Page 26 says emulation can allow an OS to run on non-native hardware.
+
+Question: Which of the following are ways to structure an operating system?
+Option: Simple structure (MS-DOS)*
+Option: More complex (UNIX)*
+Option: Layered*
+Option: Microkernel (Mach)*
+Option: Virtual machine only
+Explanation: Page 27 lists simple structure (MS-DOS), more complex (UNIX), layered, and microkernel (Mach) as ways to structure an OS.
+
+Question: The original UNIX operating system consists of which two separable parts?
+Option: The kernel and the hardware
+Option: Systems programs and the kernel*
+Option: The shell and the kernel
+Option: The bootloader and the kernel
+Explanation: Page 28 states the UNIX OS consists of two separable parts: systems programs and the kernel.
+
+Question: What is the scope of the kernel in original UNIX?
+Option: Everything above the system-call interface
+Option: Everything below the system-call interface and above the physical hardware*
+Option: Only the file system
+Option: Only CPU scheduling
+Explanation: Page 28 says the kernel consists of everything below the system-call interface and above the physical hardware.
+
+Question: How is the traditional UNIX system structure described?
+Option: Fully layered
+Option: Simple, like MS-DOS
+Option: Beyond simple but not fully layered*
+Option: A pure microkernel
+Explanation: Page 29 describes the traditional UNIX system as "beyond simple but not fully layered."
+
+Question: Which of the following are subsystems of the traditional UNIX kernel?
+Option: Network protocol stack
+Option: Window manager
+Option: Signals, terminal handling, character I/O system*
+Option: File system, swapping block I/O system*
+Explanation: Page 29 lists signals/terminal/character I/O, file system/swapping block I/O, and CPU scheduling/page replacement/demand paging/virtual memory as kernel subsystems.
+
+Question: How is Linux structured?
+Option: Pure microkernel
+Option: Pure layered
+Option: Monolithic plus modular design*
+Option: Pure simple structure
+Explanation: Page 30 describes Linux as a monolithic plus modular design.
+
+Question: In the layered approach, what are the bottom and top layers?
+Option: Layer 0 is the user interface; layer N is the hardware
+Option: Layer 0 is the hardware; layer N is the user interface*
+Option: Both layers are hardware
+Option: Both layers are the user interface
+Explanation: Page 31 states the bottom layer (layer 0) is the hardware and the highest (layer N) is the user interface.
+
+Question: How do layers in the layered approach use functions and services?
+Option: Each layer uses functions of only lower-level layers*
+Option: Each layer uses functions of only higher-level layers
+Option: Each layer can use functions of any layer
+Option: Layers do not interact
+Explanation: Page 31 states layers are selected such that each uses functions (operations) and services of only lower-level layers.
+
+Question: What is the defining characteristic of a microkernel?
+Option: It moves as much as possible from the kernel into user space*
+Option: It puts everything in the kernel
+Option: It has no kernel at all
+Option: It runs only in kernel mode
+Explanation: Page 32 states a microkernel moves as much as possible from the kernel into user space.
+
+Question: Which system is an example of a microkernel?
+Option: MS-DOS
+Option: Mach
+Option: Original UNIX
+Option: Windows 3.1
+Explanation: Page 32 states Mach is an example of a microkernel.
+
+Question: The Mac OS X kernel (Darwin) is partly based on what?
+Option: Windows NT
+Option: Mach*
+Option: Linux
+Option: FreeBSD only
+Explanation: Page 32 states the Mac OS X kernel (Darwin) is partly based on Mach.
+
+Question: How does communication take place between user modules in a microkernel?
+Option: Via shared memory only
+Option: Via message passing*
+Option: Via direct function calls
+Option: Via hardware interrupts
+Explanation: Page 32 states communication takes place between user modules using message passing.
+
+Question: Which of the following are benefits of microkernels?
+Option: Faster performance
+Option: Easier to extend*
+Option: Easier to port the operating system to new architectures*
+Option: More reliable (less code running in kernel mode)*
+Option: More secure*
+Explanation: Page 32 lists these four as benefits; faster performance is a detriment, not a benefit.
+
+Question: What is a detriment of microkernels?
+Option: Increased memory usage
+Option: Reduced security
+Option: Harder to port
+Option: Performance overhead of user-space to kernel-space communication*
+Explanation: Page 32 states the detriment of microkernels is the performance overhead of user-space to kernel-space communication.
+
+Question: What does a microkernel's kernel mode typically contain?
+Option: Only the file system
+Option: Only device drivers
+Option: Interprocess communication, memory management, and CPU scheduling*
+Option: Only the GUI
+Explanation: Page 33 shows the microkernel contains interprocess communication, memory management, and CPU scheduling in kernel mode.
+
+Question: How are loadable kernel modules (LKMs) designed?
+Option: Using a procedural approach
+Option: As a single monolithic block
+Option: Using an object-oriented approach with separate core components talking over known interfaces*
+Option: As scripts only
+Explanation: Page 34 states LKMs use an object-oriented approach where each core component is separate and talks to the others over known interfaces.
+
+Question: How do LKMs compare to layers?
+Option: They are identical
+Option: They are less flexible than layers
+Option: They are similar to layers but more flexible, and each is loadable as needed*
+Option: They cannot be loaded after boot
+Explanation: Page 34 states LKMs are overall similar to layers but more flexible, and each is loadable as needed within the kernel.
+
+Question: What is true of most modern operating systems?
+Option: They are one pure model
+Option: They are all microkernels
+Option: They are hybrid, combining multiple approaches*
+Option: They are all simple structures
+Explanation: Page 35 states most modern operating systems are not one pure model — they are hybrid, combining multiple approaches.

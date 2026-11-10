@@ -1,0 +1,60 @@
+Question: The recipe of Jollibee's chicken joy is an example of trademark.
+Option: True
+Option: False*
+Explanation: A recipe is not a trademark; it may be a trade secret.
+
+Question: The third stage of taxonomy of privacy problems according to Solove is Information Processing.
+Option: True
+Option: False*
+Explanation: Information Processing is the second stage; Information Dissemination is the third.
+
+Question: All of the following are protected by trademarks EXCEPT:
+Option: A brand name
+Option: A logo
+Option: A video of a play created and performed by a college drama class*
+Option: A slogan
+Explanation: A video of a play is protected by copyright, not trademark.
+
+Question: When you are having a quiet nap in your backyard and your neighbor's dog comes in uninvited and jumps all over you to wake you up is an example of:
+Option: Intrusion*
+Option: Disclosure
+Option: Exposure
+Option: Appropriation
+Explanation: Intrusion involves disturbing someone's peace or making them uncomfortable.
+
+Question: Pearly writes the lyrics to an original musical "Imee went to town", and has her long-time collaborator, Willy who composed the music. Two years later, Pearly meets a very promising young composer Malou and asked her to compose two more songs for "Imee went to Town" the musical. Under the copyright act of 1976, which of the following is TRUE?
+Option: Pearly owns the copyright alone.
+Option: Pearly and Willy own the copyright.
+Option: Pearly, Willy and Malou own the copyright.*
+Option: Malou owns the copyright for the new songs only.
+Explanation: Under the copyright act, all contributors to the musical own the copyright.
+
+Question: What does the term "Digital Divide" refer to in a social context?
+Option: The gap between digital and analog technology.
+Option: The economic and social inequality between those who have access to information technology and those who do not.*
+Option: The difference in internet speeds between countries.
+Option: The divide between hardware and software.
+Explanation: Digital Divide refers to economic and social inequality in access to information technology.
+
+Question: A system failure may or may not result in an error being displayed on the screen.
+Option: True*
+Option: False
+Explanation: A system failure may or may not display an error on screen.
+
+Question: What are the modalities for acquiring ownership? Select 5 (five).
+Option: Succession*
+Option: Occupation*
+Option: Prescription*
+Option: Donation*
+Option: Law*
+Explanation: Ownership is acquired by occupation, law, donation, prescription, and succession.
+
+Question: Scandalous matter, such as profane language used by very creative stand-up comedians can be protected by trademark.
+Option: True
+Option: False*
+Explanation: Scandalous matter cannot be protected by trademark.
+
+Question: Intellectual property is a legal concept that provides legal protection to infringement of the knowledge assets of an owner.
+Option: True*
+Option: False
+Explanation: IP is a legal concept protecting knowledge assets.

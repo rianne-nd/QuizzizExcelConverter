@@ -1,0 +1,103 @@
+Question: Refer to the exhibit. A network administrator needs to add an ACE to the TRAFFIC-CONTROL ACL that will deny IP traffic from the subnet 172.23.16.0/20. Which ACE will meet this requirement?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i282896v1n2_282896.gif
+Option: 30 deny 172.23.16.0 0.0.15.255
+Option: 15 deny 172.23.16.0 0.0.15.255
+Option: 5 deny 172.23.16.0 0.0.15.255*
+Option: 5 deny 172.23.16.0 0.0.255.255
+Explanation: Topic 4.1.3
+The only filtering criteria specified for a standard access list is the source IPv4 address. The wild card mask is written to identify what parts of the address to match, with a 0 bit, and what parts of the address should be ignored, which a 1 bit. The router will parse the ACE entries from lowest sequence number to highest. If an ACE must be added to an existing access list, the sequence number should be specified so that the ACE is in the correct place during the ACL evaluation process.
+
+Question: Refer to the exhibit. A network administrator configures an ACL on the router. Which statement describes the result of the configuration?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i209873v1n1_209873.png
+Option: An SSH connection is allowed from a workstation with IP 172.16.45.16 to a device with IP 192.168.25.18.*
+Option: An SSH connection is allowed from a workstation with IP 192.168.25.18 to a device with IP 172.16.45.16.
+Option: A Telnet connection is allowed from a workstation with IP 192.168.25.18 to a device with IP 172.16.45.16.
+Option: A Telnet connection is allowed from a workstation with IP 172.16.45.16 to a device with IP 192.168.25.18.
+Explanation: Topic 5.4.1
+In an extended ACL, the first address is the source IP address and the second one is the destination IP address. TCP port number 22 is a well-known port number reserved for SSH connections. Telnet connections use TCP port number 23.
+
+Question: Refer to the exhibit. What can be determined from this output?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i209869v1n1_209869.png
+Option: The ACL is missing the deny ip any any ACE.
+Option: The ACL is only monitoring traffic destined for 10.23.77.101 from three specific hosts.
+Option: Because there are no matches for line 10, the ACL is not working.
+Option: The router has not had any Telnet packets from 10.35.80.22 that are destined for 10.23.77.101.*
+Explanation: Topic 5.2.5
+ACL entry 10 in MyACL matches any Telnet packets between host 10.35.80.22 and 10.23.77.101. No matches have occurred on this ACE as evidenced by the lack of a "(xxx matches)" ACE. The deny ip any any ACE is not required because there is an implicit deny ACE added to every access control list. When no matches exist for an ACL, it only means that no traffic has matched the conditions that exist for that particular line. The ACL is monitoring traffic that matches three specific hosts going to very specific destination devices. All other traffic is not permitted by the implicit deny ip any any ACE.
+
+Question: Refer to the exhibit. A network administrator wants to permit only host 192.168.1.1 /24 to be able to access the server 192.168.2.1 /24. Which three commands will achieve this using best ACL placement practices? (Choose three.)
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i217141v1n1_2.png
+Option: R2(config)# interface fastethernet 0/1
+Option: R2(config-if)# ip access-group 101 out
+Option: R2(config-if)# ip access-group 101 in*
+Option: R2(config)# interface fastethernet 0/0*
+Option: R2(config)# access-list 101 permit ip host 192.168.1.1 host 192.168.2.1*
+Explanation: Topic 4.4.3
+An extended ACL is placed as close to the source of the traffic as possible. In this case.it is placed in an inbound direction on interface fa0/0 on R2 for traffic entering the router from host with the IP address192.168.1.1 bound for the server with the IP address192.168.2.1.
+
+Question: Consider the following access list.
+access-list 100 permit ip host 192.168.10.1 any
+access-list 100 deny icmp 192.168.10.0 0.0.0.255 any echo
+access-list 100 permit ip any any
+Which two actions are taken if the access list is placed inbound on a router Gigabit Ethernet port that has the IP address 192.168.10.254 assigned? (Choose two.)
+Option: Only Layer 3 connections are allowed to be made from the router to any other network device.
+Option: Devices on the 192.168.10.0/24 network are not allowed to reply to any ping requests.
+Option: Devices on the 192.168.10.0/24 network can sucessfully ping devices on the 192.168.11.0 network.
+Option: A Telnet or SSH session is allowed from any device on the 192.168.10.0 into the router with this access list assigned.*
+Option: Devices on the 192.168.10.0/24 network are allowed to reply to any ping requests.*
+Explanation: Topic 5.4.1
+The first ACE allows the 192.168.10.1 device to do any TCP/IP-based transactions with any other destination. The second ACE stops devices on the 192.168.10.0/24 network from issuing any pings to any other location. Everything else is permitted by the third ACE. Therefore, a Telnet/SSH session or ping reply is allowed from a device on the 192.168.10.0/24 network.
+
+Question: Refer to the exhibit. The named ACL "Managers" already exists on the router. What will happen when the network administrator issues the commands that are shown in the exhibit?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i148460n1v1.jpg
+Option: The commands are added at the end of the existing Managers ACL.*
+Option: The commands overwrite the existing Managers ACL.
+Option: The commands are added at the beginning of the existing Managers ACL.
+Option: The network administrator receives an error that states that the ACL already exists.
+Explanation: Topic 5.2.4
+
+Question: In which TCP attack is the cybercriminal attempting to overwhelm a target host with half-open TCP connections?
+Option: port scan attack
+Option: SYN flood attack*
+Option: session hijacking attack
+Option: reset attack
+Explanation: Topic 3.7.3
+In a TCP SYN flood attack, the attacker sends to the target host a continuous flood of TCP SYN session requests with a spoofed source IP address. The target host responds with a TCP-SYN-ACK to each of the SYN session requests and waits for a TCP ACK that will never arrive. Eventually the target is overwhelmed with half-open TCP connections.
+
+Question: Which protocol is attacked when a cybercriminal provides an invalid gateway in order to create a man-in-the-middle attack?
+Option: DHCP*
+Option: DNS
+Option: ICMP
+Option: HTTP or HTTPS
+Explanation: Topic 3.8.7
+A cybercriminal could set up a rogue DHCP server that provides one or more of the following:
+
+Wrong default gateway that is used to create a man-in-the-middle attack and allow the attacker to intercept data
+Wrong DNS server that results in the user being sent to a malicious website
+Invalid default gateway IP address that results in a denial of service attack on the DHCP client
+
+Question: Refer to the exhibit. An administrator has configured a standard ACL on R1 and applied it to interface serial 0/0/0 in the outbound direction. What happens to traffic leaving interface serial 0/0/0 that does not match the configured ACL statements?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i233528v1n1_233527.png
+Option: The traffic is dropped.*
+Option: The source IP address is checked and, if a match is not found, traffic is routed out interface serial 0/0/1.
+Option: The resulting action is determined by the destination IP address.
+Option: The resulting action is determined by the destination IP address and port number.
+Explanation: Topic 4.1.3
+Any traffic that does not match one of the statements in an ACL has the implicit deny applied to it, which means the traffic is dropped.
+
+Question: Refer to the exhibit. The Gigabit interfaces on both routers have been configured with subinterface numbers that match the VLAN numbers connected to them. PCs on VLAN 10 should be able to print to the P1 printer on VLAN 12. PCs on VLAN 20 should print to the printers on VLAN 22. What interface and in what direction should you place a standard ACL that allows printing to P1 from data VLAN 10, but stops the PCs on VLAN 20 from using the P1 printer? (Choose two.)
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i215806v1n2_215806.png
+Option: inbound
+Option: R2 S0/0/1
+Option: R1 Gi0/1.12*
+Option: outbound*
+Option: R1 S0/0/0
+Explanation: Topic 4.4.4
+A standard access list is commonly placed as close to the destination network as possible because access control expressions in a standard ACL do not include information about the destination network.
+The destination in this example is printer VLAN 12 which has router R1 Gigabit subinterface 0/1/.12 as its gateway. A sample standard ACL that only allows printing from data VLAN 10 (192.168.10.0/24), for example, and no other VLAN would be as follows:
+
+Copy
+R1(config)# access-list 1 permit 192.168.10.0 0.0.0.255
+R1(config)# access-list 1 deny any
+R1(config)# interface gigabitethernet 0/1.12
+R1(config-if)# ip access-group 1 out

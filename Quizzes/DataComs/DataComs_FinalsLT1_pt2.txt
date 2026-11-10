@@ -1,0 +1,61 @@
+Question: Stateful, connection-oriented model using explicit end-to-end bandwidth reservations for microflows
+Option: Differentiated Services (DiffServ)
+Option: Differentiated Services Code Point (DSCP)
+Option: Best-Effort Model
+Option: Integrated Services (IntServ)*
+Option: Resource Reservation Protocol (RSVP)
+Explanation: Integrated Services (IntServ) is a stateful, connection-oriented model using explicit end-to-end bandwidth reservations for microflows.
+
+Question: Signaling protocol used by IntServ applications to request network resource reservations
+Option: Differentiated Services (DiffServ)
+Option: Differentiated Services Code Point (DSCP)
+Option: Best-Effort Model
+Option: Integrated Services (IntServ)
+Option: Resource Reservation Protocol (RSVP)*
+Explanation: RSVP is the signaling protocol used by IntServ applications to request network resource reservations.
+
+Question: A network administrator runs show ntp status on an edge router following a power restoration event. The terminal output reports: Clock is unsynchronized, stratum 16, reference is 0.0.0.0. In NTP operations, a stratum level of 16 indicates that a device is synchronized to a local hardware master clock.
+Option: True
+Option: False*
+Explanation: A stratum level of 16 indicates that the device is unsynchronized, not synchronized to a local hardware master clock.
+
+Question: A security policy requires all site-to-site traffic transmitted over the public internet to be fully encrypted to guarantee data confidentiality, as well as data integrity and origin authentication. The network team should select Authentication Header (AH) as the primary IPsec protocol header because AH provides packet payload encryption in addition to integrity protection.
+Option: True
+Option: False*
+Explanation: AH provides data integrity and origin authentication but does not provide packet payload encryption. Encapsulating Security Payload (ESP) is required for encryption.
+
+Question: A network engineer is configuring congestion management on a router interface connecting branch office users to the corporate data center. To ensure voice packets receive priority transmission over general data queues without delay, the engineer combines Class-Based Weighted Fair Queuing (CBWFQ) with [blank] to provide strict priority queuing. If a queue exceeds its maximum capacity without active drop policies, the router defaults to tail drop, discarding all newly arriving packets regardless of priority.
+Type: Fill-in-the-Blank
+Answer: Low Latency Queuing
+Answer: LLQ
+Explanation: The engineer combines CBWFQ with Low Latency Queuing (LLQ) to provide strict priority queuing for voice packets.
+
+Question: A network engineer needs to configure a site-to-site VPN to connect two regional offices. The connection must transport dynamic IPv6 dynamic routing updates (such as OSPFv3) over an IPv4 internet path. The engineer decides to deploy GRE over IPsec. In this encapsulation hierarchy, GRE functions as the [blank] protocol that encapsulates the original routing update packet before it is wrapped in IPsec.
+Type: Fill-in-the-Blank
+Answer: passenger
+Explanation: In a GRE over IPsec configuration, GRE functions as the passenger protocol.
+
+Question: An administrator is configuring Hashed Message Authentication Code (HMAC) parameters for an IPsec tunnel and must decide between MD5 and SHA to ensure packet integrity. Message-Digest 5 (MD5) utilizes a 160-bit secret key for message authentication, making it cryptographically stronger than Secure Hash Algorithm (SHA).
+Option: True
+Option: False*
+Explanation: MD5 is generally considered cryptographically weaker than SHA. Additionally, MD5 uses a 128-bit hash, not a 160-bit secret key.
+
+Question: A network manager wants to ensure that a hardware or broadcast failure on an access switch in Building A does not bring down the entire campus network. In a standard hierarchical enterprise network design, failure domains are terminated at the access layer.
+Option: True
+Option: False*
+Explanation: In a standard hierarchical enterprise network design, Layer 2 failure domains are typically terminated at the distribution layer, not the access layer.
+
+Question: An enterprise network design specifies connecting remote branch offices, a central network edge aggregation point, and an outdoor industrial site. Which Cisco router platforms are correctly matched with their intended deployment roles? (Select 3)
+Option: Cisco ASR 9000 Series - Network edge routers delivering high-performance, secure, and reliable service aggregation*
+Option: Cisco 900 Series - Multi-chassis data center core switches requiring external liquid cooling
+Option: Cisco NCS 6000 Series - Compact fanless home office routers
+Option: Cisco 1100 / 800 Series Industrial ISR - Ruggedized routers built for enterprise-class features in harsh environments*
+Option: Cisco ISR 4000 Series - Branch routers optimizing branch services and application delivery on a single platform*
+Explanation: These three platform descriptions correctly match their intended deployment roles.
+
+Question: Allowing two peer gateways to establish a shared secret key over an insecure public channel without transmitting the secret key itself
+Option: Diffie-Hellman (DH) Key Exchange*
+Option: Origin Authentication
+Option: Confidentiality
+Option: Data Integrity
+Explanation: Diffie-Hellman (DH) Key Exchange allows two peer gateways to establish a shared secret key over an insecure public channel.

@@ -1,0 +1,62 @@
+Question: Which of the following command must be used to create a new user in Ubuntu named as Dalm!?
+Option: $ sudo adduser Dalm!*
+Option: $ sudo add Dalm!
+Option: $ sudo newuser Dalm!
+Option: $ sudo createuser Dalm!
+Explanation: The adduser command is used on Ubuntu to create a new user account.
+
+Question: JP type in vim STARTUP and it open the VIM editor, how can he change the mode to insert mode?
+Option: He can type mode insert
+Option: He can just press ESC key
+Option: He can just press ESC key twice
+Option: He can type or press :i or press shift i*
+Explanation: In Vim, pressing i enters Insert mode; Shift+i also enters Insert mode at the beginning of the line.
+
+Question: What will be the effect of chmod 421 when applied to file FAILED.txt?
+Option: r---w---x*
+Option: rwx-w-r-x
+Option: rw-wxr-x
+Option: r-rwx-x
+Explanation: Octal 421 gives the owner read, the group write, and others execute permission.
+
+Question: A file permission that contents can be executed.
+Option: Read
+Option: Execute*
+Option: No Permission
+Option: Write
+Explanation: Execute permission allows a file to be run as a program or script.
+
+Question: Dosan want to exit from VIM editor without saving the changes. What must be the correct way to do it?
+Option: Press ESC key, then :x then enter
+Option: Press ESC key, then :q! then enter*
+Option: Just close the editor by pressing x or close button
+Option: Just type :wq! then enter
+Explanation: In Vim, ESC followed by :q! and Enter quits without saving changes.
+
+Question: How can you set the default rwx permission to all users on every file which is created in the current shell?
+Option: umask 666
+Option: umask 777
+Option: umask 000*
+Option: umask 555
+Explanation: umask 000 removes no permissions from the default creation mode; directories become rwxrwxrwx, while regular files still typically get rw-rw-rw- unless execute bits are added.
+
+Question: Which of the following will display files or directory with at least 3 characters?
+Option: ls [a-z][1-9]?
+Option: ls *ab
+Option: ls [A-Z][a-z]??
+Option: ls ???**
+Explanation: The pattern ???* matches any name with at least three characters.
+
+Question: What will be displayed after executing ls *.dat Given the following list of files: ... .profile ab.dat abcd.dat abcde abcde.data
+Option: ab.dat abcd.dat*
+Option: ab abcd abcde
+Option: ab.dat abcd.dat abcde.data
+Option: ab abcd
+Explanation: The pattern matches filenames ending in .dat, so it displays ab.dat and abcd.dat.
+
+Question: A command language interpreter that incorporates a command history buffer?
+Option: C shell*
+Option: Posix shell
+Option: Bourne shell
+Option: Korn shell
+Explanation: The C shell is a command language interpreter that includes a command history buffer and other interactive features.

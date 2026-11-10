@@ -1,0 +1,81 @@
+Question: Which attack involves threat actors positioning themselves between a source and destination with the intent of transparently monitoring, capturing, and controlling the communication?
+Option: man-in-the-middle attack*
+Option: SYN flood attack
+Option: DoS attack
+Option: ICMP attack
+Explanation: Topic 3.3.4
+The man-in-the-middle attack is a common IP-related attack where threat actors position themselves between a source and destination to transparently monitor, capture, and control the communication.
+
+Question: Which two keywords can be used in an access control list to replace a wildcard mask or address and wildcard mask pair? (Choose two.)
+Option: host*
+Option: most
+Option: gt
+Option: some
+Option: any*
+Explanation: Topic 4.2.4
+The host keyword is used when using a specific device IP address in an ACL. For example, the deny host 192.168.5.5 command is the same is the deny 192.168.5.5 0.0.0.0 command. The any keyword is used to allow any mask through that meets the criteria. For example, the permit any command is the same as permit 0.0.0.0 255.255.255.255 command.
+
+Question: Which statement describes a difference between the operation of inbound and outbound ACLs?
+Option: Inbound ACLs are processed before the packets are routed while outbound ACLs are processed after the routing is completed.*
+Option: In contrast to outbound ALCs, inbound ACLs can be used to filter packets with multiple criteria.
+Option: On a network interface, more than one inbound ACL can be configured but only one outbound ACL can be configured.
+Option: Inbound ACLs can be used in both routers and switches but outbound ACLs can be used only on routers.
+Explanation: Topic 4.1.3
+With an inbound ACL, incoming packets are processed before they are routed. With an outbound ACL, packets are first routed to the outbound interface, then they are processed. Thus processing inbound is more efficient from the router perspective. The structure, filtering methods, and limitations (on an interface, only one inbound and one outbound ACL can be configured) are the same for both types of ACLs.
+
+Question: What effect would the Router1(config-ext-nacl)# permit tcp 172.16.4.0 0.0.0.255 any eq www command have when implemented inbound on the f0/0 interface?
+Option: All TCP traffic is permitted, and all other traffic is denied.
+Option: Traffic originating from 172.16.4.0/24 is permitted to all TCP port 80 destinations.*
+Option: All traffic from 172.16.4.0/24 is permitted anywhere on any port.
+Option: The command is rejected by the router because it is incomplete.
+Explanation: Topic 5.4.2
+
+Question: Which ACE will permit a packet that originates from any network and is destined for a web server at 192.168.1.1?
+Option: access-list 101 permit tcp any host 192.168.1.1 eq 80*
+Option: access-list 101 permit tcp host 192.168.1.1 eq 80 any
+Option: access-list 101 permit tcp host 192.168.1.1 any eq 80
+Option: access-list 101 permit tcp any eq 80 host 192.168.1.1
+Explanation: Topic 5.4.2
+
+Question: Refer to the exhibit. A new network policy requires an ACL denying FTP and Telnet access to a Corp file server from all interns. The address of the file server is 172.16.1.15 and all interns are assigned addresses in the 172.18.200.0/24 network. After implementing the ACL, no one in the Corp network can access any of the servers. What is the problem?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i254796v1n1_254796-1.jpg
+Option: Inbound ACLs must be routed before they are processed.
+Option: The ACL is implicitly denying access to all the servers.*
+Option: Named ACLs require the use of port numbers.
+Option: The ACL is applied to the interface using the wrong direction.
+Explanation: Topic 4.1.3
+Both named and numbered ACLs have an implicit deny ACE at the end of the list. This implicit deny blocks all traffic.
+
+Question: A technician is tasked with using ACLs to secure a router. When would the technician use the access-class 20 in configuration option or command?
+Option: to secure administrative access to the router*
+Option: to remove an ACL from an interface
+Option: to remove a configured ACL
+Option: to apply a standard ACL to an interface
+Explanation: Topic 5.3.1
+
+Question: What is the term used to describe the same pre-shared key or secret key, known by both the sender and receiver to encrypt and decrypt data?
+Option: symmetric encryption algorithm*
+Option: data integrity
+Option: exploit
+Option: risk
+Explanation: Topic 3.10.7
+
+Question: Refer to the exhibit. Internet privileges for an employee have been revoked because of abuse but the employee still needs access to company resources. What is the best ACL type and placement to use in this situation?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i350685v1n1_C3M4-Diagram.jpg
+Option: standard ACL inbound on R2 WAN interface connecting to the internet
+Option: standard ACL outbound on R2 WAN interface towards the internet*
+Option: standard ACL inbound on R1 G0/0
+Option: standard ACL outbound on R1 G0/0
+Explanation: Topic 4.4.4
+- Standard ACLs permit or deny packets based only on the source IPv4 address. Because all traffic types are permitted or denied, standard ACLs should be located as close to the destination as possible.
+- Extended ACLs permit or deny packets based on the source IPv4 address and destination IPv4 address, protocol type, source and destination TCP or UDP ports and more. Because the filtering of extended ACLs is so specific, extended ACLs should be located as close as possible to the source of the traffic to be filtered. Undesirable traffic is denied close to the source network without crossing the network infrastructure.
+
+Question: Refer to the exhibit. The student on the H1 computer continues to launch an extended ping with expanded packets at the student on the H2 computer. The school network administrator wants to stop this behavior, but still allow both students access to web-based computer assignments. What would be the best plan for the network administrator?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i215813v1n1_215813.png
+Option: Apply an inbound standard ACL on R1 Gi0/0.
+Option: Apply an inbound extended ACL on R2 Gi0/1.
+Option: Apply an outbound extended ACL on R1 S0/0/1.
+Option: Apply an inbound extended ACL on R1 Gi0/0.*
+Option: Apply an outbound standard ACL on R2 S0/0/1.
+Explanation: Topic 4.4.5
+This access list must be an extended ACL in order to filter on specific source and destination host addresses. Commonly, the best place for an extended ACL is closest to the source, which is H1. Traffic from H1 travels into the switch, then out of the switch into the R1 Gi0/0 interface. This Gi0/0 interface would be the best location for this type of extended ACL. The ACL would be applied on the inbound interface since the packets from H1 would be coming into the R1 router.

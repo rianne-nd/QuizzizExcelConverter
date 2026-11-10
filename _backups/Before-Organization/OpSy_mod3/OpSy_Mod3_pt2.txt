@@ -1,0 +1,142 @@
+Question Which scheduler is also known as the CPU scheduler
+Option Long-term scheduler
+Option Medium-term scheduler
+Option Job scheduler
+Option Short-term scheduler
+Explanation The short-term scheduler is also called the CPU scheduler; it selects from ready processes and allocates the CPU to one of them (Page 15 — Schedulers).
+
+Question Which of the following events cause a process to return to the ready queue
+Option IO completion
+Option Process termination
+Option Time-slice expiry
+Option Child execution after a fork
+Option Interrupt occurrence
+Explanation IO completion, time-slice expiry, child execution after a fork, and interrupt occurrence all cause the process to return to the ready queue (Page 16 — Representation of Process Scheduling).
+
+Question What happens during a context switch
+Option The system saves the state of the old process and loads the saved state for the new process
+Option The CPU executes a new program
+Option The OS creates a new process
+Option The process is terminated
+Explanation During a context switch, the system saves the state of the old process and loads the saved state for the new process (Page 17 — Context Switch).
+
+Question Where is the context of a process represented
+Option In the stack
+Option In the PCB
+Option In the program counter
+Option In the heap
+Explanation The context of a process is represented in the PCB (Page 17 — Context Switch).
+
+Question What is true about context-switch time
+Option It is when the system performs useful work
+Option It does not depend on hardware support
+Option It is pure overhead; the system does no useful work while switching
+Option It is constant regardless of OS complexity
+Explanation Context-switch time is pure overhead; the system does no useful work while switching (Page 17 — Context Switch).
+
+Question What triggers a context switch from one process to another
+Option A timer interrupt only
+Option A system call only
+Option A disk operation only
+Option An interrupt or a system call
+Explanation A context switch is triggered when the executing process issues an interrupt or a system call (Page 18 — CPU Switch From Process to Process).
+
+Question Which of the following are operations on processes that the OS must provide
+Option Process creation
+Option Process termination
+Option Process compilation
+Option Process scheduling
+Option Process communication
+Explanation The OS must provide mechanisms for process creation, termination, suspensionblocking, resumption, scheduling, and communication (Page 19 — Operations on Processes).
+
+Question How is a process generally identified and managed
+Option By a process identifier (pid)
+Option By its file name
+Option By a memory address
+Option By a user name
+Explanation A process is generally identified and managed via a process identifier, or pid (Page 20 — Process Creation).
+
+Question What structure forms when parent processes create children that create other processes
+Option A list of processes
+Option A tree of processes
+Option A queue of processes
+Option A stack of processes
+Explanation Parent processes create children, which in turn create other processes, forming a tree of processes (Page 20 — Process Creation).
+
+Question Which is a resource-sharing option between a parent process and its child
+Option Parent keeps all resources; child has none
+Option Child resources override parent resources
+Option Parent and children share all resources
+Option Resources are shared equally among siblings only
+Explanation Resource-sharing options include parent and children sharing all resources, sharing a subset, or sharing no resources (Page 20 — Process Creation).
+
+Question Which is an execution option for parent and children processes
+Option Children always wait for the parent
+Option Parent terminates before children start
+Option Children execute sequentially after the parent
+Option Parent and children execute concurrently
+Explanation Execution options include parent and children executing concurrently, or the parent waiting until children terminate (Page 20 — Process Creation).
+
+Question What does the fork() system call do in UNIX
+Option Creates a new process
+Option Replaces a process's memory space with a new program
+Option Terminates a process
+Option Waits for a child to terminate
+Explanation The fork() system call creates a new process in UNIX (Page 21 — Address Space & UNIX Examples).
+
+Question What is the purpose of the exec() system call in UNIX
+Option Creates a new process
+Option Replaces a process's memory space with a new program
+Option Terminates a child process
+Option Suspends a process
+Explanation The exec() system call is used after a fork() to replace the process's memory space with a new program (Page 21 — Address Space & UNIX Examples).
+
+Question Which system call does a process use to terminate itself
+Option fork()
+Option abort()
+Option exit()
+Option wait()
+Explanation A process asks the operating system to delete it using the exit() system call (Page 22 — Process Termination).
+
+Question Which system call lets a parent terminate a child process
+Option exit()
+Option fork()
+Option wait()
+Option abort()
+Explanation A parent may terminate the execution of children processes using the abort() system call (Page 22 — Process Termination).
+
+Question Which of the following are reasons a parent may terminate a child process
+Option Child has exceeded allocated resources
+Option The child has finished its task successfully
+Option Task assigned to the child is no longer required
+Option The parent is exiting and the OS does not allow the child to continue
+Option The child is taking too long to execute
+Explanation Reasons include the child exceeding allocated resources, the task being no longer required, or the parent exiting and the OS not allowing the child to continue (Page 22 — Process Termination).
+
+Question What is cascading termination
+Option All children, grandchildren, etc., are terminated when a parent terminates
+Option Only the immediate children are terminated when a parent terminates
+Option A child terminates its parent process
+Option A process terminates itself using exit()
+Explanation Cascading termination means all children, grandchildren, and so on are terminated when a process terminates; the OS initiates this (Page 23 — Cascading Termination, Zombie, Orphan).
+
+Question What is a zombie process
+Option A process whose parent terminated without invoking wait()
+Option A process whose parent did not invoke wait() (no parent waiting)
+Option A process that has exceeded its allocated resources
+Option A process that has been suspended
+Explanation A zombie process is one where no parent is waiting because the parent did not invoke wait() (Page 23 — Cascading Termination, Zombie, Orphan).
+
+Question What is an orphan process
+Option A process with no children
+Option A process that has terminated but was not waited for
+Option A process whose parent terminated without invoking wait()
+Option A process that has exceeded its resource limits
+Explanation An orphan process is one whose parent terminated without invoking wait() (Page 23 — Cascading Termination, Zombie, Orphan).
+
+Question What does the wait() system call return
+Option Only the child's exit status
+Option Only the child's pid
+Option The child's memory contents
+Option Status information and the pid of the terminated process
+Explanation The wait() system call returns status information and the pid of the terminated process (Page 23 — Cascading Termination, Zombie, Orphan).

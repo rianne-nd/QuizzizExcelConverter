@@ -1,0 +1,12 @@
+=== Quizizz conversion report ===
+Input      : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\AltOS\LongQuiz1
+Output     : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\AltOS\LongQuiz1\_QuizizzOutput
+Files found: 5
+
+[ OK ] AltOS_LQ2_pt1.txt  ->  Quizizz_AltOS_LQ2_pt1.xlsx   (10 questions)
+[ OK ] AltOS_LQ2_pt2.txt  ->  Quizizz_AltOS_LQ2_pt2.xlsx   (10 questions)
+[ OK ] AltOS_LQ2_pt3.txt  ->  Quizizz_AltOS_LQ2_pt3.xlsx   (10 questions)
+[ OK ] AltOS_LQ2_pt4.txt  ->  Quizizz_AltOS_LQ2_pt4.xlsx   (7 questions)
+[ OK ] AltOS_LQ2Raw.txt  ->  Quizizz_AltOS_LQ2.xlsx   (37 questions)
+
+Total: 5 file(s) -> 5 workbook(s), 74 question(s), 0 with an image link.

@@ -1,0 +1,72 @@
+Question: In which month and year was Android Inc. founded?
+Option: October 2003*
+Option: January 2005
+Option: June 2007
+Option: September 2008
+Explanation: Android Inc. was founded in Palo Alto, California, in October 2003.
+
+Question: Which of the following were co-founders of Android Inc.?
+Option: Rich Miner*
+Option: Nick Sears*
+Option: Chris White*
+Option: Andy Rubin*
+Option: Steve Jobs
+Explanation: Android Inc. was founded in October 2003 by Andy Rubin, Rich Miner, Nick Sears, and Chris White.
+
+Question: What was the original goal of Android Inc.?
+Option: To build the world's cheapest smartphone
+Option: To develop a smarter mobile device that was more aware of its owner's location and preferences*
+Option: To create a mobile app store for Google
+Option: To replace the Linux kernel with a new operating system
+Explanation: Their goal was to develop a smarter mobile device that was more aware of its owner's location and preferences.
+
+Question: How did Android Inc. operate in its early years?
+Option: It published all of its source code immediately
+Option: It operated secretively, admitting only that it was working on software for mobile phones*
+Option: It publicly announced a partnership with Apple
+Option: It focused on building desktop computers
+Explanation: The company operated secretively and admitted only that it was working on software for mobile phones.
+
+Question: Android TV is a version of the Android operating system designed for what?
+Option: Digital media players*
+Option: Smartwatches
+Option: Car dashboards
+Option: Tablet computers
+Explanation: Android TV is a version of the Android operating system designed for digital media players.
+
+Question: Android TV is a replacement for which earlier product?
+Option: Google TV*
+Option: Apple TV
+Option: Chromecast
+Option: Android Auto
+Explanation: Android TV is a replacement for Google TV.
+
+Question: The Android TV user interface is designed around what?
+Option: Content discovery and voice search*
+Option: Touch gestures and stylus input
+Option: Keyboard and mouse navigation
+Option: Text-only menus
+Explanation: Android TV features a user interface designed around content discovery and voice search.
+
+Question: Android TV integrates with which of these Google technologies?
+Option: Assistant*
+Option: Cast*
+Option: Knowledge Graph*
+Option: Google Stadia
+Option: Google Duo
+Explanation: Android TV integrates with Google technologies such as Assistant, Cast, and Knowledge Graph.
+
+Question: What does Android Auto do?
+Option: It replaces the car's engine control software
+Option: It mirrors features from an Android device to a car's compatible in-dash head unit*
+Option: It turns a phone into a GPS satellite receiver
+Option: It controls a car's air conditioning system
+Explanation: Android Auto is a mobile app developed by Google to mirror features from an Android device to a car's compatible in-dash information and entertainment head unit.
+
+Question: Which of these app types are supported by Android Auto?
+Option: GPS mapping and navigation*
+Option: Music playback*
+Option: SMS and telephone*
+Option: Web search*
+Option: Video streaming
+Explanation: Supported apps include GPS mapping and navigation, music playback, SMS, telephone, and web search.

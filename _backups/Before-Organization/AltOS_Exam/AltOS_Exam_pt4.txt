@@ -1,0 +1,61 @@
+Question: Write the command that will rename a file “oldfile” to “newfile”
+Type: Fill-in-the-Blank
+Answer: mv oldfile newfile
+Explanation: The mv command renames oldfile to newfile using the syntax: mv oldfile newfile.
+
+Question: It is a multi-user operating system.
+Option: Unix*
+Option: MAC OS-Big Sur
+Option: Android
+Option: Windows
+Explanation: Unix was designed as a multi-user and multitasking operating system.
+
+Question: Write the code that will show all details of files in UNIX
+Type: Fill-in-the-Blank
+Answer: ls -l
+Explanation: The ls -l command lists files in long format, showing detailed information such as permissions, owner, size, and date.
+
+Question: The command used to display all information of all the files and directories including the hidden files.
+Option: ls -al*
+Option: dir
+Option: ls -l
+Option: ls
+Explanation: The ls -al command displays detailed file information including hidden files starting with a dot.
+
+Question: The root directory also contains a directory called /home that contains the home directories of all the users in the system.
+Option: True*
+Option: False
+Explanation: In standard Unix/Linux directory structures, /home contains individual home directories for user accounts.
+
+Question: What is the command used to determine where you are within the file system hierarchy at any time?
+Option: whoami
+Option: mkdir
+Option: pwd*
+Option: cd
+Explanation: pwd stands for print working directory and displays your current directory path.
+
+Question: It enables you to perform a search from the command line.
+Option: diff
+Option: mc
+Option: cp
+Option: find*
+Explanation: The find command searches for files and directories within a directory hierarchy.
+
+Question: The syntax for file creation using the cat command.
+Option: cat >> filename
+Option: cat << filename
+Option: cat filename
+Option: cat > filename*
+Explanation: The cat > filename command creates a new file or overwrites an existing file with input from the console.
+
+Question: Command used to edit files:
+Option: pico*
+Option: Cat
+Option: All of the above
+Option: vi*
+Explanation: pico and vi are interactive terminal-based text editors.
+
+Question: A pathname is absolute, if it is described in relation to root, thus pathnames always begin with a /.
+Option: True*
+Option: False
+Explanation: Absolute pathnames start at the root directory (/) and provide the complete file path.

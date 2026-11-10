@@ -1,0 +1,12 @@
+=== Quizizz conversion report ===
+Input      : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\WebDev_Mod2
+Output     : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\WebDev_Mod2\_QuizizzOutput
+Files found: 5
+
+[ OK ] WebDev_Mod2_pt1.txt  ->  Quizizz_WebDev_Mod2_pt1.xlsx   (10 questions)
+[ OK ] WebDev_Mod2_pt2.txt  ->  Quizizz_WebDev_Mod2_pt2.xlsx   (10 questions)
+[ OK ] WebDev_Mod2_pt3.txt  ->  Quizizz_WebDev_Mod2_pt3.xlsx   (10 questions)
+[ OK ] WebDev_Mod2_pt4.txt  ->  Quizizz_WebDev_Mod2_pt4.xlsx   (2 questions)
+[ OK ] WebDev_Mod2Raw.txt  ->  Quizizz_WebDev_Mod2.xlsx   (32 questions)
+
+Total: 5 file(s) -> 5 workbook(s), 64 question(s), 0 with an image link.

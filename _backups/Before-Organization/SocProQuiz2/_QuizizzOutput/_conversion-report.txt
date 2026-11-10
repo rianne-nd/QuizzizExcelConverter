@@ -1,0 +1,14 @@
+=== Quizizz conversion report ===
+Input      : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\SocProQuiz2
+Output     : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\SocProQuiz2\_QuizizzOutput
+Files found: 7
+
+[ OK ] SocPro_Quiz2.txt  ->  Quizizz_SocPro_Quiz2.xlsx   (47 questions)
+[ OK ] SocPro_Quiz2_pt1.txt  ->  Quizizz_SocPro_Quiz2_pt1.xlsx   (10 questions)
+[ OK ] SocPro_Quiz2_pt2.txt  ->  Quizizz_SocPro_Quiz2_pt2.xlsx   (10 questions)
+[ OK ] SocPro_Quiz2_pt3.txt  ->  Quizizz_SocPro_Quiz2_pt3.xlsx   (10 questions)
+[ OK ] SocPro_Quiz2_pt4.txt  ->  Quizizz_SocPro_Quiz2_pt4.xlsx   (10 questions)
+[ OK ] SocPro_Quiz2_pt5.txt  ->  Quizizz_SocPro_Quiz2_pt5.xlsx   (7 questions)
+[ OK ] SocPro_Quiz2Real.txt  ->  Quizizz_SocPro_Quiz2Real.xlsx   (40 questions)
+
+Total: 7 file(s) -> 7 workbook(s), 134 question(s), 0 with an image link.

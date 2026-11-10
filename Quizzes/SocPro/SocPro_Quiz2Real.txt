@@ -1,0 +1,279 @@
+Question: A university collects students' phone numbers solely to send emergency announcements. Later, the university gives the numbers to advertisers without asking students for permission. Which privacy problem best describes this situation?
+Option: Aggregation
+Option: Intrusion
+Option: Identification
+Option: Secondary use*
+Explanation: Secondary use refers to using personal information collected for one purpose for a different, unauthorized purpose without consent.
+
+Question: A company publishes a customer's actual salary information online without permission. The information is truthful, but making it publicly available creates a privacy concern. Which Solove category best fits this situation?
+Option: Identification
+Option: Blackmail
+Option: Distortion
+Option: Disclosure*
+Explanation: Disclosure involves revealing truthful personal information about an individual to third parties publicly without consent.
+
+Question: A company commissions a graphic artist to create an original promotional illustration. The artist creates the work, but the written agreement does not contain a provision transferring copyright. Which statement is most consistent based on IPR?
+Option: Copyright belongs automatically to the National Library
+Option: The person commissioning the work owns the work, while copyright remains with the creator unless there is a written stipulation to the contrary*
+Option: The company automatically becomes the copyright owner in every case
+Option: The artist has no rights once payment is made
+Explanation: Under intellectual property law, copyright over commissioned works remains with the artist or creator unless a written agreement specifically transfers it.
+
+Question: Under the Philippine Data Privacy Act, individuals whose personal information is collected, stored, and processed are called:
+Option: Data processors
+Option: Data controllers
+Option: Data brokers
+Option: Data subjects*
+Explanation: The Data Privacy Act of 2012 defines a data subject as an individual whose personal, sensitive personal, or privileged information is processed.
+
+Question: Which right allows a data subject to dispute inaccurate or erroneous personal data and request its correction?
+Option: Right to Rectify*
+Option: Right to Object
+Option: Right to Erasure
+Option: Right to Access
+Explanation: The Right to Rectify allows data subjects to dispute inaccuracies or errors in their personal data and request prompt correction.
+
+Question: What is a trademark?
+Option: A method of citing sources
+Option: An exclusive right over an invention
+Option: A legal protection for literary works
+Option: A symbol, word, brand name, color, or sound representing a company or product*
+Explanation: A trademark is a recognizable sign, symbol, word, design, or phrase that identifies and distinguishes goods or services of a specific enterprise.
+
+Question: A fitness application combines a user's exercise records, GPS location, and daily schedule. The combination reveals that the user regularly visits a particular clinic, although the user never directly provided that information to the app. Which privacy problem is illustrated?
+Option: Blackmail
+Option: Exposure
+Option: Aggregation*
+Option: Exclusion
+Explanation: Aggregation involves combining separate, non-sensitive data points to reveal new, sensitive personal information about an individual.
+
+Question: A programmer develops a new set of rules for playing a board game and argues that the rules should receive patent protection because they are original. Which response is most consistent based on the IPR?
+Option: The rules are patentable because originality alone is sufficient
+Option: The rules automatically receive copyright and patent protection
+Option: The rules become patentable once they are registered as a trademark
+Option: The rules may be excluded because schemes, rules, or methods for playing games are identified as non-patentable*
+Explanation: Schemes, rules, and methods for playing games or performing mental acts are non-patentable under intellectual property laws.
+
+Question: Which of the following is identified in the module as a non-patentable invention?
+Option: A new technical solution
+Option: A computer program*
+Option: An industrially applicable invention
+Option: An invention involving an inventive step
+Explanation: Computer programs as such are excluded from patent eligibility under Philippine intellectual property law, receiving copyright protection instead.
+
+Question: A professor uses a limited portion of a copyrighted work in a classroom presentation to illustrate a lesson and identifies the author. Which principle most strongly supports this use?
+Option: Any educational use is automatically legal regardless of amount or purpose
+Option: Fair use may cover teaching and limited classroom copies under appropriate circumstances*
+Option: Teachers automatically become copyright owners of materials they present
+Option: Copyright protection disappears when a work is used by a teacher
+Explanation: Fair use allows the limited use of copyrighted material without permission for educational purposes such as teaching and classroom instruction under proper conditions.
+
+Question: A researcher develops a device that provides a technical solution to an industrial problem. The device is new, involves an inventive step, and can be used in industry. What is the strongest reason the invention may qualify for patent protection?
+Option: It contains a registered trademark
+Option: It is an original artistic creation
+Option: It was published on social media before filing
+Option: It satisfies the identified elements of a patentable invention*
+Explanation: To qualify for patent protection, an invention must satisfy three essential criteria: novelty, an inventive step, and industrial applicability.
+
+Question: Which intellectual property protects literary and artistic creations from the moment of creation?
+Option: Industrial design
+Option: Patent
+Option: Trademark
+Option: Copyright*
+Explanation: Copyright grants legal protection to original literary and artistic creations automatically from the moment of their creation.
+
+Question: A software developer is employed by a company specifically to develop a payroll system. During working hours, the developer creates a new payroll-processing module as part of the assigned project. The developer later claims personal copyright ownership because they wrote the code. Which principle most directly applies?
+Option: Copyright does not apply to computer programs
+Option: The employer generally owns the work when it results from regularly assigned duties*
+Option: The government automatically owns software created by employees
+Option: The employee always owns any work personally created
+Explanation: Works created by an employee during working hours as part of their regularly assigned duties belong to the employer unless agreed otherwise in writing.
+
+Question: Which government body administers and implements the Data Privacy Act of 2012 in the Philippines?
+Option: Commission on Higher Education
+Option: National Privacy Commission*
+Option: Department of Information and Communications Technology
+Option: Department of Justice
+Explanation: The National Privacy Commission (NPC) is the independent body mandated to administer, implement, and monitor compliance with the Data Privacy Act of 2012.
+
+Question: Which data privacy right allows an individual to know whether an organization holds personal data about them?
+Option: Right to Damages
+Option: Right to Data Portability
+Option: Right to Access*
+Option: Right to Object
+Explanation: The Right to Access entitles a data subject to be informed whether their personal data is being processed and to obtain details regarding such processing.
+
+Question: A social media user sets a post to “friends only.” One of the user's friends copies the post and shares it publicly. Based on the discussion of online privacy in the chapter, what is the key privacy concern?
+Option: Privacy settings prevent anyone from copying online content.
+Option: Information shared with friends can potentially be redistributed by those friends.*
+Option: Friends-only settings guarantee complete confidentiality.
+Option: Publicly shared information automatically becomes sensitive personal information.
+Explanation: Privacy settings cannot technically prevent recipients from copying, saving, or redistributing content once it has been shared with them online.
+
+Question: Which U.S. Supreme Court case developed the concept of a “reasonable expectation of privacy”?
+Option: Brown v. Board of Education
+Option: Katz v. United States*
+Option: Miranda v. Arizona
+Option: Roe v. Wade
+Explanation: Katz v. United States (1967) established the benchmark legal standard for defining an individual's reasonable expectation of privacy under Fourth Amendment protections.
+
+Question: Who generally owns the copyright of an original work under Section 178?
+Option: The publisher
+Option: The author*
+Option: The buyer
+Option: The government
+Explanation: Under Section 178 of the Intellectual Property Code of the Philippines, copyright ownership generally belongs to the author or creator of the original work.
+
+Question: A student copies several paragraphs from another student's research paper without attribution. The copied material is not necessarily protected by copyright, but the student presents it as their own work. Which conclusion best reflects the distinction emphasized based on the IPR?
+Option: It may constitute plagiarism because claiming another person's work as one's own is an ethical issue distinct from copyright infringement*
+Option: It is automatically fair use because it occurs in an educational setting
+Option: It cannot be plagiarism unless copyright infringement occurs
+Option: It is not plagiarism if the student did not intend to deceive
+Explanation: Plagiarism is an ethical violation involving taking credit for someone else's work, which is distinct from the legal issue of copyright infringement.
+
+Question: In Solove's Taxonomy, what is the combination of various pieces of data about a person called?
+Option: Intrusion
+Option: Disclosure
+Option: Identification
+Option: Aggregation*
+Explanation: In Solove's taxonomy of privacy, aggregation is the gathering and combining of various pieces of information about an individual.
+
+Question: A student downloads a copyrighted article, removes the author's name, places their own name on it, and submits it as an original research paper. Which classification best describes the student's conduct?
+Option: Both plagiarism and copyright infringement may be involved*
+Option: Fair use only
+Option: Neither, because the student is not selling the paper
+Option: Trademark infringement only
+Explanation: Removing attribution and claiming authorship constitutes plagiarism, while reproducing and distributing a copyrighted article without authorization constitutes copyright infringement.
+
+Question: What is privacy?
+Option: The ability to hide all information
+Option: The ability to access other people's information
+Option: The ability to control who can access information about our private lives and activities*
+Option: The ability to delete all online accounts
+Explanation: Privacy is generally defined as the ability of individuals to control or restrict access to their personal information and private activities.
+
+Question: A student wants to determine what personal information a university has collected about him, where the information came from, and how it is being processed. Which right most directly supports his request?
+Option: Right to Erasure
+Option: Right to Object
+Option: Right to Damages
+Option: Right to Access*
+Explanation: The Right to Access allows individuals to demand access to the details, sources, and processing methods of personal data held by an organization.
+
+Question: Which term refers to the use of copyrighted material for purposes such as criticism, comment, teaching, scholarship, or research under the conditions described in the module?
+Option: Patent
+Option: Trademark
+Option: Fair use*
+Option: Plagiarism
+Explanation: Fair use is a legal doctrine that permits limited use of copyrighted material without authorization for statutory purposes such as teaching, criticism, or research.
+
+Question: A person provides a mobile number to an online store for delivery updates. The store then shares the number with advertisers for promotional messages without consent. What makes this different from simply collecting the information?
+Option: The individual has lost all privacy rights.
+Option: The organization is automatically required to delete all information.
+Option: The information has automatically become sensitive personal information.
+Option: The information has been used for a different purpose from the original purpose.*
+Explanation: Using personal data provided for delivery updates to send advertising messages without consent is secondary use, where information is applied to a purpose distinct from its original intent.
+
+Question: A company discovers that its database contains incorrect addresses for several customers. One customer formally requests that the company correct her information. Which data privacy right is being exercised?
+Option: Right to Rectify*
+Option: Right to Data Portability
+Option: Right to Access
+Option: Right to Object
+Explanation: The Right to Rectify gives data subjects the right to request the prompt correction or updating of inaccurate personal records.
+
+Question: A company creates a distinctive symbol that customers use to identify its products. Another company begins using a confusingly similar symbol to represent its own products. Which type of intellectual property is most directly relevant?
+Option: Patent
+Option: Industrial process
+Option: Copyright
+Option: Trademark*
+Explanation: Trademarks protect distinct brand identifiers such as logos, names, and symbols from unauthorized use or confusingly similar imitations.
+
+Question: What Republic Act is known as the Data Privacy Act of 2012?
+Option: RA 10175
+Option: RA 10173*
+Option: RA 11032
+Option: RA 8792
+Explanation: Republic Act No. 10173 is the official law known as the Data Privacy Act of 2012 in the Philippines.
+
+Question: Two independent inventors develop essentially the same invention. Inventor A completes the invention first but files the patent application later. Inventor B files the application first. Under the First to File Rule, which situation is most relevant?
+Option: Inventor B may have the patent right because the application was filed first*
+Option: Neither inventor can apply because two people created the same invention
+Option: Inventor A automatically receives the patent because they invented it first
+Option: The person who earns the most money from the invention receives the patent
+Explanation: Under the First to File rule, priority for a patent is granted to the person who files the patent application first, regardless of who created the invention first.
+
+Question: What is plagiarism?
+Option: The legal protection of a trademark
+Option: The act of taking credit for someone else's work*
+Option: The registration of an invention
+Option: The licensing of copyrighted material
+Explanation: Plagiarism is defined as taking someone else's original work or ideas and presenting them as one's own without proper credit or attribution.
+
+Question: Which privacy problem involves using information collected for one purpose for a different purpose without consent?
+Option: Blackmail
+Option: Exposure
+Option: Surveillance
+Option: Secondary Use*
+Explanation: Secondary use occurs when personal data gathered for a specific context is used for a different, unauthorized secondary purpose without consent.
+
+Question: An organization discovers that sensitive personal information has been compromised. Instead of reporting the breach, an employee intentionally hides it from the appropriate authorities. Which issue discussed in the chapter is most directly involved?
+Option: Data portability
+Option: Information aggregation
+Option: Concealment of a security breach*
+Option: Right to rectify
+Explanation: Concealment of a security breach involves intentionally covering up or failing to report a personal data compromise to regulatory bodies and affected subjects.
+
+Question: What is the “First to File” rule concerned with?
+Option: Trademark registration
+Option: Patent rights*
+Option: Copyright ownership
+Option: Software licensing
+Explanation: The First to File rule is a principle in patent law that determines priority of patent rights based on the date the application is filed.
+
+Question: Which of the following is an example of intellectual creation?
+Option: A purchased computer
+Option: A manufactured bottle
+Option: A chair purchased from a store
+Option: A program written by a programmer*
+Explanation: A computer program created by a programmer is an original work of intellect protected as an intellectual creation under IPR.
+
+Question: A company secretly installs a camera inside an employee's private office without informing the employee. Under Solove's taxonomy, which category most directly applies?
+Option: Invasion*
+Option: Information Dissemination
+Option: Information Collection
+Option: Information Processing
+Explanation: In Solove's privacy taxonomy, secretly intruding upon or monitoring an individual's private physical or personal space falls under Invasion.
+
+Question: What does data portability allow a data subject to do?
+Option: Hide all personal information
+Option: Delete another person's information
+Option: Prevent organizations from collecting any data
+Option: Transfer or copy personal data in a secure manner*
+Explanation: Data portability empowers individuals to obtain, copy, or transfer their personal data across different electronic processing systems securely.
+
+Question: An online service collected a student's information for registration. The service later wants to use the same information for direct marketing. The student does not agree to this new use. Which action is most consistent with the student's privacy rights?
+Option: Request another person's information
+Option: Exercise the right to object to the processing*
+Option: Automatically transfer the information to another organization
+Option: Request that the organization use the information anyway
+Explanation: Under data privacy laws, data subjects have the Right to Object when personal data is processed for unauthorized purposes such as direct marketing.
+
+Question: What Philippine law is known as the Intellectual Property Code?
+Option: RA 8792
+Option: RA 8293*
+Option: RA 10175
+Option: RA 10173
+Explanation: Republic Act No. 8293 is the Intellectual Property Code of the Philippines.
+
+Question: A person purchases a legally released movie and then uploads the complete movie to the internet for anyone to download without permission from the copyright owner. Why is this conduct problematic?
+Option: Uploading a complete copyrighted work can involve unauthorized reproduction/distribution*
+Option: Internet users may freely redistribute anything they legally purchase
+Option: Purchasing a copy automatically transfers the copyright
+Option: Copyright applies only to printed materials
+Explanation: Buying a copy of a work gives ownership of the physical/digital copy only; reproducing or publicly distributing the work online without permission violates copyright law.
+
+Question: Which of the following is an element of a patentable invention?
+Option: It must be new*
+Option: It must be publicly available
+Option: It must be expensive
+Option: It must be copyrighted
+Explanation: Novelty (being new and not part of existing prior art) is one of the essential legal requirements for an invention to qualify for a patent.

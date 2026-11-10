@@ -1,0 +1,111 @@
+Question: What is the term used to describe gray hat hackers who publicly protest organizations or governments by posting articles, videos, leaking sensitive information, and performing network attacks?
+Option: white hat hackers
+Option: grey hat hackers
+Option: hacktivists*
+Option: state-sponsored hacker
+Explanation: Topic 3.2.2
+
+Question: A technician is tasked with using ACLs to secure a router. When would the technician use the no ip access-list 101 configuration option or command?
+Option: to apply an ACL to all router interfaces
+Option: to secure administrative access to the router
+Option: to remove all ACLs from the router
+Option: to remove a configured ACL*
+Explanation: Topic 5.4.2
+
+Question: What is the term used to describe unethical criminals who compromise computer and network security for personal gain, or for malicious reasons?
+Option: hacktivists
+Option: vulnerability broker
+Option: black hat hackers*
+Option: script kiddies
+Explanation: Topic 3.2.1
+Black hat hackers are unethical threat actors who use their skills to compromise computer and network security vulnerabilities. The goal is usually financial gain or personal gain, or the hacker may have malicious intent. A vulnerability broker is a gray hat hacker who attempts to discover exploits and report them to vendors, sometimes for prizes or rewards. Hacktivists are gray hat hackers who publicly protest organizations or governments by posting articles or videos, leaking sensitive information, and performing network attacks. Script kiddies are inexperienced hackers (sometimes teenagers) running existing scripts, tools, and exploits to cause harm—but typically not for profit.
+
+Question: What is the term used to describe a guarantee that the message is not a forgery and does actually come from whom it states?
+Option: origin authentication*
+Option: mitigation
+Option: exploit
+Option: data non-repudiation
+Explanation: Topic 3.10.2
+
+Question: A technician is tasked with using ACLs to secure a router. When would the technician use the ip access-group 101 in configuration option or command?
+Option: to secure administrative access to the router
+Option: to apply an extended ACL to an interface*
+Option: to display all restricted traffic
+Option: to secure management traffic into the router
+Explanation: Topic 5.4.2
+
+Question: A technician is tasked with using ACLs to secure a router. When would the technician use the remark configuration option or command?
+Option: to generate and send an informational message whenever the ACE is matched
+Option: to add a text entry for documentation purposes*
+Option: to identify one specific IP address
+Option: to restrict specific traffic access through an interface
+Explanation: Topic 5.1.2
+
+Question: Refer to the exhibit. The company CEO demands that one ACL be created to permit email traffic to the internet and deny FTP access. What is the best ACL type and placement to use in this situation?
+Image: https://itexamanswers.net/wp-content/uploads/2020/07/What-is-the-best-ACL-type-and-placement-to-use-in-this-situation.jpg
+Option: extended ACL outbound on R2 WAN interface towards the internet*
+Option: standard ACL outbound on R2 S0/0/0
+Option: extended ACL inbound on R2 S0/0/0
+Option: standard ACL inbound on R2 WAN interface connecting to the internet
+Explanation: Topic 4.4.1
+
+ACL Type: An extended ACL is required because the CEO's demand involves filtering traffic based on specific applications (email and FTP), which necessitates inspecting Layer 4 protocol and port information. Standard ACLs are insufficient as they only filter based on the source IPv4 address.
+
+Placement: To satisfy the requirement of using only one ACL to control traffic from multiple internal segments (R1's LANs and R3's Server), the ACL must be placed at a common exit point. Applying the ACL outbound on the R2 WAN interface ensures that all traffic from the entire organization is inspected and filtered before it enters the internet.
+
+Question: A technician is tasked with using ACLs to secure a router. When would the technician use the established configuration option or command?
+Option: to add a text entry for documentation purposes
+Option: to display all restricted traffic
+Option: to allow specified traffic through an interface
+Option: to allow returning reply traffic to enter the internal network*
+Explanation: Topic 5.4.6
+
+Question: A technician is tasked with using ACLs to secure a router. When would the technician use the deny configuration option or command?
+Option: to identify one specific IP address
+Option: to display all restricted traffic
+Option: to restrict specific traffic access through an interface*
+Option: to generate and send an informational message whenever the ACE is matched
+Explanation: Topic 5.1.2
+
+Question: Refer to the exhibit. Only authorized remote users are allowed remote access to the company server 192.168.30.10. What is the best ACL type and placement to use in this situation?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i350676v1n1_C3M4-Diagram.jpg
+Option: extended ACLs inbound on R1 G0/0 and G0/1
+Option: extended ACL outbound on R2 WAN interface towards the internet
+Option: extended ACL inbound on R2 S0/0/0
+Option: extended ACL inbound on R2 WAN interface connected to the internet*
+Explanation: Topic 4.4.5
+
+Question: Refer to the exhibit. Employees on 192.168.11.0/24 work on critically sensitive information and are not allowed access off their network. What is the best ACL type and placement to use in this situation?
+Image: https://itexamanswers.net/wp-content/uploads/2020/01/i350782v1n1_C3M4-Diagram-1.jpg
+Option: standard ACL inbound on R1 vty lines
+Option: extended ACL inbound on R1 G0/0
+Option: standard ACL inbound on R1 G0/1*
+Option: extended ACL inbound on R3 S0/0/1
+Explanation: Topic 4.4.3
+A standard ACL is the best choice here because the security policy requires filtering traffic based solely on the source IP address (the 192.168.11.0/24 network). Placing the ACL inbound on the R1 G0/1 interface is most efficient because it discards unauthorized packets immediately upon entering the router. This "close to the source" placement prevents unwanted traffic from consuming any routing resources or bandwidth on the rest of the network.
+
+Question: A technician is tasked with using ACLs to secure a router. When would the technician use the host configuration option or command?
+Option: to add a text entry for documentation purposes
+Option: to generate and send an informational message whenever the ACE is matched
+Option: to identify any IP address
+Option: to identify one specific IP address*
+Explanation: Topic 4.2.4
+
+Question: What commonly motivates cybercriminals to attack networks as compared to hacktivists or state-sponsored hackers?
+Option: financial gain*
+Option: political reasons
+Option: fame seeking
+Option: status among peers
+Explanation: Topic 3.2.3
+Cybercriminals are commonly motivated by money. Hackers are known to hack for status. Cyberterrorists are motivated to commit cybercrimes for religious or political reasons.
+
+Question: Refer to the exhibit. The company has provided IP phones to employees on the 192.168.10.0/24 network and the voice traffic will need priority over data traffic. What is the best ACL type and placement to use in this situation?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i350679v1n1_C3M4-Diagram.jpg
+Option: extended ACL inbound on R1 G0/0*
+Option: extended ACL outbound on R2 WAN interface towards the internet
+Option: extended ACL outbound on R2 S0/0/1
+Option: extended ACLs inbound on R1 G0/0 and G0/1
+Explanation: Topic 4.4.3
+Standard ACLs permit or deny packets based only on the source IPv4 address. Because all traffic types are permitted or denied, standard ACLs should be located as close to the destination as possible.
+
+Extended ACLs permit or deny packets based on the source IPv4 address and destination IPv4 address, protocol type, source and destination TCP or UDP ports and more. Because the filtering of extended ACLs is so specific, extended ACLs should be located as close as possible to the source of the traffic to be filtered. Undesirable traffic is denied close to the source network without crossing the network infrastructure.

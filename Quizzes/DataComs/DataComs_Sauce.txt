@@ -1,0 +1,95 @@
+Question: Which command is used to create a named extended ACL on a Cisco router?
+Option: ip acl
+Option: access-list
+Option: ip access-list extended*
+Option: acl create
+Explanation: The ip access-list extended command is used in global configuration mode to create and configure a named extended Access Control List on a Cisco router.
+
+Question: Which WAN connection component is defined as the location established in a building or complex to separate customer equipment from service provider equipment?
+Option: Customer premises equipment
+Option: Demarcation Point*
+Option: Data Communication Equipment
+Option: Data Terminal Equipment
+Option: Demilitarized Zone
+Explanation: The demarcation point is the physical boundary that separates customer-owned network equipment from the service provider infrastructure.
+
+Question: Which WAN connection component is defined as devices that pass the data from a customer network or host computer for transmission over the WAN?
+Option: Customer premises equipment
+Option: Demarcation Point
+Option: Data Communication Equipment
+Option: Data Terminal Equipment*
+Option: Demilitarized Zone
+Explanation: Data Terminal Equipment includes devices like routers or host computers that act as the source or destination of network data transmitted across a WAN.
+
+Question: Which WAN connection component is defined as devices that put data on the local loop?
+Option: Customer premises equipment
+Option: Demarcation Point
+Option: Data Communication Equipment*
+Option: Data Terminal Equipment
+Option: Demilitarized Zone
+Explanation: Data Communication Equipment converts data received from DTE into a signal suitable for transmission over the WAN local loop.
+
+Question: Which WAN connection component is defined as devices and inside wiring located on the enterprise edge and which connect to a carrier link?
+Option: Customer premises equipment*
+Option: Demarcation Point
+Option: Data Communication Equipment
+Option: Data Terminal Equipment
+Option: Demilitarized Zone
+Explanation: Customer Premises Equipment refers to the networking devices and internal wiring physically situated on the subscriber premise connecting to the service provider link.
+
+Question: A network engineer is provisioning a new branch location. The engineer connects an enterprise edge router (which routes subscriber LAN traffic) directly to a service provider's optical modem inside the company's server room. In standard WAN terminology, how is the customer-side router categorized?
+Option: Data Communications Equipment (DCE)
+Option: Data Terminal Equipment (DTE)*
+Option: Central Office Switch (CO)
+Option: Point-of-Presence (POP)
+Explanation: In standard WAN terminology, the subscriber-side router that processes and forwards LAN traffic is categorized as Data Terminal Equipment (DTE).
+
+Question: What is the main function of a standard ACL?
+Option: To filter traffic based solely on source IP address*
+Option: To filter traffic based on destination IP address
+Option: To log traffic for auditing purposes
+Option: To filter traffic based on IP address and protocol
+Explanation: Standard ACLs are designed to evaluate and filter network traffic based strictly on the source IP address in the packet headers.
+
+Question: Which device is typically located at the customer premise and is used to connect the local network to a carrier's Traditional WAN circuit?
+Option: Hub
+Option: Switch
+Option: Access Point
+Option: Router*
+Explanation: A router is located at the enterprise edge to connect the internal local area network to the service provider WAN circuit and manage path determination.
+
+Question: A network administrator is writing a Standard ACL (number 95) to be applied to an interface. The policy requires blocking all traffic from the 172.16.0.0/16 network, but explicitly allowing every other source network to pass through. Which two sequential commands must the administrator use to implement this specific policy in the ACL? (Choose two.)
+Option: Router(config)# access-list 95 permit any*
+Option: Router(config)# access-list 95 deny 172.16.0.0 0.0.255.255*
+Option: Router(config)# access-list 95 deny 172.16.0.0 255.255.0.0
+Option: Router(config)# access-list 95 host 172.16.0.0
+Option: Router(config)# access-list 95 deny any
+Explanation: Standard ACL 95 requires denying subnet 172.16.0.0/16 using the wildcard mask 0.0.255.255 first, followed by permitting all other traffic with permit any to override the implicit deny at the end of the ACL.
+
+Question: A network administrator has configured a long Named ACL for filtering traffic. A specific Access Control Entry (ACE) was accidentally added and is now blocking legitimate traffic. The administrator needs to remove only that single, erroneous line as quickly and efficiently as possible without disrupting the rest of the production ACL. What is the quickest and most standard configuration method to remove this single ACE from the named ACL?
+Option: Create an entirely new ACL with a different name or number and apply the new ACL to the interface.
+Option: Copy the entire running configuration into a text editor, delete the line, and paste the modified ACL back into the router.
+Option: Use the no keyword followed by the sequence number of the ACE to be removed.*
+Option: Use the no access-list command to remove the entire ACL, and then immediately recreate it without the offending ACE.
+Explanation: Cisco named ACLs utilize sequence numbers for each line, allowing administrators to delete a specific Access Control Entry by executing no followed by the line sequence number.
+
+Question: A network security team is performing penetration testing. They can only see the router's public IP address (203.0.113.1) and no internal IP schema. This is a direct benefit of NAT, primarily contributing to:
+Option: Network security/Hiding internal topology*
+Option: Reduced public IP cost
+Option: Faster routing decisions
+Option: Easier troubleshooting
+Explanation: NAT hides private internal IP addresses behind a public IP address, preventing external entities from viewing the internal network topology and enhancing security.
+
+Question: A company decides to migrate its legacy Frame Relay network to a newer, packet-switched technology that still relies on a provider's shared infrastructure but offers better speeds and service-level agreements (SLAs). Which Modern WAN Connectivity technology is the most common replacement?
+Option: Carrier Ethernet*
+Option: PSTN (Dial-up)
+Option: ISDN
+Option: T1 Leased Lines
+Explanation: Carrier Ethernet is the primary modern packet-switched replacement for legacy WAN technologies like Frame Relay, providing scalable high-speed connections and service-level agreements.
+
+Question: A network administrator notices that peer-to-peer applications and some VoIP services (like SIP) are failing after implementing NAT. This is primarily a manifestation of which NAT disadvantage?
+Option: Reduced network bandwidth.
+Option: Breaking end-to-end IP address transparency.*
+Option: Increased CPU utilization on the router.
+Option: Increased latency due to translation lookups.
+Explanation: NAT modifies IP addresses in header fields, which disrupts protocols like SIP and P2P that embed IP address information in application payloads, thereby breaking end-to-end address transparency.

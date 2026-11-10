@@ -1,0 +1,89 @@
+Question: Refer to the exhibit. Which two ACLs would permit only the two LAN networks attached to R1 to access the network that connects to R2 G0/1 interface? (Choose two.)
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i282152v1n2_282152.png
+Option: access-list 1 permit 192.168.10.0 0.0.0.127
+Option: access-list 5 permit 192.168.10.0 0.0.0.63*
+Option: access-list 5 permit 192.168.10.64 0.0.0.63*
+Option: access-list 3 permit 192.168.10.128 0.0.0.63
+Option: access-list 4 permit 192.168.10.0 0.0.0.255
+Explanation: Topic 4.2.2
+The permit 192.168.10.0 0.0.0.127 command ignores bit positions 1 through 7, which means that addresses 192.168.10.0 through 192.168.10.127 are allowed through. The two ACEs of permit 192.168.10.0 0.0.0.63 and permit 192.168.10.64 0.0.0.63 allow the same address range through the router.
+
+Question: Which two packet filters could a network administrator use on an IPv4 extended ACL? (Choose two.)
+Option: destination UDP port number*
+Option: computer type
+Option: destination MAC address
+Option: ICMP message type*
+Option: source TCP hello address
+Explanation: Topic 5.4.1
+Extended access lists commonly filter on source and destination IPv4 addresses and TCP or UDP port numbers. Additional filtering can be provided for protocol types.
+
+Question: What type of ACL offers greater flexibility and control over network access?
+Option: numbered standard
+Option: named standard
+Option: extended*
+Option: flexible
+Explanation: Topic 5.4.1
+The two types of ACLs are standard and extended. Both types can be named or numbered, but extended ACLs offer greater flexibility.
+
+Question: What is the quickest way to remove a single ACE from a named ACL?
+Option: Use the no keyword and the sequence number of the ACE to be removed.*
+Option: Copy the ACL into a text editor, remove the ACE, then copy the ACL back into the router.
+Option: Create a new ACL with a different number and apply the new ACL to the router interface.
+Option: Use the no access-list command to remove the entire ACL, then recreate it without the ACE.
+Explanation: Topic 5.2.3
+Named ACL ACEs can be removed using the no command followed by the sequence number.
+
+Question: Refer to the exhibit. A network administrator is configuring a standard IPv4 ACL. What is the effect after the command no access-list 10 is entered?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i209863v1n1_209863.png
+Option: ACL 10 is removed from both the running configuration and the interface Fa0/1.
+Option: ACL 10 is removed from the running configuration.*
+Option: ACL 10 is disabled on Fa0/1.
+Option: ACL 10 will be disabled and removed after R1 restarts.
+Explanation: Topic 5.1.4
+The R1(config)# no access-list <access-list number> command removes the ACL from the running-config immediately. However, to disable an ACL on an interface, the command R1(config-if)# no ip access-group should be entered.
+
+Question: Refer to the exhibit. A network administrator has configured ACL 9 as shown. Users on the 172.31.1.0 /24 network cannot forward traffic through router CiscoVille. What is the most likely cause of the traffic failure?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i215685v4n1_ACL-item.png
+Option: The established keyword is not specified.
+Option: The sequence of the ACEs is incorrect.*
+Option: The port number for the traffic has not been identified with the eq keyword.
+Option: The permit statement specifies an incorrect wildcard mask.
+Explanation: Topic 4.1.3
+When verifying an ACL, the statements are always listed in a sequential order. Even though there is an explicit permit for the traffic that is sourced from network 172.31.1.0 /24, it is being denied due to the previously implemented ACE of CiscoVille(config)# access-list 9 deny 172.31.0.0 0.0.255.255. The sequence of the ACEs must be modified to permit the specific traffic that is sourced from network 172.31.1.0 /24 and then to deny 172.31.0.0 /16.
+
+Question: A network administrator needs to configure a standard ACL so that only the workstation of the administrator with the IP address 192.168.15.23 can access the virtual terminal of the main router. Which two configuration commands can achieve the task? (Choose two.)
+Option: Router1(config)# access-list 10 permit 192.168.15.23 0.0.0.0*
+Option: Router1(config)# access-list 10 permit 192.168.15.23 0.0.0.255
+Option: Router1(config)# access-list 10 permit 192.168.15.23 255.255.255.255
+Option: Router1(config)# access-list 10 permit host 192.168.15.23*
+Option: Router1(config)# access-list 10 permit 192.168.15.23 255.255.255.0
+Explanation: Topic 4.2.4
+To permit or deny one specific IP address, either the wildcard mask 0.0.0.0 (used after the IP address) or the wildcard mask keyword host (used before the IP address) can be used.
+
+Question: Refer to the exhibit. Which command would be used in a standard ACL to allow only devices on the network attached to R2 G0/0 interface to access the networks attached to R1?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i282156v1n2_282156.png
+Option: access-list 1 permit 192.168.10.128 0.0.0.63
+Option: access-list 1 permit 192.168.10.0 0.0.0.255
+Option: access-list 1 permit 192.168.10.96 0.0.0.31*
+Option: access-list 1 permit 192.168.10.0 0.0.0.63
+Explanation: Topic 4.2.3
+Standard access lists only filter on the source IP address. In the design, the packets would be coming from the 192.168.10.96/27 network (the R2 G0/0 network). The correct ACL is access-list 1 permit 192.168.10.96 0.0.0.31.
+
+Question: A network administrator is writing a standard ACL that will deny any traffic from the 172.16.0.0/16 network, but permit all other traffic. Which two commands should be used? (Choose two.)
+Option: Router(config)# access-list 95 deny 172.16.0.0 255.255.0.0
+Option: Router(config)# access-list 95 permit any*
+Option: Router(config)# access-list 95 host 172.16.0.0
+Option: Router(config)# access-list 95 deny 172.16.0.0 0.0.255.255*
+Option: Router(config)# access-list 95 172.16.0.0 255.255.255.255
+Explanation: Topic 5.1.2
+To deny traffic from the 172.16.0.0/16 network, the access-list 95 deny 172.16.0.0 0.0.255.255 command is used. To permit all other traffic, the access-list 95 permit any statement is added.
+
+Question: Refer to the exhibit. An ACL was configured on R1 with the intention of denying traffic from subnet 172.16.4.0/24 into subnet 172.16.3.0/24. All other traffic into subnet 172.16.3.0/24 should be permitted. This standard ACL was then applied outbound on interface Fa0/0. Which conclusion can be drawn from this configuration?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i304992v1n1_304992.png
+Option: The ACL should be applied outbound on all interfaces of R1.
+Option: The ACL should be applied to the FastEthernet 0/0 interface of R1 inbound to accomplish the requirements.
+Option: All traffic will be blocked, not just traffic from the 172.16.4.0/24 subnet.*
+Option: Only traffic from the 172.16.4.0/24 subnet is blocked, and all other traffic is allowed.
+Option: An extended ACL must be used in this situation.
+Explanation: Topic 4.1.3
+Because of the implicit deny at the end of all ACLs, the access-list 1 permit any command must be included to ensure that only traffic from the 172.16.4.0/24 subnet is blocked and that all other traffic is allowed.

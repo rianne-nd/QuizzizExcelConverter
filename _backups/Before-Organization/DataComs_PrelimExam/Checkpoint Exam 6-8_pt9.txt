@@ -1,0 +1,48 @@
+Question: What type of address is 10.131.48.7?
+Option: Private*
+Option: Public
+Explanation: 10.131.48.7 is in the private IPv4 address range 10.0.0.0/8.
+
+Question: Which type of VPN supports multiple sites by applying configurations to virtual interfaces instead of physical interfaces?
+Option: dynamic multipoint VPN
+Option: IPsec virtual tunnel interface*
+Option: MPLS VPN
+Option: GRE over IPsec
+Explanation: IPsec VTI uses virtual interfaces to send and receive encrypted traffic, simplifying support for multiple sites.
+
+Question: Which type of VPN involves a nonsecure tunneling protocol being encapsulated by IPsec?
+Option: dynamic multipoint VPN
+Option: SSL VPN
+Option: IPsec virtual tunnel interface
+Option: GRE over IPsec*
+Explanation: GRE over IPsec uses GRE, a nonsecure tunneling protocol, and encapsulates it with IPsec for security.
+
+Question: What type of address is 10.19.6.7?
+Option: private*
+Option: public
+Explanation: 10.19.6.7 is in the private IPv4 address range 10.0.0.0/8.
+
+Question: What type of address is 64.101.198.197?
+Option: public*
+Option: private
+Explanation: 64.101.198.197 is not in a private IPv4 range, so it is a public address.
+
+Question: What type of address is 64.101.198.107?
+Option: public*
+Option: private
+Explanation: 64.101.198.107 is not in a private IPv4 range, so it is a public address.
+
+Question: What type of address is 10.100.34.34?
+Option: private*
+Option: public
+Explanation: 10.100.34.34 is in the private IPv4 address range 10.0.0.0/8.
+
+Question: What type of address is 192.168.7.126?
+Option: Private*
+Option: Public
+Explanation: 192.168.7.126 is in the private IPv4 address range 192.168.0.0/16.
+
+Question: What type of address is 198.133.219.148?
+Option: Private
+Option: Public*
+Explanation: 198.133.219.148 is not in a private IPv4 range, so it is a public address.

@@ -1,0 +1,69 @@
+{
+  "title": "AltOS_FinalsLT1_pt3",
+  "description": "AltOS Finals LT1 Part 3",
+  "questions": [
+    {
+      "question": "Which of the following command must be used to create a new user in Ubuntu named as Dalm!?",
+      "type": "quiz",
+      "answers": ["$ sudo adduser Dalm!", "$ sudo add Dalm!", "$ sudo newuser Dalm!", "$ sudo createuser Dalm!"],
+      "correct": 0,
+      "time_limit": 60
+    },
+    {
+      "question": "JP type in vim STARTUP and it open the VIM editor, how can he change the mode to insert mode?",
+      "type": "quiz",
+      "answers": ["He can type mode insert", "He can just press ESC key", "He can just press ESC key twice", "He can type or press :i or press shift i"],
+      "correct": 3,
+      "time_limit": 60
+    },
+    {
+      "question": "What will be the effect of chmod 421 when applied to file FAILED.txt?",
+      "type": "quiz",
+      "answers": ["r---w---x", "rwx-w-r-x", "rw-wxr-x", "r-rwx-x"],
+      "correct": 0,
+      "time_limit": 60
+    },
+    {
+      "question": "A file permission that contents can be executed.",
+      "type": "quiz",
+      "answers": ["Read", "Execute", "No Permission", "Write"],
+      "correct": 1,
+      "time_limit": 60
+    },
+    {
+      "question": "Dosan want to exit from VIM editor without saving the changes. What must be the correct way to do it?",
+      "type": "quiz",
+      "answers": ["Press ESC key, then :x then enter", "Press ESC key, then :q! then enter", "Just close the editor by pressing x or close button", "Just type :wq! then enter"],
+      "correct": 1,
+      "time_limit": 60
+    },
+    {
+      "question": "How can you set the default rwx permission to all users on every file which is created in the current shell?",
+      "type": "quiz",
+      "answers": ["umask 666", "umask 777", "umask 000", "umask 555"],
+      "correct": 2,
+      "time_limit": 60
+    },
+    {
+      "question": "Which of the following will display files or directory with at least 3 characters?",
+      "type": "quiz",
+      "answers": ["ls [a-z][1-9]?", "ls *ab", "ls [A-Z][a-z]??", "ls ???*"],
+      "correct": 3,
+      "time_limit": 60
+    },
+    {
+      "question": "What will be displayed after executing ls *.dat Given the following list of files: ... .profile ab.dat abcd.dat abcde abcde.data",
+      "type": "quiz",
+      "answers": ["ab.dat abcd.dat", "ab abcd abcde", "ab.dat abcd.dat abcde.data", "ab abcd"],
+      "correct": 0,
+      "time_limit": 60
+    },
+    {
+      "question": "A command language interpreter that incorporates a command history buffer?",
+      "type": "quiz",
+      "answers": ["C shell", "Posix shell", "Bourne shell", "Korn shell"],
+      "correct": 0,
+      "time_limit": 60
+    }
+  ]
+}

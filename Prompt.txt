@@ -1,0 +1,88 @@
+Hello! I need you to act as an expert data formatter for my automated Quiz pipeline. 
+Your task is to take my raw quiz text and convert it into a strict .txt format. This text will be parsed by a Python/PowerShell script to generate Excel files and publish them to Wayground (formerly Quizizz).
+
+Please follow these rules EXACTLY. The parser is very strict and will fail if you deviate.
+
+1) PREFIXES ARE MANDATORY
+Every single line must begin with one of these exact prefixes, followed by a colon and a space:
+Question:
+Option:
+Answer:
+Type:
+Explanation:
+Image:
+
+CRITICAL: If you write a line without one of these prefixes, the parser will glue it to the previous line. Do not output any introductory text, markdown formatting (like ** or ```), or conversational filler. Only output the raw formatted text.
+
+2) ONE ITEM PER LINE
+Each question, option, accepted answer, explanation, and image link must be on its own separate line.
+
+3) MARKING CORRECT ANSWERS
+Place a single asterisk (*) at the very end of the line for every correct answer. Do not put a space before the asterisk. 
+Example: Option: Jupiter*
+NEVER use asterisks for any other purpose (no bold, no emphasis, no bullet points). The script uses the asterisk exclusively to determine the correct answer.
+
+4) QUESTION TYPES (Inferred Automatically)
+You do not need to label standard Multiple Choice questions. The parser will infer the type based on the asterisks:
+  - 1 option marked with *  -> Multiple Choice
+  - 2+ options marked with * -> Checkbox (Select all that apply)
+
+5) FILL-IN-THE-BLANK (Only for explicit FIB questions)
+If I give you a fill-in-the-blank question, format it like this:
+Question: <question text>
+Type: Fill-in-the-Blank
+Answer: <accepted answer 1>
+Answer: <accepted answer 2>
+Explanation: <explanation>
+
+Rules for FIB:
+  a. The Type: line MUST read exactly: Type: Fill-in-the-Blank
+  b. Put the Type: line directly after the Question: line.
+  c. List accepted typed answers as Answer: lines (up to 5). Do NOT use asterisks here.
+  d. Include separate Answer: lines for variations (e.g., "10" and "ten").
+  e. Do NOT put Option: lines on a Fill-in-the-Blank question.
+
+6) IMAGE LINKS 
+If the source material contains an image URL, add an Image: line immediately after the Question: line (and after the Type: line if it's a FIB question).
+  a. Use the exact URL provided in the source.
+  b. NEVER invent, guess, or fabricate a URL. 
+  c. If there is an image but no URL is available, write exactly: Image: PASTE_URL_HERE
+  d. If there is NO image, omit the Image: line completely. Do not write "Image: none" or "Image: N/A".
+
+7) SEPARATION AND SPACING
+- There must be exactly ONE blank line between the end of one question block and the beginning of the next.
+- Do NOT place any blank lines inside a single question block (between the Question, Options, and Explanation).
+
+8) CONVERTING NON-MULTIPLE CHOICE
+If the raw text contains matching, identification, or true/false questions, convert them into standard multiple-choice format (split one source item into several questions if needed) so they fit the Option: format. The ONLY exception is fill-in-the-blank, which must remain as defined in Rule 5.
+
+9) MAXIMUM 5 OPTIONS
+Maximum 5 options per question. If a source question has more than 5, remove the extra INCORRECT choices and keep the correct answer(s). For FIB, the maximum is 5 accepted Answer: lines.
+
+10) DO NOT ADD OR CHANGE CONTENT
+Do not add citations, source markers, or question numbers. Do not summarize or change the questions, options, or explanations. If a question lacks an explanation, you may write a brief, accurate one.
+
+Here is a perfect example of the final format (An Image question, a Checkbox question, and a Fill-in-the-Blank question):
+
+Question: Which of these is the largest planet in the Solar System?
+Image: https://cdn.pixabay.com/photo/2014/09/08/09/24/solar-system-439046_960_720.png
+Option: Earth
+Option: Mars
+Option: Jupiter*
+Option: Saturn
+Explanation: Jupiter is a gas giant made primarily of hydrogen and helium.
+
+Question: Which two devices are intermediary devices? (Choose two)
+Option: hosts
+Option: routers*
+Option: servers
+Option: switches*
+Explanation: Routers and switches are intermediary devices.
+
+Question: Name any one of the two moons of Mars
+Type: Fill-in-the-Blank
+Answer: Phobos
+Answer: Deimos
+Explanation: Mars has two moons, Phobos and Deimos.
+
+Now, please ask for my raw text. Once I provide it, give me the fully formatted version inside a single code block so I can easily copy and paste it into a new .txt file.

@@ -1,0 +1,208 @@
+Question: The IT department is reporting that a company web server is receiving an abnormally high number of web page requests from different locations simultaneously. Which type of security attack is occurring?
+Option: spyware
+Option: phishing
+Option: DDoS*
+Option: social engineering
+Option: adware
+Explanation: Phishing, spyware, and social engineering are security attacks that collect network and user information. Adware consists, typically, of annoying popup windows. Unlike a DDoS attack, none of these attacks generate large amounts of data traffic that can restrict access to network services.
+
+Question: What causes a buffer overflow?
+Option: downloading and installing too many software updates at one time
+Option: attempting to write more data to a memory location than that location can hold*
+Option: sending too much information to two or more interfaces of the same device, thereby causing dropped packets
+Option: sending repeated connections such as Telnet to a particular device, thus denying other data sources
+Option: launching a security countermeasure to mitigate a Trojan horse
+Explanation: By sending too much data to a specific area of memory, adjacent memory locations are overwritten, which causes a security issue because the program in the overwritten memory location is affected.
+
+Question: Which objective of secure communications is achieved by encrypting data?
+Option: authentication
+Option: confidentiality*
+Option: integrity
+Option: availability
+Explanation: When data is encrypted, it is scrambled to keep the data private and confidential so that only authorized recipients can read the message. A hash function is another way of providing confidentiality.
+
+Question: What type of malware has the primary objective of spreading across the network?
+Option: virus
+Option: botnet
+Option: Trojan horse
+Option: worm*
+Explanation: The main purpose of a worm is to self-replicate and propagate across the network. A virus is a type of malicious software that needs a user to spread. A trojan horse is not self-replicating and disguises itself as a legitimate application when it is not. A botnet is a series of zombie computers working together to wage a network attack.
+
+Question: Which algorithm can ensure data confidentiality?
+Option: MD5
+Option: PKI
+Option: AES*
+Option: RSA
+Explanation: Data confidentiality is ensured through symmetric encryption algorithms, including DES, 3DES, and AES.
+
+Question: What three items are components of the CIA triad? (Choose three.)
+Option: scalability
+Option: access
+Option: intervention
+Option: confidentiality*
+Option: integrity*
+Option: availability*
+Explanation: The CIA triad contains three components: confidentiality, integrity, and availability. It is a guideline for information security for an organization.
+
+Question: Which cyber attack involves a coordinated attack from a botnet of zombie computers?
+Option: address spoofing
+Option: ICMP redirect
+Option: DDoS*
+Option: MITM
+Explanation: DDoS is a distributed denial-of-services attack. A DDoS attack is launched from multiple coordinated sources. The sources of the attack are zombie hosts that the cybercriminal has built into a botnet. When ready, the cybercriminal instructs the botnet of zombies to attack the chosen target.
+
+Question: What specialized network device is responsible for enforcing access control policies between networks?
+Option: firewall*
+Option: switch
+Option: IDS
+Option: bridge
+Explanation: Firewalls are used to permit or block traffic between networks according to access control policies.
+
+Question: To which category of security attacks does man-in-the-middle belong?
+Option: DoS
+Option: access*
+Option: reconnaissance
+Option: social engineering
+Explanation: With a man-in-the-middle attack, a threat actor is positioned in between two legitimate entities in order to read, modify, or redirect the data that passes between the two parties.
+
+Question: What is the role of an IPS?
+Option: to detect patterns of malicious traffic by the use of signature files*
+Option: to enforce access control policies based on packet content
+Option: to filter traffic based on defined rules and connection context
+Option: to filter traffic based on Layer 7 information
+Explanation: For detecting malicious activity, an IPS uses a set of rules called signatures to detect patterns in network traffic.
+
+Question: Which type of DNS attack involves the cybercriminal compromising a parent domain and creating multiple subdomains to be used during the attacks?
+Option: tunneling
+Option: cache poisoning
+Option: amplification and reflection
+Option: shadowing*
+Explanation: Two threats to DNS are DNS shadowing and DNS tunneling attacks. DNS shadowing attacks compromise a parent domain and then the cybercriminal creates subdomains to be used in attacks. DNS tunneling attacks build botnets to bypass traditional security solutions. Three threats to DNS open resolvers are cache poisoning, amplification and reflection, and resource utilization attacks.
+
+Question: Which two types of hackers are typically classified as grey hat hackers? (Choose two.)
+Option: script kiddies
+Option: cyber criminals
+Option: vulnerability brokers*
+Option: state-sponsored hackers
+Option: hacktivists*
+Explanation: Grey hat hackers may do unethical or illegal things, but not for personal gain or to cause damage. Hacktivists use their hacking as a form of political or social protest, and vulnerability brokers hack to uncover weaknesses and report them to vendors. Depending on the perspective one possesses, state-sponsored hackers are either white hat or black hat operators. Script kiddies create hacking scripts to cause damage or disruption. Cyber criminals use hacking to obtain financial gain by illegal means.
+
+Question: What is a significant characteristic of virus malware?
+Option: Virus malware is only distributed over the Internet.
+Option: Once installed on a host system, a virus will automatically propagate itself to other systems.
+Option: A virus can execute independently of the host system.
+Option: A virus is triggered by an event on the host system.*
+Explanation: A virus is malicious code that is attached to a legitimate program or executable file, and requires specific activation, which may include user actions or a time-based event. When activated, a virus can infect the files it has not yet infected, but does not automatically propagate itself to other systems. Self-propagation is a feature of worms. In addition to being distributed over the Internet, viruses are also spread by USB memory sticks, CDs, and DVDs.
+
+Question: A cleaner attempts to enter a computer lab but is denied entry by the receptionist because there is no scheduled cleaning for that day. What type of attack was just prevented?
+Option: phishing
+Option: shoulder surfing
+Option: war driving
+Option: social engineering*
+Option: Trojan
+Explanation: Social engineering is when a person attempts to manipulate another individual to gain access to information or resources to which they are not entitled.
+
+Question: Which network security statement is true?
+Option: All threats come from external networks.
+Option: Internal threats are always accidental.
+Option: Internal threats are always intentional.
+Option: Internal threats can cause greater damage than external threats.*
+Explanation: Internal threats can be intentional or accidental and can cause greater damage than external threats because an internal user has direct access to the internal corporate network and corporate data.
+
+Question: What commonly motivates cybercriminals to attack networks as compared to hacktivists or state-sponsored hackers?
+Option: Fame seeking
+Option: Financial gain*
+Option: Political reasons
+Option: Status among peers
+Explanation: Cybercriminals are commonly motivated by money. Hackers are known to hack for status. Cyberterrorists are motivated to commit cybercrimes for religious or political reasons.
+
+Question: Which type of hacker is motivated by protesting political and social issues?
+Option: Cybercriminal
+Option: Hacktivist*
+Option: Script kiddie
+Option: Vulnerability broker
+Explanation: Hackers are categorized by motivating factors. Hacktivists are motivated by protesting political and social issues.
+
+Question: What is Trojan horse malware?
+Option: It is malware that can only be distributed over the internet.
+Option: It is software that appears useful but includes malicious code.*
+Option: It is software that causes annoying computer problems.
+Option: It is the most easily detected form of malware.
+Explanation: Trojan horse malware appears as useful software but hides malicious code. Trojan horse malware may cause annoying computer problems, but it can also cause fatal problems. Some Trojan horses may be distributed over the internet, but they can also be distributed by USB memory sticks and other means. Specifically targeted Trojan horse malware can be some of the most difficult malware to detect.
+
+Question: A user receives a call from someone in IT services, asking her to confirm her username and password for auditing purposes. Which security threat does this represent?
+Option: Anonymous keylogging
+Option: DDoS
+Option: Social engineering*
+Option: Spam
+Explanation: Social engineering involves attempting to gain the confidence of an employee and convince that person to divulge confidential and sensitive information, such as usernames and passwords. DDoS attacks, spam, and keylogging are all examples of software-based security threats, not social engineering.
+
+Question: What is a ping sweep?
+Option: A DNS query and response protocol
+Option: A network scanning technique that involves identifying active IP addresses*
+Option: A type of packet capturing software
+Option: A TCP and UDP port scanner to detect open services
+Explanation: A ping sweep is a technique that is used during a reconnaissance attack to locate line IP addresses. Other tools that might be used during this type of attack include a port scan or an internet information query. A reconnaissance attack is used to gather information about a particular network, usually in preparation for another type of network attack.
+
+Question: How are zombies used in security attacks?
+Option: Zombies are infected machines that carry out a DDoS attack.*
+Option: Zombies are maliciously formed code segments used to replace legitimate applications.
+Option: Zombies probe a group of machines for open ports to learn which services are running.
+Option: Zombies target specific individuals to gain corporate or personal information.
+Explanation: Zombies are infected computers that make up a botnet. They are used to deploy a distributed denial-of-service (DDoS) attack.
+
+Question: What is used to decrypt data that has been encrypted using an asymmetric encryption algorithm public key?
+Option: A different public key
+Option: A digital certificate
+Option: A private key*
+Option: DH
+Explanation: When an asymmetric algorithm is used, public and private keys are used for the encryption. Either key can be used for encryption, but the complementary matched key must be used for the decryption. For example, if the public key is used for encryption, the private key must be used for the decryption.
+
+Question: What are the SHA hash generating algorithms used for?
+Option: Authentication
+Option: Confidentiality
+Option: Integrity*
+Option: Nonrepudiation
+Explanation: Integrity is ensured by implementing SHA hash generating algorithms. Many modern networks ensure authentication with protocols such as HMACs. Data confidentiality is ensured through symmetric encryption algorithms, including 3DES and AES. Data confidentiality can also be ensured using asymmetric algorithms.
+
+Question: Which of the following is true of an IPS?
+Option: It can stop malicious packets.*
+Option: It has no impact on latency.
+Option: It is deployed in offline mode.
+Option: It is primarily focused on identifying possible incidents.
+Explanation: An advantage of an intrusion prevention system (IPS) is that it can identify and stop malicious packets. However, because an IPS is deployed inline, it can add latency to the network.
+
+Question: What is the term used to describe unethical criminals who compromise computer and network security for personal gain or for malicious reasons?
+Option: Black hat hackers*
+Option: Hacktivists
+Option: Script kiddies
+Option: Vulnerability broker
+Explanation: Black hat hackers are unethical threat actors who use their skills to compromise computer and network security vulnerabilities. The goal is usually financial gain or personal gain, or the hacker may have malicious intent. A vulnerability broker is a gray hat hacker who attempts to discover exploits and report them to vendors, sometimes for prizes or rewards. Hacktivists are gray hat hackers who publicly protest organizations or governments by posting articles or videos, leaking sensitive information, and performing network attacks. Script kiddies are inexperienced hackers (sometimes teenagers) running existing scripts, tools, and exploits to cause harm—but typically not for profit.
+
+Question: What is the term used to describe a potential danger to a company's assets, data, or network functionality?
+Option: Asymmetric encryption algorithm
+Option: Exploit
+Option: Threat*
+Option: Vulnerability
+Explanation: A threat is a potential danger to a company's assets, data, or network functionality. An exploit is a mechanism that takes advantage of a vulnerability. A vulnerability is a weakness in a system, or its design, that could be exploited by a threat.
+
+Question: What term is used to describe a guarantee that a message is not a forgery and does actually come from the person who is supposed to have sent it?
+Option: Data nonrepudiation
+Option: Exploit
+Option: Mitigation
+Option: Origin authentication*
+Explanation: Origin authentication guarantees that a message is not a forgery and does actually come from the person who is supposed to have sent it. Data nonrepudiation guarantees that the sender cannot repudiate, or refute, the validity of a message sent. An exploit is a mechanism that takes advantage of a vulnerability. Mitigation describes a countermeasure to eliminate or reduce the potential of a threat or risk.
+
+Question: What term is used to describe a mechanism that takes advantage of a vulnerability?
+Option: Asymmetric encryption algorithm
+Option: Exploit*
+Option: Threat
+Option: Vulnerability
+Explanation: An exploit is a mechanism that takes advantage of a vulnerability. A threat is a potential danger to a company's assets, data, or network functionality. A vulnerability is a weakness in a system, or its design, that could be exploited by a threat.
+
+Question: Which of the following guarantees that the sender cannot repudiate, or refute, the validity of a message sent?
+Option: Data nonrepudiation*
+Option: Exploit
+Option: Mitigation
+Option: Origin authentication
+Explanation: Data nonrepudiation guarantees that the sender cannot repudiate, or refute, the validity of a message sent. An exploit is a mechanism that takes advantage of a vulnerability. Mitigation is a countermeasure to eliminate or reduce the potential of a threat or risk. Origin authentication guarantees that a message is not a forgery and does actually come from the person who is supposed to have sent it.

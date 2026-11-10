@@ -1,0 +1,8 @@
+=== Quizizz conversion report ===
+Input      : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\tests\fib3
+Output     : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\tests\fib3\out
+Files found: 1
+
+[ OK ] PromptRoundTrip.txt  ->  Quizizz_PromptRoundTrip.xlsx   (4 questions)
+
+Total: 1 file(s) -> 1 workbook(s), 4 question(s), 0 with an image link.

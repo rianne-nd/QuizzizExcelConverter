@@ -1,0 +1,415 @@
+Question: What is a function of OSPF hello packets?
+Option: to send specifically requested link-state records
+Option: to discover neighbors and build adjacencies between them*
+Option: to ensure database synchronization between routers
+Option: to request specific link-state records from neighbor routers
+Explanation: OSPF hello packets are used to discover neighbors, establish neighbor adjacencies, and monitor neighbor state.
+
+Question: Which OSPF packet contains the different types of link-state advertisements?
+Option: hello
+Option: DBD
+Option: LSR
+Option: LSU*
+Option: LSAck
+Explanation: Link-State Update (LSU) packets contain one or more Link-State Advertisements (LSAs) used to replicate routing information.
+
+Question: Which three statements describe features of the OSPF topology table? (Choose three.)
+Option: It is a link-state database that represents the network topology.*
+Option: Its contents are the result of running the SPF algorithm.
+Option: When converged, all routers in an area have identical topology tables.*
+Option: The topology table contains feasible successor routes.
+Option: The table can be viewed via the show ip ospf database command.*
+Explanation: The topology table on an OSPF router is a link-state database (LSDB) that lists information about all other routers in the network, and represents the network topology. All routers within an area have identical link-state databases, and the table can be viewed using the show ip ospf database command. The EIGRP topology table contains feasible successor routes. This concept is not used by OSPF. The SPF algorithm uses the LSDB to produce the unique routing table for each router which contains the lowest cost route entries for known networks.
+
+Question: What does an OSPF area contain?
+Option: routers that share the same router ID
+Option: routers whose SPF trees are identical
+Option: routers that have the same link-state information in their LSDBs*
+Option: routers that share the same process ID
+Explanation: An OSPF area contains one set of link-state information, although each router within the area will process that information individually to form its own SPF tree. OSPF process IDs are locally significant and are created by the administrator. Router IDs uniquely identify each router.
+
+Question: What is used to facilitate hierarchical routing in OSPF?
+Option: the use of multiple areas*
+Option: frequent SPF calculations
+Option: autosummarization
+Option: the election of designated routers
+Explanation: OSPF supports the concept of areas to prevent larger routing tables, excessive SPF calculations, and large LSDBs. Only routers within an area share link-state information. This allows OSPF to scale in a hierarchical fashion with all areas that connect to a backbone area.
+
+Question: Which OSPF data structure is identical on all OSPF routers that share the same area?
+Option: forwarding database
+Option: link-state database*
+Option: adjacency database
+Option: routing table
+Explanation: Regardless of which OSPF area a router resides in, the adjacency database, routing table, and forwarding database are unique for each router. The link-state database lists information about all other routers within an area and is identical across all OSPF routers participating in that area.
+
+Question: Which step does an OSPF-enabled router take immediately after establishing an adjacency with another router?
+Option: builds the topology table
+Option: exchanges link-state advertisements*
+Option: chooses the best path
+Option: executes the SPF algorithm
+Explanation: The OSPF operation steps are as follows: Establish neighbor adjacencies, Exchange link-state advertisements, Build the topology table, Execute the SPF algorithm, Choose the best route.
+
+Question: A network engineer has manually configured the hello interval to 15 seconds on an interface of a router that is running OSPFv2. By default, how will the dead interval on the interface be affected?
+Option: The dead interval will not change from the default value.
+Option: The dead interval will now be 30 seconds.
+Option: The dead interval will now be 60 seconds.*
+Option: The dead interval will now be 15 seconds.
+Explanation: Cisco IOS automatically modifies the dead interval to four times the hello interval.
+
+Question: Refer to the exhibit. A network administrator has configured the OSPF timers to the values that are shown in the graphic. What is the result of having those manually configured timers?
+Image: https://itexamanswers.net/wp-content/uploads/2020/05/i212851v1n1_212851.png
+Option: R1 automatically adjusts its own timers to match the R2 timers.
+Option: The R1 dead timer expires between hello packets from R2.*
+Option: The hello timer on R2 expires every ten seconds.
+Option: The neighbor adjacency has formed.
+Explanation: The dead timer (20 seconds) on R1 expires before the next hello packet from R2 (25 seconds).
+
+Question: To establish a neighbor adjacency two OSPF routers will exchange hello packets. Which two values in the hello packets must match on both routers? (Choose two.)
+Option: dead interval*
+Option: router priority
+Option: list of neighbors
+Option: router ID
+Option: hello interval*
+Explanation: The hello and dead interval timers contained in a hello packet must be the same on neighboring routers in order to form an adjacency.
+
+Question: What is the default router priority value for all Cisco OSPF routers?
+Option: 0
+Option: 1*
+Option: 10
+Option: 255
+Explanation: The router priority value is used in a DR/BDR election. The default priority for all OSPF routers is 1 but it can be manually altered to any value 0 to 255.
+
+Question: Which type of OSPFv2 packet contains an abbreviated list of the LSDB of a sending router and is used by receiving routers to check against the local LSDB?
+Option: database description*
+Option: link-state update
+Option: link-state request
+Option: link-state acknowledgment
+Explanation: The database description (DBD) packet contains an abbreviated list of the LSDB sent by a neighboring router and is used by receiving routers to check against the local LSDB.
+
+Question: In an OSPF network when are DR and BDR elections required?
+Option: when the two adjacent neighbors are interconnected over a point-to-point link
+Option: when all the routers in an OSPF area cannot form adjacencies
+Option: when the routers are interconnected over a common Ethernet network*
+Option: when the two adjacent neighbors are in two different networks
+Explanation: When the routers are interconnected over a common Ethernet network, then a designated router (DR) and a backup DR (BDR) must be elected.
+
+Question: When an OSPF network is converged and no network topology change has been detected by a router, how often will LSU packets be sent to neighboring routers?
+Option: every 5 minutes
+Option: every 10 minutes
+Option: every 30 minutes*
+Option: every 60 minutes
+Explanation: After all LSRs have been satisfied for a given router, the adjacent routers are considered synchronized and in a full state. Updates (LSUs) are sent to neighbors only under the following conditions: when a network topology change is detected (incremental updates) or every 30 minutes.
+
+Question: What will an OSPF router prefer to use first as a router ID?
+Option: a loopback interface that is configured with the highest IP address on the router
+Option: any IP address that is configured using the router-id command*
+Option: the highest active interface IP that is configured on the router
+Option: the highest active interface that participates in the routing process because of a specifically configured network statement
+Explanation: The first preference for an OSPF router ID is an explicitly configured 32-bit address. This address is not included in the routing table and is not defined by the network command. If a router ID that is configured through the router-id command is not available, OSPF routers next use the highest IP address available on a loopback interface, as loopbacks used as router IDs are also not routable addresses. Lacking either of these alternatives, an OSPF router will use the highest IP address from its active physical interfaces.
+
+Question: What are the two purposes of an OSPF router ID? (Choose two.)
+Option: to uniquely identify the router within the OSPF domain*
+Option: to facilitate router participation in the election of the designated router*
+Option: to enable the SPF algorithm to determine the lowest cost path to remote networks
+Option: to facilitate the establishment of network convergence
+Option: to facilitate the transition of the OSPF neighbor state to Full
+Explanation: OSPF router ID does not contribute to SPF algorithm calculations, nor does it facilitate the transition of the OSPF neighbor state to Full. Although the router ID is contained within OSPF messages when router adjacencies are being established, it has no bearing on the actual convergence process.
+
+Question: Refer to the exhibit. If no router ID was manually configured, what would router Branch1 use as its OSPF router ID?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i254793v1n2_254793.gif
+Option: 10.0.0.1
+Option: 10.1.0.1
+Option: 192.168.1.100
+Option: 209.165.201.1*
+Explanation: In OSPFv2, a Cisco router uses a three-tier method to derive its router ID. The first choice is the manually configured router ID with the router-id command. If the router ID is not manually configured, the router will choose the highest IPv4 address of the configured loopback interfaces. Finally if no loopback interfaces are configured, the router chooses the highest active IPv4 address of its physical interfaces.
+
+Question: A network technician issues the following commands when configuring a router: R1(config)# router ospf 11 R1(config-router)# network 10.10.10.0 0.0.0.255 area 0 What does the number 11 represent?
+Option: the OSPF process ID on R1*
+Option: the cost of the link to R1
+Option: the autonomous system number to which R1 belongs
+Option: the administrative distance that is manually assigned to R1
+Option: the area number where R1 is located
+Explanation: There is no autonomous system number to configure on OSPF. The area number is located at the end of the network statement. The cost of a link can be modified in the interface configuration mode. The process ID is local to the router.
+
+Question: An OSPF router has three directly connected networks; 172.16.0.0/16, 172.16.1.0/16, and 172.16.2.0/16. Which OSPF network command would advertise only the 172.16.1.0 network to neighbors?
+Option: router(config-router)# network 172.16.1.0 0.0.255.255 area 0
+Option: router(config-router)# network 172.16.0.0 0.0.15.255 area 0
+Option: router(config-router)# network 172.16.1.0 255.255.255.0 area 0
+Option: router(config-router)# network 172.16.1.0 0.0.0.0 area 0*
+Explanation: To advertise only the 172.16.1.0/16 network the wildcard mask used in the network command must match the first 16-bits exactly. To match bits exactly, a wildcard mask uses a binary zero. This means that the first 16-bits of the wildcard mask must be zero. The low order 16-bits can all be set to 1.
+
+Question: Refer to the exhibit. Which three statements describe the results of the OSPF election process of the topology that is shown in the exhibit? (Choose three.)
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i212853v1n1_212853.png
+Option: R3 will be elected BDR.*
+Option: The R4 FastEthernet 0/0 priority is 128.
+Option: The R4 router ID is 172.16.1.1.*
+Option: R1 will be elected BDR.
+Option: R2 will be elected DR.*
+Explanation: R2 will be elected DR because it has the highest priority of 255, all of the others have a priority of 1. R3 will be elected BDR because it has the numerically highest router-ID of 192.168.1.4. The R4 router-ID is 172.16.1.1 because it is the IPv4 address attached to the loopback 0 interface.
+
+Question: Refer to the exhibit. If the switch reboots and all routers have to re-establish OSPF adjacencies, which routers will become the new DR and BDR?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i255836v1n1_255836.gif
+Option: Router R4 will become the DR and router R1 will become the BDR.*
+Option: Router R2 will become the DR and router R3 will become the BDR.
+Option: Router R1 will become the DR and router R2 will become the BDR.
+Option: Router R4 will become the DR and router R3 will become the BDR.
+Explanation: OSPF elections of a DR are based on the following in order of precedence: highest priority from 1-255 (0 = never a DR), highest router ID, highest IP address of a loopback or active interface in the absence of a manually configured router ID. In this case routers R4 and R1 have the highest router priority. Between the two, R4 has the higher router ID. Therefore, R4 will become the DR and R1 will become the BDR.
+
+Question: By default, what is the OSPF cost for any link with a bandwidth of 100 Mb/s or greater?
+Option: 100000000
+Option: 10000
+Option: 1*
+Option: 100
+Explanation: OSPF uses the formula: Cost = 100,000,000 / bandwidth. Because OSPF will only use integers as cost, any bandwidth of 100 Mb/s or greater will all equal a cost of 1.
+
+Question: Refer to the exhibit. What is the OSPF cost to reach the router A LAN 172.16.1.0/24 from B?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i258065v1n1_Item-isomorph-258065.png
+Option: 782
+Option: 74
+Option: 128
+Option: 65*
+Explanation: The formula used to calculate the OSPF cost is Cost = 100,000,000 bps / interface bandwidth in bps. Thus the cost to reach the A LAN 172.16.1.0/24 from B is: Serial link (1544 Kbps) from B to A cost => 100,000,000 / 1,544,000 = 64. Gigabit Ethernet link on A cost => 100,000,000 / 1,000,000,000 = 1. Total cost = 64 + 1 = 65.
+
+Question: Refer to the exhibit. On which router or routers would a default route be statically configured in a corporate environment that uses single area OSPF as the routing protocol?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i269030v1n1_ScalNch5.png
+Option: R0-A*
+Option: ISP, R0-A, R0-B, and R0-C
+Option: ISP
+Option: R0-B and R0-C
+Option: ISP and R0-A
+Explanation: The default route is applied to the router that connects to the Internet, or R0-A. R0-A then distributes that default route using the OSPF routing protocol.
+
+Question: What command would be used to determine if a routing protocol-initiated relationship had been made with an adjacent router?
+Option: ping
+Option: show ip ospf neighbor*
+Option: show ip interface brief
+Option: show ip protocols
+Explanation: While the show ip interface brief and ping commands can be used to determine if Layer 1, 2, and 3 connectivity exists, neither command can be used to determine if a particular OSPF or EIGRP-initiated relationship has been made. The show ip protocols command is useful in determining the routing parameters such as timers, router ID, and metric information associated with a specific routing protocol. The show ip ospf neighbor command shows if two adjacent routers have exchanged OSPF messages in order to form a neighbor relationship.
+
+Question: Refer to the exhibit. Which command did an administrator issue to produce this output?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i278236v1n1_212843.jpg
+Option: R1# show ip ospf interface serial0/0/1*
+Option: R1# show ip route ospf
+Option: R1# show ip ospf
+Option: R1# show ip ospf neighbor
+Explanation: The command show ip ospf interface serial0/0/1 displays specific interface configuration and operational details for OSPF on serial interface 0/0/1.
+
+Question: Which command is used to verify that OSPF is enabled and also provides a list of the networks that are being advertised by the network?
+Option: show ip interface brief
+Option: show ip ospf interface
+Option: show ip protocols*
+Option: show ip route ospf
+Explanation: The command show ip ospf interface verifies the active OSPF interfaces. The command show ip interface brief is used to check that the interfaces are operational. The command show ip route ospf displays the entries that are learned via OSPF in the routing table. The command show ip protocols checks that OSPF is enabled and lists the networks that are advertised.
+
+Question: Refer to the exhibit. A network administrator has configured OSPFv2 on the two Cisco routers but PC1 is unable to connect to PC2. What is the most likely problem?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i285134v1n1_285134.png
+Option: Interface Fa0/0 has not been activated for OSPFv2 on router R2.*
+Option: Interface Fa0/0 is configured as a passive-interface on router R2.
+Option: Interface S0/0 is configured as a passive-interface on router R2.
+Option: Interface s0/0 has not been activated for OSPFv2 on router R2.
+Explanation: If a LAN network is not advertised using OSPFv2, a remote network will not be reachable. The output displays a successful neighbor adjacency between router R1 and R2 on the interface S0/0 of both routers.
+
+Question: What is the recommended Cisco best practice for configuring an OSPF-enabled router so that each router can be easily identified when troubleshooting routing issues?
+Option: Configure a value using the router-id command.*
+Option: Use the highest active interface IP address that is configured on the router.
+Option: Use a loopback interface configured with the highest IP address on the router.
+Option: Use the highest IP address assigned to an active interface participating in the routing process.
+Explanation: A Cisco router is assigned a router ID to uniquely identify it. It can be automatically assigned and take the value of the highest configured IP address on any interface, the value of a specifically-configured loopback address, or the value assigned using the router-id command. Cisco recommends using the router-id command.
+
+Question: Which step in the link-state routing process is described by a router running an algorithm to determine the best path to each destination?
+Option: load balancing equal-cost paths
+Option: declaring a neighbor to be inaccessible
+Option: choosing the best route
+Option: executing the SPF algorithm*
+Explanation: In the link-state routing process, executing the SPF algorithm is the step where a router runs the Dijkstra Shortest Path First (SPF) algorithm against its Link-State Database (topology table). This calculation creates an SPF tree, which determines the best (shortest) path to every destination network based on cumulative link costs. Once this algorithm finishes, the best routes are then offered to the routing table.
+
+Question: An administrator is configuring single-area OSPF on a router. One of the networks that must be advertised is 192.168.223.0 255.255.254.0. What wildcard mask would the administrator use in the OSPF network statement?
+Option: 0.0.1.255*
+Option: 0.0.7.255
+Option: 0.0.15.255
+Option: 0.0.31.255
+Explanation: The wildcard mask is calculated by subtracting the subnet mask 255.255.254.0 from 255.255.255.255, resulting in 0.0.1.255.
+
+Question: What is the format of the router ID on an OSPF-enabled router?
+Option: a unique router host name that is configured on the router
+Option: a unique phrase with no more than 16 characters
+Option: a 32-bit number formatted like an IPv4 address*
+Option: an 8-bit number with a decimal value between 0 and 255
+Option: a character string with no space
+Explanation: A router ID is a 32-bit number formatted like an IPv4 address and assigned in order to uniquely identify a router among OSPF peers.
+
+Question: Which statement regarding routing protocol algorithms and multiarea OSPF is true?
+Option: DUAL is used by OSPF and SPF is used by EIGRP.
+Option: In multiarea OSPF, all areas must be connected to the backbone area.*
+Option: Multiarea OSPF eliminates the need for area 0.
+Option: EIGRP routers use the SPF algorithm to determine the best path.
+Explanation: DUAL is the algorithm used by EIGRP. In multiarea OSPF, OSPF is implemented using multiple areas, and all of them must be connected to the backbone area.
+
+Question: After modifying the router ID on an OSPF router, what is the preferred method to make the new router ID effective?
+Option: HQ# copy running-config startup-config
+Option: HQ# resume
+Option: HQ# clear ip route *
+Option: HQ# clear ip ospf process*
+Explanation: To modify a router-id on an OSPF-enabled router, it is necessary to reset the OSPF routing process by entering either the clear ip ospf process command or the reload command.
+
+Question: In an OSPFv2 configuration, what is the effect of entering the command network 192.168.1.1 0.0.0.0 area 0 ?
+Option: It allows all 192.168.1.0 networks to be advertised.
+Option: It tells the router which interface to turn on for the OSPF routing process.*
+Option: It changes the router ID of the router to 192.168.1.1.
+Option: It enables OSPF on all interfaces on the router.
+Explanation: Entering the command network 192.168.1.1 0.0.0.0 area 0 will turn on only the interface with that IP address for OSPF routing. It does not change the router ID. Instead, OSPF will use the network that is configured on that interface.
+
+Question: What is the reason for a network engineer to alter the default reference bandwidth parameter when configuring OSPF?
+Option: to force that specific link to be used in the destination route
+Option: to more accurately reflect the cost of links greater than 100 Mb/s*
+Option: to enable the link for OSPF routing
+Option: to increase the speed of the link
+Explanation: By default, Fast Ethernet, Gigabit, and 10 Gigabit Ethernet interfaces all have a cost of 1. Altering the default reference bandwidth alters the cost calculation, allowing each speed to be more accurately reflected in the cost.
+
+Question: Which task has to be performed on Router 1 for it to establish an OSPF adjacency with Router 2?
+Option: Issue the clear ip ospf process command.
+Option: Change the subnet mask of interface FastEthernet 0/0 to 255.255.255.0.*
+Option: Remove the passive interface command from interface FastEthernet 0/0.
+Option: Add the network 10.0.1.0 0.0.0.255 area 0 command to the OSPF process.
+Explanation: Each interface on the link connecting the OSPF routers must be in the same subnet for an adjacency to be established. The IP address subnet mask on FastEthernet interface 0/0 must be changed to 255.255.255.0.
+
+Question: Match the OSPF description to its correct term. Which pair is correctly matched?
+Option: Algorithm used by OSPF - Shortest Path First*
+Option: Where details of neighboring routers can be found - Link-state database
+Option: All routers in backbone area - Multiarea OSPF
+Option: Where topology table is found - Adjacency database
+Explanation: DUAL is the algorithm used by EIGRP, while OSPF uses Shortest Path First (SPF). Details of neighboring routers are stored in the adjacency database. Single-area OSPF has all routers in the backbone area. The topology table is stored in the link-state database (LSDB).
+
+Question: What is a benefit of multiarea OSPF routing?
+Option: Topology changes in one area do not cause SPF recalculations in other areas.*
+Option: Routers in all areas share the same link-state database and have a complete picture of the entire network.
+Option: A backbone area is not required.
+Option: Automatic route summarization occurs by default between areas.
+Explanation: With multiarea OSPF, only routers within an area share the same link-state database. Changes to the network topology in one area do not impact other areas, which reduces the number of SPF algorithm calculations and the size of link-state databases.
+
+Question: What is the correct sequence of OSPF states when forming an adjacency?
+Option: Down, Init, Two-way, Exstart, Exchange, Loading, Full*
+Option: Down, Two-way, Init, Exchange, Exstart, Loading, Full
+Option: Init, Down, Two-way, Exstart, Loading, Exchange, Full
+Option: Down, Init, Two-way, Exchange, Exstart, Full, Loading
+Explanation: The seven OSPF states in order of occurrence are: Down state, Init state, Two-way state, Exstart state, Exchange state, Loading state, and Full state. The active and passive states are used by EIGRP.
+
+Question: What indicates to a link-state router that a neighbor is unreachable?
+Option: if the router no longer receives hello packets*
+Option: if the router receives an update with a hop count of 16
+Option: if the router receives an LSP with previously learned information
+Option: if the router no longer receives routing updates
+Explanation: OSPF routers send hello packets to monitor the state of a neighbor. When a router stops receiving hello packets from a neighbor, that neighbor is considered unreachable and the adjacency is broken.
+
+Question: Which three OSPF states are involved when two routers are forming an adjacency? (Choose three.)
+Option: Exchange
+Option: Init*
+Option: Two-way*
+Option: Loading
+Option: Down*
+Explanation: OSPF operation progresses through 7 states for establishing neighboring router adjacency, exchanging routing information, calculating the best routes, and reaching convergence. The Down, Init, and Two-way states are involved in the phase of neighboring router adjacency establishment.
+
+Question: Refer to the exhibit. Suppose that routers B, C, and D have a default priority, and router A has a priority 0. Which conclusion can be drawn from the DR/BDR election process?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i247460v1n3_Item-247460.png
+Option: If the priority of router C is changed to 255, then it will become the DR.
+Option: Router A will become the DR and router D will become the BDR.
+Option: If the DR fails, the new DR will be router B.*
+Option: If a new router with a higher priority is added to this network, it will become the DR.
+Explanation: If the priority is set to 0, the router is not capable of becoming the DR, so router A cannot be the DR. OSPF DR and BDR elections are not preemptive. If a new router with a higher priority or higher router ID is added to the network after the DR and BDR election, the newly added router does not take over the DR or the BDR role. If the current DR fails, the BDR (router B) becomes the new DR.
+
+Question: An administrator is configuring single-area OSPF on a router. One of the networks that must be advertised is 64.102.0.0 255.255.255.128. What wildcard mask would the administrator use in the OSPF network statement?
+Option: 0.0.31.255
+Option: 0.0.0.63
+Option: 0.0.63.255
+Option: 0.0.0.127*
+Explanation: The wildcard mask is calculated by subtracting 255.255.255.128 from 255.255.255.255, which equals 0.0.0.127.
+
+Question: Which command will a network engineer issue to verify the configured hello and dead timer intervals on a point-to-point WAN link between two routers that are running OSPFv2?
+Option: show ipv6 ospf interface serial 0/0/0
+Option: show ip ospf neighbor
+Option: show ip ospf interface fastethernet 0/1
+Option: show ip ospf interface serial 0/0/0*
+Explanation: The show ip ospf interface serial 0/0/0 command will display the configured hello and dead timer intervals on a point-to-point serial WAN link between two OSPFv2 routers. The show ipv6 ospf interface serial 0/0/0 command will display the configured hello and dead timer intervals on a point-to-point serial link between two OSPFv3 routers. The show ip ospf interface fastethernet 0/1 command will display the configured hello and dead timer intervals on a multiaccess link between two (or more) OSPFv2 routers. The show ip ospf neighbor command will display the dead interval elapsed time since the last hello message was received, but does not show the configured value of the timer.
+
+Question: An administrator is configuring single-area OSPF on a router. One of the networks that must be advertised is 128.107.0.0 255.255.255.192. What wildcard mask would the administrator use in the OSPF network statement?
+Option: 0.0.63.255
+Option: 0.0.0.63*
+Option: 0.0.0.3
+Option: 0.0.0.7
+Explanation: The wildcard mask is calculated by subtracting 255.255.255.192 from 255.255.255.255, which equals 0.0.0.63.
+
+Question: Match each OSPF packet type to how it is used by a router. Which pairs correctly match an OSPF packet type to its function? (Choose four.)
+Option: link-state request packet - query another router for additional information*
+Option: hello packet - establish and maintain adjacencies*
+Option: database description packet - compare local topology to that sent by another router*
+Option: link-state update packet - advertise new information*
+Option: link-state acknowledgment packet - initiate neighbor discovery
+Explanation: Link-state request (LSR) packets query another router for additional information. Hello packets establish and maintain adjacencies. Database description (DBD) packets compare local topology against that sent by another router. Link-state update (LSU) packets advertise new information.
+
+Question: An administrator is configuring single-area OSPF on a router. One of the networks that must be advertised is 192.168.181.0 255.255.254.0. What wildcard mask would the administrator use in the OSPF network statement?
+Option: 0.0.63.255
+Option: 0.0.15.255
+Option: 0.0.1.255*
+Option: 0.0.31.255
+Explanation: The wildcard mask is calculated by subtracting 255.255.254.0 from 255.255.255.255, resulting in 0.0.1.255.
+
+Question: An administrator is configuring single-area OSPF on a router. One of the networks that must be advertised is 198.19.0.0 255.255.252.0. What wildcard mask would the administrator use in the OSPF network statement?
+Option: 0.0.63.255
+Option: 0.0.3.255*
+Option: 0.0.31.255
+Option: 0.0.0.255
+Explanation: The wildcard mask is calculated by subtracting 255.255.252.0 from 255.255.255.255, resulting in 0.0.3.255.
+
+Question: An administrator is configuring single-area OSPF on a router. One of the networks that must be advertised is 128.107.0.0 255.255.252.0. What wildcard mask would the administrator use in the OSPF network statement?
+Option: 0.0.3.255*
+Option: 0.0.0.7
+Option: 0.0.0.3
+Option: 0.0.63.255
+Explanation: The wildcard mask is calculated by subtracting 255.255.252.0 from 255.255.255.255, resulting in 0.0.3.255.
+
+Question: Which step in the link-state routing process is described by a router flooding link-state and cost information about each directly connected link?
+Option: building the topology table
+Option: selecting the router ID
+Option: exchanging link-state advertisements*
+Option: injecting the default route
+Explanation: According to the link-state routing process, once neighbor adjacencies are established, routers begin exchanging link-state advertisements (LSAs). During this step, each router floods information regarding the state and cost of its directly connected links to its neighbors. These neighbors then immediately forward the information to their own neighbors until all routers in the OSPF area possess identical link-state information.
+
+Question: Which step in the link-state routing process is described by a router sending Hello packets out all of the OSPF-enabled interfaces?
+Option: electing the designated router
+Option: establishing neighbor adjacencies*
+Option: injecting the default route
+Option: exchanging link-state advertisements
+Explanation: Routers send Hello packets out all OSPF-enabled interfaces to discover neighbors and establish neighbor adjacencies.
+
+Question: An administrator is configuring single-area OSPF on a router. One of the networks that must be advertised is 64.100.0.0 255.255.255.0. What wildcard mask would the administrator use in the OSPF network statement?
+Option: 0.0.0.31
+Option: 0.0.0.255*
+Option: 0.0.0.63
+Option: 0.0.0.127
+Explanation: The wildcard mask is calculated by subtracting 255.255.255.0 from 255.255.255.255, resulting in 0.0.0.255.
+
+Question: Which step in the link-state routing process is described by a router inserting best paths into the routing table?
+Option: declaring a neighbor to be inaccessible
+Option: executing the SPF algorithm
+Option: load balancing equal-cost paths
+Option: choosing the best route*
+Explanation: This is the final step in the generic link-state routing process. After the SPF algorithm creates the SPF tree, the router identifies the shortest paths to each destination and offers them to the IP routing table. These best paths are then inserted into the routing table unless a route to the same network with a lower administrative distance exists.
+
+Question: What type of address is 64.101.198.197?
+Option: public*
+Option: private
+Explanation: IPv4 private address ranges are 10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16. The address 64.101.198.197 does not fall into these ranges, so it is a public IPv4 address.
+
+Question: An OSPF router has three directly connected networks; 172.16.0.0/24, 172.16.1.0/24, and 172.16.2.0/24. Which OSPF network command would advertise only the 172.16.1.0 network to neighbors?
+Option: router(config-router)# network 172.16.1.0 0.0.255.255 area 0
+Option: router(config-router)# network 172.16.0.0 0.0.15.255 area 0
+Option: router(config-router)# network 172.16.1.0 0.0.0.255 area 0*
+Option: router(config-router)# network 172.16.1.0 0.0.0.0 area 0
+Explanation: To advertise only the 172.16.1.0/24 network the wildcard mask used in the network command must match the first 24-bits exactly. To match bits exactly, a wildcard mask uses a binary zero. This means that the first 24-bits of the wildcard mask must be zero. The low order 8-bits can all be set to 1.
+
+Question: Which step in the link-state routing process is described by a router building a link-state database based on received LSAs?
+Option: selecting the router ID
+Option: declaring a neighbor to be inaccessible
+Option: executing the SPF algorithm
+Option: building the topology table*
+Explanation: In the generic link-state routing process, the third step is to build the Link-State Database (LSDB). After Link-State Advertisements (LSAs) are received from adjacent neighbors, OSPF-enabled routers use that information to build the topology table (LSDB), which contains information about all other routers in the network area and represents the overall network topology. Once this database is synchronized, the router can then execute the SPF algorithm to find the best paths.

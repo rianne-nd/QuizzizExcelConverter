@@ -1,0 +1,164 @@
+Question: The computers used by the network administrators for a school are on the 10.7.0.0/27 network. Which two commands are needed at a minimum to apply an ACL that will ensure that only devices that are used by the network administrators will be allowed Telnet access to the routers? (Choose two.)
+Option: access-class 5 in*
+Option: access-list standard VTY
+Option: permit 10.7.0.0 0.0.0.127
+Option: access-list 5 permit 10.7.0.0 0.0.0.31*
+Option: ip access-group 5 in
+Option: ip access-group 5 out
+Option: access-list 5 deny any
+Explanation: Numbered and named access lists can be used on vty lines to control remote access. The first ACL command, access-list 5 permit 10.7.0.0 0.0.0.31, allows traffic that originates from any device on the 10.7.0.0/27 network. The second ACL command, access-class 5 in, applies the access list to a vty line.
+
+Question: Consider the configured access list. R1# show access-lists extended IP access list 100 deny tcp host 10.1.1.2 host 10.1.1.1 eq telnet deny tcp host 10.1.2.2 host 10.1.2.1 eq telnet permit ip any any (15 matches) What are two characteristics of this access list? (Choose two.)
+Option: Only the 10.1.1.2 device can telnet to the router that has the 10.1.1.1 IP address assigned.
+Option: The 10.1.2.1 device is not allowed to telnet to the 10.1.2.2 device.
+Option: Any device can telnet to the 10.1.2.1 device.
+Option: A network administrator would not be able to tell if the access list has been applied to an interface or not.
+Option: Any device on the 10.1.1.0/24 network (except the 10.1.1.2 device) can telnet to the router that has the IP address 10.1.1.1 assigned.*
+Option: The access list has been applied to an interface.*
+Explanation: The access list stops Telnet traffic from the 10.1.1.2 device to the 10.1.1.1 device. It also stops Telnet traffic from 10.1.2.2 device to 10.1.2.1. All other TCP/IP-based transmissions are allowed. The access list is working because there have been 15 matches on the last ACE.
+
+Question: Which command will verify the number of packets that are permitted or denied by an ACL that restricts SSH access?
+Option: show ip interface brief
+Option: show ip ssh
+Option: show running-config
+Option: show access-lists*
+Explanation: The show access-lists command will display each line of an access list and the number of matches to each statement. The show running-config command will show the statements as they were configured, but provides no information on matches. The show ip ssh command gives general information about the SSH configuration.
+
+Question: Which access list statement permits HTTP traffic that is sourced from host 10.1.129.100 port 4300 and destined to host 192.168.30.10?
+Option: access-list 101 permit tcp any eq 4300
+Option: access-list 101 permit tcp 192.168.30.10 0.0.0.0 eq 80 10.1.0.0 0.0.255.255
+Option: access-list 101 permit tcp 10.1.129.0 0.0.0.255 eq www 192.168.30.10 0.0.0.0 eq www
+Option: access-list 101 permit tcp 10.1.128.0 0.0.1.255 eq 4300 192.168.30.0 0.0.0.15 eq www*
+Option: access-list 101 permit tcp host 192.168.30.10 eq 80 10.1.0.0 0.0.255.255 eq 4300
+Explanation: The HTTP protocol uses port 80 and is designated in an ACL using the eq 80 parameter or by using eq www. The first IP address listed in an ACL is the source address along with the appropriate wildcard mask. With a source IP address of 10.1.128.0 and a wildcard mask of 0.0.1.255, then IP addresses from 10.1.128.0 to 10.1.129.255 are permitted.
+
+Question: When configuring router security, which statement describes the most effective way to use ACLs to control Telnet traffic that is destined to the router itself?
+Option: The ACL must be applied to each vty line individually.
+Option: The ACL is applied to the Telnet port with the ip access-group command.
+Option: The ACL should be applied to all vty lines in the in direction to prevent an unwanted user from connecting to an unsecured port.*
+Option: Apply the ACL to the vty lines without the in or out option required when applying ACLs to interfaces.
+Explanation: Because someone from outside the router is trying to use a protocol such as Telnet or SSH to gain access to the router, the ACL direction has to be inward into the router through the vty lines.
+
+Question: What packets would match the access control list statement that is shown below? access-list 110 permit tcp 172.16.0.0 0.0.0.255 any eq 22
+Option: any TCP traffic from the 172.16.0.0 network to any destination network
+Option: SSH traffic from the 172.16.0.0 network to any destination network*
+Option: SSH traffic from any source network to the 172.16.0.0 network
+Option: any TCP traffic from any host to the 172.16.0.0 network
+Explanation: The statement, access-list 110 permit tcp 172.16.0.0 0.0.0.255 any eq 22, will match traffic on port 22, which is SSH, that is sourced from network 172.16.0.0/24 with any destination.
+
+Question: Consider the access list command applied outbound on a router serial interface. access-list 100 deny icmp 192.168.10.0 0.0.0.255 any echo reply What is the effect of applying this access list command?
+Option: Users on the 192.168.10.0/24 network are not allowed to transmit traffic to any other destination.
+Option: The only traffic denied is ICMP-based traffic. All other traffic is allowed.
+Option: The only traffic denied is echo-replies sourced from the 192.168.10.0/24 network. All other traffic is allowed.
+Option: No traffic will be allowed outbound on the serial interface.*
+Explanation: At the end of every extended access list is an implicit deny ip any any statement so that no traffic will be allowed to be sent out the serial interface.
+
+Question: Consider the following output for an ACL that has been applied to a router via the access-class in command. What can a network administrator determine from the output that is shown? R1# Standard IP access list 2 10 permit 192.168.10.0, wildcard bits 0.0.0.255 (2 matches) 20 deny any (1 match)
+Option: Traffic from one device was not allowed to come into one router port and be routed outbound a different router port.
+Option: Two devices were able to use SSH or Telnet to gain access to the router.*
+Option: Two devices connected to the router have IP addresses of 192.168.10.x.
+Option: Traffic from two devices was allowed to enter one router port and be routed outbound to a different router port.
+Explanation: The access-class command is used only on VTY ports. VTY ports support Telnet and/or SSH traffic. The match permit ACE is how many attempts were allowed using the VTY ports. The match deny ACE shows that a device from a network other than 192.168.10.0 was not allowed to access the router through the VTY ports.
+
+Question: Which two commands will configure a standard ACL? (Choose two.)
+Option: Router(config)# access-list 45 permit 192.168.200.4 host
+Option: Router(config)# access-list 10 permit 10.20.5.0 0.255.255.255 any
+Option: Router(config)# access-list 20 permit host 192.168.5.5 any any
+Option: Router(config)# access-list 35 permit host 172.31.22.7*
+Option: Router(config)# access-list 90 permit 192.168.10.5 0.0.0.0*
+Explanation: Standard access lists have the syntax of access-list and a number between 1 and 99 followed by the permit or deny keyword and the source IP address (that includes a wildcard mask).
+
+Question: To facilitate the troubleshooting process, which inbound ICMP message should be permitted on an outside interface?
+Option: time-stamp reply
+Option: time-stamp request
+Option: echo request
+Option: echo reply*
+Option: router advertisement
+Explanation: By allowing the ICMP echo reply message inbound to the organization, internal users are allowed to ping external addresses (and the reply message allowed to return).
+
+Question: What two ACEs could be used to deny IP traffic from a single source host 10.1.1.1 to the 192.168.0.0/16 network? (Choose two.)
+Option: access-list 100 deny ip 192.168.0.0 0.0.255.255 10.1.1.1 0.0.0.0
+Option: access-list 100 deny ip 192.168.0.0 0.0.255.255 host 10.1.1.1
+Option: access-list 100 deny ip host 10.1.1.1 192.168.0.0 0.0.255.255*
+Option: access-list 100 deny ip 192.168.0.0 0.0.255.255 10.1.1.1 255.255.255.255
+Option: access-list 100 deny ip 10.1.1.1 255.255.255.255 192.168.0.0 0.0.255.255
+Option: access-list 100 deny ip 10.1.1.1 0.0.0.0 192.168.0.0 0.0.255.255*
+Explanation: There are two ways to identify a single host in an access list entry. One, is to use the host keyword with the host IP address, the other is to use a wildcard mask of 0.0.0.0 with the host IP address. The source of the traffic to be inspected by the access list goes first in the syntax and the destination goes last.
+
+Question: An administrator has configured an access list on R1 to allow SSH administrative access from host 172.16.1.100. Which command correctly applies the ACL?
+Option: R1(config-line)# access-class 1 in*
+Option: R1(config-line)# access-class 1 out
+Option: R1(config-if)# ip access-group 1 out
+Option: R1(config-if)# ip access-group 1 in
+Explanation: Administrative access over SSH to the router is through the vty lines. Therefore, the ACL must be applied to those lines in the inbound direction. This is accomplished by entering line configuration mode and issuing the access-class command.
+
+Question: Which two keywords can be used in an access control list to replace a wildcard mask or address and wildcard mask pair? (Choose two.)
+Option: all
+Option: any*
+Option: gt
+Option: host*
+Option: most
+Option: some
+Explanation: The host keyword is used when using a specific device IP address in an ACL. For example, the deny host 192.168.5.5 command is the same as the deny 192.168.5.5 0.0.0.0 command. The any keyword is used to allow any mask that meets the criteria. For example, the permit any command is the same as the permit 0.0.0.0 255.255.255.255 command.
+
+Question: Which two packet filters could a network administrator use on an IPv4 extended ACL? (Choose two.)
+Option: Computer type
+Option: Destination MAC address
+Option: Destination UDP port number*
+Option: ICMP message type*
+Option: Source TCP hello address
+Explanation: Extended access lists commonly filter on source and destination IPv4 addresses and TCP or UDP port numbers. Additional filtering can be provided for protocol types.
+
+Question: In the second ACE shown in the following example, port 400 was incorrectly specified instead of port 443. What is the best way to correct this error? R1# show access-lists Extended IP access list SURFING 10 permit tcp 192.168.10.0 0.0.0.255 any eq www 20 permit tcp 192.168.10.0 0.0.0.255 any eq 400 R1#
+Option: Copy the ACL into a text editor, correct the ACE, and recopy the ACE to the router.
+Option: Create a new named ACL and apply it to the router interface.
+Option: Enter permit tcp 192.168.10.0 0.0.0.255 any eq 443.
+Option: Enter the no 20 keyword, and then enter permit tcp 192.168.10.0 0.0.0.255 any eq 443.*
+Option: Remove the entire ACL and then re-create it with the correct ACE.
+Explanation: You can use the ip access-list command to edit an existing numbered or named ACL. The ACL ACEs can be removed using the no command followed by the sequence number.
+
+Question: A network administrator needs to configure a standard ACL so that only the workstation of the administrator with the IP address 10.1.1.10 can access the virtual terminal of the main router. Which two configuration commands can achieve the task? (Choose two.)
+Option: R1(config)# access-list 10 permit host 10.1.1.10*
+Option: R1(config)# access-list 10 permit 10.1.1.10 255.255.255.0
+Option: R1(config)# access-list 10 permit 10.1.1.10 255.255.255.255
+Option: R1(config)# access-list 10 permit 10.1.1.10 0.0.0.0*
+Option: R1(config)# access-list 10 permit 10.1.1.10 0.0.0.255
+Explanation: To permit or deny one specific IPv4 address, either the wildcard mask 0.0.0.0 (used after the IP address) or the wildcard mask keyword host (used before the IP address) can be used.
+
+Question: A network administrator is writing a standard ACL to deny any traffic from the 10.10.0.0/16 network but permit all other traffic. Which two commands should be used? (Choose two.)
+Option: R1(config)# access-list 55 deny any
+Option: R1(config)# access-list 55 permit any*
+Option: R1(config)# access-list 55 host 10.10.0.0
+Option: R1(config)# access-list 55 deny 10.10.0.0 0.0.255.255*
+Option: R1(config)# access-list 55 deny 10.10.0.0 255.255.0.0
+Option: R1(config)# access-list 55 10.10.0.0 255.255.255.255
+Explanation: To deny traffic from the 10.10.0.0/16 network, the access-list 55 deny 10.10.0.0 0.0.255.255 command is used. To permit all other traffic, the access-list 55 permit any statement is added.
+
+Question: In the following example, you forgot to enter an ACE to deny the user at IP address 192.168.10.10. Which command would correctly enter the ACE to filter this address? R1# show access-lists Extended IP access list PERMIT-NET 10 permit ip 192.168.10.0 0.0.0.255 any 20 permit ip 192.168.11.0 0.0.0.255 any R1#
+Option: deny ip host 192.168.10.10
+Option: 5 deny ip host 192.168.10.10*
+Option: 15 deny ip host 192.168.10.10
+Option: 25 deny ip host 192.168.10.10
+Explanation: The host must be filtered first, so adding sequence 5 at the beginning of the ACE would insert it before the 192.168.10.0/24 network is permitted.
+
+Question: You create a standard ACL called PERMIT-VTY to permit only an administrative host vty access to the router. Which line configuration command would correctly apply this ACL to the vty lines?
+Option: access-class PERMIT-VTY in*
+Option: access-class PERMIT-VTY out
+Option: ip access-group PERMIT-VTY in
+Option: ip access-group PERMIT-VTY out
+Explanation: The access-class acl-name in line configuration mode command correctly applies a standard ACL to the vty interfaces.
+
+Question: What effect does the permit tcp 10.10.100 0.0.0.255 any eq www extended named ACE have when implemented inbound on a G0/0 interface?
+Option: All TCP traffic is permitted, and all other traffic is denied.
+Option: All traffic from 10.10.100/24 is permitted anywhere on any port.
+Option: The command is rejected by the router because it is incomplete.
+Option: Traffic originating from 10.10.100/24 is permitted to all TCP port 80 destinations.*
+Explanation: Traffic originating from 10.10.100/24 is permitted to all destinations listening to TCP port 80 (that is, www).
+
+Question: What does the CLI prompt change to after you enter the command ip access-list extended AAAFILTER in global configuration mode?
+Option: R1(config-ext-nacl)#*
+Option: R1(config-if)#
+Option: R1(config-line)#
+Option: R1(config-router)#
+Option: R1(config-std-nacl)#
+Explanation: After you enter the command, you go into named extended ACL configuration mode R1(config-ext-nacl).

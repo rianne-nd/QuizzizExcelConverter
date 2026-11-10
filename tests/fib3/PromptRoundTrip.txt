@@ -1,0 +1,28 @@
+Question: What does ARP resolve?
+Option: IP address to MAC address*
+Option: MAC address to IP address
+Option: Port to protocol
+Option: Hostname to IP address
+Explanation: ARP (Address Resolution Protocol) resolves a known IPv4 address to the MAC address of the device that owns it, so frames can be delivered on the local network.
+
+Question: Which two protocols are connection-oriented?
+Option: TCP*
+Option: UDP
+Option: SCTP*
+Option: ICMP
+Explanation: TCP and SCTP are connection-oriented protocols that establish a session before data transfer, while UDP and ICMP are connectionless.
+
+Question: The default port number for HTTPS is ______.
+Type: Fill-in-the-Blank
+Answer: 443
+Answer: 443/TCP
+Answer: TCP 443
+Answer: port 443
+Explanation: HTTPS uses TCP port 443 by default to carry HTTP traffic protected by TLS.
+
+Question: The OSI model has how many layers?
+Option: 4
+Option: 5
+Option: 7*
+Option: 9
+Explanation: The OSI model is divided into seven layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application.

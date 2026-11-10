@@ -1,0 +1,66 @@
+Question: What specifies the entire file hierarchy in UNIX?
+Option: Working directory
+Option: Relative path
+Option: Root*
+Option: Absolute path
+Explanation: Root (represented by /) is the top-level directory that forms the base of the entire file hierarchy in UNIX.
+
+Question: Assuming you have file1.txt inside the project directory, how would you copy file1.txt to the home directory?
+Option: cp project/file1.txt ~/*
+Option: mv project/file1.txt ~/
+Option: copy project/file1.txt ~/
+Option: cp ~/file1.txt project/
+Explanation: The cp command copies files from the source path (project/file1.txt) to the destination (~/ representing home).
+
+Question: Which among the following command lines will create files as series named f1, f2, f4?
+Option: touch f{1,2,4}*
+Option: touch f1, f2, f4
+Option: command is not valid
+Option: Both A and B
+Explanation: Brace expansion in bash expands f{1,2,4} into f1 f2 f4, creating the three named files.
+
+Question: Create a link file of science.txt and name it as science.link.
+Option: ln science.txt science.link*
+Option: ln science.link science.txt
+Option: link science.txt science.link
+Option: cp science.txt science.link
+Explanation: The ln command creates a link named science.link pointing to science.txt.
+
+Question: It represents the route through the hierarchy that is traversed to reach the desired file or directory.
+Option: Root
+Option: Relative path
+Option: Pathname*
+Option: Folder
+Explanation: A pathname specifies the exact route traversed through the file system hierarchy to reach a destination file or directory.
+
+Question: How would you list the content of the directory called "Project" that will include hidden files in UNIX?
+Option: ls -a Project*
+Option: ls -l Project
+Option: ls -h Project
+Option: dir -a Project
+Explanation: The ls -a command lists all entries in a directory, including hidden files starting with a dot.
+
+Question: How would you list the content of the directory called "Project" that will show the permission of files in UNIX?
+Option: ls -l Project*
+Option: ls -a Project
+Option: ls -p Project
+Option: ls -permission Project
+Explanation: The ls -l option displays directory contents in long format, showing file permissions, owner, size, and date modified.
+
+Question: You can use the date command to show the system calendar.
+Option: True
+Option: False*
+Explanation: The cal command displays the system calendar, while the date command displays or sets system date and time.
+
+Question: The less command scrolls only down, whereas more enables you to scroll down and up.
+Option: True
+Option: False*
+Explanation: The statement is false because less allows scrolling both forward and backward, whereas traditional more only scrolls forward.
+
+Question: It represents the directory immediately above your current position.
+Option: ..*
+Option: .
+Option: ~
+Option: /
+Option: cd
+Explanation: In UNIX/Linux file systems, double dots (..) represent the parent directory immediately above the current working directory.

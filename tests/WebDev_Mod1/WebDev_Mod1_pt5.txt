@@ -1,0 +1,69 @@
+Question: According to the module, when was Android launched by Google and what is it written in?
+Option: Launched in 2008 and written in Linux*
+Option: Launched in 2003 and written in Java
+Option: Launched in 2010 and written in Windows
+Option: Launched in 2015 and written in Kotlin
+Explanation: Android is open source software written in Linux and launched by Google in 2008.
+
+Question: How are Android version code names chosen?
+Option: In an alphabetical manner*
+Option: In reverse alphabetical order
+Option: Randomly by the community
+Option: By the dessert's country of origin
+Explanation: Every Android version after 1.5 has a code name that has been chosen in an alphabetical manner.
+
+Question: How is Android described in relation to other mobile operating systems?
+Option: The most popular operating system for mobiles*
+Option: The least used mobile operating system
+Option: Only used on tablets
+Option: Discontinued in 2015
+Explanation: The module states that Android is the most popular operating system for mobiles.
+
+Question: Which Android version had no specific code name?
+Option: Android 1.0*
+Option: Android 1.5
+Option: Android 1.6
+Option: Android 2.0
+Explanation: Android 1.0 does not have any specific code name.
+
+Question: Which Android version was the first to receive a code name?
+Option: Android 1.0
+Option: Android 1.5 (Cupcake)*
+Option: Android 1.6 (Donut)
+Option: Android 2.0 (Eclair)
+Explanation: Android 1.5 was the first version to get a code name, Cupcake, and it launched in April 2009.
+
+Question: Which screen resolution support was introduced in Android 1.6 (Donut)?
+Option: 800 x 480*
+Option: 1920 x 1080
+Option: 640 x 360
+Option: 1024 x 768
+Explanation: Android 1.6 added support for 800 x 480 resolution screens, along with Android search, voice search, and handwriting gestures.
+
+Question: What was the main focus of Android 2.0/2.1 (Eclair)?
+Option: Media features such as flash support, scene mode, white balance, and digital zoom*
+Option: Battery life improvements only
+Option: Enterprise security only
+Option: Tablet support
+Explanation: Eclair focused on media features like flash support, scene mode, white balance, color effect, and digital zoom, and it also added pinch-to-zoom and speech-to-text.
+
+Question: Which capability did Android 2.2 (Froyo) add?
+Option: Installing apps on an SD card*
+Option: Fingerprint reader support
+Option: Multi-window mode
+Option: Face Unlock
+Explanation: Froyo allowed users to install apps on an SD card, and added 720p screen support, USB tethering, and Wi-Fi hotspot functionality.
+
+Question: Which communication feature was a main feature of Android 2.3 (Gingerbread)?
+Option: NFC communications*
+Option: Bluetooth 5.0
+Option: USB-C
+Option: 5G networking
+Explanation: Internet telephone, video chat capability, and NFC communications are the main features of Gingerbread.
+
+Question: Android 3.0/3.1/3.2 (Honeycomb) was mainly designed for which device type?
+Option: Tablet computers*
+Option: Smartwatches
+Option: Televisions
+Option: Car head units
+Explanation: Honeycomb was launched in February 2011 and was mainly designed for tablets.

@@ -1,0 +1,71 @@
+Question: Which keyword is used as the default branch in a Kotlin when statement?
+Option: default
+Option: else*
+Option: otherwise
+Option: fallback
+Option: break
+Explanation: It serves as the fallback condition if no other branch evaluates to true.
+
+Question: Which keyword is used to declare a read-only variable in Kotlin?
+Option: var
+Option: val*
+Option: const
+Option: final
+Explanation: Once assigned a value, a val variable cannot be reassigned.
+
+Question: What is the most precise decimal data type in Kotlin?
+Option: Float
+Option: Double*
+Option: Decimal
+Option: Long
+Explanation: Offers 64-bit double-precision compared to a 32-bit Float.
+
+Question: Which of the following are valid variable initialization syntaxes in Kotlin?
+Option: var age: Int = 20*
+Option: val studentName = "Maria"*
+Option: val price = 25.5f*
+Option: int age = 20
+Option: val String name = "Maria"
+Explanation: Kotlin supports explicit type annotation, type inference, and Float literals with an f suffix.
+
+Question: Which syntax explicitly declares a Float value in Kotlin?
+Option: val price = 25.5
+Option: val price = 25.5f*
+Option: val price: Float = 25.5
+Option: val price = "25.5f"
+Explanation: The f suffix tells Kotlin's type inference system to treat the number as a 32-bit Float rather than a Double.
+
+Question: How should a string-to-integer conversion be performed from an EditText input field in Android?
+Option: Directly call .toInt() on the EditText view
+Option: Convert the EditText content to String using .toString() before calling .toInt()*
+Option: Cast the EditText directly to Int
+Option: Use Integer.parseInt() directly on the EditText object
+Explanation: You must call .toString() on an Editable text object before casting it to an integer.
+
+Question: Given a = 12, b = 8, and c = 4, what is the final value of result after executing result = a + b - c and if (result > 10) { result = result / 2 + 4 }?
+Option: 16
+Option: 12*
+Option: 10
+Option: 14
+Explanation: Initial result is 12 + 8 - 4 = 16. Since 16 is greater than 10, result becomes 16 / 2 + 4 = 12.
+
+Question: What output is displayed in tvResult after executing the block with x = 6 and y = 4 where x = y + x, y = x - y, and tvResult.text = x + "-" + y?
+Option: 6-4
+Option: 4-6
+Option: 10-6*
+Option: 10-4
+Explanation: Since x (6) > y (4) is true, x becomes 4 + 6 = 10, and y becomes 10 - 4 = 6, displaying 10-6.
+
+Question: Which syntax performs a range pattern check inside a Kotlin when statement?
+Option: in 90..100 -> tvResult.text = "Excellent"*
+Option: 90..100 -> tvResult.text = "Excellent"
+Option: inside 90..100 -> tvResult.text = "Excellent"
+Option: range(90, 100) -> tvResult.text = "Excellent"
+Explanation: The in keyword followed by a range is used to check range patterns in a when statement.
+
+Question: What is the standard Kotlin source code file extension?
+Option: .java
+Option: .kt*
+Option: .kotlin
+Option: .xml
+Explanation: .kt is the standard file extension for Kotlin source code files.

@@ -1,0 +1,72 @@
+Question: Which two technologies provide enterprise-managed VPN solutions? (Choose two.)
+Option: remote access VPN*
+Option: Frame Relay
+Option: Layer 2 MPLS VPN
+Option: site-to-site VPN*
+Option: Layer 3 MPLS VPN
+Explanation: Enterprise-managed VPN solutions include remote access VPNs and site-to-site VPNs.
+
+Question: Which two end points can be on the other side of an ASA site-to-site VPN? (Choose two.)
+Option: DSL switch
+Option: router*
+Option: another ASA*
+Option: multilayer switch
+Option: Frame Relay switch
+Explanation: An ASA site-to-site VPN can terminate on a router or another ASA.
+
+Question: Refer to the exhibit. A network administrator is viewing the output from the command show ip nat translations. Which statement correctly describes the NAT translation that is occurring on router RT2?
+Image: https://itexamanswers.net/wp-content/uploads/2019/12/i215827v4n1_215827-1.png
+Option: The traffic from a source IPv4 address of 192.168.254.253 is being translated to 192.0.2.88 by means of static NAT.*
+Option: The traffic from a source IPv4 address of 192.0.2.88 is being translated by router RT2 to reach a destination IPv4 address of 192.168.254.253.
+Option: The traffic from a source IPv4 public address that originates traffic on the internet would be able to reach private internal IPv4 addresses.
+Option: The traffic from a source IPv4 address of 192.168.2.20 is being translated by router RT2 to reach a destination IPv4 address of 192.0.2.254.
+Explanation: Because no outside local or outside global address is referenced, the traffic from 192.168.254.253 is being translated to 192.0.2.88 by static NAT.
+
+Question: What type of address is 10.100.126.126?
+Option: private*
+Option: public
+Explanation: 10.100.126.126 is in the private IPv4 address range 10.0.0.0/8.
+
+Question: Which type of VPN connects using the Transport Layer Security (TLS) feature?
+Option: SSL VPN*
+Option: MPLS VPN
+Option: IPsec virtual tunnel interface
+Option: dynamic multipoint VPN
+Explanation: SSL VPNs use TLS, the newer version of SSL, to secure remote connections.
+
+Question: Which two end points can be on the other side of an ASA site-to-site VPN configured using ASDM? (Choose two.)
+Option: DSL switch
+Option: ISR router*
+Option: another ASA*
+Option: multilayer switch
+Option: Frame Relay switch
+Explanation: ASDM supports creating an ASA site-to-site VPN between two ASAs or between an ASA and an ISR router.
+
+Question: Which protocol creates a virtual point-to-point connection to tunnel unencrypted traffic between Cisco routers from a variety of protocols?
+Option: IKE
+Option: IPsec
+Option: OSPF
+Option: GRE*
+Explanation: GRE is a tunneling protocol developed by Cisco that encapsulates multiprotocol traffic between remote Cisco routers.
+
+Question: What is a disadvantage when both sides of a communication use PAT?
+Option: End-to-end IPv4 traceability is lost.*
+Option: The flexibility of connections to the Internet is reduced.
+Option: The security of the communication is negatively impacted.
+Option: Host IPv4 addressing is complicated.
+Explanation: With PAT, end-to-end IPv4 traceability is lost because addresses and port numbers are translated.
+
+Question: What two addresses are specified in a static NAT configuration?
+Option: the outside global and the outside local
+Option: the inside local and the outside global
+Option: the inside global and the outside local
+Option: the inside local and the inside global*
+Explanation: Static NAT specifies a one-to-one mapping between an inside local address and an inside global address.
+
+Question: A company is considering updating the campus WAN connection. Which two WAN options are examples of the private WAN architecture? (Choose two.)
+Option: municipal Wi-Fi
+Option: digital subscriber line
+Option: leased line*
+Option: Ethernet WAN*
+Option: cable
+Explanation: Private WAN architectures include leased lines and Ethernet WAN, while DSL, cable, municipal Wi-Fi, and cellular are public WAN options.

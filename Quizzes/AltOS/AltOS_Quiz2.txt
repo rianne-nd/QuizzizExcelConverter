@@ -1,0 +1,246 @@
+Question: Which command allows you to move a file to another directory?
+Option: mv*
+Option: lp
+Option: cp
+Option: ln
+Explanation: The mv command is used to move or rename files and directories in UNIX/Linux systems.
+
+Question: The command cd source uses relative path addressing.
+Option: True*
+Option: False
+Explanation: The cd source command uses relative path addressing because it references a directory relative to the current working directory.
+
+Question: How would you write the code that will display the current calendar month?
+Option: cal*
+Option: date
+Option: calendar
+Option: show cal
+Explanation: The cal command displays a calendar for the current month in UNIX/Linux.
+
+Question: Most shells keep a list of your recently used commands and allow you to recall a command without retyping it.
+Option: True*
+Option: False
+Explanation: UNIX/Linux shells maintain a history buffer of executed commands that can be recalled and re-executed.
+
+Question: Which key combination erases the command line in Ubuntu?
+Option: CTRL+S
+Option: CTRL+D
+Option: CTRL+C
+Option: CTRL+U*
+Explanation: CTRL+U cuts/erases the entire current command line in the Ubuntu terminal.
+
+Question: How would you clean or clear the screen in Ubuntu?
+Option: clear*
+Option: cls
+Option: clean
+Option: erase
+Explanation: The clear command clears all text on the terminal screen in Ubuntu.
+
+Question: Write the command that will display the current date following the sequence: day month year.
+Option: date '+%d %m %Y'*
+Option: date '+%m %d %Y'
+Option: date '+%Y %m %d'
+Option: date --show-date
+Explanation: The date '+%d %m %Y' command formats the date output into day, month, and year sequence.
+
+Question: In UNIX, what command should you use to rename or move a file to another directory?
+Option: mv*
+Option: cp
+Option: rn
+Option: transfer
+Explanation: The mv command moves or renames files and directories in UNIX.
+
+Question: Write the UNIX command that will delete an empty directory called project.
+Option: rmdir project*
+Option: rm project
+Option: del project
+Option: remove project
+Explanation: The rmdir command removes empty directories in UNIX.
+
+Question: How do you suspend the current foreground process in UNIX?
+Option: CTRL+C
+Option: CTRL+S
+Option: CTRL+Z*
+Option: CTRL+D
+Explanation: CTRL+Z sends the SIGTSTP signal to suspend the active foreground process and return to the prompt.
+
+Question: What specifies the entire file hierarchy in UNIX?
+Option: Working directory
+Option: Relative path
+Option: Root*
+Option: Absolute path
+Explanation: Root (represented by /) is the top-level directory that forms the base of the entire file hierarchy in UNIX.
+
+Question: Assuming you have file1.txt inside the project directory, how would you copy file1.txt to the home directory?
+Option: cp project/file1.txt ~/*
+Option: mv project/file1.txt ~/
+Option: copy project/file1.txt ~/
+Option: cp ~/file1.txt project/
+Explanation: The cp command copies files from the source path (project/file1.txt) to the destination (~/ representing home).
+
+Question: Which among the following command lines will create files as series named f1, f2, f4?
+Option: touch f{1,2,4}*
+Option: touch f1, f2, f4
+Option: command is not valid
+Option: Both A and B
+Explanation: Brace expansion in bash expands f{1,2,4} into f1 f2 f4, creating the three named files.
+
+Question: Create a link file of science.txt and name it as science.link.
+Option: ln science.txt science.link*
+Option: ln science.link science.txt
+Option: link science.txt science.link
+Option: cp science.txt science.link
+Explanation: The ln command creates a link named science.link pointing to science.txt.
+
+Question: It represents the route through the hierarchy that is traversed to reach the desired file or directory.
+Option: Root
+Option: Relative path
+Option: Pathname*
+Option: Folder
+Explanation: A pathname specifies the exact route traversed through the file system hierarchy to reach a destination file or directory.
+
+Question: How would you list the content of the directory called "Project" that will include hidden files in UNIX?
+Option: ls -a Project*
+Option: ls -l Project
+Option: ls -h Project
+Option: dir -a Project
+Explanation: The ls -a command lists all entries in a directory, including hidden files starting with a dot.
+
+Question: How would you list the content of the directory called "Project" that will show the permission of files in UNIX?
+Option: ls -l Project*
+Option: ls -a Project
+Option: ls -p Project
+Option: ls -permission Project
+Explanation: The ls -l option displays directory contents in long format, showing file permissions, owner, size, and date modified.
+
+Question: You can use the date command to show the system calendar.
+Option: True
+Option: False*
+Explanation: The cal command displays the system calendar, while the date command displays or sets system date and time.
+
+Question: The less command scrolls only down, whereas more enables you to scroll down and up.
+Option: True
+Option: False*
+Explanation: The statement is false because less allows scrolling both forward and backward, whereas traditional more only scrolls forward.
+
+Question: It represents the directory immediately above your current position.
+Option: ..*
+Option: .
+Option: ~
+Option: /
+Option: cd
+Explanation: In UNIX/Linux file systems, double dots (..) represent the parent directory immediately above the current working directory.
+
+Question: Assuming you have newfile1.txt in your home directory home/leo/, how would you copy newfile1.txt to a directory called backup?
+Option: cp newfile1.txt backup*
+Option: mv newfile1.txt backup
+Option: copy newfile1.txt backup
+Option: cp backup newfile1.txt
+Explanation: The cp command copies newfile1.txt into the destination directory named backup.
+
+Question: Command that will allow you to create another name for a file.
+Option: lp
+Option: ln*
+Option: cc
+Option: mv
+Explanation: The ln command creates links, allowing an existing file to be accessed by another name.
+
+Question: Write the UNIX command that will create a directory called LONGTEST.
+Option: mkdir LONGTEST*
+Option: make dir LONGTEST
+Option: create LONGTEST
+Option: rmdir LONGTEST
+Explanation: The mkdir command creates a new directory named LONGTEST in UNIX.
+
+Question: How would you redirect the output of a command and append it to the file in UNIX?
+Option: >>*
+Option: cat
+Option: touch
+Option: >
+Explanation: The >> redirection operator appends command output to a file without overwriting existing contents.
+
+Question: The usrs directory contains configuration files that the system uses when the computer starts.
+Option: True
+Option: False*
+Explanation: System configuration files used during startup are stored in /etc, not /usr.
+
+Question: Create an empty file and modify the last modified timestamp.
+Option: <
+Option: touch*
+Option: create
+Option: cat
+Explanation: The touch command creates an empty file if it does not exist or updates its modification timestamp if it does exist.
+
+Question: Assuming "aos" directory is not empty, write the UNIX command that will delete the given directory.
+Option: rm -r aos*
+Option: rmdir aos
+Option: del -r aos
+Option: remove aos
+Explanation: The rmdir command only removes empty directories; to delete a non-empty directory, rm -r (recursive delete) must be used.
+
+Question: Stop screen output
+Option: CTRL+U
+Option: CTRL+C
+Option: CTRL+S*
+Option: CTRL+D
+Explanation: CTRL+S sends XOFF to pause terminal screen output.
+
+Question: It represents the current directory position.
+Option: .*
+Option: ..
+Option: ~
+Option: /
+Option: cd
+Explanation: A single dot (.) represents the current working directory position in UNIX/Linux.
+
+Question: Command that will allow you to compare text files in UNIX.
+Option: wc
+Option: diff*
+Option: comp
+Option: cpr
+Explanation: The diff command compares two text files line by line and highlights differences between them.
+
+Question: The head and tail commands allow you to view the first few or last few lines of a file (15 lines by default).
+Option: True
+Option: False*
+Explanation: By default, the head and tail commands display 10 lines of a file, not 15.
+
+Question: UNIX/Linux systems interpret a single dot character to mean the current working directory.
+Option: True*
+Option: False
+Explanation: In UNIX/Linux systems, a single dot (.) denotes the current working directory.
+
+Question: Write a command that will create a file with zero byte called file1.txt
+Option: touch file1.txt*
+Option: create file1.txt
+Option: make file1.txt
+Option: new file1.txt
+Explanation: Running touch file1.txt creates a new 0-byte file named file1.txt if it does not already exist.
+
+Question: Assuming you have the following files: "fruits" and "prutas", write a UNIX command that will compare the two files.
+Option: diff fruits prutas*
+Option: cmp fruits prutas
+Option: compare fruits prutas
+Option: diff fruits, prutas
+Explanation: The diff command compares the contents of fruits and prutas line by line.
+
+Question: How would you display the current calendar year where the current day is selected?
+Option: cal -y*
+Option: cal -m
+Option: cal year
+Option: show calendar
+Explanation: The cal -y command displays the calendar for the entire current year with today's date highlighted.
+
+Question: It indicates EOF end of file or exit.
+Option: CTRL+S
+Option: CTRL+D*
+Option: CTRL+C
+Option: CTRL+U
+Explanation: CTRL+D sends the EOF (End-of-File) marker to signal end of input or exit a terminal shell session.
+
+Question: How would you redirect the output of a command to a file and overwrite the current content of the file?
+Option: cat
+Option: >>
+Option: touch
+Option: >*
+Explanation: The > redirection operator outputs to a file, overwriting its existing contents.

@@ -1,0 +1,70 @@
+Question: What attribute specifies the width of a View or View Group?
+Option: width
+Option: view_length
+Option: layout_width*
+Option: view_width
+Explanation: layout_width specifies the width of a View or ViewGroup.
+
+Question: If a TableLayout has attribute stretchColumns set to "1", what does it do?
+Option: It stretches only the first column to fill available space.
+Option: It sets all columns width to 1dp.
+Option: It makes all columns equal in width.
+Option: It stretches only the second column to fill available space.*
+Explanation: stretchColumns takes a zero-based column index, so "1" refers to the second column, which is stretched to fill the available space.
+
+Question: What type of view group aligns all the children sequentially either in a horizontal manner or a vertical manner?
+Option: Linear Layout*
+Option: Align Layout
+Option: Horizonal Layout and Vertical Layout
+Option: Constraint Layout
+Explanation: LinearLayout arranges its children one after another, either horizontally or vertically.
+
+Question: What TableLayout attribute is used to hide a column and collapse the space it occupies?
+Option: shrinkColumn
+Option: collapseColumn
+Option: hideColumn
+Option: visibility*
+Explanation: Setting android:visibility="gone" on the views of a column hides them and collapses the space they occupied.
+
+Question: What type of view group can provide you the ability to completely design your UI with the drag-and-drop feature provided by the Android Studio design editor?
+Option: Drag Design Layout
+Option: Constraint Layout*
+Option: Frame Layout
+Option: Table Layout
+Explanation: ConstraintLayout lets you position and size views freely using drag-and-drop in the Android Studio design editor.
+
+Question: What component attribute serves as a name that uniquely identifies the control of each component?
+Option: android:label
+Option: android:text
+Option: android:name
+Option: android:id*
+Explanation: android:id gives a view a unique identifier so it can be referenced in code or from other layout files.
+
+Question: What Android version added features such as Audio Manager changes, Text Selection, Browser Bookmark Changes, Android KeyStore Changes and USB Connection, support for fingerprint readers, and support for USB-C?
+Option: Marshmallow*
+Option: Froyo
+Option: Nougat
+Option: Jelly Bean
+Explanation: These were the main updates in Android 6.0 (Marshmallow).
+
+Question: What component attribute set style (bold, italic, bolditalic) for the text?
+Option: android:fontDesign
+Option: android:fontFamily
+Option: android:textStyle*
+Option: android:fontStyle
+Explanation: android:textStyle sets the text style, such as bold, italic, or bolditalic, while android:fontFamily sets the typeface.
+
+Question: What part of the layout editor has controls for the selected component's attributes?
+Option: Toolbar
+Option: Attributes*
+Option: Component Tree
+Option: Palette
+Explanation: The Attributes panel shows the editable attributes of the currently selected component.
+
+Question: Who are the founders of Android Inc.?
+Option: Rich Miner*
+Option: Nick Sears*
+Option: Chris White*
+Option: Andy Rubin*
+Option: Sundar Pichai
+Explanation: Android Inc. was founded in October 2003 by Andy Rubin, Rich Miner, Nick Sears, and Chris White.

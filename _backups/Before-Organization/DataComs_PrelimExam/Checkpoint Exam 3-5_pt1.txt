@@ -1,0 +1,78 @@
+Question: The IT department is reporting that a company web server is receiving an abnormally high number of web page requests from different locations simultaneously. Which type of security attack is occurring?
+Option: adware
+Option: DDoS*
+Option: phishing
+Option: social engineering
+Option: spyware
+Explanation: Topic 3.5.9
+
+Question: What causes a buffer overflow?
+Option: launching a security countermeasure to mitigate a Trojan horse
+Option: downloading and installing too many software updates at one time
+Option: attempting to write more data to a memory location than that location can hold*
+Option: sending too much information to two or more interfaces of the same device, thereby causing dropped packets
+Option: sending repeated connections such as Telnet to a particular device, thus denying other data sources
+Explanation: Topic 3.5.5
+
+Question: Which objective of secure communications is achieved by encrypting data?
+Option: authentication
+Option: availability
+Option: confidentiality*
+Option: integrity
+Explanation: Topic 3.10.2
+When data is encrypted, it is scrambled to keep the data private and confidential so that only authorized recipients can read the message. A hash function is another way of providing confidentiality.
+
+Question: What type of malware has the primary objective of spreading across the network?
+Option: worm*
+Option: virus
+Option: Trojan horse
+Option: botnet
+Explanation: Topic 3.4.3
+
+Question: What commonly motivates cybercriminals to attack networks as compared to hactivists or state-sponsored hackers?
+Option: financial gain*
+Option: fame seeking
+Option: status among peers
+Option: political reasons
+Explanation: Topic 3.2.3
+Cybercriminals are commonly motivated by money. Hackers are known to hack for status. Cyberterrorists are motivated to commit cybercrimes for religious or political reasons.
+
+Question: Which type of hacker is motivated to protest against political and social issues?
+Option: hacktivist*
+Option: cybercriminal
+Option: script kiddie
+Option: vulnerability broker
+Explanation: Topic 3.2.4
+Hackers are categorized by motivating factors. Hacktivists are motivated by protesting political and social issues.
+
+Question: What is a ping sweep?
+Option: a query and response protocol that identifies information about a domain, including the addresses that are assigned to that domain.
+Option: a scanning technique that examines a range of TCP or UDP port numbers on a host to detect listening services.
+Option: a software application that enables the capture of all network packets that are sent across a LAN.
+Option: a network scanning technique that indicates the live hosts in a range of IP addresses.*
+Explanation: Topic 3.5.3
+A ping sweep is a tool that is used during a reconnaissance attack. Other tools that might be used during this type of attack include a ping sweep, port scan, or Internet information query. A reconnaissance attack is used to gather information about a particular network, usually in preparation for another type of network attack.
+
+Question: In what type of attack is a cybercriminal attempting to prevent legitimate users from accessing network services?
+Option: address spoofing
+Option: MITM
+Option: session hijacking
+Option: DoS*
+Explanation: Topic 3.5.9
+In a DoS or denial-of-service attack, the goal of the attacker is to prevent legitimate users from accessing network services.
+
+Question: Which requirement of secure communications is ensured by the implementation of MD5 or SHA hash generating algorithms?
+Option: nonrepudiation
+Option: authentication
+Option: integrity*
+Option: confidentiality
+Explanation: Topic 3.10.2
+Integrity is ensured by implementing either MD5 or SHA hash generating algorithms. Many modern networks ensure authentication with protocols, such as HMAC. Data confidentiality is ensured through symmetric encryption algorithms, including DES, 3DES, and AES. Data confidentiality can also be ensured using asymmetric algorithms, including RSA and PKI.
+
+Question: If an asymmetric algorithm uses a public key to encrypt data, what is used to decrypt it?
+Option: a digital certificate
+Option: a different public key
+Option: a private key*
+Option: DH
+Explanation: Topic 3.10.8
+When an asymmetric algorithm is used, public and private keys are used for the encryption. Either key can be used for encryption, but the complementary matched key must be used for the decryption. For example if the public key is used for encryption, then the private key must be used for the decryption.

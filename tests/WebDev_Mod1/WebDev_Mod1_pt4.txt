@@ -1,0 +1,71 @@
+Question: Which display types does Android Auto support?
+Option: Touchscreen and button-controlled head unit displays*
+Option: Touchscreen displays only
+Option: Voice-only head units with no display
+Option: Projector-based displays only
+Explanation: Android Auto supports both touchscreen and button-controlled head unit displays.
+
+Question: Why is hands-free voice operation encouraged while using Android Auto?
+Option: Because voice commands use less battery
+Option: To minimize driving distraction*
+Option: Because the touchscreen does not work while driving
+Option: Because it reduces mobile data usage
+Explanation: Hands-free operation through voice commands is encouraged to minimize driving distraction.
+
+Question: What was Wear OS previously known as?
+Option: Android Wear*
+Option: Android Watch
+Option: Wear Android
+Option: Android Things
+Explanation: Wear OS was previously known as Android Wear.
+
+Question: What is Wear OS designed for?
+Option: Smartwatches and other wearables*
+Option: Digital media players
+Option: Car infotainment systems
+Option: Tablet computers
+Explanation: Wear OS is a version of Android designed for smartwatches and other wearables.
+
+Question: What can Wear OS pair with?
+Option: Android version 4.3 or newer, or iOS version 8.2 or newer with limited support*
+Option: Any Android version, with no minimum requirement
+Option: Windows Phone and BlackBerry only
+Option: Android version 10 or newer only
+Explanation: Wear OS pairs with mobile phones running Android version 4.3 or newer, or iOS version 8.2 or newer with limited support from Google's pairing application.
+
+Question: Which connectivity options does Wear OS support?
+Option: Bluetooth*
+Option: Wi-Fi*
+Option: 3G*
+Option: LTE*
+Option: Infrared
+Explanation: Wear OS supports Bluetooth, Wi-Fi, 3G, and LTE connectivity.
+
+Question: What watch face styles does Wear OS support?
+Option: Round, square, and rectangular*
+Option: Round only
+Option: Square only
+Option: Rectangular only
+Explanation: Wear OS watch face styles include round, square, and rectangular.
+
+Question: Android Things is Google's platform for which area, and which boards are shown with it?
+Option: The Internet of Things, with the Intel Edison, Raspberry Pi 3, and NXP Pico*
+Option: Automotive systems, with Arduino and BeagleBone
+Option: Smartwatches, with Qualcomm and MediaTek chips
+Option: Televisions, with Amlogic and Broadcom chips
+Explanation: The module presents Android Things under IoT, showing the Intel Edison, Raspberry Pi 3, and NXP Pico boards.
+
+Question: Which of these non-phone devices appear in the module running Android?
+Option: A washing machine*
+Option: A microwave*
+Option: A Samsung Galaxy Camera*
+Option: A Galaxy Tablet*
+Option: An aircraft autopilot
+Explanation: The module shows Android used in a washing machine, an Android-powered microwave by Touch Revolution shown at CES 2010, the Samsung Galaxy Camera, and the Galaxy Tab.
+
+Question: How many monthly active Android devices are there?
+Option: More than 2 billion*
+Option: More than 200 million
+Option: More than 20 billion
+Option: More than 2 million
+Explanation: Android is used by more than 2 billion monthly active Android devices.

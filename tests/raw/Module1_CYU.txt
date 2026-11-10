@@ -1,0 +1,142 @@
+Question: Which of the following OSPF components is associated with the neighbor table?
+Option: Dijkstra's algorithm
+Option: Link-State database
+Option: Routing protocol messages
+Option: Adjacency database*
+Option: Forwarding database
+Explanation: The adjacency database is responsible for creating the neighbor table.
+
+Question: Which of the following OSPF components is responsible for computing the cost of each route?
+Option: Dijkstra's algorithm*
+Option: Link-State database
+Option: Routing protocol messages
+Option: Adjacency database
+Option: Forwarding database
+Explanation: The Dijkstra algorithm is responsible for computing the cost for each route.
+
+Question: Which of the following OSPF components is associated with the topology table?
+Option: Dijkstra's algorithm
+Option: Link-State database*
+Option: Routing protocol messages
+Option: Adjacency database
+Option: Forwarding database
+Explanation: The Link-state database is responsible for creating the topology table.
+
+Question: Which of the following OSPF components is associated with the routing table?
+Option: Dijkstra's algorithm
+Option: Link-State database
+Option: Routing protocol messages
+Option: Adjacency database
+Option: Forwarding database*
+Explanation: The Forwarding database is responsible for creating the routing table.
+
+Question: What is the correct order in the steps for Link-State operation?
+Option: 1. Execute the SPF Algorithm 2. Establish Neighbor Adjacencies 3. Exchange Link-State Advertisements 4. Choose the Best Route 5. Build the Topology Table
+Option: 1. Establish Neighbor Adjacencies 2. Choose the Best Route 3. Build the Topology Table 4. Execute the SPF Algorithm 5. Exchange Link-State Advertisements
+Option: 1. Establish Neighbor Adjacencies 2. Exchange Link-State Advertisements 3. Execute the SPF Algorithm 4. Choose the Best Route 5. Build the Topology Table
+Option: 1. Establish Neighbor Adjacencies 2. Exchange Link-State Advertisements 3. Build the Topology Table 4. Execute the SPF Algorithm 5. Choose the Best Route*
+Explanation: The correct order for the link-state operation is: Establish Neighbor Adjacencies, Exchange Link-State Advertisements, Build the Topology Table, Execute the SPF Algorithm, Choose the Best Route.
+
+Question: Which of the following OSPF packets contains an abbreviated list of the LSDB of the sending router?
+Option: Type 1: Hello packet
+Option: Type 2: DBD packet*
+Option: Type 3: LSR packet
+Option: Type 4: LSU packet
+Option: Type 5: LSAck packet
+Explanation: The Type 2 DBD packet contains an abbreviated list of the LSDB of the sending router.
+
+Question: Which of the following OSPF packets is used by routers to announce new information?
+Option: Type 1: Hello packet
+Option: Type 2: DBD packet
+Option: Type 3: LSR packet
+Option: Type 4: LSU packet*
+Option: Type 5: LSAck packet
+Explanation: The Type 4 LSU packet is used by routers to announce new information.
+
+Question: Which of the following OSPF packets is used by routers to request more information?
+Option: Type 1: Hello packet
+Option: Type 2: DBD packet
+Option: Type 3: LSR packet*
+Option: Type 4: LSU packet
+Option: Type 5: LSAck packet
+Explanation: The Type 3 LSR packet is used by routers to request more information.
+
+Question: Which of the following OSPF packets is responsible for establishing and maintaining adjacency with other OSPF routers?
+Option: Type 1: Hello packet*
+Option: Type 2: DBD packet
+Option: Type 3: LSR packet
+Option: Type 4: LSU packet
+Option: Type 5: LSAck packet
+Explanation: The Type 1 Hello packet is responsible for establishing and maintaining adjacency with other OSPF routers.
+
+Question: Which of the following OSPF packets is used to confirm receipt of an LSA?
+Option: Type 1: Hello packet
+Option: Type 2: DBD packet
+Option: Type 3: LSR packet
+Option: Type 4: LSU packet
+Option: Type 5: LSAck packet*
+Explanation: The Type 5 LSAck packet is used to confirm receipt of another OSPF packet type.
+
+Question: Which of the following is used with the Hello Packet to uniquely identify the originating router?
+Option: Hello Interval
+Option: Router ID*
+Option: Designated Router ID
+Option: Network Mask
+Option: Dead Interval
+Explanation: The Router ID is a 32-bit value used with the Hello Packet to uniquely identify the originating router.
+
+Question: During this OSPF state on multiaccess networks, the routers elect a Designated Router (DR) and a Backup Designated Router (BDR).
+Option: Down State
+Option: Init State
+Option: Two-Way State*
+Option: ExStart State
+Option: Exchange State
+Explanation: In the Two-Way State on multiaccess networks, the routers elect a Designated Router (DR) and a Backup Designated Router (BDR).
+
+Question: During this OSPF state, routers send each other DBD packets.
+Option: Down State
+Option: Init State
+Option: Two-Way State
+Option: ExStart State
+Option: Exchange State*
+Explanation: In the Exchange State, routers send each other DBD packets.
+
+Question: An OSPF router enters this state when it has received a Hello packet from a neighbor, containing the sending Router ID.
+Option: Down State
+Option: Init State*
+Option: Two-Way State
+Option: ExStart State
+Option: Exchange State
+Explanation: In the Init State, Hello packets are received from neighbors, containing the sending Router ID.
+
+Question: During this OSPF state on point-to-point networks, the routers decide which router initiates the exchange of DBD packets.
+Option: Down State
+Option: Init State
+Option: Two-Way State
+Option: ExStart State*
+Option: Exchange State
+Explanation: In the ExStart State on point-to-point networks, the routers decide which router initiates the exchange of DBD packets.
+
+Question: During this OSPF state, routers have converged link-state databases.
+Option: Down State
+Option: Init State
+Option: Exchange State
+Option: Loading State
+Option: Full State*
+Explanation: In the Full State, routers have converged.
+
+Question: During this OSPF state, no Hello packets are received.
+Option: Down State*
+Option: Init State
+Option: Two-Way State
+Option: ExStart State
+Option: Exchange State
+Explanation: In the Down State, no Hello packets are received.
+
+Question: During this OSPF state, routes are processed using the SPF algorithm.
+Option: Down State
+Option: Init State
+Option: Exchange State
+Option: Loading State
+Option: Full State*
+Explanation: In the Full State, routes are processed using the SPF algorithm.

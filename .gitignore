@@ -1,0 +1,9 @@
+# Runtime artifacts from the optional Wayground uploader
+wqu-logs/
+
+# Office lock/temp files
+~$*
+
+# Windows clutter
+Thumbs.db
+desktop.ini

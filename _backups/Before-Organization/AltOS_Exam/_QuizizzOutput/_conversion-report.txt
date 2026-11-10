@@ -1,0 +1,16 @@
+=== Quizizz conversion report ===
+Input      : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\AltOS_Exam
+Output     : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\AltOS_Exam\_QuizizzOutput
+Files found: 9
+
+[ OK ] AltOS_Exam.txt  ->  Quizizz_AltOS_Exam.xlsx   (80 questions)
+[ OK ] AltOS_Exam_pt1.txt  ->  Quizizz_AltOS_Exam_pt1.xlsx   (10 questions)
+[ OK ] AltOS_Exam_pt2.txt  ->  Quizizz_AltOS_Exam_pt2.xlsx   (10 questions)
+[ OK ] AltOS_Exam_pt3.txt  ->  Quizizz_AltOS_Exam_pt3.xlsx   (10 questions)
+[ OK ] AltOS_Exam_pt4.txt  ->  Quizizz_AltOS_Exam_pt4.xlsx   (10 questions)
+[ OK ] AltOS_Exam_pt5.txt  ->  Quizizz_AltOS_Exam_pt5.xlsx   (10 questions)
+[ OK ] AltOS_Exam_pt6.txt  ->  Quizizz_AltOS_Exam_pt6.xlsx   (10 questions)
+[ OK ] AltOS_Exam_pt7.txt  ->  Quizizz_AltOS_Exam_pt7.xlsx   (10 questions)
+[ OK ] AltOS_Exam_pt8.txt  ->  Quizizz_AltOS_Exam_pt8.xlsx   (10 questions)
+
+Total: 9 file(s) -> 9 workbook(s), 160 question(s), 0 with an image link.

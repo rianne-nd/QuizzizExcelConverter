@@ -1,0 +1,498 @@
+Question: What is mobile application development?
+Option: The act or process by which a mobile app is developed for mobile devices*
+Option: The process of making a website fit a smaller screen
+Option: The act of installing applications on a smartphone
+Option: The process of repairing and servicing mobile phones
+Explanation: Mobile app development is the act or process by which a mobile app is developed for mobile devices.
+
+Question: According to the module, which devices are named as the targets of mobile application development?
+Option: Desktop computers and servers
+Option: Personal digital assistants, enterprise digital assistants, and mobile phones*
+Option: Televisions and digital media players only
+Option: Wearable devices only
+Explanation: The module defines mobile app development as developing apps for mobile devices such as personal digital assistants, enterprise digital assistants, or mobile phones.
+
+Question: Which statement correctly describes the Android operating system?
+Option: It is a closed-source, Windows-based operating system for desktop computers
+Option: It is an open-source, Linux-based operating system for mobile devices*
+Option: It is an open-source, macOS-based operating system for tablets only
+Option: It is a closed-source, Linux-based operating system for smartwatches only
+Explanation: Android is an open-source and Linux-based operating system for mobile devices such as smartphones and tablet computers.
+
+Question: Android is designed to run on which devices?
+Option: Smartphones and tablet computers*
+Option: Desktop computers and laptops only
+Option: Servers and mainframes
+Option: Televisions only
+Explanation: The module states that Android is an operating system for mobile devices such as smartphones and tablet computers.
+
+Question: How does the module describe Android in terms of sales?
+Option: The most expensive smartphone ever released
+Option: The world's best-selling smartphone*
+Option: The least popular mobile operating system
+Option: The first smartphone ever made
+Explanation: The module describes Android as the world's best-selling smartphone.
+
+Question: Android applications are primarily written in which programming languages?
+Option: Python, and mostly Ruby
+Option: C, and mostly C++
+Option: Java, and mostly Kotlin*
+Option: Swift, and mostly Objective-C
+Explanation: The module states that Android apps are primarily written in Java and mostly in Kotlin.
+
+Question: What is the Android Market?
+Option: A physical store that sells Android phones
+Option: The online app store run by Google*
+Option: A marketplace for buying Android hardware parts
+Option: A trade show for Android developers
+Explanation: The Android Market is the online app store run by Google, later known as the Google Play Store.
+
+Question: Approximately how many apps are available for Android?
+Option: Over 3.5 million*
+Option: About 350 thousand
+Option: About 35 thousand
+Option: Over 35 million
+Explanation: The module states there are currently over 3.5 million apps available for Android.
+
+Question: Of the 3.553 million apps in the Google Play Store, how many are free to download?
+Option: 3.442 million, or 96.9%*
+Option: 110 thousand, or 3.1%
+Option: 1.75 million, or 50%
+Option: 2.5 million, or 70%
+Explanation: 3.442 million apps, or 96.9% of the total, are free to download.
+
+Question: What percentage of Google Play apps are paid apps?
+Option: 3.1%*
+Option: 96.9%
+Option: 25%
+Option: 50%
+Explanation: Over 110 thousand apps, or 3.1%, are paid apps.
+
+Question: In the module's November 2023 chart, which two apps tied for the highest combined total downloads?
+Option: TikTok*
+Option: Instagram*
+Option: Facebook
+Option: WhatsApp
+Option: Telegram
+Explanation: TikTok and Instagram each recorded 49 million combined downloads, the highest in the chart.
+
+Question: Which of the following are listed in the module as reasons to choose Android?
+Option: Open Source*
+Option: Reduced Cost of Development*
+Option: Rich Development Environment*
+Option: Guaranteed higher profit than other platforms
+Option: Mandatory pre-approval of every app by Google
+Explanation: The module lists Open Source, Larger Developer and Community Reach, Increased Marketing, Inter App Integration, Reduced Cost of Development, Higher Success Ratio, and Rich Development Environment.
+
+Question: Which reason for choosing Android refers to the operating system being freely available and modifiable?
+Option: Open Source*
+Option: Increased Marketing
+Option: Higher Success Ratio
+Option: Inter App Integration
+Explanation: Open Source is the listed reason that refers to Android's source code being openly available.
+
+Question: Which reason for choosing Android refers to reaching a larger pool of developers and users?
+Option: Reduced Cost of Development
+Option: Larger Developer and Community Reach*
+Option: Rich Development Environment
+Option: Increased Marketing
+Explanation: Larger Developer and Community Reach refers to the bigger developer community and audience that Android offers.
+
+Question: Which reason for choosing Android refers to spending less to build an application?
+Option: Higher Success Ratio
+Option: Inter App Integration
+Option: Reduced Cost of Development*
+Option: Open Source
+Explanation: Reduced Cost of Development refers to the lower expense of building Android applications.
+
+Question: Which reason for choosing Android refers to applications being able to work together?
+Option: Inter App Integration*
+Option: Rich Development Environment
+Option: Larger Developer and Community Reach
+Option: Higher Success Ratio
+Explanation: Inter App Integration refers to Android apps being able to integrate with one another.
+
+Question: Which reason for choosing Android refers to a greater likelihood that an app will succeed?
+Option: Higher Success Ratio*
+Option: Increased Marketing
+Option: Open Source
+Option: Inter App Integration
+Explanation: Higher Success Ratio is listed as one of the reasons to choose Android.
+
+Question: Which reason for choosing Android refers to the tools and resources available for building apps?
+Option: Rich Development Environment*
+Option: Reduced Cost of Development
+Option: Larger Developer and Community Reach
+Option: Higher Success Ratio
+Explanation: Rich Development Environment refers to the extensive set of tools and resources available for Android development.
+
+Question: Who founded Android Inc.?
+Option: Andy Rubin*
+Option: Rich Miner
+Option: Sundar Pichai
+Option: Steve Jobs
+Explanation: Andy Rubin founded Android Inc.
+
+Question: Where was Android Inc. founded?
+Option: Palo Alto, California*
+Option: Mountain View, California
+Option: Seattle, Washington
+Option: Cupertino, California
+Explanation: Android Inc. was founded in Palo Alto, California.
+
+Question: In which month and year was Android Inc. founded?
+Option: October 2003*
+Option: January 2005
+Option: June 2007
+Option: September 2008
+Explanation: Android Inc. was founded in Palo Alto, California, in October 2003.
+
+Question: Which of the following were co-founders of Android Inc.?
+Option: Rich Miner*
+Option: Nick Sears*
+Option: Chris White*
+Option: Andy Rubin*
+Option: Steve Jobs
+Explanation: Android Inc. was founded in October 2003 by Andy Rubin, Rich Miner, Nick Sears, and Chris White.
+
+Question: What was the original goal of Android Inc.?
+Option: To build the world's cheapest smartphone
+Option: To develop a smarter mobile device that was more aware of its owner's location and preferences*
+Option: To create a mobile app store for Google
+Option: To replace the Linux kernel with a new operating system
+Explanation: Their goal was to develop a smarter mobile device that was more aware of its owner's location and preferences.
+
+Question: How did Android Inc. operate in its early years?
+Option: It published all of its source code immediately
+Option: It operated secretively, admitting only that it was working on software for mobile phones*
+Option: It publicly announced a partnership with Apple
+Option: It focused on building desktop computers
+Explanation: The company operated secretively and admitted only that it was working on software for mobile phones.
+
+Question: Android TV is a version of the Android operating system designed for what?
+Option: Digital media players*
+Option: Smartwatches
+Option: Car dashboards
+Option: Tablet computers
+Explanation: Android TV is a version of the Android operating system designed for digital media players.
+
+Question: Android TV is a replacement for which earlier product?
+Option: Google TV*
+Option: Apple TV
+Option: Chromecast
+Option: Android Auto
+Explanation: Android TV is a replacement for Google TV.
+
+Question: The Android TV user interface is designed around what?
+Option: Content discovery and voice search*
+Option: Touch gestures and stylus input
+Option: Keyboard and mouse navigation
+Option: Text-only menus
+Explanation: Android TV features a user interface designed around content discovery and voice search.
+
+Question: Android TV integrates with which of these Google technologies?
+Option: Assistant*
+Option: Cast*
+Option: Knowledge Graph*
+Option: Google Stadia
+Option: Google Duo
+Explanation: Android TV integrates with Google technologies such as Assistant, Cast, and Knowledge Graph.
+
+Question: What does Android Auto do?
+Option: It replaces the car's engine control software
+Option: It mirrors features from an Android device to a car's compatible in-dash head unit*
+Option: It turns a phone into a GPS satellite receiver
+Option: It controls a car's air conditioning system
+Explanation: Android Auto is a mobile app developed by Google to mirror features from an Android device to a car's compatible in-dash information and entertainment head unit.
+
+Question: Which of these app types are supported by Android Auto?
+Option: GPS mapping and navigation*
+Option: Music playback*
+Option: SMS and telephone*
+Option: Web search*
+Option: Video streaming
+Explanation: Supported apps include GPS mapping and navigation, music playback, SMS, telephone, and web search.
+
+Question: Which display types does Android Auto support?
+Option: Touchscreen and button-controlled head unit displays*
+Option: Touchscreen displays only
+Option: Voice-only head units with no display
+Option: Projector-based displays only
+Explanation: Android Auto supports both touchscreen and button-controlled head unit displays.
+
+Question: Why is hands-free voice operation encouraged while using Android Auto?
+Option: Because voice commands use less battery
+Option: To minimize driving distraction*
+Option: Because the touchscreen does not work while driving
+Option: Because it reduces mobile data usage
+Explanation: Hands-free operation through voice commands is encouraged to minimize driving distraction.
+
+Question: What was Wear OS previously known as?
+Option: Android Wear*
+Option: Android Watch
+Option: Wear Android
+Option: Android Things
+Explanation: Wear OS was previously known as Android Wear.
+
+Question: What is Wear OS designed for?
+Option: Smartwatches and other wearables*
+Option: Digital media players
+Option: Car infotainment systems
+Option: Tablet computers
+Explanation: Wear OS is a version of Android designed for smartwatches and other wearables.
+
+Question: What can Wear OS pair with?
+Option: Android version 4.3 or newer, or iOS version 8.2 or newer with limited support*
+Option: Any Android version, with no minimum requirement
+Option: Windows Phone and BlackBerry only
+Option: Android version 10 or newer only
+Explanation: Wear OS pairs with mobile phones running Android version 4.3 or newer, or iOS version 8.2 or newer with limited support from Google's pairing application.
+
+Question: Which connectivity options does Wear OS support?
+Option: Bluetooth*
+Option: Wi-Fi*
+Option: 3G*
+Option: LTE*
+Option: Infrared
+Explanation: Wear OS supports Bluetooth, Wi-Fi, 3G, and LTE connectivity.
+
+Question: What watch face styles does Wear OS support?
+Option: Round, square, and rectangular*
+Option: Round only
+Option: Square only
+Option: Rectangular only
+Explanation: Wear OS watch face styles include round, square, and rectangular.
+
+Question: Android Things is Google's platform for which area, and which boards are shown with it?
+Option: The Internet of Things, with the Intel Edison, Raspberry Pi 3, and NXP Pico*
+Option: Automotive systems, with Arduino and BeagleBone
+Option: Smartwatches, with Qualcomm and MediaTek chips
+Option: Televisions, with Amlogic and Broadcom chips
+Explanation: The module presents Android Things under IoT, showing the Intel Edison, Raspberry Pi 3, and NXP Pico boards.
+
+Question: Which of these non-phone devices appear in the module running Android?
+Option: A washing machine*
+Option: A microwave*
+Option: A Samsung Galaxy Camera*
+Option: A Galaxy Tablet*
+Option: An aircraft autopilot
+Explanation: The module shows Android used in a washing machine, an Android-powered microwave by Touch Revolution shown at CES 2010, the Samsung Galaxy Camera, and the Galaxy Tab.
+
+Question: How many monthly active Android devices are there?
+Option: More than 2 billion*
+Option: More than 200 million
+Option: More than 20 billion
+Option: More than 2 million
+Explanation: Android is used by more than 2 billion monthly active Android devices.
+
+Question: According to the module, when was Android launched by Google and what is it written in?
+Option: Launched in 2008 and written in Linux*
+Option: Launched in 2003 and written in Java
+Option: Launched in 2010 and written in Windows
+Option: Launched in 2015 and written in Kotlin
+Explanation: Android is open source software written in Linux and launched by Google in 2008.
+
+Question: How are Android version code names chosen?
+Option: In an alphabetical manner*
+Option: In reverse alphabetical order
+Option: Randomly by the community
+Option: By the dessert's country of origin
+Explanation: Every Android version after 1.5 has a code name that has been chosen in an alphabetical manner.
+
+Question: How is Android described in relation to other mobile operating systems?
+Option: The most popular operating system for mobiles*
+Option: The least used mobile operating system
+Option: Only used on tablets
+Option: Discontinued in 2015
+Explanation: The module states that Android is the most popular operating system for mobiles.
+
+Question: Which Android version had no specific code name?
+Option: Android 1.0*
+Option: Android 1.5
+Option: Android 1.6
+Option: Android 2.0
+Explanation: Android 1.0 does not have any specific code name.
+
+Question: Which Android version was the first to receive a code name?
+Option: Android 1.0
+Option: Android 1.5 (Cupcake)*
+Option: Android 1.6 (Donut)
+Option: Android 2.0 (Eclair)
+Explanation: Android 1.5 was the first version to get a code name, Cupcake, and it launched in April 2009.
+
+Question: Which screen resolution support was introduced in Android 1.6 (Donut)?
+Option: 800 x 480*
+Option: 1920 x 1080
+Option: 640 x 360
+Option: 1024 x 768
+Explanation: Android 1.6 added support for 800 x 480 resolution screens, along with Android search, voice search, and handwriting gestures.
+
+Question: What was the main focus of Android 2.0/2.1 (Eclair)?
+Option: Media features such as flash support, scene mode, white balance, and digital zoom*
+Option: Battery life improvements only
+Option: Enterprise security only
+Option: Tablet support
+Explanation: Eclair focused on media features like flash support, scene mode, white balance, color effect, and digital zoom, and it also added pinch-to-zoom and speech-to-text.
+
+Question: Which capability did Android 2.2 (Froyo) add?
+Option: Installing apps on an SD card*
+Option: Fingerprint reader support
+Option: Multi-window mode
+Option: Face Unlock
+Explanation: Froyo allowed users to install apps on an SD card, and added 720p screen support, USB tethering, and Wi-Fi hotspot functionality.
+
+Question: Which communication feature was a main feature of Android 2.3 (Gingerbread)?
+Option: NFC communications*
+Option: Bluetooth 5.0
+Option: USB-C
+Option: 5G networking
+Explanation: Internet telephone, video chat capability, and NFC communications are the main features of Gingerbread.
+
+Question: Android 3.0/3.1/3.2 (Honeycomb) was mainly designed for which device type?
+Option: Tablet computers*
+Option: Smartwatches
+Option: Televisions
+Option: Car head units
+Explanation: Honeycomb was launched in February 2011 and was mainly designed for tablets.
+
+Question: Which security feature was introduced in Android 4.0 (Ice Cream Sandwich)?
+Option: Face Unlock*
+Option: Fingerprint scanning
+Option: Pattern lock
+Option: Two-factor authentication
+Explanation: Ice Cream Sandwich introduced Face Unlock, along with multicore CPU support, virtual buttons, and improved copy and paste functionality.
+
+Question: Which feature was introduced in Android 4.1/4.2/4.3 (Jelly Bean)?
+Option: Native emoji support*
+Option: Picture-in-Picture mode
+Option: Notification channels
+Option: Autofill Framework
+Explanation: Jelly Bean added native emoji support, a smoother UI, enhanced accessibility, a new clock application with world clock, stopwatch and timer, and group messaging.
+
+Question: Which voice feature was introduced in Android 4.4 (KitKat)?
+Option: "Ok, Google" support*
+Option: "Hey Siri" support
+Option: Voice-guided turn-by-turn navigation
+Option: Voice search
+Explanation: KitKat introduced "Ok, Google" support, along with low power consumption sensors, improved NFC communications, a printing framework, and translucent UI styling.
+
+Question: Android 5.0/5.1 (Lollipop) mainly focused on what, and introduced which concept?
+Option: Performance, and a card-based concept*
+Option: Battery life, and a dark theme
+Option: Security, and one-time permissions
+Option: Tablets, and multiple browser tabs
+Explanation: Lollipop mainly focused on performance, with high-performance graphics, powerful audio, screen capturing and sharing, document-centric apps, and a card-based concept.
+
+Question: Which hardware support was added in Android 6.0 (Marshmallow)?
+Option: Fingerprint readers and USB-C*
+Option: Face Unlock and NFC
+Option: Dual SIM and infrared
+Option: Wireless charging and HDMI
+Explanation: Marshmallow added support for fingerprint readers and USB-C, along with Audio Manager changes, text selection, and Android KeyStore changes.
+
+Question: Which multitasking feature was introduced in Android 7.0 (Nougat)?
+Option: Multi-Window*
+Option: Split-screen Picture-in-Picture
+Option: Desktop mode
+Option: Virtual desktops
+Explanation: Nougat introduced Multi-Window Playground, along with Scoped Directory Access, Direct Boot, Data Saver, and Google Assistant.
+
+Question: Which display feature was introduced in Android 8.0 (Oreo)?
+Option: Picture-in-Picture mode*
+Option: Always-on display
+Option: Split-screen mode
+Option: Foldable support
+Explanation: Oreo introduced Picture-in-Picture Mode, Autofill Framework, downloadable fonts, notification channels, and background execution limits.
+
+Question: What was Android 9.0 (Pie)'s most transformative change?
+Option: A hybrid gesture and button navigation system*
+Option: A new notification shade
+Option: A redesigned keyboard
+Option: A new app store
+Explanation: Pie's most transformative change was its hybrid gesture and button navigation system, which traded Android's traditional Back, Home, and Overview keys for a large multifunctional Home button and a small Back button.
+
+Question: What made Android 10 different from every previous version's naming?
+Option: It was the first version to shed its letter and dessert name, known simply by its number*
+Option: It was the first version to use a code name
+Option: It was the first version designed for tablets
+Option: It was the first version released by a manufacturer other than Google
+Explanation: Android 10 was the first Android version to shed its letter and be known simply by a number, with no dessert-themed moniker attached.
+
+Question: What was the most significant change in Android 11?
+Option: Privacy, including single-use permissions for location, camera, and microphone*
+Option: A new interface design called Material You
+Option: Picture-in-Picture mode
+Option: Support for foldable phones
+Explanation: Android 11's most significant changes revolve around privacy, adding the option to grant apps location, camera, and microphone permissions only on a limited, single-use basis.
+
+Question: What design standard was introduced in Android 12?
+Option: Material You*
+Option: Material Design 2
+Option: Holo
+Option: Metro
+Explanation: Android 12 introduced Material You, which revolves around customizing the appearance of your device with dynamically generated themes based on your current wallpaper colors.
+
+Question: Which new system did Android 14 introduce for working between apps?
+Option: Dragging and dropping text between apps*
+Option: A floating window manager
+Option: A desktop mode
+Option: Cross-device clipboard sync
+Explanation: Android 14 introduced a new system for dragging and dropping text between apps, as well as a new series of native customization options for the Android lock screen.
+
+Question: Which Android version does the module present last?
+Option: Android 15 (Vanilla Ice Cream)*
+Option: Android 14 (Upside Down Cake)
+Option: Android 12 (Snow Cone)
+Option: Android 11 (Red Velvet Cake)
+Explanation: The module's final Android version slide is Android 15.0 (Vanilla Ice Cream).
+
+Question: How many apps did Android 1.0 have?
+Option: 35*
+Option: 350
+Option: 3,500
+Option: 35,000
+Explanation: This version of Android had only 35 apps.
+
+Question: Which Android version introduced animated transition effects as its main feature?
+Option: Android 1.5 (Cupcake)*
+Option: Android 1.6 (Donut)
+Option: Android 2.0 (Eclair)
+Option: Android 2.2 (Froyo)
+Explanation: The main feature of Android 1.5 Cupcake was animated transition effects.
+
+Question: Which accessibility improvements did Android 14 add?
+Option: An enhanced on-demand magnifier*
+Option: An easier way to increase font size in any app*
+Option: Improved support for hearing aid connections*
+Option: An option to flash the camera light when a notification arrives*
+Option: A screen reader that requires no setup at all
+Explanation: Android 14 added an enhanced on-demand magnifier, an easier way to increase font size in any app, improved support for hearing aid connections, and a built-in option to flash the camera light when a new notification arrives.
+
+Question: Android 12's interface was described as the biggest reimagining since which version?
+Option: Android 5.0 (Lollipop)*
+Option: Android 4.0 (Ice Cream Sandwich)
+Option: Android 8.0 (Oreo)
+Option: Android 9.0 (Pie)
+Explanation: Android 12 featured the biggest reimagining of Android's interface since 2014's Android 5.0 (Lollipop).
+
+Question: Which development environment does the module present for building Android apps?
+Option: Android Studio*
+Option: Visual Studio Code
+Option: Eclipse
+Option: Xcode
+Explanation: The module lists Android Studio 3.0 as the development environment for building Android apps.
+
+Question: Besides the development environment, what else does the module say you need to get started?
+Option: A test device or a simulator*
+Option: A paid Google Play developer account
+Option: A physical server
+Option: A domain name
+Explanation: The module lists a Test Device or Simulator as something needed to get started with Android development.
+
+Question: Which of these are listed in the module as things needed to get started with Android development?
+Option: Android Studio*
+Option: A test device*
+Option: A simulator*
+Option: A licensed copy of Windows
+Option: A dedicated web server
+Explanation: The module's "Things We Need to Get Started" covers Android Studio and a Test Device or Simulator.

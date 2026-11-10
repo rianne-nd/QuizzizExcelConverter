@@ -1,0 +1,57 @@
+Question: What type of malware encrypts a target's sensitive files and demands payment in exchange for the decryption key?
+Option: Virus
+Option: Worm
+Option: Trojan horse
+Option: Ransomware*
+Explanation: Ransomware encrypts files and demands payment for the decryption key.
+
+Question: During the life of the patent, the details of the invention are kept secret to prevent copycat inventions.
+Option: True
+Option: False*
+Explanation: Patent details are made public to prevent copycat inventions.
+
+Question: Insecurity involves carelessness in protecting stored information from being leaked or improperly accessed.
+Option: True*
+Option: False
+Explanation: Insecurity is carelessness in protecting stored information.
+
+Question: A hospital IT department is upgrading radiation equipment software. To cut costs, management proposes removing older mechanical limit switches and relying entirely on new, highly tested software to prevent radiation overexposure. Based on lessons learned from safety-critical system failures, how should a lead systems safety engineer evaluate this proposal?
+Option: Accept the proposal because software is more reliable.
+Option: Reject the proposal because safety-critical systems require independent hardware safeguards.*
+Option: Accept the proposal if the software is tested thoroughly.
+Option: Reject the proposal because it is too expensive.
+Explanation: Safety-critical systems require independent hardware safeguards.
+
+Question: The fair use of a copyrighted work for purposes such as criticism, comment, news reporting, teaching, scholarship, or research, is not an infringement of copyright.
+Option: True*
+Option: False
+Explanation: Fair use for purposes like criticism, teaching, and research is not copyright infringement.
+
+Question: A quality problem found before the software is released to end users.
+Option: Error*
+Option: Defect
+Option: Bug
+Option: Failure
+Explanation: An error is a quality problem found before release.
+
+Question: RA 10173 is the Intellectual Property Code of the Philippines.
+Option: True
+Option: False*
+Explanation: RA 10173 is the Data Privacy Act of 2012, not the Intellectual Property Code.
+
+Question: Under RA10173, people whose personal information is collected, stored, and processed, are known as data subjects.
+Option: True*
+Option: False
+Explanation: Under RA 10173, individuals whose personal information is collected are data subjects.
+
+Question: University of Santo Tomas Hospital has privacy and security policies because they:
+Option: To comply with laws
+Option: To protect patient data
+Option: To maintain trust
+Option: All of the above*
+Explanation: Privacy and security policies serve multiple purposes including compliance, data protection, and trust.
+
+Question: IP can be an invention, an original design, a practical application of a good idea, a mark of ownership such as trademark, literary and artistic works, among other things.
+Option: True*
+Option: False
+Explanation: IP encompasses inventions, designs, trademarks, and artistic works.

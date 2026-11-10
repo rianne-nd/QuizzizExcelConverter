@@ -1,0 +1,19 @@
+=== Quizizz conversion report ===
+Input      : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\AppDev_LQ2
+Output     : C:\Users\Kath Puno\Downloads\DataComs_Reviewer\AppDev_LQ2\_QuizizzOutput
+Files found: 7
+
+[ OK ] AppDev_LQ2.txt  ->  Quizizz_AppDev_LQ2.xlsx   (20 questions)
+[ OK ] AppDev_LQ2_pt1.txt  ->  Quizizz_AppDev_LQ2_pt1.xlsx   (10 questions)
+[ OK ] AppDev_LQ2_pt2.txt  ->  Quizizz_AppDev_LQ2_pt2.xlsx   (10 questions)
+[WARN] AppDevLQ1.txt  ->  Quizizz_AppDevLQ1.xlsx   (33 questions)
+         - Q29: ALL 4 options are marked correct - Who are the founders of Android Inc? Select all that apply.
+         - Q32: ALL 5 options are marked correct - Select all the advantages of Android Operating System.
+[ OK ] AppDevLQ1_pt1.txt  ->  Quizizz_AppDevLQ1_pt1.xlsx   (10 questions)
+[ OK ] AppDevLQ1_pt2.txt  ->  Quizizz_AppDevLQ1_pt2.xlsx   (10 questions)
+[WARN] AppDevLQ1_pt3.txt  ->  Quizizz_AppDevLQ1_pt3.xlsx   (13 questions)
+         - Q9: ALL 4 options are marked correct - Who are the founders of Android Inc? Select all that apply.
+         - Q12: ALL 5 options are marked correct - Select all the advantages of Android Operating System.
+
+Total: 7 file(s) -> 7 workbook(s), 106 question(s), 0 with an image link.
+2 file(s) have notes above - check them before importing to Quizizz.

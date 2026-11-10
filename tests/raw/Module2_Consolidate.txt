@@ -1,0 +1,231 @@
+Question: True or False? In the router ospf process-id command, the process ID value, which can any number between 1 and 65,535, is locally significant. It must be the same on all routers in the OSPF area.
+Option: True
+Option: False*
+Explanation: The process-id value is locally significant. It does not have to the be the same on all routers. However, using the same value avoids confusion and provides consistency across configurations.
+
+Question: Which of the following applies to the router ID? (Choose two)
+Option: The router ID cannot be defined by an administrator.
+Option: The router ID is not used to determine the BDR.
+Option: The router ID is used to determine the DR.*
+Option: The router ID uniquely identifies the router.*
+Option: The router ID is not required.
+Explanation: The router ID is used by the OSPF-enabled router to uniquely identify the router and for participation in the DR election. In a multiaccess LAN environment, the router with the highest router ID is elected the DR. The routing device with the second highest router ID is elected the backup designated router (BDR).
+
+Question: Which of the following is the order of precedence for choosing the router ID?
+Option: 1. Router ID that is explicitly configured 2. Lowest IPv4 loopback address 3. Lowest active configured IPv4 address
+Option: 1. Router ID that is explicitly configured 2. Lowest active configured IPv4 address 3. Lowest IPv4 loopback address
+Option: 1. Router ID that is explicitly configured 2. Highest IPv4 loopback address 3. Highest active configured IPv4 address*
+Option: 1. Highest IPv4 loopback address 2. Router ID that is explicitly configured 3. Highest active configured IPv4 address
+Option: 1. Highest IPv4 loopback address 2. Highest active configured IPv4 address 3. Router ID that is explicitly configured
+Explanation: The correct order of precedence for choosing the router ID is as follows: 1. The router ID is explicitly configured using the OSPF router-id rid router configuration mode command. 2. If the router ID is not explicitly configured, the router chooses the highest IPv4 address of any of the configured loopback interfaces. 3. If no loopback interfaces are configured, then the router chooses the highest active IPv4 address of any of its physical interfaces.
+
+Question: Which criterion is preferred by the router to choose a router ID?
+Option: the IP address of the highest configured loopback interface on the router
+Option: the IP address of the highest active OSPF-enabled interface
+Option: the router-id rid command*
+Option: the IP address of the highest active interface on the router
+Explanation: The preferred order of criteria for Cisco routers to identify the router ID is: an explicitly configured router using the router-id rid command; the IP address of any configured loopback interface; and the IP address of any active interface on the router (it does not have to be an OSPF-enabled interface).
+
+Question: Which wildcard mask would be used to advertise the 192.168.5.96/27 network as part of an OSPF configuration?
+Option: 0.0.0.32
+Option: 0.0.0.31*
+Option: 255.255.255.224
+Option: 255.255.255.223
+Explanation: The wildcard mask can be found by subtracting the subnet mask from 255.255.255.255.
+
+Question: The following three networks are directly connected to an OSPF router; 192.168.0.0/24, 192.168.1.0/24, and 192.168.2.0/24. Which OSPF network command would advertise only the 192.168.1.0 network to neighbors?
+Option: router(config-router)# network 192.168.1.0 0.0.0.0 area 0*
+Option: router(config-router)# network 192.168.1.0 0.0.0.255 area 0
+Option: router(config-router)# network 192.168.1.0 255.255.255.255 area 0
+Option: router(config-router)# network 192.168.0.0 0.0.15.255 area 0
+Explanation: To advertise only the 192.168.1.0/24 network the wildcard mask used in the network command must match the first 24-bits exactly. To match bits exactly, a wildcard mask uses a binary zero. This means that the first 24-bits of the wildcard mask must be zero. The low order 8-bits can all be set to 1.
+
+Question: Which three parameters should match in order for a pair of routers to form an adjacency when running OSPFv2? (Choose three.)
+Option: OSPFv2 process number
+Option: OSPFv2 type of network*
+Option: router ID
+Option: interface priority
+Option: hello timer*
+Option: subnet mask*
+Explanation: For a couple of routers that are running OSPFv2 to form an adjacency, the following parameters must match: subnet mask, network type, hello and dead timers, a corresponding network command, and the authentication information.
+
+Question: What are two features of the OSPF routing protocol? (Choose two.)
+Option: used primarily as an EGP
+Option: uses Dijkstra's algorithm to build the SPF tree*
+Option: has an administrative distance of 100
+Option: automatically summarizes networks at the classful boundaries
+Option: calculates its metric using bandwidth*
+Explanation: Characteristics of OSPF include the following: Interior gateway protocol, Link-state, Classless, Cost metric based on bandwidth, Dijkstra algorithm, Builds topological map, Event-driven updates, Hierarchical design, Requires additional memory, CPU processing, and more initial bandwidth than other protocols.
+
+Question: A router with two LAN interfaces, two WAN interfaces, and one configured loopback interface is operating with OSPF as its routing protocol. What does the router OSPF process use to assign the router ID?
+Option: the loopback interface IP address*
+Option: the highest IP address on the LAN interfaces
+Option: the OSPF area ID that is configured on the interface with the highest IP address
+Option: the IP address of the interface that is configured with priority 0
+Option: the highest IP address that is configured on the WAN interfaces
+Explanation: OSPF requires a unique router ID on each router. The router ID can be configured manually with the router-id command. If this command is not issued, then the OSPF process will use the highest IPv4 address on an active interface as the router ID, with preference give to loopback interfaces.
+
+Question: Which verification command would identify the specific interfaces on a router that were configured with the passive-interface command?
+Option: show ip protocols*
+Option: show ip eigrp neighbors
+Option: show ip interface brief
+Option: show ip route eigrp
+Explanation: The show ip protocols command will identify interfaces that are configured as passive.
+
+Question: Which command, if applied on an OSPF router, would give a Gigabit Ethernet interface a lower cost than a Fast Ethernet interface?
+Option: (config-if)# bandwidth 100
+Option: (config-if)# ip ospf priority 1
+Option: (config-router)# auto-cost reference-bandwidth 1000*
+Option: (config-if)# ip ospf cost 100
+Explanation: OSPF uses the formula; Cost = 100,000,000 / bandwidth. Because OSPF will only use integers as cost, any bandwidth of 100 Mb/s or greater will all equal a cost of 1. To change this behavior, a new reference bandwidth can be configured. The new reference bandwidth will need to be larger than 100,000,000. In this case it needs to be 1,000,000,000. This is accomplished with the command auto-cost reference-bandwidth 1000, which means multiply the unit Mb/s by 1000. The result is 1,000,000,000.
+
+Question: A network administrator has just changed the router ID on a router that is working in an OSPFv2 environment. What should the administrator do to reset the adjacencies and use the new router ID?
+Option: Configure the network statements.
+Option: Change the OSPFv2 process ID.
+Option: Issue the clear ip ospf process privileged mode command.*
+Option: Change the interface priority.
+Explanation: If the router ID has changed on a working router, the OSPFv2 process must be cleared for the new router ID to take effect.
+
+Question: Which command can be used to view the OSPF hello and dead time intervals?
+Option: show ip ospf route
+Option: show ip protocols
+Option: show ip ospf interface*
+Option: show ip ospf neighbor
+Explanation: The OSPF hello and dead timers can be configured per interface. Hence, the correct command used to view the timers is the show ip ospf interface command. Adding the interface name and number to the command displays output for a specific interface.
+
+Question: What does the SPF algorithm consider to be the best path to a network?
+Option: The path that includes the fastest cumulative bandwidth links.*
+Option: The path with the least number of hops.
+Option: The path with the smallest delays.
+Option: The path that includes the fastest single bandwidth link.
+Explanation: Link-state protocols use accumulated cost to reach destination networks. The shortest path is not always the path with the least number of hops but instead the overall fastest pathway.
+
+Question: What is one use of the router ID in OSPF routing?
+Option: The router ID indicates the highest IPv4 address of all routers that are participating in OSPF routing.
+Option: The router ID identifies the OSPF area.
+Option: The router ID can be used to break a tie in the election process.*
+Option: The router ID indicates the router priority value.
+Explanation: The OSPF router ID uniquely identifies each router within an OSPF area, and allows each router to participate in the election process in that area. On multiaccess networks, if there is no router priority value configured on the routers, and if there is a tie in the election, the router with the highest router ID is elected DR. The router priority value is a value chosen by the administrator and manually configured on the router. The administrator can manually configure the router ID, or the router can automatically assign itself its highest IPv4 loopback or physical address as the router ID. That interface has to be up but does not have to be participating in the OSPF process.
+
+Question: What is the first criterion used by OSPF routers to elect a DR?
+Option: highest priority*
+Option: highest router ID
+Option: highest MAC address
+Option: highest IP address
+Explanation: When electing a DR, the router with the highest OSPF priority becomes the DR. If all routers have the same priority, then the router with the highest router ID is elected.
+
+Question: Which command could be used on a router to ensure that an OSPF adjacency is formed with another router?
+Option: show ip protocols
+Option: show ip ospf interface
+Option: show ip route
+Option: show ip ospf neighbor*
+Option: show ip interface brief
+Explanation: The show ip ospf neighbor command is a common command to use when an expected route does not appear in the routing table from the OSPFv2 routing protocol.
+
+Question: A router in an OSPF enterprise network has a default static route that has been configured via the interface that connects to the ISP. Which command would the network administrator apply on this router so that other routers in the OSPF network will use this default route?
+Option: redistribute connected
+Option: redistribute static
+Option: redistribute static subnets
+Option: default-information originate*
+Explanation: When an OSPF router is configured with a static route first and the default-information originate router configuration command is applied, the router declares itself to be the source of the default route information and propagates the default static route in OSPF updates to all other routers in the OSPF area.
+
+Question: A router is participating in an OSPFv2 domain. What will always happen if the Dead interval expires before the router receives a Hello packet from an adjacent OSPF router?
+Option: A new Dead interval timer of four times the Hello interval will start.
+Option: OSPF will remove that neighbor from the router's link-state database.*
+Option: OSPF will run a new DR/BDR election.
+Option: SPF will run and determine which neighbor router is down.
+Explanation: On Cisco routers, the default Dead interval is four times the Hello interval, and this timer has expired in this case. SPF does not determine the state of neighbor routers; it determines which routes become routing table entries. A DR/DBR election does not always automatically run; it depends on the type of network and on whether or not the router that is no longer up was a DR or BDR.
+
+Question: Which command would be used to determine if an OSPF routing protocol- initiated relationship had been made with an adjacent router?
+Option: ping
+Option: show ip interface brief
+Option: show ip ospf neighbor*
+Option: show ip protocols
+Explanation: While the show ip interface brief and ping commands can be used to determine if Layer 1, 2, and 3 connectivity exists, neither command can be used to determine whether a particular OSPF or EIGRP-initiated relationship has been made. The show ip protocols command is useful in determining the routing parameters such as timers, router ID, and metric information associated with a specific routing protocol. The show ip ospf neighbor command shows if two adjacent routers have exchanged OSPF messages in order to form a neighbor relationship.
+
+Question: Which command is used to verify the OSPFv2 router ID, the interfaces explicitly configured to advertise OSPF routes, the passive interfaces, the neighbors the router is receiving updates from, and the default administrative distance, which is 110 for OSPF?
+Option: show ip interface brief
+Option: show ip ospf interface
+Option: show ip protocols*
+Option: show ip route ospf
+Explanation: The show ip ospf interface command verifies the active OSPF interfaces. The show ip interface brief command is used to check that the interfaces are operational. The show ip route ospf command displays the entries that are learned via OSPF in the routing table. The show ip protocols command checks that OSPF is enabled and lists the networks that are advertised.
+
+Question: Two OSPFv2 routers are interconnected using a point-to-point WAN link. Which command could be used to verify the configured Hello and Dead timer intervals?
+Option: show ip ospf neighbor
+Option: show ip ospf interface fastethernet 0/1
+Option: show ip ospf interface serial 0/0/0*
+Option: show ipv6 ospf interface serial 0/0/0
+Explanation: The show ip ospf interface serial 0/0/0 command displays the configured Hello and Dead timer intervals on a point-to-point serial WAN link between two OSPFv2 routers. The show ipv6 ospf interface serial 0/0/0 command displays the configured Hello and Dead timer intervals on a point-to-point serial link between two OSPFv3 routers. The show ip ospf interface fastethernet 0/1 command displays the configured Hello and Dead timer intervals on a multiaccess link between two (or more) OSPFv2 routers. The show ip ospf neighbor command displays the Dead interval elapsed time since the last Hello message was received, but it does not show the configured value of the timer.
+
+Question: You are troubleshooting convergence and adjacency issues in an OSPFv2 network and have noticed that network route entries are missing from the routing table. Which commands provide additional information about the state of router adjacencies, timer intervals, and the area ID? (Choose two.)
+Option: show ip ospf interface*
+Option: show ip ospf neighbor*
+Option: show ip protocols
+Option: show ip route ospf
+Option: show running-configuration
+Explanation: The show ip ospf interface command displays routing table information that is already known. The show ip ospf neighbors command displays adjacency information on neighboring OSPF routers. The show running-configuration and show ip protocols commands display aspects of the OSPF configuration on the router but do not display adjacency state details or timer interval details.
+
+Question: A network engineer has manually configured the Hello interval to 15 seconds on an interface of a router that is running OSPFv2. By default, how will the Dead interval on the interface be affected?
+Option: The Dead interval will not change from the default value.
+Option: The Dead interval will now be 15 seconds.
+Option: The Dead interval will now be 30 seconds.
+Option: The Dead interval will now be 60 seconds.*
+Explanation: Cisco IOS automatically modifies the Dead interval to four times the Hello interval.
+
+Question: To establish a neighbor adjacency, two OSPF routers exchange Hello packets. Which values in the Hello packets must match on the two routers? (Choose two.)
+Option: Dead interval*
+Option: Hello interval*
+Option: List of neighbors
+Option: Router ID
+Option: Router priority
+Explanation: The Hello and Dead interval timers contained in a Hello packet must be the same on neighboring routers in order to form an adjacency.
+
+Question: What is the default router priority value for all Cisco OSPF routers?
+Option: 0
+Option: 1*
+Option: 10
+Option: 255
+Explanation: The router priority value is used in a DR/BDR election. The default priority for all OSPF routers is 1, but it can be manually altered to any value from 0 to 255.
+
+Question: What indicates to a link-state router that a neighbor is unreachable?
+Option: The router no longer receives Hello packets.*
+Option: The router no longer receives routing updates.
+Option: The router receives an LSP with previously learned information.
+Option: The router receives an update with a hop count of 16.
+Explanation: OSPF routers send Hello packets to monitor the state of a neighbor. When a router stops receiving Hello packets from a neighbor, that neighbor is considered unreachable, and the adjacency is broken.
+
+Question: Which of the following will OSPF use when it chooses its router ID?
+Option: A loopback interface that is configured with the highest IP address on the router*
+Option: The highest active interface IP address that is configured on the router
+Option: The lowest active interface IP address that is configured on the router
+Option: The highest active interface that participates in the routing process because of a specifically configured network statement
+Explanation: The first preference for an OSPF router ID is an explicitly configured 32-bit address. This address is not included in the routing table and is not defined by the network command. If a router ID that is configured through the router-id command is not available, OSPF routers next use the highest IPv4 address available on a loopback interface, as loopbacks used as router IDs are also not routable addresses. Lacking either of these alternatives, an OSPF router will use the highest IPv4 address from its active physical interfaces.
+
+Question: An OSPF router has three directly connected networks; 10.1.0.0/16, 10.1.1.0/16, and 10.1.2.0/16. Which OSPF network command would advertise only the 10.1.1.0 network to neighbors?
+Option: router(config-router)# network 10.1.0.0 0.0.15.255 area 0
+Option: router(config-router)# network 10.1.1.0 0.0.0.0 area 0
+Option: router(config-router)# network 10.1.1.0 0.0.0.255 area 0*
+Option: router(config-router)# network 10.1.1.0 0.0.255.255 area 0
+Explanation: To advertise only the 10.1.1.0 network, the wildcard mask used in the network command must match the first 24 bits exactly. An alternative method of configuring this would also be to use the network 10.1.1.0 255.255.255.0 area 0 command.
+
+Question: By default, what is the OSPF cost for a link with Gigabit Ethernet interfaces?
+Option: 1*
+Option: 100
+Option: 10000
+Option: 100000000
+Explanation: OSPF uses the formula Cost = 100,000,000 / bandwidth. Because OSPF will only use integers as cost, any bandwidth of 100 Mbps or greater will equal a cost of 1.
+
+Question: An administrator is configuring single-area OSPF on a router. One of the networks that must be advertised is 64.100.1.64 255.255.255.192. Which OSPF network statement should be configured?
+Option: network 64.100.1.64 0.0.0.15 area 0
+Option: network 64.100.1.64 0.0.0.31 area 0
+Option: network 64.100.1.64 0.0.0.63 area 0*
+Option: network 64.100.1.64 0.0.0.127 area 0
+Explanation: The correct network statement is network 64.100.1.64 0.0.0.63 area 0.
+
+Question: Which of these factors will prevent two routers from forming an OSPFv2 adjacency? (Choose two.)
+Option: Mismatched Cisco IOS versions
+Option: Mismatched Ethernet interfaces (for example, Fa0/0 to G0/0)
+Option: Mismatched OSPF Hello or Dead timers*
+Option: Mismatched subnet masks on the link interfaces*
+Option: Use of private IP addresses on the link interfaces
+Explanation: There may be several reasons two routers running OSPF will fail to form an OSPF adjacency, including subnet masks not matching, OSPF Hello or Dead timers not matching, OSPF network types not matching, and a missing or incorrect OSPF network command. Mismatched IOS versions, the use of private IP addresses, and different types of interface ports used are not causes for an OSPF adjacency failing to form between two routers.

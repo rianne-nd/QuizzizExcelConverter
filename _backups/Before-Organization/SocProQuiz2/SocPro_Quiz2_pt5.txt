@@ -1,0 +1,41 @@
+Question: Under U.S. law, the default length of a copyright is the lifetime of the author plus 50 years after the author's death.
+Option: True
+Option: False*
+Explanation: Under U.S. law, copyright lasts the author's lifetime plus 70 years.
+
+Question: What are the causes of Therac-25's malfunctioning accident? Select three (3).
+Option: Poor Software Reuse*
+Option: Unrealistic Risk Assessments*
+Option: Overconfidence in Software*
+Option: Inadequate Hardware
+Option: Lack of Training
+Explanation: Therac-25's accident was caused by poor software reuse, unrealistic risk assessments, and overconfidence in software.
+
+Question: Copyright Infringement is any new and useful process, machine, [article of] manufacture, or composition of matter, or any new and useful improvement thereof.
+Option: True
+Option: False*
+Explanation: That definition describes a patent, not copyright infringement.
+
+Question: Which of the following is an example of a Privacy Policy?
+Option: A statement about data collection.
+Option: "When you use our services, you're trusting us with your information. We understand this is a big responsibility and work hard to protect your information and put you in control."*
+Option: A legal disclaimer.
+Option: A cookie notice.
+Explanation: A privacy policy explains how user information is protected and controlled.
+
+Question: Trademarks are territorial rights: their registration and enforcement is governed by national laws, and the rights conveyed can vary country-by-country.
+Option: True*
+Option: False
+Explanation: Trademarks are territorial and governed by national laws.
+
+Question: It is safe to use the same password for multiple user accounts, as long as it contains a few different letters, numbers, or symbols.
+Option: True
+Option: False*
+Explanation: Using the same password across accounts is unsafe.
+
+Question: It consists of various forms of questioning or probing for information and can be too prying and coercive in some circumstances.
+Option: Surveillance
+Option: Interrogation*
+Option: Aggregation
+Option: Identification
+Explanation: Interrogation involves prying or coercive questioning for information.

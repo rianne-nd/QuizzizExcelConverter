@@ -1,0 +1,93 @@
+Question: What are the permit or deny statements in an ACL called?
+Option: access control entries*
+Option: arbitrary statements
+Option: content control entries
+Option: control statements
+Explanation: The sequential list of permit and deny statements in an ACL are called access control entries (ACEs).
+
+Question: Which packet filtering statement is true?
+Option: Extended ACLs filter at Layer 3 only.
+Option: Extended ACLs filter at Layer 4 only.
+Option: Standard ACLs filter at Layer 3 only.*
+Option: Standard ACLs filter at Layer 4 only.
+Explanation: Standard ACLs filter at Layer 3 only.
+
+Question: Which statement about the operation of a standard ACL is incorrect?
+Option: The router extracts the source IPv4 address from the packet header.
+Option: The router starts at the top of the ACL and compares the address to each ACE in sequential order.
+Option: When a match is made, the ACE either permits or denies the packet, and any remaining ACEs are not analyzed.
+Option: If there are no matching ACEs in the ACL, the packet is forwarded because there is an implicit permit ACE automatically applied to all ACLs.*
+Explanation: If there is no matching ACE in the ACL, the packet is discarded because of the implicit deny ACE automatically applied to all ACLs.
+
+Question: Which wildcard mask would permit only host 10.10.10.1?
+Option: 0.0.0.0*
+Option: 0.0.0.31
+Option: 0.0.0.255
+Option: 0.0.255.255
+Option: 255.255.255.255
+Explanation: The wildcard mask that would permit only host 10.10.10.1 is 0.0.0.0.
+
+Question: Which wildcard mask would permit only hosts from the 10.10.0.0/16 network?
+Option: 0.0.0.0
+Option: 0.0.0.31
+Option: 0.0.0.255
+Option: 0.0.255.255*
+Option: 255.255.255.255
+Explanation: The wildcard mask that would permit only hosts from the 10.10.0.0/16 network is 0.0.255.255.
+
+Question: Which wildcard mask would permit all hosts?
+Option: 0.0.0.0
+Option: 0.0.0.31
+Option: 0.0.0.255
+Option: 0.0.255.255
+Option: 255.255.255.255*
+Explanation: The wildcard mask that would permit all hosts is 255.255.255.255.
+
+Question: Which wildcard mask would permit all hosts from the 192.168.10.0/24 network?
+Option: 0.0.0.0
+Option: 0.0.0.31
+Option: 0.0.0.255*
+Option: 0.0.255.255
+Option: 255.255.255.255
+Explanation: The wildcard mask that would permit all hosts from the 192.168.10.0/24 network is 0.0.0.255.
+
+Question: How many total ACLs (both IPv4 and IPv6) can be configured on an interface?
+Option: 0
+Option: 1
+Option: 2
+Option: 4*
+Option: 8
+Explanation: Four ACLs, two IPv4, and two IPv6, can be configured per interface.
+
+Question: Which of the following is an ACL best practice?
+Option: Always test ACLs on a production network.
+Option: Create your ACLs on a production router.
+Option: Document the ACLs using the description ACL command.
+Option: Write the ACL before configuring it on a router.*
+Explanation: A best practice is to write out what you want an ACL to do before configuring the ACL.
+
+Question: Which ACL is capable of filtering based on TCP port number?
+Option: extended ACL*
+Option: standard ACL
+Explanation: A standard ACL filters on source IPv4 addresses. An extended ACL filters on source and destination IPv4 address, protocol, and TCP/UDP ports.
+
+Question: Which statement about ACLs is true?
+Option: Extended ACLs are numbered 1300 - 2699.
+Option: Named ACLs can be standard or extended.*
+Option: Numbered ACLs is the preferred method to use when configuring ACLs.
+Option: Standard ACLs are numbered 1 - 199.
+Explanation: Named ACLs can be standard or extended.
+
+Question: Where should a standard ACL be placed?
+Option: Standard ACL location is not important.
+Option: Standard ACLs should be placed as close to the destination as possible.*
+Option: Standard ACLs should be placed as close to the source as possible.
+Option: Standard ACLs should be placed on serial interfaces.
+Explanation: Standard ACLs should be located as close to the destination as possible.
+
+Question: Where should an extended ACL be placed?
+Option: Extended ACL location is not important.
+Option: Extended ACLs should be located as close to the destination as possible.
+Option: Extended ACLs should be located as close to the source as possible.*
+Option: Extended ACLs should be located on serial interfaces.
+Explanation: Extended ACLs should be located as close to the source as possible.

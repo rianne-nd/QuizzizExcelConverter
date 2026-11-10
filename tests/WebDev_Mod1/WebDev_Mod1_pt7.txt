@@ -1,0 +1,71 @@
+Question: What design standard was introduced in Android 12?
+Option: Material You*
+Option: Material Design 2
+Option: Holo
+Option: Metro
+Explanation: Android 12 introduced Material You, which revolves around customizing the appearance of your device with dynamically generated themes based on your current wallpaper colors.
+
+Question: Which new system did Android 14 introduce for working between apps?
+Option: Dragging and dropping text between apps*
+Option: A floating window manager
+Option: A desktop mode
+Option: Cross-device clipboard sync
+Explanation: Android 14 introduced a new system for dragging and dropping text between apps, as well as a new series of native customization options for the Android lock screen.
+
+Question: Which Android version does the module present last?
+Option: Android 15 (Vanilla Ice Cream)*
+Option: Android 14 (Upside Down Cake)
+Option: Android 12 (Snow Cone)
+Option: Android 11 (Red Velvet Cake)
+Explanation: The module's final Android version slide is Android 15.0 (Vanilla Ice Cream).
+
+Question: How many apps did Android 1.0 have?
+Option: 35*
+Option: 350
+Option: 3,500
+Option: 35,000
+Explanation: This version of Android had only 35 apps.
+
+Question: Which Android version introduced animated transition effects as its main feature?
+Option: Android 1.5 (Cupcake)*
+Option: Android 1.6 (Donut)
+Option: Android 2.0 (Eclair)
+Option: Android 2.2 (Froyo)
+Explanation: The main feature of Android 1.5 Cupcake was animated transition effects.
+
+Question: Which accessibility improvements did Android 14 add?
+Option: An enhanced on-demand magnifier*
+Option: An easier way to increase font size in any app*
+Option: Improved support for hearing aid connections*
+Option: An option to flash the camera light when a notification arrives*
+Option: A screen reader that requires no setup at all
+Explanation: Android 14 added an enhanced on-demand magnifier, an easier way to increase font size in any app, improved support for hearing aid connections, and a built-in option to flash the camera light when a new notification arrives.
+
+Question: Android 12's interface was described as the biggest reimagining since which version?
+Option: Android 5.0 (Lollipop)*
+Option: Android 4.0 (Ice Cream Sandwich)
+Option: Android 8.0 (Oreo)
+Option: Android 9.0 (Pie)
+Explanation: Android 12 featured the biggest reimagining of Android's interface since 2014's Android 5.0 (Lollipop).
+
+Question: Which development environment does the module present for building Android apps?
+Option: Android Studio*
+Option: Visual Studio Code
+Option: Eclipse
+Option: Xcode
+Explanation: The module lists Android Studio 3.0 as the development environment for building Android apps.
+
+Question: Besides the development environment, what else does the module say you need to get started?
+Option: A test device or a simulator*
+Option: A paid Google Play developer account
+Option: A physical server
+Option: A domain name
+Explanation: The module lists a Test Device or Simulator as something needed to get started with Android development.
+
+Question: Which of these are listed in the module as things needed to get started with Android development?
+Option: Android Studio*
+Option: A test device*
+Option: A simulator*
+Option: A licensed copy of Windows
+Option: A dedicated web server
+Explanation: The module's "Things We Need to Get Started" covers Android Studio and a Test Device or Simulator.

@@ -1,0 +1,65 @@
+Question: Which command allows you to move a file to another directory?
+Option: mv*
+Option: lp
+Option: cp
+Option: ln
+Explanation: The mv command is used to move or rename files and directories in UNIX/Linux systems.
+
+Question: The command cd source uses relative path addressing.
+Option: True*
+Option: False
+Explanation: The cd source command uses relative path addressing because it references a directory relative to the current working directory.
+
+Question: How would you write the code that will display the current calendar month?
+Option: cal*
+Option: date
+Option: calendar
+Option: show cal
+Explanation: The cal command displays a calendar for the current month in UNIX/Linux.
+
+Question: Most shells keep a list of your recently used commands and allow you to recall a command without retyping it.
+Option: True*
+Option: False
+Explanation: UNIX/Linux shells maintain a history buffer of executed commands that can be recalled and re-executed.
+
+Question: Which key combination erases the command line in Ubuntu?
+Option: CTRL+S
+Option: CTRL+D
+Option: CTRL+C
+Option: CTRL+U*
+Explanation: CTRL+U cuts/erases the entire current command line in the Ubuntu terminal.
+
+Question: How would you clean or clear the screen in Ubuntu?
+Option: clear*
+Option: cls
+Option: clean
+Option: erase
+Explanation: The clear command clears all text on the terminal screen in Ubuntu.
+
+Question: Write the command that will display the current date following the sequence: day month year.
+Option: date '+%d %m %Y'*
+Option: date '+%m %d %Y'
+Option: date '+%Y %m %d'
+Option: date --show-date
+Explanation: The date '+%d %m %Y' command formats the date output into day, month, and year sequence.
+
+Question: In UNIX, what command should you use to rename or move a file to another directory?
+Option: mv*
+Option: cp
+Option: rn
+Option: transfer
+Explanation: The mv command moves or renames files and directories in UNIX.
+
+Question: Write the UNIX command that will delete an empty directory called project.
+Option: rmdir project*
+Option: rm project
+Option: del project
+Option: remove project
+Explanation: The rmdir command removes empty directories in UNIX.
+
+Question: How do you suspend the current foreground process in UNIX?
+Option: CTRL+C
+Option: CTRL+S
+Option: CTRL+Z*
+Option: CTRL+D
+Explanation: CTRL+Z sends the SIGTSTP signal to suspend the active foreground process and return to the prompt.

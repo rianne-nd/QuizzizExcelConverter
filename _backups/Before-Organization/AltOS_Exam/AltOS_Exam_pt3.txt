@@ -1,0 +1,61 @@
+Question: When invoking 'wc file5.txt', what does the 4th column represent?
+Option: Represents the total number of lines in the file.
+Option: Represents the total number of words in the file.
+Option: Represents the total number of bytes in the file.
+Option: Represents the file name.*
+Explanation: The fourth column of wc output displays the file name.
+
+Question: Assuming you are in g1 directory, delete game2 and gg3 in the upper directory using one line of code
+Type: Fill-in-the-Blank
+Answer: rm ../game2 ../gg3
+Explanation: The ../ prefix references the parent directory, allowing you to delete game2 and gg3 from within g1.
+
+Question: Most shells keep a list of your recently used commands and allow you to recall a command without retyping it.
+Option: True*
+Option: False
+Explanation: Most Unix/Linux shells maintain a command history file that enables users to recall and re-execute previous commands.
+
+Question: What is the command in MS DOS to change the file attribute (attribute: read only and hidden; filename: file.txt)
+Type: Fill-in-the-Blank
+Answer: attrib +r +h file.txt
+Explanation: In MS-DOS, attrib +r +h file.txt sets both Read-Only (+r) and Hidden (+h) attributes on file.txt.
+
+Question: It is used to display all the groups you are a member of.
+Option: groups*
+Option: chrgp
+Option: chown
+Option: users
+Explanation: The groups command displays the names of all groups the current user belongs to.
+
+Question: Directories can be deleted using:
+Option: mv
+Option: rmdir*
+Option: rm
+Option: mkdir
+Explanation: rmdir is the standard command used to delete empty directories.
+
+Question: What command is used to rename a directory?
+Option: mkdir
+Option: rmdir
+Option: ren
+Option: mv*
+Explanation: In Unix/Linux, the mv command is used to move or rename directories and files.
+
+Question: “UNIX and Linux are multitasking systems, which allow one user to execute more than one at a time.”
+Option: True*
+Option: False
+Explanation: UNIX and Linux are multitasking operating systems, allowing users to run multiple processes concurrently.
+
+Question: It refers to the file on the system that contains data, text, or program instructions.
+Option: special files
+Option: ordinary*
+Option: directories
+Option: none of the above
+Explanation: Ordinary (or regular) files contain data, plain text, image data, or executable program instructions.
+
+Question: If my present working directory is /home/erzhuo/aos/3itd (erzhuo@eugenezhuo:-/aos/BSIT$). What are the commands to return to /home/erzhuo (erzhuo@eugenezhuo)?
+Option: cd.
+Option: none of the above
+Option: cd /home/erzhuo*
+Option: cd ~*
+Explanation: Both cd /home/erzhuo and cd ~ navigate back to the /home/erzhuo directory.

@@ -1,0 +1,91 @@
+Question: Which of the following layout parameters would you use for a layout that should fill the entire width of the available space but only take up enough height for its views inside?
+Option: Both wrap_content
+Option: match_parent for width and wrap_content for height*
+Option: Both match_parent
+Option: wrap_content for width and match_parent for height
+Explanation: match_parent for width fills available width, while wrap_content for height takes only needed height.
+
+Question: What type of view group aligns all the children sequentially either in a horizontal manner or a vertical manner?
+Option: Align Layout
+Option: Linear Layout*
+Option: Horizontal Layout and Vertical Layout
+Option: Constraint Layout
+Explanation: LinearLayout arranges its children in a single direction, either horizontally or vertically.
+
+Question: In the Android folder structure, what folder contains all the source code and test files?
+Option: res
+Option: manifest
+Option: design
+Option: kotlin+java*
+Explanation: The kotlin+java folder (or java folder) contains source code and test files.
+
+Question: It is a version of Google's Android operating system designed for smartwatches and other wearables.
+Option: Wear OS*
+Option: Android Watch
+Option: Android IOT
+Option: Android Auto
+Explanation: Wear OS is Google's Android-based operating system for smartwatches and wearables.
+
+Question: What TableLayout attribute is used to hide a column and collapse the space it occupies?
+Option: hideColumn
+Option: collapseColumn
+Option: visibility*
+Option: shrinkColumn
+Explanation: Setting a child view's visibility to gone collapses its space in a TableLayout.
+
+Question: What attribute defines the space inside the View boundaries?
+Option: inner_space
+Option: view_space
+Option: margin
+Option: padding*
+Explanation: Padding defines the internal space between the view's content and its boundaries.
+
+Question: What Android version traded Android's traditional Back, Home, and Overview keys for a large, multifunctional Home button and a small Back button that appeared alongside it as needed?
+Option: Red Velvet Cake
+Option: Pie*
+Option: Marshmallow
+Option: Oreo
+Explanation: Android 9 Pie introduced gesture navigation with a single home button and contextual back button.
+
+Question: What Android version allowed users to install apps on an SD card, 720p screen support, USB tethering, and Wi-Fi hotspot functionality?
+Option: Jelly Bean
+Option: Ice Cream Sandwich
+Option: Froyo*
+Option: Marshmallow
+Explanation: Android 2.2 Froyo added support for installing apps on SD card, USB tethering, and Wi-Fi hotspot.
+
+Question: Who are the founders of Android Inc? Select all that apply.
+Option: Andy Rubin*
+Option: Chris White*
+Option: Rich Miner*
+Option: Nick Sears*
+Explanation: Android Inc. was founded by Andy Rubin, Rich Miner, Nick Sears, and Chris White.
+
+Question: In the Android folder structure, what folder contains all the design resources?
+Option: res*
+Option: kotlin+java
+Option: manifest
+Option: design
+Explanation: The res folder contains all design resources such as layouts, drawables, and strings.
+
+Question: What does the match_parent value do in an Android layout?
+Option: The view will copy the space of its parent component.
+Option: The view will take up only the space required by its content.
+Option: The view will expand to fill the entire available space of its parent.*
+Option: The view will take up half the size of its parent.
+Explanation: match_parent makes the view expand to fill the available space of its parent.
+
+Question: Select all the advantages of Android Operating System.
+Option: Low phone device cost*
+Option: Inter-App Integration*
+Option: Larger Developer and Community Reach*
+Option: Low Maintenance*
+Option: Market approval time is instant*
+Explanation: Android offers low device cost, inter-app integration, a large developer community, low maintenance, and instant market approval.
+
+Question: What type of view group helps to give a rich feel and look to the UI design? It also provides a rounded corner layout along with a specific elevation.
+Option: Frame Layout
+Option: Constraint Layout
+Option: CardView*
+Option: Division Layout
+Explanation: CardView provides rounded corners and elevation for a rich UI appearance.

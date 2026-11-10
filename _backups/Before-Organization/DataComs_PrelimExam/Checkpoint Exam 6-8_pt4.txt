@@ -1,0 +1,74 @@
+Question: Which statement describes an important characteristic of a site-to-site VPN?
+Option: It must be statically set up.*
+Option: It is ideally suited for use by mobile workers.
+Option: It requires using a VPN client on the host PC.
+Option: After the initial connection is established, it can dynamically change connection information.
+Option: It is commonly implemented over dialup and cable modem networks.
+Explanation: A site-to-site VPN is statically configured between VPN gateways and is not intended for mobile users.
+
+Question: How is "tunneling" accomplished in a VPN?
+Option: New headers from one or more VPN protocols encapsulate the original packets.*
+Option: All packets between two hosts are assigned to a single physical medium to ensure that the packets are kept private.
+Option: Packets are disguised to look like other types of traffic so that they will be ignored by potential attackers.
+Option: A dedicated circuit is established between the source and destination devices for the duration of the connection.
+Explanation: VPN tunneling encapsulates original packets with new headers so they can be securely forwarded across a public network.
+
+Question: Which statement describes a VPN?
+Option: VPNs use open source virtualization software to create the tunnel through the Internet.
+Option: VPNs use logical connections to create public networks through the Internet.
+Option: VPNs use dedicated physical connections to transfer data between remote users.
+Option: VPNs use virtual connections to create a private network through a public network.*
+Explanation: A VPN uses virtual connections over a public network to create a private network for secure communication.
+
+Question: Open the PT Activity. Perform the tasks in the activity instructions and then answer the question.
+What problem is causing PC-A to be unable to communicate with the Internet?
+Option: The ip nat inside source command refers to the wrong interface.
+Option: The NAT interfaces are not correctly assigned.*
+Option: The static route should not reference the interface, but the outside address instead.
+Option: The access list used in the NAT process is referencing the wrong subnet.
+Option: This router should be configured to use static NAT instead of PAT.
+Explanation: The output of show ip nat statistics shows that the inside interface is FastEthernet0/0 but no interface has been designated as the outside interface, so ip nat outside must be configured on Serial0/0/0.
+
+Question: What type of address is 64.100.190.189?
+Option: public*
+Option: private
+Explanation: 64.100.190.189 is not within the private IPv4 address ranges, so it is a public address.
+
+Question: Which type of VPN routes packets through virtual tunnel interfaces for encryption and forwarding?
+Option: MPLS VPN
+Option: IPsec virtual tunnel interface*
+Option: dynamic multipoint VPN
+Option: GRE over IPsec
+Explanation: An IPsec virtual tunnel interface uses virtual interfaces to route packets for encryption and forwarding.
+
+Question: Match the scenario to the WAN solution: A company has a headquarters and four remote locations. The headquarters site will require more bandwidth than the four remote sites.
+Option: T1*
+Option: DSL
+Option: Frame Relay
+Option: Cable
+Option: MetroE
+Explanation: A T1 leased line provides dedicated bandwidth and is suitable for a headquarters with higher traffic requirements.
+
+Question: Match the scenario to the WAN solution: A company requires higher download speeds than upload speeds and wants to use existing phone lines.
+Option: DSL*
+Option: T1
+Option: Frame Relay
+Option: Cable
+Option: MetroE
+Explanation: DSL uses existing telephone lines and typically provides higher downstream than upstream speeds.
+
+Question: Match the scenario to the WAN solution: A company would like guaranteed bandwidth using a point-to-point link that requires minimal expertise to install and maintain.
+Option: Frame Relay*
+Option: T1
+Option: DSL
+Option: Cable
+Option: MetroE
+Explanation: Frame Relay provides a private WAN service with committed bandwidth and is relatively simple for a provider to install and maintain.
+
+Question: Match the scenario to the WAN solution: A teleworker would like to bundle the Internet connection with other phone and TV services.
+Option: Cable*
+Option: DSL
+Option: T1
+Option: Frame Relay
+Option: MetroE
+Explanation: Cable providers commonly bundle Internet, telephone, and television services for teleworkers.

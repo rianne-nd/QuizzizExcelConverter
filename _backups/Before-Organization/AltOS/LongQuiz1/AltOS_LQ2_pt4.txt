@@ -1,0 +1,44 @@
+Question: The head and tail commands allow you to view the first few or last few lines of a file (15 lines by default).
+Option: True
+Option: False*
+Explanation: By default, the head and tail commands display 10 lines of a file, not 15.
+
+Question: UNIX/Linux systems interpret a single dot character to mean the current working directory.
+Option: True*
+Option: False
+Explanation: In UNIX/Linux systems, a single dot (.) denotes the current working directory.
+
+Question: Write a command that will create a file with zero byte called file1.txt
+Option: touch file1.txt*
+Option: create file1.txt
+Option: make file1.txt
+Option: new file1.txt
+Explanation: Running touch file1.txt creates a new 0-byte file named file1.txt if it does not already exist.
+
+Question: Assuming you have the following files: "fruits" and "prutas", write a UNIX command that will compare the two files.
+Option: diff fruits prutas*
+Option: cmp fruits prutas
+Option: compare fruits prutas
+Option: diff fruits, prutas
+Explanation: The diff command compares the contents of fruits and prutas line by line.
+
+Question: How would you display the current calendar year where the current day is selected?
+Option: cal -y*
+Option: cal -m
+Option: cal year
+Option: show calendar
+Explanation: The cal -y command displays the calendar for the entire current year with today's date highlighted.
+
+Question: It indicates EOF end of file or exit.
+Option: CTRL+S
+Option: CTRL+D*
+Option: CTRL+C
+Option: CTRL+U
+Explanation: CTRL+D sends the EOF (End-of-File) marker to signal end of input or exit a terminal shell session.
+
+Question: How would you redirect the output of a command to a file and overwrite the current content of the file?
+Option: cat
+Option: >>
+Option: touch
+Option: >*
+Explanation: The > redirection operator outputs to a file, overwriting its existing contents.

@@ -1,0 +1,66 @@
+Question: In 'ls -l' output, what does the 3rd column represent?
+Option: Represents the owner of the file*
+Option: Represents the file type and permissions
+Option: Represents the group owner of the file
+Option: Represents the file size
+Explanation: The 3rd column of ls -l displays the username of the file owner.
+
+Question: In 'ls -l' output, which prefix character indicates a block special file?
+Option: b*
+Option: c
+Option: d
+Option: l
+Explanation: The prefix b in ls -l represents a block special device file.
+
+Question: In 'ls -l' output, which prefix character indicates a regular file?
+Option: -*
+Option: d
+Option: l
+Option: p
+Explanation: A hyphen prefix (-) in ls -l denotes a regular file.
+
+Question: In 'ls -l' output, which prefix character indicates a named pipe?
+Option: p*
+Option: s
+Option: b
+Option: c
+Explanation: The prefix p in ls -l denotes a named pipe (FIFO).
+
+Question: In 'ls -l' output, which prefix character indicates a directory?
+Option: d*
+Option: -
+Option: l
+Option: b
+Explanation: The prefix d in ls -l indicates a directory.
+
+Question: In 'ls -l' output, which prefix character indicates a socket used for interprocess communication?
+Option: s*
+Option: p
+Option: c
+Option: b
+Explanation: The prefix s in ls -l represents a socket file.
+
+Question: In 'ls -l' output, which prefix character indicates a character special file?
+Option: c*
+Option: b
+Option: p
+Option: s
+Explanation: The prefix c in ls -l represents a character special device file.
+
+Question: In 'ls -l' output, which prefix character indicates a symbolic link file?
+Option: l*
+Option: d
+Option: s
+Option: -
+Explanation: The prefix l in ls -l indicates a symbolic link file.
+
+Question: Write the code that will show who is logged on with the current date and time in Ubuntu.
+Type: Fill-in-the-Blank
+Answer: who -u
+Answer: who
+Explanation: The who command displays logged-in user sessions along with date and time information.
+
+Question: Write the code that will show the user currently logged on the session in Ubuntu
+Type: Fill-in-the-Blank
+Answer: whoami
+Explanation: whoami outputs the effective user name of the current session.

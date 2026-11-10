@@ -1,0 +1,74 @@
+Question: Unsolicited alert sent by an agent to the NMS when a interface fails
+Option: SNMP Trap*
+Option: set-request
+Option: Object ID (OID)
+Option: get-bulk-request
+Explanation: An SNMP Trap is an unsolicited alert sent by an agent to the NMS.
+
+Question: Request sent by the NMS to change a device variable or initiate a reboot.
+Option: SNMP Trap
+Option: set-request*
+Option: Object ID (OID)
+Option: get-bulk-request
+Explanation: A set-request is used by the NMS to change a device variable or initiate a reboot.
+
+Question: Unique numerical identifier used to locate a specific variable within the MIB tree.
+Option: SNMP Trap
+Option: set-request
+Option: Object ID (OID)*
+Option: get-bulk-request
+Explanation: An Object ID (OID) uniquely identifies a specific variable within the MIB tree.
+
+Question: Request used in SNMPv2c/v3 to retrieve large data blocks like routing tables efficiently.
+Option: SNMP Trap
+Option: set-request
+Option: Object ID (OID)
+Option: get-bulk-request*
+Explanation: A get-bulk-request is used to retrieve large data blocks like routing tables efficiently.
+
+Question: An IT firm is opening a new branch office located within a single building. Because the facility is small, having separate physical core and distribution layers is unnecessary and cost-prohibitive. Which topology combines the core and distribution functions into a single tier?
+Option: Collapsed Core Design*
+Option: Multi-Area OSPF Design
+Option: Virtual Stacking Design
+Option: Extended-Star Access Design
+Explanation: A collapsed core design combines the core and distribution functions into a single tier.
+
+Question: A network team decides to use an IPsec Virtual Tunnel Interface (VTI) VPN solution to simplify the routing and forwarding of encrypted traffic between sites, especially to allow for dynamic routing protocols to run over the secure link. Which two descriptions correctly identify an IPsec VTI VPN? (Choose two.)
+Option: allows multicast and broadcast traffic over a secure site-to-site VPN*
+Option: involves a nonsecure tunneling protocol being encapsulated by IPsec
+Option: routes packets through virtual tunnel interfaces for encryption and forwarding*
+Option: uses the public key infrastructure and digital certificates
+Option: has both Layer 2 and Layer 3 implementations
+Explanation: An IPsec VTI VPN allows multicast and broadcast traffic over a secure site-to-site VPN and routes packets through virtual tunnel interfaces for encryption and forwarding.
+
+Question: A student is reviewing different VPN technologies and comes across MPLS VPNs. They need to identify the correct distinguishing characteristic of this service provider technology. Which description correctly identifies an MPLS VPN?
+Option: allows multicast and broadcast traffic over a secure site-to-site VPN
+Option: involves a nonsecure tunneling protocol being encapsulated by IPsec
+Option: has both Layer 2 and Layer 3 implementations*
+Option: uses the public key infrastructure and digital certificates
+Option: routes packets through virtual tunnel interfaces for encryption and forwarding
+Explanation: A distinguishing characteristic of MPLS VPNs is that it has both Layer 2 and Layer 3 implementations.
+
+Question: Highly scalable model classifying traffic into aggregates and enforcing policies on a hop-by-hop basis
+Option: Differentiated Services (DiffServ)*
+Option: Differentiated Services Code Point (DSCP)
+Option: Best-Effort Model
+Option: Integrated Services (IntServ)
+Option: Resource Reservation Protocol (RSVP)
+Explanation: DiffServ is a highly scalable model classifying traffic into aggregates and enforcing policies on a hop-by-hop basis.
+
+Question: 6-bit field in IPv4 ToS or IPv6 Traffic Class headers providing up to 64 service classes
+Option: Differentiated Services (DiffServ)
+Option: Differentiated Services Code Point (DSCP)*
+Option: Best-Effort Model
+Option: Integrated Services (IntServ)
+Option: Resource Reservation Protocol (RSVP)
+Explanation: DSCP is a 6-bit field in IPv4 ToS or IPv6 Traffic Class headers providing up to 64 service classes.
+
+Question: Standard model providing no explicit QoS configuration or packet delivery guarantees
+Option: Differentiated Services (DiffServ)
+Option: Differentiated Services Code Point (DSCP)
+Option: Best-Effort Model*
+Option: Integrated Services (IntServ)
+Option: Resource Reservation Protocol (RSVP)
+Explanation: The Best-Effort model provides no explicit QoS configuration or packet delivery guarantees.

@@ -1,0 +1,284 @@
+Question: The ® (REGISTERED) or TM (UNREGISTERED) mark protects the brand image - not the color or color combination.
+Option: True*
+Option: False
+Explanation: The registered or unregistered trademark mark protects the brand image, not the color or color combination.
+
+Question: A security analyst uncovers a system flaw and politely informs the company, but when they ignore the report, the analyst publicly leaks the flaw to force a fix. How is this analyst classified?
+Option: White hat hacker
+Option: Black hat hacker
+Option: Gray hat hacker*
+Option: Hacktivist
+Explanation: Gray hat hackers disclose vulnerabilities without authorization, often to force companies to fix flaws.
+
+Question: Which type of testing evaluates code without actually executing it, such as through document reviews or walkthroughs?
+Option: Dynamic testing
+Option: Static testing*
+Option: Unit testing
+Option: Integration testing
+Explanation: Static testing evaluates code without executing it, through document reviews or walkthroughs.
+
+Question: You are working at your desk and need to make a quick trip to the copier. Is there anything you need to do to your computer before you leave your desk?
+Option: Yes, secure or lock my computer*
+Option: No, it is fine to leave it unlocked
+Option: Yes, turn it off completely
+Option: Yes, log out of all applications
+Explanation: Always secure or lock your computer when leaving your desk to prevent unauthorized access.
+
+Question: Intellectual property (IP) refers to any creation or product of the human mind or intellect.
+Option: True*
+Option: False
+Explanation: IP refers to any creation or product of the human mind or intellect.
+
+Question: Trademark lasts ten years but can be renewed indefinitely.
+Option: True*
+Option: False
+Explanation: A trademark lasts ten years but can be renewed indefinitely.
+
+Question: The culprit is not claiming the work as his. But he is able to make money out of it by doing the acts which only the copyright holder can legally do.
+Option: Plagiarism
+Option: Copyright infringement*
+Option: Vicarious infringement
+Option: Contributory infringement
+Explanation: Copyright infringement occurs when someone does acts only the copyright holder can legally do, without claiming the work as their own.
+
+Question: The culprit claimed the work as his. If the culprit reproduced the copyrighted work which he plagiarized, he is now guilty of both plagiarism and copyright infringement.
+Option: Plagiarism*
+Option: Copyright infringement
+Option: Both plagiarism and copyright infringement
+Option: Neither
+Explanation: The act of claiming the work as one's own is plagiarism.
+
+Question: It involves an infringement that occurs in an area under your supervision, and when you should have been policing and preventing such acts.
+Option: Vicarious infringement*
+Option: Contributory infringement
+Option: Direct infringement
+Option: Indirect infringement
+Explanation: Vicarious infringement involves an infringement in an area under your supervision where you should have been policing and preventing such acts.
+
+Question: It occurs when an infringement committed by another person would not have happened without your help.
+Option: Vicarious infringement
+Option: Contributory infringement*
+Option: Direct infringement
+Option: Indirect infringement
+Explanation: Contributory infringement occurs when an infringement by another person would not have happened without your help.
+
+Question: A collection of technologies that work together to ensure that copyrighted content can be only viewed by the person who purchased it.
+Option: Digital Rights Management (DRM)*
+Option: Copyright
+Option: Patent
+Option: Trademark
+Explanation: DRM is a collection of technologies that ensure copyrighted content can only be viewed by the purchaser.
+
+Question: Each of the following is a form of intellectual property EXCEPT:
+Option: A novel
+Option: A logo
+Option: A recipe for apple pie passed down through generations*
+Option: A new invention
+Explanation: A family recipe passed down through generations is not a form of intellectual property.
+
+Question: If you want to protect your trademark but don't want to register, you may use the unregistered trademark symbol. Using the unregistered trademark symbol indicates you haven't registered the mark but are giving notice of your rights.
+Option: True*
+Option: False
+Explanation: The unregistered trademark symbol gives notice of rights without registration.
+
+Question: Copyright differs from patents in that patents protect product ideas, processes, or systems, whereas copyright only covers ways of expressing ideas, not the idea itself.
+Option: True*
+Option: False
+Explanation: Copyright covers expressions of ideas, not the ideas themselves, while patents protect ideas, processes, or systems.
+
+Question: Which malware type is specifically defined as a piece of software that masquerades as an innocent or useful program?
+Option: Virus
+Option: Worm
+Option: Trojan horse*
+Option: Ransomware
+Explanation: A Trojan horse masquerades as an innocent or useful program.
+
+Question: Ethical Hacking is a computer and networking expert who systematically attempts to penetrate a computer system or network on behalf of its owners for the purpose of finding security vulnerabilities that a malicious hacker could potentially exploit.
+Option: True*
+Option: False
+Explanation: Ethical hacking involves testing systems on behalf of owners to find vulnerabilities.
+
+Question: According to IEEE standards referenced in the presentation, what is the key distinction between a software "error" and a software "defect"?
+Option: An error is a mistake in code, while a defect is a flaw in design.
+Option: An error is identified during development, whereas a defect is found after release to end-users.*
+Option: An error is caused by the programmer, while a defect is caused by the user.
+Option: An error is minor, while a defect is major.
+Explanation: An error is found during development, while a defect is found after release.
+
+Question: The Patent Act entitles a person to get a patent for an invention if that invention is novel, nonobvious, and a proper subject for protection.
+Option: True*
+Option: False
+Explanation: The Patent Act requires an invention to be novel, nonobvious, and a proper subject for protection.
+
+Question: It is important for businesses to recognize what intellectual property is, and how to protect it, for all the following reasons EXCEPT:
+Option: To maintain competitive advantage
+Option: To prevent unauthorized use
+Option: Because of its tangible nature, intellectual property is an attractive target for theft and resale*
+Option: To comply with legal regulations
+Explanation: Intellectual property is intangible, not tangible.
+
+Question: "Eto ako basang basa sa ulan, walang masisilungan, walang malalapitan", is an example of lyrical trademark.
+Option: True*
+Option: False
+Explanation: Lyrical trademark can include song lyrics or phrases.
+
+Question: What type of malware encrypts a target's sensitive files and demands payment in exchange for the decryption key?
+Option: Virus
+Option: Worm
+Option: Trojan horse
+Option: Ransomware*
+Explanation: Ransomware encrypts files and demands payment for the decryption key.
+
+Question: During the life of the patent, the details of the invention are kept secret to prevent copycat inventions.
+Option: True
+Option: False*
+Explanation: Patent details are made public to prevent copycat inventions.
+
+Question: Insecurity involves carelessness in protecting stored information from being leaked or improperly accessed.
+Option: True*
+Option: False
+Explanation: Insecurity is carelessness in protecting stored information.
+
+Question: A hospital IT department is upgrading radiation equipment software. To cut costs, management proposes removing older mechanical limit switches and relying entirely on new, highly tested software to prevent radiation overexposure. Based on lessons learned from safety-critical system failures, how should a lead systems safety engineer evaluate this proposal?
+Option: Accept the proposal because software is more reliable.
+Option: Reject the proposal because safety-critical systems require independent hardware safeguards.*
+Option: Accept the proposal if the software is tested thoroughly.
+Option: Reject the proposal because it is too expensive.
+Explanation: Safety-critical systems require independent hardware safeguards.
+
+Question: The fair use of a copyrighted work for purposes such as criticism, comment, news reporting, teaching, scholarship, or research, is not an infringement of copyright.
+Option: True*
+Option: False
+Explanation: Fair use for purposes like criticism, teaching, and research is not copyright infringement.
+
+Question: A quality problem found before the software is released to end users.
+Option: Error*
+Option: Defect
+Option: Bug
+Option: Failure
+Explanation: An error is a quality problem found before release.
+
+Question: RA 10173 is the Intellectual Property Code of the Philippines.
+Option: True
+Option: False*
+Explanation: RA 10173 is the Data Privacy Act of 2012, not the Intellectual Property Code.
+
+Question: Under RA10173, people whose personal information is collected, stored, and processed, are known as data subjects.
+Option: True*
+Option: False
+Explanation: Under RA 10173, individuals whose personal information is collected are data subjects.
+
+Question: University of Santo Tomas Hospital has privacy and security policies because they:
+Option: To comply with laws
+Option: To protect patient data
+Option: To maintain trust
+Option: All of the above*
+Explanation: Privacy and security policies serve multiple purposes including compliance, data protection, and trust.
+
+Question: IP can be an invention, an original design, a practical application of a good idea, a mark of ownership such as trademark, literary and artistic works, among other things.
+Option: True*
+Option: False
+Explanation: IP encompasses inventions, designs, trademarks, and artistic works.
+
+Question: The recipe of Jollibee's chicken joy is an example of trademark.
+Option: True
+Option: False*
+Explanation: A recipe is not a trademark; it may be a trade secret.
+
+Question: The third stage of taxonomy of privacy problems according to Solove is Information Processing.
+Option: True
+Option: False*
+Explanation: Information Processing is the second stage; Information Dissemination is the third.
+
+Question: All of the following are protected by trademarks EXCEPT:
+Option: A brand name
+Option: A logo
+Option: A video of a play created and performed by a college drama class*
+Option: A slogan
+Explanation: A video of a play is protected by copyright, not trademark.
+
+Question: When you are having a quiet nap in your backyard and your neighbor's dog comes in uninvited and jumps all over you to wake you up is an example of:
+Option: Intrusion*
+Option: Disclosure
+Option: Exposure
+Option: Appropriation
+Explanation: Intrusion involves disturbing someone's peace or making them uncomfortable.
+
+Question: Pearly writes the lyrics to an original musical "Imee went to town", and has her long-time collaborator, Willy who composed the music. Two years later, Pearly meets a very promising young composer Malou and asked her to compose two more songs for "Imee went to Town" the musical. Under the copyright act of 1976, which of the following is TRUE?
+Option: Pearly owns the copyright alone.
+Option: Pearly and Willy own the copyright.
+Option: Pearly, Willy and Malou own the copyright.*
+Option: Malou owns the copyright for the new songs only.
+Explanation: Under the copyright act, all contributors to the musical own the copyright.
+
+Question: What does the term "Digital Divide" refer to in a social context?
+Option: The gap between digital and analog technology.
+Option: The economic and social inequality between those who have access to information technology and those who do not.*
+Option: The difference in internet speeds between countries.
+Option: The divide between hardware and software.
+Explanation: Digital Divide refers to economic and social inequality in access to information technology.
+
+Question: A system failure may or may not result in an error being displayed on the screen.
+Option: True*
+Option: False
+Explanation: A system failure may or may not display an error on screen.
+
+Question: What are the modalities for acquiring ownership? Select 5 (five).
+Option: Succession*
+Option: Occupation*
+Option: Prescription*
+Option: Donation*
+Option: Law*
+Explanation: Ownership is acquired by occupation, law, donation, prescription, and succession.
+
+Question: Scandalous matter, such as profane language used by very creative stand-up comedians can be protected by trademark.
+Option: True
+Option: False*
+Explanation: Scandalous matter cannot be protected by trademark.
+
+Question: Intellectual property is a legal concept that provides legal protection to infringement of the knowledge assets of an owner.
+Option: True*
+Option: False
+Explanation: IP is a legal concept protecting knowledge assets.
+
+Question: Under U.S. law, the default length of a copyright is the lifetime of the author plus 50 years after the author's death.
+Option: True
+Option: False*
+Explanation: Under U.S. law, copyright lasts the author's lifetime plus 70 years.
+
+Question: What are the causes of Therac-25's malfunctioning accident? Select three (3).
+Option: Poor Software Reuse*
+Option: Unrealistic Risk Assessments*
+Option: Overconfidence in Software*
+Option: Inadequate Hardware
+Option: Lack of Training
+Explanation: Therac-25's accident was caused by poor software reuse, unrealistic risk assessments, and overconfidence in software.
+
+Question: Copyright Infringement is any new and useful process, machine, [article of] manufacture, or composition of matter, or any new and useful improvement thereof.
+Option: True
+Option: False*
+Explanation: That definition describes a patent, not copyright infringement.
+
+Question: Which of the following is an example of a Privacy Policy?
+Option: A statement about data collection.
+Option: "When you use our services, you're trusting us with your information. We understand this is a big responsibility and work hard to protect your information and put you in control."*
+Option: A legal disclaimer.
+Option: A cookie notice.
+Explanation: A privacy policy explains how user information is protected and controlled.
+
+Question: Trademarks are territorial rights: their registration and enforcement is governed by national laws, and the rights conveyed can vary country-by-country.
+Option: True*
+Option: False
+Explanation: Trademarks are territorial and governed by national laws.
+
+Question: It is safe to use the same password for multiple user accounts, as long as it contains a few different letters, numbers, or symbols.
+Option: True
+Option: False*
+Explanation: Using the same password across accounts is unsafe.
+
+Question: It consists of various forms of questioning or probing for information and can be too prying and coercive in some circumstances.
+Option: Surveillance
+Option: Interrogation*
+Option: Aggregation
+Option: Identification
+Explanation: Interrogation involves prying or coercive questioning for information.

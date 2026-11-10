@@ -1,0 +1,209 @@
+{
+  "title": "AltOS_FinalsLT1",
+  "description": "AltOS Finals LT1",
+  "questions": [
+    {
+      "question": "A file permission that can be displayed or copied.",
+      "type": "quiz",
+      "answers": ["Write", "Read", "No Permission", "Execute"],
+      "correct": 1,
+      "time_limit": 60
+    },
+    {
+      "question": "What will be the effect of chmod 701 when applied to file PASS.txt?",
+      "type": "quiz",
+      "answers": ["r---w-r-x", "rw--wxr-x", "rwx-w-r-x", "rwx---x"],
+      "correct": 3,
+      "time_limit": 60
+    },
+    {
+      "question": "How do you get all files with on the 3rd place an r, g or i?",
+      "type": "quiz",
+      "answers": ["ls '[rgi]*'", "ls '?3[rgi]*'", "ls ??[rgi]*", "ls [..i\\*]"],
+      "correct": 2,
+      "time_limit": 60
+    },
+    {
+      "question": "Which of the following file contains the encrypted password of the users?",
+      "type": "quiz",
+      "answers": ["/etc/ghshadow", "/etc/passwd", "/etc/user.conf", "/etc/shadow"],
+      "correct": 3,
+      "time_limit": 60
+    },
+    {
+      "question": "How can we find the process name from its process id?",
+      "type": "quiz",
+      "answers": ["ps -p ProcessId", "ps p- ProcessId", "pidof ProcessId", "ps p ProcessId"],
+      "correct": 0,
+      "time_limit": 60
+    },
+    {
+      "question": "What will be displayed after executing ls ??c? Given the following list of files: ... .zz abc abcd abcdef abcz bbabby zzayy",
+      "type": "quiz",
+      "answers": ["abcz", "abcd abcz", "abc", "abcd"],
+      "correct": 1,
+      "time_limit": 60
+    },
+    {
+      "question": "What will be displayed after executing ls abc? (the ? is part of the command) Given the following list of files: ...zz abc abcd abcdef abcz bbabby zzayy",
+      "type": "quiz",
+      "answers": ["abcz", "abcd", "abcd abcz", "abc"],
+      "correct": 2,
+      "time_limit": 60
+    },
+    {
+      "question": "What will be the effect of chmod 261 when applied to file FAILED.txt?",
+      "type": "quiz",
+      "answers": ["-w-r---x", "r---wxr-x", "-w-rw---x", "r---rwx---x"],
+      "correct": 2,
+      "time_limit": 60
+    },
+    {
+      "question": "What will be displayed after executing ls ??? Given the following list of files: ... .zz abc abcd abcdef abcz bbabby cyz zzayy",
+      "type": "quiz",
+      "answers": ["abc cyz", "cyz", "abcd abcz", "abc"],
+      "correct": 0,
+      "time_limit": 60
+    },
+    {
+      "question": "Which of the following octal mode permission will satisfy the given permission r--rwx--x?",
+      "type": "quiz",
+      "answers": ["274", "174", "471", "472"],
+      "correct": 2,
+      "time_limit": 60
+    },
+    {
+      "question": "A linux administrator created a file called SUM and he executed the command chmod a+r SUM. What will happen to the permission of the file?",
+      "type": "quiz",
+      "answers": ["users and others will have a read permission", "it will remove read permission from others", "all will have read permission", "read permission will be added only to user a"],
+      "correct": 2,
+      "time_limit": 60
+    },
+    {
+      "question": "True or False: Unix identifies every process by a Process Identification Number (PID) which is assigned when the process is initiated. When we want to perform an operation on a process, we refer to it by its PID or ProcessId.",
+      "type": "quiz",
+      "answers": ["True", "False"],
+      "correct": 0,
+      "time_limit": 60
+    },
+    {
+      "question": "Injae want to view all the assigned alias in her Ubuntu terminal. Which command she need to execute to do this?",
+      "type": "quiz",
+      "answers": ["alias more", "alias", "alias all", "view alias"],
+      "correct": 1,
+      "time_limit": 60
+    },
+    {
+      "question": "It refers to an interactive program that serves as a command line interpreter?",
+      "type": "quiz",
+      "answers": ["shell", "vi", "vim", "qedit"],
+      "correct": 0,
+      "time_limit": 60
+    },
+    {
+      "question": "It is used to replace a command with its output within the same command line.",
+      "type": "quiz",
+      "answers": ["Command Substitution", "Tilde Substitution", "Variable Substitution", "Alias Substitution"],
+      "correct": 0,
+      "time_limit": 60
+    },
+    {
+      "question": "Which command can be used to find a word from a text file?",
+      "type": "quiz",
+      "answers": ["cut", "sort", "grep", "find"],
+      "correct": 2,
+      "time_limit": 60
+    },
+    {
+      "question": "Which of the following command must be used in order to verify if you have the installed and updated version of vim editor?",
+      "type": "quiz",
+      "answers": ["$sudo apt update vim", "$sudo apt install vim", "$sudo apt vim", "$install vim"],
+      "correct": 1,
+      "time_limit": 60
+    },
+    {
+      "question": "It is convenient when you want to access a file that has a long file name.",
+      "type": "quiz",
+      "answers": ["Alias", "Filename Completion", "Command History", "Recalling Command"],
+      "correct": 1,
+      "time_limit": 60
+    },
+    {
+      "question": "Which of the following command that will list only the file \"error.txt\"?",
+      "type": "quiz",
+      "answers": ["ls error.??", "ls error.txt", "ls *err*.txt", "ls e*.txt"],
+      "correct": 1,
+      "time_limit": 60
+    },
+    {
+      "question": "A file permission that contents can be modified.",
+      "type": "quiz",
+      "answers": ["Execute", "No Permission", "Read", "Write"],
+      "correct": 3,
+      "time_limit": 60
+    },
+    {
+      "question": "Which of the following command must be used to create a new user in Ubuntu named as Dalm!?",
+      "type": "quiz",
+      "answers": ["$ sudo adduser Dalm!", "$ sudo add Dalm!", "$ sudo newuser Dalm!", "$ sudo createuser Dalm!"],
+      "correct": 0,
+      "time_limit": 60
+    },
+    {
+      "question": "JP type in vim STARTUP and it open the VIM editor, how can he change the mode to insert mode?",
+      "type": "quiz",
+      "answers": ["He can type mode insert", "He can just press ESC key", "He can just press ESC key twice", "He can type or press :i or press shift i"],
+      "correct": 3,
+      "time_limit": 60
+    },
+    {
+      "question": "What will be the effect of chmod 421 when applied to file FAILED.txt?",
+      "type": "quiz",
+      "answers": ["r---w---x", "rwx-w-r-x", "rw-wxr-x", "r-rwx-x"],
+      "correct": 0,
+      "time_limit": 60
+    },
+    {
+      "question": "A file permission that contents can be executed.",
+      "type": "quiz",
+      "answers": ["Read", "Execute", "No Permission", "Write"],
+      "correct": 1,
+      "time_limit": 60
+    },
+    {
+      "question": "Dosan want to exit from VIM editor without saving the changes. What must be the correct way to do it?",
+      "type": "quiz",
+      "answers": ["Press ESC key, then :x then enter", "Press ESC key, then :q! then enter", "Just close the editor by pressing x or close button", "Just type :wq! then enter"],
+      "correct": 1,
+      "time_limit": 60
+    },
+    {
+      "question": "How can you set the default rwx permission to all users on every file which is created in the current shell?",
+      "type": "quiz",
+      "answers": ["umask 666", "umask 777", "umask 000", "umask 555"],
+      "correct": 2,
+      "time_limit": 60
+    },
+    {
+      "question": "Which of the following will display files or directory with at least 3 characters?",
+      "type": "quiz",
+      "answers": ["ls [a-z][1-9]?", "ls *ab", "ls [A-Z][a-z]??", "ls ???*"],
+      "correct": 3,
+      "time_limit": 60
+    },
+    {
+      "question": "What will be displayed after executing ls *.dat Given the following list of files: ... .profile ab.dat abcd.dat abcde abcde.data",
+      "type": "quiz",
+      "answers": ["ab.dat abcd.dat", "ab abcd abcde", "ab.dat abcd.dat abcde.data", "ab abcd"],
+      "correct": 0,
+      "time_limit": 60
+    },
+    {
+      "question": "A command language interpreter that incorporates a command history buffer?",
+      "type": "quiz",
+      "answers": ["C shell", "Posix shell", "Bourne shell", "Korn shell"],
+      "correct": 0,
+      "time_limit": 60
+    }
+  ]
+}
