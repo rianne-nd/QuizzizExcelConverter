@@ -696,9 +696,10 @@ function Invoke-SplitFile {
     )
 
     $result = [pscustomobject]@{
-        Success = $false
-        Folder  = $File.DirectoryName
-        Count   = 0
+        Success      = $false
+        Folder       = $File.DirectoryName
+        Count        = 0
+        CreatedFiles = New-Object System.Collections.Generic.List[string]
     }
 
     try {
@@ -747,6 +748,7 @@ function Invoke-SplitFile {
         $outText    = (($piece -join "`n`n") + "`n")
 
         Write-Utf8Text -FilePath $outPath -Text $outText
+        $result.CreatedFiles.Add($outPath) | Out-Null
 
         $end = $start + $piece.Count - 1
         Write-Host "    -> Created: $outName ($($piece.Count) questions, #$start-#$end)" -ForegroundColor Green
@@ -775,7 +777,15 @@ function Invoke-Split {
 
         if ($files.Count -eq 0) {
             Write-Host '  No .txt files found in that folder.' -ForegroundColor Yellow
-            return [pscustomobject]@{ Success = $false; Folder = $item.FullName; Folders = @(); SplitCount = 0 }
+            return [pscustomobject]@{
+                Success      = $false
+                Folder       = $item.FullName
+                Folders      = @()
+                SourceFiles  = @()
+                CreatedFiles = @()
+                Files        = @()
+                SplitCount   = 0
+            }
         }
         Write-Host "  Found $($files.Count) file(s) to check."
     }
@@ -783,9 +793,11 @@ function Invoke-Split {
         $files = @($item)
     }
 
-    $anySplit   = $false
-    $totalParts = 0
-    $folders    = New-Object System.Collections.Generic.List[string]
+    $anySplit     = $false
+    $totalParts   = 0
+    $folders      = New-Object System.Collections.Generic.List[string]
+    $sourceFiles  = New-Object System.Collections.Generic.List[string]
+    $createdFiles = New-Object System.Collections.Generic.List[string]
 
     foreach ($file in $files) {
         $workingFile = $file
@@ -813,6 +825,15 @@ function Invoke-Split {
             $totalParts += $r.Count
         }
 
+        if (-not $sourceFiles.Contains($workingFile.FullName)) {
+            $sourceFiles.Add($workingFile.FullName) | Out-Null
+        }
+        foreach ($part in @($r.CreatedFiles)) {
+            if (-not $createdFiles.Contains($part)) {
+                $createdFiles.Add($part) | Out-Null
+            }
+        }
+
         if (-not $folders.Contains($workingFile.DirectoryName)) {
             $folders.Add($workingFile.DirectoryName) | Out-Null
         }
@@ -822,11 +843,18 @@ function Invoke-Split {
               elseif ($item.PSIsContainer) { $item.FullName }
               else { $item.DirectoryName }
 
+    # Source + parts is exactly the set the post-split conversion should touch,
+    # so unrelated quizzes in the same folder are not reconverted.
+    $allFiles = @($sourceFiles) + @($createdFiles)
+
     return [pscustomobject]@{
-        Success    = $anySplit
-        Folder     = $folder
-        Folders    = @($folders)
-        SplitCount = $totalParts
+        Success      = $anySplit
+        Folder       = $folder
+        Folders      = @($folders)
+        SourceFiles  = @($sourceFiles)
+        CreatedFiles = @($createdFiles)
+        Files        = @($allFiles)
+        SplitCount   = $totalParts
     }
 }
 
@@ -980,11 +1008,38 @@ function Get-ConversionOutputFolder {
 function Invoke-Conversion {
     param(
         [string]$Target,
+        [string[]]$Files,
         [switch]$RecurseSubfolders
     )
 
     if (-not (Test-Path -LiteralPath $Converter)) {
         throw "Could not find the converter at: $Converter"
+    }
+
+    # Convert an explicit list of files (used after a split) instead of the
+    # whole folder. Group by folder so each subject still gets its own
+    # _QuizizzOutput and report.
+    if ($null -ne $Files -and $Files.Count -gt 0) {
+        Write-Host ''
+        Write-Host '  Converting to Quizizz Excel files...' -ForegroundColor Cyan
+        Write-Host ''
+
+        $created = New-Object System.Collections.Generic.List[string]
+
+        foreach ($group in @($Files | Group-Object { Split-Path -Parent $_ })) {
+            $outputFolder = Join-Path $group.Name '_QuizizzOutput'
+            $before = Get-ExcelFileSnapshot -Folder $outputFolder
+
+            & $Converter -InputFiles @($group.Group) | Out-Null
+
+            foreach ($outFile in @(Get-NewExcelFiles -Folder $outputFolder -Before $before)) {
+                if (-not $created.Contains($outFile)) {
+                    $created.Add($outFile) | Out-Null
+                }
+            }
+        }
+
+        return @($created)
     }
 
     $item = Get-Item -LiteralPath $Target
@@ -1655,16 +1710,16 @@ function Start-Menu {
 
                     if ($split.Success) {
                         Write-Host ''
-                        if (Read-YesNo -Prompt 'Convert every .txt in that folder to Excel now? (includes the original)' -Default $false) {
-                            $createdFiles = New-Object System.Collections.Generic.List[string]
+                        $partCount = @($split.CreatedFiles).Count
+                        $prompt = "Convert only this split quiz to Excel now? (original + $partCount part(s))"
+                        if (Read-YesNo -Prompt $prompt -Default $false) {
+                            $createdFiles = @(Invoke-Conversion -Files @($split.Files))
                             $outFolders   = New-Object System.Collections.Generic.List[string]
 
-                            foreach ($splitFolder in @($split.Folders)) {
-                                foreach ($outFile in @(Invoke-Conversion -Target $splitFolder)) {
-                                    $createdFiles.Add($outFile) | Out-Null
-                                }
-
-                                $outFolder = Get-ConversionOutputFolder -Target $splitFolder
+                            # Unrelated .txt files in the folder are deliberately
+                            # left alone; only the original + new parts convert.
+                            foreach ($outFile in $createdFiles) {
+                                $outFolder = Split-Path -Parent $outFile
                                 if (-not $outFolders.Contains($outFolder)) {
                                     $outFolders.Add($outFolder) | Out-Null
                                 }
@@ -1679,7 +1734,7 @@ function Start-Menu {
                                     }
                                 }
                             }
-                            Invoke-SmartUpload -Files @($createdFiles)
+                            Invoke-SmartUpload -Files $createdFiles
                         }
                     }
                     else {

@@ -77,6 +77,12 @@
 .PARAMETER InputPath
     Convert a single .txt file instead of a whole folder.
 
+.PARAMETER InputFiles
+    Convert exactly these .txt files in one run (one shared report). Used by
+    the toolkit after a split so unrelated quizzes in the folder are left
+    alone. All files should live in the same folder; if they do not, the
+    output folder defaults to the first file's folder.
+
 .PARAMETER OutputFolder
     Where the .xlsx files are written.
     Defaults to "<input folder>\_QuizizzOutput".
@@ -117,6 +123,9 @@ param(
 
     [Parameter(ParameterSetName = 'File', Mandatory = $true)]
     [string]$InputPath,
+
+    [Parameter(ParameterSetName = 'Files', Mandatory = $true)]
+    [string[]]$InputFiles,
 
     [string]$OutputFolder,
 
@@ -614,15 +623,17 @@ function Write-QuizizzXlsx {
 #  Main
 # ---------------------------------------------------------------------------
 
-$resolvedInput = if ($PSCmdlet.ParameterSetName -eq 'File') {
-    (Resolve-Path -LiteralPath $InputPath).Path
-}
-else {
-    (Resolve-Path -LiteralPath $InputFolder).Path
-}
+$inputPaths = @(switch ($PSCmdlet.ParameterSetName) {
+    'Files' { @($InputFiles | ForEach-Object { (Resolve-Path -LiteralPath $_).Path }) }
+    'File'  { @((Resolve-Path -LiteralPath $InputPath).Path) }
+    default { @((Resolve-Path -LiteralPath $InputFolder).Path) }
+})
 
-$isSingleFile = (Get-Item -LiteralPath $resolvedInput).PSIsContainer -eq $false
-$baseFolder   = if ($isSingleFile) { Split-Path -Parent $resolvedInput } else { $resolvedInput }
+$isSingleFile = ($PSCmdlet.ParameterSetName -eq 'File')
+$baseFolder   = if ($isSingleFile) { Split-Path -Parent $inputPaths[0] }
+                elseif ($PSCmdlet.ParameterSetName -eq 'Files') { Split-Path -Parent $inputPaths[0] }
+                else { $inputPaths[0] }
+$resolvedInput = if ($PSCmdlet.ParameterSetName -eq 'Files') { $baseFolder } else { $inputPaths[0] }
 
 if (-not $OutputFolder) { $OutputFolder = Join-Path $baseFolder '_QuizizzOutput' }
 $OutputFolder = [System.IO.Path]::GetFullPath($OutputFolder)
@@ -632,7 +643,15 @@ if (-not (Test-Path -LiteralPath $OutputFolder)) {
 
 # Collect input files
 $files = @()
-if ($isSingleFile) {
+if ($PSCmdlet.ParameterSetName -eq 'Files') {
+    $files = @($inputPaths | ForEach-Object { Get-Item -LiteralPath $_ } |
+               Where-Object {
+                   $_.Name -notlike '~$*' -and
+                   $_.Name -notin @('README.txt', 'Prompt.txt', 'GenerateQuizPrompt.txt') -and
+                   $_.FullName -notmatch '\\_QuizizzOutput\\'
+               })
+}
+elseif ($isSingleFile) {
     $files = @(Get-Item -LiteralPath $resolvedInput)
 }
 else {

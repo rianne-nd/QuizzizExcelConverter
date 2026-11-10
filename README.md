@@ -112,6 +112,10 @@ toolkit files it into its subject folder first, so the original and every
 `_ptN` part are created in `Quizzes\<Subject>\`, and the Excel output goes to
 that subject's `_QuizizzOutput`.
 
+After a split, the "convert now?" offer covers only that quiz — the original
+plus the parts that were just created. Other `.txt` files in the same folder
+are not reconverted.
+
 **Auto-sort rules.** The prefix before the first `_` is matched case-insensitively
 against the folders under `Quizzes\`. A new prefix creates a new subject folder, except
 for module/checkpoint-style names (`Mod14`, `Checkpoint...`), which go to

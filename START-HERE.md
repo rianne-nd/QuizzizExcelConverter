@@ -314,7 +314,8 @@ shorter quizzes:
    leftover is 15 or fewer, keep it together in one final file instead of
    making a tiny one.
 5. Answer `y` at the end if you want it to convert the parts to Excel straight
-   away. (It converts every `.txt` in that folder, including the original.)
+   away. It converts **only that quiz** — the original plus the new parts —
+   so other `.txt` files in the folder are left alone.
 
 It writes `YourQuiz_pt1.txt`, `_pt2.txt` and so on next to the original.
 

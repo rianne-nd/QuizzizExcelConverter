@@ -151,6 +151,7 @@ Script-scope state (set once, used by functions):
 ```
 Convert-Quizzes.ps1 [-InputFolder <path>]           # default: <main>\Quizzes\DataComs
 Convert-Quizzes.ps1 -InputPath <file>               # single file
+Convert-Quizzes.ps1 -InputFiles <file[]>            # explicit list, one shared report
   [-OutputFolder <path>]                            # default: <input>\..\_QuizizzOutput
   [-Recurse]                                        # include subfolders (folder mode)
   [-NamePrefix <string>]                            # default "Quizizz_"
@@ -159,6 +160,10 @@ Convert-Quizzes.ps1 -InputPath <file>               # single file
   [-FlagDuplicates]                                 # list repeated question texts in the report
   [-StrictLines]                                    # drop unprefixed lines instead of joining them
 ```
+
+`-InputFolder`, `-InputPath`, and `-InputFiles` are mutually exclusive parameter
+sets. The last one exists so the toolkit can convert only the original + parts
+from a split without touching other quizzes in the folder.
 
 The default `InputFolder` is resolved **after** parameter binding, because
 `$PSScriptRoot` is not available inside an advanced-function parameter default.
@@ -269,6 +274,11 @@ Get-Chunks                   Size=N, TailThreshold=T
 The move-only sort is why a quiz dropped in the general folder is split inside
 its subject folder: the original and all parts stay together, and the optional
 post-split conversion writes to that subject's `_QuizizzOutput`.
+
+The post-split "convert now?" offer passes the source file plus the newly
+created parts to `Invoke-Conversion -Files`, which calls
+`Convert-Quizzes.ps1 -InputFiles`. Unrelated `.txt` files in the same folder
+are not reconverted.
 
 ### 4.4 Combine
 
@@ -463,8 +473,8 @@ are active, so prefer `-LiteralPath` and explicit null checks.
 | `Split-QuizText -Text` | Splits on `Question:` lines; returns `Questions` + `Preamble`. |
 | `Split-Into-Blocks -Text` | Fallback: blank-line separated blocks. |
 | `Get-Chunks -Items -Size -TailThreshold` | Chunking with a tail threshold. |
-| `Invoke-SplitFile -File -Size -TailThreshold` | One file -> `_ptN.txt` files; returns `{Success, Folder, Count}`. |
-| `Invoke-Split -Target -Size -TailThreshold` | File or folder -> runs `Invoke-SplitFile` over it. A file in the general `Quizzes\` folder is first filed into its subject folder with `Invoke-AutoSort -SkipConversion`. Returns `{Success, Folder, Folders, SplitCount}`; `Folders` lists every folder the parts now live in. |
+| `Invoke-SplitFile -File -Size -TailThreshold` | One file -> `_ptN.txt` files; returns `{Success, Folder, Count, CreatedFiles}`. |
+| `Invoke-Split -Target -Size -TailThreshold` | File or folder -> runs `Invoke-SplitFile` over it. A file in the general `Quizzes\` folder is first filed into its subject folder with `Invoke-AutoSort -SkipConversion`. Returns `{Success, Folder, Folders, SourceFiles, CreatedFiles, Files, SplitCount}`; `Files` is the source plus new parts, ready for the post-split conversion. |
 
 ### Combiner
 
@@ -480,6 +490,7 @@ are active, so prefer `-LiteralPath` and explicit null checks.
 | `Get-NewExcelFiles -Folder -Before` | Returns the workbooks that are new or were rewritten, as full paths. |
 | `Get-ConversionOutputFolder -Target` | The `_QuizizzOutput` folder for a file or folder target. |
 | `Invoke-Conversion -Target [-RecurseSubfolders]` | Calls `Convert-Quizzes.ps1` with the right parameter set; returns an array of the full `.xlsx` paths created or rewritten by this run. |
+| `Invoke-Conversion -Files <string[]>` | Converts exactly those `.txt` files (grouped by folder, each group gets its own `_QuizizzOutput` and report). Used by the post-split offer. |
 
 ### Wayground upload
 
@@ -527,9 +538,10 @@ The script is standalone: it can be run directly, or called by the toolkit.
 Main flow (`Convert-Quizzes.ps1` bottom):
 
 1. Resolve `InputFolder` / `InputPath` (default `Quizzes\DataComs` if neither).
-2. Build the file list: single file, or `Get-ChildItem -Filter *.txt` plus
-   `-Recurse` when requested. Skipped from the list: `~$*` Office temp files,
-   `README*`, and anything inside `_QuizizzOutput\`.
+2. Build the file list: single file, an explicit `-InputFiles` list, or
+   `Get-ChildItem -Filter *.txt` plus `-Recurse` when requested. Skipped from
+   the list: `~$*` Office temp files, `README*`, and anything inside
+   `_QuizizzOutput\`.
 3. For each file, parse, compute the output name, write the workbook, and
    append report lines.
 4. Write `_conversion-report.txt` next to the workbooks.
@@ -598,6 +610,9 @@ byte-compatibility test.
 13. **No Excel dependency.** The `.xlsx` writer emits the minimum OOXML parts.
 14. **Windows-only assumptions.** `System.Windows.Forms`, `Set-Clipboard` /
     `clip.exe`, `Start-Process`, `cmd.exe`, and `-STA` are all Windows features.
+15. **Post-split conversion is scoped to the split family.** The offer after a
+    split converts only the source file and its new `_ptN` parts (via
+    `-InputFiles`), never every `.txt` in the folder.
 
 ---
 
